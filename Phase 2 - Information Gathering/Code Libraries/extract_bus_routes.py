@@ -22,7 +22,7 @@ def geocode_stops(stops_df):
     print(f"Geocoding stops to get {len(stops_df)} OpenStreetMap IDs...")
     geolocator = Nominatim(user_agent="gtfs_processor", timeout=60)
     osm_ids = []
-    for index, row in tqdm(stops_df.iterrows()):
+    for index, row in tqdm(stops_df.iterrows(), total=len(stops_df)):
         location = geolocator.reverse((row['stop_lat'], row['stop_lon']), exactly_one=True)
         if location and 'osm_id' in location.raw:
             osm_ids.append(location.raw['osm_id'])

@@ -98,6 +98,10 @@ for _, trip in tqdm(bus_trips.iterrows(), total=len(bus_trips)):
             if arrival_time == 'nan' or not arrival_time:
                 continue
             try:
+                if arrival_time.startswith('24:'):
+                    arrival_time = '00' + arrival_time[2:]
+                if arrival_time.startswith('25:'):
+                    arrival_time = '01' + arrival_time[2:]
                 arrival_time_obj = datetime.strptime(arrival_time, '%H:%M:%S').time()
             except ValueError as e:
                 print(f"Error parsing arrival time '{arrival_time}' for trip {trip_id}, stop {stop_id}: {e}")

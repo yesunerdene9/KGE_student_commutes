@@ -98,6 +98,10 @@ for _, trip in tqdm(bus_trips.iterrows(), total=bus_trips.shape[0], desc="Proces
             if not arrival_time_str:
                 continue
             try:
+                if arrival_time_str.startswith('24:'):
+                    arrival_time_str = '00' + arrival_time_str[2:]
+                if arrival_time_str.startswith('25:'):
+                    arrival_time_str = '01' + arrival_time_str[2:]
                 arrival_time = datetime.strptime(arrival_time_str, '%H:%M:%S').time()
                 arrival_datetime = datetime.combine(trip_date, arrival_time)
                 stop_times.append({'stop_id': stop_id, 'arrival_datetime': arrival_datetime})
