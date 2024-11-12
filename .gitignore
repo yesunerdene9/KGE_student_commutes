@@ -1,4 +1,4 @@
-Phase 2 - Information Gathering/Code Libraries/user_likely_trips.csv
-Phase 2 - Information Gathering/Code Libraries/user_loc.csv
-Phase 2 - Information Gathering/Code Libraries/gtfs.zip
-Phase 2 - Information Gathering/Code Libraries/gtfs
+user_likely_trips.csv
+user_loc.csv
+user_poi_matches.csv
+user_poi_stays.csv
