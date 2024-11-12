@@ -1,0 +1,1998 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.1 084b4234",
+  "osm3s": {
+    "timestamp_osm_base": "2024-11-12T10:56:45Z",
+    "timestamp_areas_base": "2024-11-12T05:49:00Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 292004245,
+      "lat": 46.0769744,
+      "lon": 11.141749,
+      "tags": {
+        "addr:city": "Cognola",
+        "addr:housenumber": "2",
+        "addr:postcode": "38122",
+        "addr:street": "Piazza dell'Argentario",
+        "amenity": "library",
+        "name": "Biblioteca Argentario",
+        "operator": "BIblioteca Comunale di Trento",
+        "phone": "+39 0461 889797",
+        "wikidata": "Q112944593"
+      }
+    },
+    {
+      "type": "node",
+      "id": 428313995,
+      "lat": 46.0517426,
+      "lon": 11.1276494,
+      "tags": {
+        "addr:city": "Trento",
+        "addr:housenumber": "2/1",
+        "addr:postcode": "38123",
+        "addr:street": "Via la Clarina",
+        "amenity": "library",
+        "name": "Biblioteca Clarina",
+        "operator": "Biblioteca Comunale di Trento",
+        "phone": "+39 0461 889879",
+        "source": "http://www.bibcom.trento.it/",
+        "website": "https://www.bibcom.trento.it/orari_sedi/sedi_periferiche/clarina"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1559090545,
+      "lat": 46.0663953,
+      "lon": 11.1388567,
+      "tags": {
+        "addr:city": "Trento",
+        "addr:country": "IT",
+        "addr:housenumber": "77",
+        "addr:postcode": "38121",
+        "addr:street": "Via Mesiano",
+        "amenity": "library",
+        "contact:email": "bibliotecaingegneria@unitn.it",
+        "contact:fax": "+39 0461 281918",
+        "contact:phone": "+39 0461 281956",
+        "contact:website": "https://www.biblioteca.unitn.it/bum-biblioteca-universitaria-mesiano",
+        "name": "BUM - Biblioteca Universitaria Mesiano",
+        "opening_hours": "Mo-Th 08:00-21:45; Fr 08:00-19:45",
+        "operator": "Università degli Studi di Trento",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1607714595,
+      "lat": 46.0060602,
+      "lon": 11.1278038,
+      "tags": {
+        "addr:city": "Mattarello",
+        "addr:housenumber": "6",
+        "addr:postcode": "38123",
+        "addr:street": "Via Guido Poli",
+        "amenity": "library",
+        "name": "Biblioteca Mattarello",
+        "opening_hours": "Mo 09:00-12:30, 14:30-18:30; Tu, We 14:30-18:30; Th 09:00-12:30, 14:30-18:30; Fr 14:30-18:30; Sa 08:30-12:30",
+        "operator": "Biblioteca Comunale di Trento"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1721783679,
+      "lat": 46.0627341,
+      "lon": 11.1244168,
+      "tags": {
+        "addr:housenumber": "77",
+        "addr:street": "Via Santa Croce",
+        "amenity": "library",
+        "contact:website": "https://biblio.fbk.eu/",
+        "name": "Biblioteca del Polo Umanistico",
+        "official_name": "Biblioteche dell'Istituto Storico Italo-Germanico e del Centro per le Scienze Religiose",
+        "operator": "Fondazione Bruno Kessler"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3292585477,
+      "lat": 46.0648792,
+      "lon": 11.1534216,
+      "tags": {
+        "addr:city": "Povo",
+        "addr:housenumber": "5",
+        "addr:postcode": "38123",
+        "addr:street": "Via Don Tommaso Dallafior",
+        "amenity": "library",
+        "contact:email": "tn.povo@biblio.infotn.it",
+        "contact:phone": "+39 0461 889918",
+        "contact:website": "http://www.bibcom.trento.it/orari_sedi/sedi_periferiche/povo",
+        "name": "Biblioteca Povo",
+        "opening_hours:url": "http://www.bibcom.trento.it/orari_sedi/sedi_periferiche/povo",
+        "operator": "Biblioteca Comunale di Trento",
+        "operator:type": "public",
+        "operator:wikidata": "Q59940713",
+        "wheelchair": "yes",
+        "wikidata": "Q112944592"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4715779117,
+      "lat": 46.1266441,
+      "lon": 11.1161334,
+      "tags": {
+        "addr:city": "Meano",
+        "addr:housenumber": "26",
+        "addr:postcode": "38121",
+        "addr:street": "Via delle Sugarine",
+        "amenity": "library",
+        "name": "Biblioteca di Meano",
+        "operator": "Biblioteca Comunale di Trento",
+        "wikidata": "Q112944591"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4924544965,
+      "lat": 46.0626921,
+      "lon": 11.1152767,
+      "tags": {
+        "amenity": "library",
+        "layer": "1",
+        "name": "Gino Tomasi"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7095449512,
+      "lat": 46.1079123,
+      "lon": 11.1123636,
+      "tags": {
+        "addr:city": "Gardolo",
+        "addr:housenumber": "2",
+        "addr:postcode": "38121",
+        "addr:street": "Piazzale Lionello Groff",
+        "amenity": "library",
+        "name": "Biblioteca Gardolo",
+        "operator": "Biblioteca Comunale di Trento"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7095449513,
+      "lat": 46.0378105,
+      "lon": 11.106449,
+      "tags": {
+        "addr:city": "Ravina",
+        "addr:housenumber": "2",
+        "addr:postcode": "38123",
+        "addr:street": "Via Val Gola",
+        "amenity": "library",
+        "name": "Biblioteca Ravina",
+        "operator": "Biblioteca Comunale di Trento",
+        "wikidata": "Q112944617"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7095449514,
+      "lat": 46.0716169,
+      "lon": 11.0599502,
+      "tags": {
+        "addr:city": "Sopramonte",
+        "addr:housenumber": "4",
+        "addr:postcode": "38123",
+        "addr:street": "Via di Revolta",
+        "amenity": "library",
+        "name": "Biblioteca Sopramonte",
+        "opening_hours": "Mo-Th 14:30-18:30; We, Fr 09:00-12:00",
+        "operator": "Biblioteca Comunale di Trento",
+        "wikidata": "Q112944614"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7095449515,
+      "lat": 46.0171551,
+      "lon": 11.1059033,
+      "tags": {
+        "addr:city": "Romagnano",
+        "addr:housenumber": "1",
+        "addr:postcode": "38123",
+        "addr:street": "Via alle Sette Fontane",
+        "amenity": "library",
+        "name": "Punto di prestito Romagnano",
+        "operator": "Biblioteca Comunale di Trento",
+        "toilets:wheelchair": "designated",
+        "wheelchair": "limited",
+        "wikidata": "Q112944641"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7095449516,
+      "lat": 46.0402507,
+      "lon": 11.1332977,
+      "tags": {
+        "addr:city": "Trento",
+        "addr:housenumber": "38",
+        "addr:postcode": "38123",
+        "addr:street": "Piazzale Europa",
+        "amenity": "library",
+        "name": "Punto di prestito Madonna Bianca",
+        "operator": "Biblioteca Comunale di Trento"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7095449517,
+      "lat": 46.0857594,
+      "lon": 11.0628437,
+      "tags": {
+        "addr:housenumber": "34",
+        "addr:street": "Via del Molin",
+        "amenity": "library",
+        "name": "Piccola biblioteca di Cadine",
+        "opening_hours": "Mo-Th 09:00-13:00, 14:30-18:30; Fr 12:00-18:00",
+        "operator": "Gruppo Oasi",
+        "wikidata": "Q112944642"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7095449518,
+      "lat": 46.1081273,
+      "lon": 11.1442395,
+      "tags": {
+        "addr:housenumber": "1",
+        "addr:street": "Strada di Montevaccino",
+        "amenity": "library",
+        "name": "Punto di prestito Montevaccino",
+        "operator": "Biblioteca Comunale di Trento",
+        "wikidata": "Q112944640"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7095449519,
+      "lat": 46.0898203,
+      "lon": 11.1314618,
+      "tags": {
+        "addr:housenumber": "5",
+        "addr:street": "Piazza Giuseppe Menghin",
+        "amenity": "library",
+        "name": "Punto di prestito Martignano",
+        "operator": "Biblioteca Comunale di Trento",
+        "wikidata": "Q112944635"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9196004472,
+      "lat": 46.0685816,
+      "lon": 11.1254832,
+      "tags": {
+        "addr:city": "Trento",
+        "addr:housename": "Palazzo Consolati",
+        "addr:housenumber": "1",
+        "addr:postcode": "38122",
+        "addr:street": "Via Santa Maria Maddalena",
+        "amenity": "university",
+        "email": "cismed@unitn.it",
+        "name": "CISMed - Centro Interdipartimentale di Scienze Mediche",
+        "website": "https://www.cismed.unitn.it/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9630961821,
+      "lat": 46.0663033,
+      "lon": 11.1166087,
+      "tags": {
+        "addr:city": "Trento",
+        "addr:housenumber": "8",
+        "addr:postcode": "38122",
+        "addr:street": "Via Verdi",
+        "amenity": "library",
+        "name": "Sala studio Cavazzani",
+        "opening_hours": "Mo-Sa 08:00-19:45; Su 14:00-20:45"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9859813787,
+      "lat": 46.0643383,
+      "lon": 11.1164915,
+      "tags": {
+        "amenity": "university",
+        "faculty": "nursing",
+        "isced:level": "5",
+        "name": "Polo universitario delle professioni sanitarie",
+        "old_name": "Infermieristica",
+        "operator": "Università degli studi di Verona",
+        "website": "https://www.apss.tn.it/Azienda/Unita-operative-e-strutture/Polo-universitario-delle-professioni-sanitarie"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10033381157,
+      "lat": 46.0674665,
+      "lon": 11.1189775,
+      "tags": {
+        "addr:city": "Trento",
+        "addr:housenumber": "27",
+        "addr:postcode": "38122",
+        "addr:street": "Via Antonio Rosmini",
+        "amenity": "library",
+        "name": "Facoltà di Giurisprudenza Entrata",
+        "opening_hours": "Mo-Fr 08:00-19:30; Sa-Su off",
+        "operator": "Università degli Studi di Trento"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10275626077,
+      "lat": 46.0656582,
+      "lon": 11.1355634,
+      "tags": {
+        "amenity": "library",
+        "contact:website": "https://www.bibliotecasanbernardino.it/",
+        "name": "Biblioteca San Bernardino",
+        "operator": "OFM",
+        "operator:type": "religious"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10981990849,
+      "lat": 46.0704115,
+      "lon": 11.1310588,
+      "tags": {
+        "amenity": "student_accommodation",
+        "contact:website": "https://www.collegelacollina.it/",
+        "name": "College La Collina"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11160363209,
+      "lat": 46.0730511,
+      "lon": 11.1289144,
+      "tags": {
+        "amenity": "library",
+        "books": "religion",
+        "fixme": "position",
+        "name": "Biblioteca dei Cappuccini",
+        "religion": "christian",
+        "wikidata": "Q113093133"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12301854152,
+      "lat": 46.0825531,
+      "lon": 11.1228301,
+      "tags": {
+        "amenity": "university",
+        "isced:level": "5",
+        "name": "Polo universitario delle professioni sanitarie",
+        "operator": "Università degli Studi di Verona",
+        "operator:type": "university",
+        "operator:wikidata": "Q2531629",
+        "start_date": "2024-11-04",
+        "website": "https://www.apss.tn.it/Azienda/Unita-operative-e-strutture/Polo-universitario-delle-professioni-sanitarie"
+      }
+    },
+    {
+      "type": "way",
+      "id": 24581559,
+      "nodes": [
+        265581227,
+        428644321,
+        3153965839,
+        3153965846,
+        3153965848,
+        428644334,
+        265581203,
+        2235776586,
+        265581204,
+        265581208,
+        265581209,
+        265581210,
+        265581211,
+        265581212,
+        265581213,
+        265581214,
+        265581215,
+        265581216,
+        265581217,
+        265581218,
+        265581221,
+        265581225,
+        265581227
+      ],
+      "tags": {
+        "amenity": "student_accommodation",
+        "name": "Studentato San Bartolameo",
+        "operator": "Opera Universitaria"
+      }
+    },
+    {
+      "type": "way",
+      "id": 24862284,
+      "nodes": [
+        270160055,
+        270160056,
+        270160057,
+        270160058,
+        889555301,
+        270160059,
+        270160060,
+        270160061,
+        270160055
+      ],
+      "tags": {
+        "building": "university",
+        "name": "Laboratori Ingegneria"
+      }
+    },
+    {
+      "type": "way",
+      "id": 24862387,
+      "nodes": [
+        270160862,
+        270160863,
+        270160864,
+        270160865,
+        270160862
+      ],
+      "tags": {
+        "amenity": "restaurant",
+        "building": "university",
+        "name": "Mensa e bar Mesiano",
+        "opening_hours": "Mo-Fr 11:45-14:30"
+      }
+    },
+    {
+      "type": "way",
+      "id": 24862406,
+      "nodes": [
+        270161024,
+        270161025,
+        270161026,
+        889555244,
+        889555818,
+        270161027,
+        270161024
+      ],
+      "tags": {
+        "building": "university",
+        "building:levels": "1",
+        "name": "Laboratorio Idraulica",
+        "roof:levels": "0"
+      }
+    },
+    {
+      "type": "way",
+      "id": 24863702,
+      "nodes": [
+        1018038882,
+        1018038911,
+        1018038919,
+        1018038886,
+        1018038927,
+        1018038916,
+        270177625,
+        1018038913,
+        270177626,
+        889555419,
+        270177628,
+        1018038923,
+        1018038942,
+        270177629,
+        270177630,
+        270177631,
+        270177632,
+        270177633,
+        270177613,
+        270177614,
+        270177615,
+        270177616,
+        270177617,
+        270177618,
+        270177619,
+        1018040510,
+        1018040508,
+        270177620,
+        889555334,
+        1018040514,
+        270177621,
+        270177622,
+        9081737444,
+        1018038902,
+        1018038962,
+        270177623,
+        1018038957,
+        270177624,
+        1018038882
+      ],
+      "tags": {
+        "building": "university",
+        "contact:fax": "+39 0461 281999",
+        "isced:level": "5"
+      }
+    },
+    {
+      "type": "way",
+      "id": 24867819,
+      "nodes": [
+        270229280,
+        270229281,
+        270229282,
+        270229283,
+        270229280
+      ],
+      "tags": {
+        "building": "university",
+        "building:levels": "3",
+        "name": "Laboratorio di metrologia",
+        "roof:levels": "1"
+      }
+    },
+    {
+      "type": "way",
+      "id": 36843504,
+      "nodes": [
+        428284798,
+        428284800,
+        3249000130,
+        675732221,
+        428284805,
+        3249000128,
+        428284798
+      ],
+      "tags": {
+        "addr:city": "Villazzano",
+        "addr:housenumber": "3",
+        "addr:postcode": "38123",
+        "addr:street": "Via della Villa",
+        "amenity": "library",
+        "building": "yes",
+        "contact:email": "tn.villazzano@biblio.infotn.it",
+        "contact:phone": "+39 0461 912533",
+        "contact:website": "http://www.bibcom.trento.it/orari_sedi/sedi_periferiche/villazzano",
+        "layer": "0",
+        "name": "Biblioteca Villazzano",
+        "opening_hours:url": "http://www.bibcom.trento.it/orari_sedi/sedi_periferiche/villazzano",
+        "operator": "Biblioteca Comunale di Trento"
+      }
+    },
+    {
+      "type": "way",
+      "id": 46242258,
+      "nodes": [
+        589991090,
+        5957819786,
+        589991086,
+        589991088,
+        866081624,
+        589991089,
+        1290442750,
+        1290442794,
+        866081634,
+        5957819787,
+        589991090
+      ],
+      "tags": {
+        "building": "university",
+        "building:levels": "4",
+        "name": "ex Biblioteca universitaria centrale",
+        "name:en": "Former Central Library, University of Trento",
+        "name:it": "ex Biblioteca universitaria centrale"
+      }
+    },
+    {
+      "type": "way",
+      "id": 67197001,
+      "nodes": [
+        811426110,
+        811426698,
+        811425960,
+        811425039,
+        966225790,
+        966225873,
+        966225896,
+        966225812,
+        811426015,
+        811425444,
+        811426407,
+        811425800,
+        811425157,
+        811426124,
+        811425549,
+        811425217,
+        811426166,
+        811425598,
+        811426628,
+        811425921,
+        811425340,
+        811426267,
+        811425708,
+        811425966,
+        811425407,
+        811426358,
+        811425763,
+        811425132,
+        811426080,
+        811425515,
+        811426508,
+        811426132,
+        811425562,
+        811426594,
+        811425891,
+        811425318,
+        811426243,
+        811425664,
+        811426706,
+        811425717,
+        811425052,
+        966225798,
+        811426025,
+        811425460,
+        811426445,
+        811426110
+      ],
+      "tags": {
+        "addr:city": "Trento",
+        "addr:housenumber": "46",
+        "addr:postcode": "38122",
+        "addr:street": "Corso III Novembre",
+        "amenity": "university",
+        "building": "university",
+        "contact:website": "https://www.diocesitn.it/seminario/",
+        "name": "Seminario Maggiore",
+        "operator": "Curia di Trento",
+        "operator:type": "religious",
+        "wikidata": "Q96583496"
+      }
+    },
+    {
+      "type": "way",
+      "id": 67214996,
+      "nodes": [
+        811591073,
+        811590928,
+        811591542,
+        811591581,
+        811591204,
+        811591222,
+        811591509,
+        811591073
+      ],
+      "tags": {
+        "addr:city": "Trento",
+        "addr:postcode": "38122",
+        "building": "university",
+        "building:levels": "3",
+        "contact:phone": "+39 0461 282100",
+        "contact:website": "http://www.unitn.it/economia",
+        "operator": "Università di Trento",
+        "roof:levels": "0",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 67215020,
+      "nodes": [
+        811591222,
+        2548338313,
+        811591008,
+        811590290,
+        811590401,
+        811591413,
+        811591671,
+        811591105,
+        811590046,
+        811591204,
+        811591222
+      ],
+      "tags": {
+        "addr:city": "Trento",
+        "addr:postcode": "38122",
+        "building": "university",
+        "contact:phone": "+39 0461 282100",
+        "contact:website": "http://www.unitn.it/economia",
+        "operator": "Università di Trento",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 67215064,
+      "nodes": [
+        811591149,
+        811591600,
+        811590461,
+        811591019,
+        811591149
+      ],
+      "tags": {
+        "building": "university",
+        "building:levels": "3"
+      }
+    },
+    {
+      "type": "way",
+      "id": 67215078,
+      "nodes": [
+        811591542,
+        811591629,
+        811591056,
+        811591282,
+        811590680,
+        811590758,
+        811591720,
+        811590343,
+        811591379,
+        811590848,
+        811590099,
+        2934415565,
+        811590452,
+        811591473,
+        811591581,
+        811591542
+      ],
+      "tags": {
+        "addr:city": "Trento",
+        "addr:housenumber": "20",
+        "addr:postcode": "38122",
+        "addr:street": "Via Giuseppe Verdi",
+        "building": "university",
+        "building:levels": "3",
+        "contact:phone": "+39 0461 282100",
+        "contact:website": "http://www.unitn.it/economia",
+        "operator": "Università di Trento",
+        "roof:levels": "1",
+        "roof:shape": "hipped",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 70882127,
+      "nodes": [
+        845082562,
+        845083143,
+        845082629,
+        845082469,
+        845083106,
+        845082562
+      ],
+      "tags": {
+        "building": "university",
+        "building:levels": "3"
+      }
+    },
+    {
+      "type": "way",
+      "id": 70882135,
+      "nodes": [
+        845083013,
+        845082420,
+        845082701,
+        845083036,
+        845082450,
+        845082756,
+        845083087,
+        845082529,
+        845082896,
+        1069755324,
+        1069755257,
+        1069755126,
+        1069755345,
+        845082717,
+        845082628,
+        4311886549,
+        845082381,
+        1040964325,
+        1040964330,
+        845082674,
+        923132465,
+        2578614999,
+        845083013
+      ],
+      "tags": {
+        "amenity": "student_accommodation",
+        "building": "yes",
+        "name": "Collegio Bernardo Clesio"
+      }
+    },
+    {
+      "type": "way",
+      "id": 70882142,
+      "nodes": [
+        845082469,
+        845082853,
+        845083162,
+        845082543,
+        811591019,
+        811590461,
+        941909006,
+        845082629,
+        845082469
+      ],
+      "tags": {
+        "building": "university",
+        "building:levels": "1"
+      }
+    },
+    {
+      "type": "way",
+      "id": 70882150,
+      "nodes": [
+        845082809,
+        845082890,
+        845082371,
+        845082774,
+        845083106,
+        845082562,
+        845082809
+      ],
+      "tags": {
+        "building": "university"
+      }
+    },
+    {
+      "type": "way",
+      "id": 72232740,
+      "nodes": [
+        858394215,
+        1366801152,
+        858394176,
+        858394192,
+        1369533474,
+        1369533476,
+        1369533473,
+        1073656728,
+        864204924,
+        1369533475,
+        858394150,
+        858394215
+      ],
+      "tags": {
+        "building": "university",
+        "building:levels": "3",
+        "roof:levels": "1"
+      }
+    },
+    {
+      "type": "way",
+      "id": 72455760,
+      "nodes": [
+        860260429,
+        6796982838,
+        6796982839,
+        6796982840,
+        6796982845,
+        6796982844,
+        6796982841,
+        6796982842,
+        6796982843,
+        6796982837,
+        860260443,
+        860260435,
+        860260426,
+        860260429
+      ],
+      "tags": {
+        "addr:city": "Trento",
+        "addr:housenumber": "14",
+        "addr:postcode": "38122",
+        "addr:street": "Via Tommaso Gar",
+        "amenity": "university",
+        "isced:level": "5",
+        "name": "Dipartimento di Lettere e Filosofia e Studi Internazionali",
+        "name:en": "Department of Humanities",
+        "name:it": "Dipartimento di Lettere e Filosofia",
+        "operator": "Università degli Studi di Trento",
+        "short_name": "Lettere",
+        "website": "https://www.lettere.unitn.it/",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 72832402,
+      "nodes": [
+        864204750,
+        1366801171,
+        1366801172,
+        864204579,
+        864204371,
+        864204756,
+        864204475,
+        864204471,
+        864204422,
+        864204227,
+        864204537,
+        864204328,
+        864204283,
+        864204506,
+        864204865,
+        864204260,
+        864204377,
+        864205001,
+        864204935,
+        864204601,
+        864204491,
+        864204750
+      ],
+      "tags": {
+        "addr:city": "Trento",
+        "addr:housenumber": "1",
+        "addr:postcode": "38122",
+        "addr:street": "Via Santa Maria Maddalena",
+        "building": "university",
+        "name": "Il Centro Interdipartimentale di Scienze Mediche (CISMed)"
+      }
+    },
+    {
+      "type": "way",
+      "id": 74502607,
+      "nodes": [
+        880590673,
+        880590901,
+        880590796,
+        880590706,
+        880590673
+      ],
+      "tags": {
+        "addr:city": "Trento",
+        "addr:country": "IT",
+        "addr:housename": "Palazzina Liberty",
+        "addr:housenumber": "32",
+        "addr:postcode": "38122",
+        "addr:street": "Piazza Dante",
+        "amenity": "library",
+        "building": "government",
+        "building:levels": "3",
+        "historic": "yes",
+        "internet_access": "wlan",
+        "name": "Biblioteca dei Ragazzi",
+        "opening_hours": "Mo-Th 09:30-12:30,15:30-18:30; Fr 14:30-18:30; Sa 08:30-14:30; Su off",
+        "roof:shape": "pyramidal",
+        "wheelchair": "yes",
+        "wikidata": "Q29905284",
+        "wikipedia": "it:Palazzina Liberty (Trento)"
+      }
+    },
+    {
+      "type": "way",
+      "id": 91501515,
+      "nodes": [
+        858340959,
+        269184885,
+        269184887,
+        6138799107,
+        1062772093,
+        1678227977,
+        1062771926,
+        1678227990,
+        858341176,
+        858340959
+      ],
+      "tags": {
+        "addr:housenumber": "35",
+        "addr:street": "Via Torre D'Augusto",
+        "amenity": "library",
+        "building": "yes",
+        "building:levels": "3",
+        "name": "Biblioteca della Fondazione - Museo Storico del Trentino",
+        "wikidata": "Q113515711"
+      }
+    },
+    {
+      "type": "way",
+      "id": 101012813,
+      "nodes": [
+        1166789244,
+        1166789411,
+        1166789593,
+        1166788997,
+        1166789244
+      ],
+      "tags": {
+        "building": "university"
+      }
+    },
+    {
+      "type": "way",
+      "id": 101012817,
+      "nodes": [
+        1166789640,
+        1166789060,
+        1166789226,
+        1166789388,
+        1166789640
+      ],
+      "tags": {
+        "building": "university"
+      }
+    },
+    {
+      "type": "way",
+      "id": 101012850,
+      "nodes": [
+        1166789321,
+        1166789492,
+        1166789664,
+        4260984683,
+        4260984684,
+        1166789082,
+        1166789321
+      ],
+      "tags": {
+        "building": "university"
+      }
+    },
+    {
+      "type": "way",
+      "id": 126733787,
+      "nodes": [
+        1404111410,
+        1404111409,
+        1404111407,
+        1404111404,
+        1404111422,
+        1404111427,
+        1404111423,
+        1404111425,
+        10839718279,
+        1404111416,
+        1404111417,
+        1404111431,
+        1404111433,
+        1404111415,
+        1404111413,
+        1404111401,
+        1404111400,
+        10839718278,
+        1404111410
+      ],
+      "tags": {
+        "amenity": "student_accommodation",
+        "building": "dormitory",
+        "contact:website": "https://www.faggio.it/residenze/residenza-villa-foyer/",
+        "name": "Villa Foyer",
+        "operator": "Il Faggio"
+      }
+    },
+    {
+      "type": "way",
+      "id": 208909969,
+      "nodes": [
+        2191635640,
+        9485661603,
+        2191635641,
+        927359106,
+        2191635643,
+        2191635645,
+        2191635644,
+        2191635640
+      ],
+      "tags": {
+        "addr:city": "Trento",
+        "addr:housenumber": "5",
+        "addr:postcode": "38122",
+        "addr:street": "Via Vigilio Inama",
+        "amenity": "university",
+        "isced:level": "5",
+        "name": "Dipartimento di Economia e Management",
+        "name:en": "Department of Economics and Management",
+        "name:it": "Dipartimento di Economia e Management",
+        "operator": "Università degli Studi di Trento",
+        "short_name": "Economia",
+        "website": "https://www.economia.unitn.it/"
+      }
+    },
+    {
+      "type": "way",
+      "id": 215037366,
+      "nodes": [
+        2244617813,
+        2244617811,
+        2244617808,
+        2244617809,
+        2244617806,
+        2244617807,
+        811591149,
+        811591600,
+        811590461,
+        845082629,
+        845083143,
+        845082562,
+        845082809,
+        985533546,
+        985533615,
+        985533539,
+        927358849,
+        927359048,
+        927359196,
+        927358900,
+        927359262,
+        927359017,
+        845082787,
+        845083122,
+        2244617813
+      ],
+      "tags": {
+        "addr:city": "Trento",
+        "addr:housenumber": "53",
+        "addr:postcode": "38122",
+        "addr:street": "Via Giuseppe Verdi",
+        "amenity": "university",
+        "isced:level": "5",
+        "name": "Facoltà di Giurisprudenza",
+        "name:en": "Faculty of Law",
+        "name:it": "Facoltà di Giurisprudenza",
+        "operator": "Università degli Studi di Trento",
+        "short_name": "Giurisprudenza",
+        "website": "https://www.giurisprudenza.unitn.it/"
+      }
+    },
+    {
+      "type": "way",
+      "id": 218389877,
+      "nodes": [
+        2276235039,
+        2276235040,
+        2276235038,
+        2276235037,
+        2276235035,
+        2276235036,
+        2276235034,
+        2276235033,
+        2433541788,
+        2276235029,
+        2276235030,
+        2276235028,
+        2276235027,
+        2276235031,
+        2276235032,
+        2276235039
+      ],
+      "tags": {
+        "building": "university",
+        "building:levels": "5",
+        "name": "Palazzo Paolo Prodi"
+      }
+    },
+    {
+      "type": "way",
+      "id": 235635928,
+      "nodes": [
+        2437097567,
+        4446398944,
+        4446398942,
+        4446398941,
+        4446398946,
+        2437097566,
+        2437097559,
+        4446398934,
+        6518911940,
+        6518911939,
+        2437097562,
+        4446398938,
+        6518911941,
+        2437097569,
+        2437097567
+      ],
+      "tags": {
+        "addr:city": "Trento",
+        "addr:housenumber": "3",
+        "addr:postcode": "38122",
+        "addr:street": "Via Adalberto Libera",
+        "alt_name": "Central Library",
+        "amenity": "library",
+        "building": "university",
+        "check_date": "2023-11-14",
+        "name": "BUC - Biblioteca Universitaria Centrale",
+        "name:en": "Central University Library",
+        "opening_hours": "Mo-Sa 08:00-23:45; Su 14:00-20:45",
+        "phone": "+39 0461 283011",
+        "website": "https://www.biblioteca.unitn.it/buc-biblioteca-universitaria-centrale",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 275318443,
+      "nodes": [
+        2799567883,
+        7288816843,
+        7288816842,
+        7288816841,
+        7288816840,
+        2799567878,
+        7288816839,
+        2799567866,
+        2799567861,
+        2799567849,
+        2799567839,
+        9163060327,
+        533341769,
+        9163060328,
+        2799567836,
+        2799567837,
+        2799567835,
+        9163060329,
+        9163060331,
+        9163060334,
+        9163060333,
+        2799567844,
+        2799567842,
+        2799567840,
+        5516319515,
+        2799567846,
+        2799567847,
+        2799567860,
+        2799567862,
+        2799567882,
+        2799567879,
+        2799567877,
+        2799567881,
+        5516337028,
+        7288816838,
+        2799567883
+      ],
+      "tags": {
+        "alt_name": "Povo 0",
+        "amenity": "university",
+        "name": "Dipartimenti di Matematica e Fisica",
+        "name:en": "Departments of Mathematics and Physics",
+        "name:it": "Dipartimenti di Matematica e Fisica",
+        "old_name": "Facoltà di Scienze M.F.N.",
+        "operator": "Università degli Studi di Trento",
+        "website": "https://www.maths.unitn.it/"
+      }
+    },
+    {
+      "type": "way",
+      "id": 275318445,
+      "nodes": [
+        6946050311,
+        9160241838,
+        6946050312,
+        6946050338,
+        2799567890,
+        6946050333,
+        9160225042,
+        6946050326,
+        9160225043,
+        9160225039,
+        9160225041,
+        9160225040,
+        6946050328,
+        6946050329,
+        6946050330,
+        2799567889,
+        318093223,
+        318093221,
+        6949769067,
+        7600542138,
+        2799568044,
+        6949769068,
+        7600542142,
+        11934806573,
+        9160225038,
+        9160225036,
+        9160225037,
+        11934806572,
+        6949769065,
+        12040111555,
+        6946050311
+      ],
+      "tags": {
+        "alt_name": "Povo 1",
+        "amenity": "university",
+        "contact:instagram": "disi_unitrento",
+        "name": "Dipartimento di Ingegneria e Scienza dell'Informazione",
+        "name:en": "Department of Information Engineering and Computer Science",
+        "name:it": "Dipartimento di Ingegneria e Scienza dell'Informazione",
+        "opening_hours": "Mo-Fr 07:40-20:00; Sa 07:40-13:00",
+        "operator": "Università degli Studi di Trento",
+        "website": "https://www.disi.unitn.it/",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 275318462,
+      "nodes": [
+        987467076,
+        2799568017,
+        9160225053,
+        9160225054,
+        318093221,
+        987467083,
+        7600542128,
+        987467076
+      ],
+      "tags": {
+        "addr:city": "Povo",
+        "addr:housenumber": "5",
+        "addr:postcode": "38123",
+        "addr:street": "Via Sommarive",
+        "air_conditioning": "yes",
+        "amenity": "library",
+        "building": "university",
+        "building:levels": "2",
+        "check_date:opening_hours": "2024-05-14",
+        "name": "BUP - Biblioteca Universitaria Povo",
+        "opening_hours": "Mo-Fr 08:00-21:45; Sa 08:00-17:45",
+        "operator": "Università degli Studi di Trento",
+        "phone": "+39 0461 281510",
+        "website": "https://www.biblioteca.unitn.it/bup-biblioteca-universitaria-povo"
+      }
+    },
+    {
+      "type": "way",
+      "id": 275318465,
+      "nodes": [
+        2799568002,
+        987467077,
+        9160225055,
+        9160225058,
+        9160225060,
+        9160225057,
+        9160225056,
+        987467078,
+        9160225049,
+        318093223,
+        9160225051,
+        9160225052,
+        9160225050,
+        2799568002
+      ],
+      "tags": {
+        "air_conditioning": "yes",
+        "amenity": "fast_food",
+        "building": "university",
+        "building:levels": "2",
+        "check_date:opening_hours": "2024-05-14",
+        "cuisine": "italian",
+        "fast_food": "cafeteria",
+        "indoor_seating": "yes",
+        "name": "Mensa Povo 1",
+        "opening_hours": "Mo-Fr 11:45-14:30",
+        "outdoor_seating": "no",
+        "smoking": "outside"
+      }
+    },
+    {
+      "type": "way",
+      "id": 385162547,
+      "nodes": [
+        3885174866,
+        3885174867,
+        3885174865,
+        3885174864,
+        3885174866
+      ],
+      "tags": {
+        "addr:housenumber": "14",
+        "addr:postcode": "38122",
+        "addr:street": "Via Monsignor Celestino Endrici",
+        "amenity": "library",
+        "building": "yes",
+        "contact:website": "https://www.diocesitn.it/area-cultura/",
+        "name": "Vigilianum - Polo Culturale Diocesano",
+        "operator": "Curia di Trento",
+        "operator:type": "religious"
+      }
+    },
+    {
+      "type": "way",
+      "id": 498631940,
+      "nodes": [
+        4900136004,
+        4900136003,
+        4900136002,
+        4900136001,
+        4900136000,
+        6560478615,
+        6560478616,
+        4900135999,
+        4900135998,
+        4900135997,
+        4900136004
+      ],
+      "tags": {
+        "amenity": "student_accommodation",
+        "building": "dormitory",
+        "name": "Studentato Mayer",
+        "operator": "Opera Universitaria",
+        "residential": "university"
+      }
+    },
+    {
+      "type": "way",
+      "id": 658486953,
+      "nodes": [
+        6166319973,
+        9081737426,
+        6166319980,
+        6166319979,
+        6166319978,
+        6166319977,
+        6166319976,
+        6166319975,
+        6166319974,
+        9081737420,
+        9081737422,
+        9081737421,
+        6166319973
+      ],
+      "tags": {
+        "building": "university"
+      }
+    },
+    {
+      "type": "way",
+      "id": 668474303,
+      "nodes": [
+        6259990980,
+        6259990974,
+        6259990981,
+        6259990982,
+        6259990983,
+        6259990984,
+        6259991785,
+        6259991786,
+        6259991787,
+        6259991788,
+        6208045491,
+        6259991789,
+        6259991790,
+        6259991791,
+        6259991792,
+        6259991793,
+        6259991794,
+        6259991795,
+        6259991796,
+        6260011792,
+        6259991797,
+        6259991798,
+        6259991799,
+        6259991800,
+        6259991801,
+        6259991802,
+        6259990980
+      ],
+      "tags": {
+        "addr:city": "Mattarello",
+        "addr:housenumber": "101",
+        "addr:postcode": "38123",
+        "addr:street": "Via delle Regole",
+        "amenity": "university",
+        "long_name": "Laboratori di neuroimmagine del Centro Interdipartimentale Mente/Cervello e Centro di Biomedical Technologies",
+        "name": "LNiF/CIMeC e BIOtech",
+        "operator": "Università degli Studi di Trento",
+        "phone": "+39 0461 283080",
+        "website": "https://www.unitn.it/cimec"
+      }
+    },
+    {
+      "type": "way",
+      "id": 668474307,
+      "nodes": [
+        6259990980,
+        6259991803,
+        6259991807,
+        6259991804,
+        6259991805,
+        6259991813,
+        6259991806,
+        6259991795,
+        6259991796,
+        6260011792,
+        6259991797,
+        6259991798,
+        6259991799,
+        6259991800,
+        6259991801,
+        6259991802,
+        6259990980
+      ],
+      "tags": {
+        "addr:city": "Mattarello",
+        "addr:postcode": "38123",
+        "addr:street": "Località Regole",
+        "amenity": "university",
+        "name": "Centro Sportivo Universitario di Mattarello",
+        "opening_hours": "Mo-Su 09:00-21:30",
+        "operator": "Università degli Studi di Trento",
+        "phone": "+39 0461282303",
+        "website": "https://unitrentosport.unitn.it/centro-sportivo-universitario-di-mattarello"
+      }
+    },
+    {
+      "type": "way",
+      "id": 742336418,
+      "nodes": [
+        6949776488,
+        11078677696,
+        318093207,
+        6949776489,
+        7600542163,
+        6949776490,
+        6949776491,
+        7600542159,
+        7600542155,
+        7600542162,
+        7600542157,
+        7600542158,
+        6949776492,
+        11073203117,
+        11073103274,
+        11659358518,
+        11077203317,
+        11073203116,
+        6949776493,
+        11073203113,
+        6949776494,
+        6949776488
+      ],
+      "tags": {
+        "alt_name": "Povo 2",
+        "amenity": "university",
+        "internet_access": "yes",
+        "internet_access:fee": "no",
+        "name": "Dipartimento di Ingegneria Industriale",
+        "name:en": "Department of Industrial Engineering",
+        "name:it": "Dipartimento di Ingegneria Industriale",
+        "operator": "Università degli Studi di Trento",
+        "operator:type": "public",
+        "website": "https://www.dii.unitn.it/",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 813142997,
+      "nodes": [
+        927359134,
+        941909198,
+        927358834,
+        927359095,
+        811590787,
+        811590956,
+        927359509,
+        1226686434,
+        7595406512,
+        927359432,
+        1226686471,
+        7595406508,
+        927358774,
+        927359246,
+        811590696,
+        811591296,
+        927359468,
+        927359134
+      ],
+      "tags": {
+        "addr:city": "Trento",
+        "addr:housenumber": "26",
+        "addr:postcode": "38122",
+        "addr:street": "Via Giuseppe Verdi",
+        "amenity": "university",
+        "check_date": "2024-10-20",
+        "name": "Dipartimento di Sociologia e Ricerca Sociale",
+        "name:en": "Department of Sociology and Social Research",
+        "name:it": "Dipartimento di Sociologia e Ricerca Sociale",
+        "operator": "Università degli Studi di Trento",
+        "short_name": "Sociologia",
+        "website": "https://www.sociologia.unitn.it/"
+      }
+    },
+    {
+      "type": "way",
+      "id": 819927358,
+      "nodes": [
+        1847094947,
+        7656841987,
+        270229231,
+        9081737439,
+        889555695,
+        889555462,
+        1420901976,
+        1420901974,
+        1420902033,
+        1420901865,
+        1420901935,
+        1018038951,
+        1420902005,
+        4801513965,
+        4801513966,
+        7656841988,
+        3134332937,
+        7656841989,
+        7656841990,
+        7656841991,
+        270229167,
+        270229168,
+        270160488,
+        7656841992,
+        7656841993,
+        7656841994,
+        7656841995,
+        7656841996,
+        7656842019,
+        7656841997,
+        7656841998,
+        7656841999,
+        7656842000,
+        7656842001,
+        7656842002,
+        7656842003,
+        3134332965,
+        7656842004,
+        7656842005,
+        7656842006,
+        7656842007,
+        7656842009,
+        7656842010,
+        7656842011,
+        7656842012,
+        7656842013,
+        7656842014,
+        7656842015,
+        7656842016,
+        7656842017,
+        7656842018,
+        7699915783,
+        1847094943,
+        7699915781,
+        7699932785,
+        1847094946,
+        1847094944,
+        1847094945,
+        7699915784,
+        7699915779,
+        1847094947
+      ],
+      "tags": {
+        "addr:city": "Trento",
+        "addr:housenumber": "77",
+        "addr:postcode": "38123",
+        "addr:street": "Via Mesiano",
+        "amenity": "university",
+        "email": "dicam@unitn.it",
+        "name": "Dipartimento di Ingegneria Civile, Ambientale e Meccanica",
+        "name:en": "Department of Civil, Environmental and Mechanical Engineering",
+        "name:it": "Dipartimento di Ingegneria Civile, Ambientale e Meccanica",
+        "operator": "Università degli Studi di Trento",
+        "phone": "+39 0461 281978",
+        "short_name": "Ingegneria",
+        "website": "https://www.dicam.unitn.it/"
+      }
+    },
+    {
+      "type": "way",
+      "id": 981947779,
+      "nodes": [
+        9081737423,
+        9081737424,
+        9081737437,
+        9081737425,
+        9081737423
+      ],
+      "tags": {
+        "building": "university"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1016831603,
+      "nodes": [
+        9378802537,
+        9378802532,
+        1515251761,
+        9378802536,
+        9378802535,
+        9378802534,
+        9378802533,
+        9378802537
+      ],
+      "tags": {
+        "addr:barangay": "Poblacion",
+        "addr:city": "Trento",
+        "addr:postcode": "8505",
+        "addr:province": "Agusan del Sur",
+        "addr:street": "National Highway",
+        "amenity": "university",
+        "name": "Agusan Del Sur State University - Trento Annex",
+        "short_name": "ASSCAT"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1181361605,
+      "nodes": [
+        880590737,
+        874501460,
+        880590638,
+        880591074,
+        899615104,
+        880590903,
+        880590802,
+        899615085,
+        899615060,
+        899615077,
+        921665532,
+        10136286255,
+        921665503,
+        921665484,
+        921665477,
+        1123469922,
+        1123469918,
+        874501350,
+        1123469925,
+        874501232,
+        939851114,
+        1123469917,
+        1123469921,
+        1123469926,
+        939851055,
+        249701997,
+        880590737
+      ],
+      "tags": {
+        "amenity": "library",
+        "check_date:opening_hours": "2023-01-24",
+        "contact:email": "info@bibcom.trento.it",
+        "contact:facebook": "https://www.facebook.com/bibliotecacomunaleditrento",
+        "contact:fax": "+39 0461 889520",
+        "contact:instagram": "bibliotecatrento",
+        "contact:pec": "biblioteca.comune.tn@cert.legalmail.it",
+        "contact:phone": "+39 0461 889521",
+        "contact:twitter": "https://twitter.com/BibcomTrento",
+        "contact:website": "http://www.bibcom.trento.it",
+        "name": "Biblioteca Comunale di Trento",
+        "opening_hours": "Mo-Fr 08:30-19:30; Sa 08:30-18:30",
+        "ref:isil": "IT-TN0121",
+        "wheelchair": "yes",
+        "wikidata": "Q21075930",
+        "wikipedia": "it:Biblioteca comunale di Trento"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1193371312,
+      "nodes": [
+        11078677697,
+        11078677704,
+        11077202112,
+        11077202119,
+        11077202126,
+        11077202118,
+        11077202115,
+        11077202127,
+        11077202134,
+        11077202114,
+        11077202111,
+        11073203146,
+        11078677699,
+        11073203143,
+        11085057289,
+        11078677697
+      ],
+      "tags": {
+        "building": "university",
+        "building:levels": "2"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1193371313,
+      "nodes": [
+        11077202112,
+        11073203116,
+        11077203317,
+        11659358518,
+        11073103274,
+        11073203117,
+        11077202114,
+        11077202134,
+        11077202127,
+        11077202115,
+        11077202116,
+        11077202117,
+        11077202118,
+        11077202126,
+        11077202119,
+        11077202112
+      ],
+      "tags": {
+        "building": "university",
+        "building:levels:underground": "2"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1193371314,
+      "nodes": [
+        11077202119,
+        11077202120,
+        11077202121,
+        11077203319,
+        11077202122,
+        11077203320,
+        11077202123,
+        11077203318,
+        11077202124,
+        11077202125,
+        11077202126,
+        11077202119
+      ],
+      "tags": {
+        "building": "university",
+        "building:levels": "1",
+        "layer": "1"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1193371315,
+      "nodes": [
+        11077202127,
+        11077202128,
+        11077202129,
+        11077202130,
+        7595406509,
+        11077202131,
+        11077202132,
+        11077202133,
+        11077202134,
+        11077202127
+      ],
+      "tags": {
+        "building": "university",
+        "building:levels": "1",
+        "layer": "1"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 1065942,
+      "members": [
+        {
+          "type": "way",
+          "ref": 67214993,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 67215052,
+          "role": "inner"
+        },
+        {
+          "type": "way",
+          "ref": 67214976,
+          "role": "inner"
+        }
+      ],
+      "tags": {
+        "building": "university",
+        "building:levels": "3",
+        "isced:level": "5",
+        "roof:levels": "1",
+        "roof:shape": "hipped",
+        "type": "multipolygon"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 1185626,
+      "members": [
+        {
+          "type": "way",
+          "ref": 78363133,
+          "role": "inner"
+        },
+        {
+          "type": "way",
+          "ref": 42648510,
+          "role": "outer"
+        }
+      ],
+      "tags": {
+        "building": "university",
+        "type": "multipolygon"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 3663359,
+      "members": [
+        {
+          "type": "way",
+          "ref": 441949575,
+          "role": "inner"
+        },
+        {
+          "type": "way",
+          "ref": 441929683,
+          "role": "outer"
+        }
+      ],
+      "tags": {
+        "building": "university",
+        "building:levels": "3",
+        "building:levels:underground": "2",
+        "operator": "Università degli Studi di Trento",
+        "roof:levels": "1",
+        "type": "multipolygon"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 11817621,
+      "members": [
+        {
+          "type": "way",
+          "ref": 991435517,
+          "role": ""
+        },
+        {
+          "type": "way",
+          "ref": 991435518,
+          "role": ""
+        },
+        {
+          "type": "way",
+          "ref": 813683597,
+          "role": ""
+        },
+        {
+          "type": "way",
+          "ref": 991435520,
+          "role": ""
+        },
+        {
+          "type": "way",
+          "ref": 991435519,
+          "role": ""
+        },
+        {
+          "type": "way",
+          "ref": 813683596,
+          "role": ""
+        },
+        {
+          "type": "way",
+          "ref": 780554821,
+          "role": ""
+        },
+        {
+          "type": "way",
+          "ref": 742336418,
+          "role": ""
+        }
+      ],
+      "tags": {
+        "addr:city": "Trento",
+        "addr:street": "via Sommarive",
+        "addr:suburb": "Povo",
+        "amenity": "university",
+        "name": "Polo Scientifico e Tecnologico \"Polo Ferrari\"",
+        "short_name": "Polo Ferrari",
+        "type": "site"
+      }
+    }
+  ]
+}
