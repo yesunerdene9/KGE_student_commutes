@@ -3,3 +3,7 @@ user_loc.csv
 user_poi_matches.csv
 user_poi_stays.csv
 Phase 2 - Information Gathering/Code Libraries/user_ids.csv
+
+.DS_Store
+
+.ipynb_checkpoints/
