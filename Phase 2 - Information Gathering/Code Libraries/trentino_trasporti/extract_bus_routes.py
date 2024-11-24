@@ -108,7 +108,7 @@ def process_bus_trips(gtfs_data):
     
     calendar_df = gtfs_data['calendar']
     # make a list of days by using the columns monday, tuesday, wednesday, thursday, friday, saturday, sunday
-    calendar_df['running_days'] = calendar_df[['monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday', 'sunday']].values.tolist()
+    calendar_df['served_days'] = calendar_df[['monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday', 'sunday']].values.tolist()
     calendar_df = calendar_df.drop(columns=['monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday', 'sunday'])
     
     # Merge with calendar to get service days

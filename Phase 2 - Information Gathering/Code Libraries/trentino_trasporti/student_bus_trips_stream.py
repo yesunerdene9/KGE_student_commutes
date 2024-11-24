@@ -36,15 +36,15 @@ for _, trip in tqdm(bus_trips.iterrows(), total=bus_trips.shape[0], desc="Proces
         print(f"Error parsing start or end date for trip {trip_id}: {e}")
         continue  # Skip this trip if dates are invalid
 
-    # Parse running_days
-    running_days_str = trip['running_days']
-    if pd.notna(running_days_str) and running_days_str.strip():
-        running_days = [int(x.strip()) for x in running_days_str.strip('[]').split(',')]
+    # Parse served_days
+    served_days_str = trip['served_days']
+    if pd.notna(served_days_str) and served_days_str.strip():
+        served_days = [int(x.strip()) for x in served_days_str.strip('[]').split(',')]
     else:
-        running_days = [0]*7  # Default to not running any day
+        served_days = [0]*7  # Default to not running any day
 
-    # Map days of week to running_days (Monday=0, Sunday=6)
-    running_days_dict = {i: running_days[i] for i in range(7)}
+    # Map days of week to served_days (Monday=0, Sunday=6)
+    served_days_dict = {i: served_days[i] for i in range(7)}
 
     # Parse extra_dates and excluded_dates
     def parse_dates(date_str):
@@ -85,7 +85,7 @@ for _, trip in tqdm(bus_trips.iterrows(), total=bus_trips.shape[0], desc="Proces
             runs_today = True
         elif trip_date in excluded_dates:
             runs_today = False
-        elif running_days_dict.get(weekday, 0) == 1:
+        elif served_days_dict.get(weekday, 0) == 1:
             runs_today = True
 
         if not runs_today:
