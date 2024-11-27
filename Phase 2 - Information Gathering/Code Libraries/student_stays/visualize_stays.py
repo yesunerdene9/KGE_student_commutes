@@ -12,8 +12,8 @@ import plotly.graph_objects as go
 
 # -------------------- Configuration --------------------
 # File paths
-USER_POI_STAYS_CSV = './user_poi_stays.csv'
-POI_AND_OSM_CSV = '../Poi_osm/poi_and_osm_full.csv'
+USER_POI_STAYS_JSON = './user_poi_stays.json'
+POI_AND_OSM_JSON = '../Poi_osm/poi_and_osm_full.json'
 
 # -------------------------------------------------------
 
@@ -22,25 +22,26 @@ POI_AND_OSM_CSV = '../Poi_osm/poi_and_osm_full.csv'
 # Step 1: Load User PoI Stays Data
 print("Loading user PoI stays data...")
 try:
-    user_stays = pd.read_csv(USER_POI_STAYS_CSV, parse_dates=['timestep'])
+    user_stays = pd.read_json(USER_POI_STAYS_JSON)
+    user_stays['timestamp'] = pd.to_datetime(user_stays['timestamp'])
     print(f"User PoI stays data loaded with {len(user_stays)} records.")
 except FileNotFoundError:
-    print(f"Error: The file '{USER_POI_STAYS_CSV}' was not found.")
+    print(f"Error: The file '{USER_POI_STAYS_JSON}' was not found.")
     exit(1)
 except Exception as e:
-    print(f"Error loading '{USER_POI_STAYS_CSV}': {e}")
+    print(f"Error loading '{USER_POI_STAYS_JSON}': {e}")
     exit(1)
 
 # Step 2: Load PoI and OSM Data
 print("Loading PoI and OSM data...")
 try:
-    poi_data = pd.read_csv(POI_AND_OSM_CSV)
+    poi_data = pd.read_json(POI_AND_OSM_JSON)
     print(f"PoI and OSM data loaded with {len(poi_data)} records.")
 except FileNotFoundError:
-    print(f"Error: The file '{POI_AND_OSM_CSV}' was not found.")
+    print(f"Error: The file '{POI_AND_OSM_JSON}' was not found.")
     exit(1)
 except Exception as e:
-    print(f"Error loading '{POI_AND_OSM_CSV}': {e}")
+    print(f"Error loading '{POI_AND_OSM_JSON}': {e}")
     exit(1)
 
 # Step 3: Merge User Stays with PoI Data to Get Coordinates and Names
@@ -74,8 +75,8 @@ print("Merged data converted to GeoDataFrame.")
 
 # Step 5: Assign Sequence Numbers to Each Stay per User for the same day it should be student_day_sequenceid
 print("Assigning sequence numbers to stays...")
-merged_gdf['timestep_date'] = merged_gdf['timestep'].dt.date
-merged_gdf['sequence'] = merged_gdf.groupby(['user_id', 'timestep_date']).cumcount() + 1
+merged_gdf['timestamp_date'] = merged_gdf['timestamp'].dt.date
+merged_gdf['sequence'] = merged_gdf.groupby(['user_id', 'timestamp_date']).cumcount() + 1
 print("Sequence numbers assigned.")
 
 # Step 6: Extract Latitude and Longitude for Plotting
@@ -139,10 +140,10 @@ app.layout = dbc.Container([
             html.Label("Select Date:"),
             dcc.DatePickerSingle(
                 id='date-picker',
-                min_date_allowed=merged_gdf['timestep'].dt.date.min(),
-                max_date_allowed=merged_gdf['timestep'].dt.date.max(),
-                initial_visible_month=merged_gdf['timestep'].dt.date.min(),
-                date=merged_gdf['timestep'].dt.date.min(),
+                min_date_allowed=merged_gdf['timestamp'].dt.date.min(),
+                max_date_allowed=merged_gdf['timestamp'].dt.date.max(),
+                initial_visible_month=merged_gdf['timestamp'].dt.date.min(),
+                date=merged_gdf['timestamp'].dt.date.min(),
                 disabled=False
             )
         ], width=4),
@@ -226,7 +227,7 @@ def update_visualizations(selected_user, selected_date, all_dates_value):
             try:
                 selected_date_parsed = pd.to_datetime(selected_date).date()
                 print(f"Selected date parsed: {selected_date_parsed}")
-                filtered_data = filtered_data[filtered_data['timestep'].dt.date == selected_date_parsed]
+                filtered_data = filtered_data[filtered_data['timestamp'].dt.date == selected_date_parsed]
                 print(f"Filtered data for date {selected_date_parsed}: {len(filtered_data)} records")
             except Exception as e:
                 print(f"Error parsing selected_date: {e}")
@@ -271,7 +272,7 @@ def update_visualizations(selected_user, selected_date, all_dates_value):
             hover_data={
                 "user_id": True,
                 "name": True,
-                "timestep": True,
+                "timestamp": True,
                 "duration": True,
                 "sequence": True,
                 "lat": False,
@@ -292,7 +293,7 @@ def update_visualizations(selected_user, selected_date, all_dates_value):
             hover_data={
                 "user_id": True,
                 "name": True,
-                "timestep": True,
+                "timestamp": True,
                 "duration": True,
                 "sequence": True,
                 "lat": False,
@@ -310,7 +311,7 @@ def update_visualizations(selected_user, selected_date, all_dates_value):
     if selected_user == 'all':
         # Multiple users: add lines per user
         for uid in filtered_data['user_id'].unique():
-            user_data = filtered_data[filtered_data['user_id'] == uid].sort_values('timestep')
+            user_data = filtered_data[filtered_data['user_id'] == uid].sort_values('timestamp')
             if len(user_data) > 1:
                 fig_map.add_trace(
                     go.Scattermapbox(
@@ -325,7 +326,7 @@ def update_visualizations(selected_user, selected_date, all_dates_value):
                 )
     else:
         # Single user: add lines connecting their stays
-        user_data_sorted = filtered_data.sort_values('timestep')
+        user_data_sorted = filtered_data.sort_values('timestamp')
         if len(user_data_sorted) > 1:
             fig_map.add_trace(
                 go.Scattermapbox(
@@ -355,8 +356,8 @@ def update_visualizations(selected_user, selected_date, all_dates_value):
     # Prepare data for timeline
     timeline_data = filtered_data.copy()
 
-    # Create end_time by adding duration to timestep
-    timeline_data['end_time'] = timeline_data['timestep'] + pd.to_timedelta(timeline_data['duration'], unit='m')
+    # Create end_time by adding duration to timestamp
+    timeline_data['end_time'] = timeline_data['timestamp'] + pd.to_timedelta(timeline_data['duration'], unit='m')
 
     # Define labels based on user selection
     if selected_user == 'all':
@@ -364,14 +365,14 @@ def update_visualizations(selected_user, selected_date, all_dates_value):
         color_discrete_map_timeline = color_discrete_map
         fig_timeline = px.timeline(
             timeline_data,
-            x_start="timestep",
+            x_start="timestamp",
             x_end="end_time",
             y=y_label,
             color="user_id",
             color_discrete_map=color_discrete_map_timeline,
-            hover_data=["name", "timestep", "duration"],
+            hover_data=["name", "timestamp", "duration"],
             labels={
-                "timestep": "Start Time",
+                "timestamp": "Start Time",
                 "end_time": "End Time",
                 "duration": "Duration (minutes)",
                 "user_id": "User ID",
@@ -383,13 +384,13 @@ def update_visualizations(selected_user, selected_date, all_dates_value):
         y_label = 'name'  # Use PoI name for individual user
         fig_timeline = px.timeline(
             timeline_data,
-            x_start="timestep",
+            x_start="timestamp",
             x_end="end_time",
             y=y_label,
             color="name",
-            hover_data=["user_id", "timestep", "duration"],
+            hover_data=["user_id", "timestamp", "duration"],
             labels={
-                "timestep": "Start Time",
+                "timestamp": "Start Time",
                 "end_time": "End Time",
                 "duration": "Duration (minutes)",
                 "user_id": "User ID",
@@ -406,8 +407,8 @@ def update_visualizations(selected_user, selected_date, all_dates_value):
     )
 
     # Prepare data for the table
-    table_columns = [{"name": i, "id": i} for i in ['user_id', 'osm_id', 'timestep', 'duration', 'name', 'sequence']]
-    table_data = filtered_data[['user_id', 'osm_id', 'timestep', 'duration', 'name', 'sequence']].to_dict('records')
+    table_columns = [{"name": i, "id": i} for i in ['user_id', 'osm_id', 'timestamp', 'duration', 'name', 'sequence']]
+    table_data = filtered_data[['user_id', 'osm_id', 'timestamp', 'duration', 'name', 'sequence']].to_dict('records')
 
     print("Callback successfully updated outputs.")
     return fig_map, fig_timeline, table_data, table_columns

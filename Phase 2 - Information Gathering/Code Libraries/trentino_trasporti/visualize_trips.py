@@ -8,31 +8,19 @@ import plotly.graph_objects as go
 import pandas as pd
 
 # Load data
-user_trips = pd.read_csv(
-    'user_likely_trips.csv',
-    parse_dates=['date', 'boarding_time', 'alighting_time']
+user_trips = pd.read_json(
+    'user_likely_trips.json',
+    dtype={'trip_id': str}
 )
-bus_stops = pd.read_csv('bus_stops.csv')
-bus_trips = pd.read_csv('bus_trips.csv')
-bus_routes = pd.read_csv('bus_routes.csv')  # Load bus_routes.csv
+bus_stops = pd.read_json('bus_stops.json')
+bus_trips = pd.read_json('bus_trips.json', dtype={'trip_id': str})
+bus_routes = pd.read_json('bus_routes.json')  # Load bus_routes.json
 
 # Convert 'date' column to datetime.date
 user_trips['date'] = user_trips['date'].dt.date
 
-# Ensure stop IDs are integers for merging
-user_trips['boarding_stop_id'] = user_trips['boarding_stop_id'].astype(int)
-user_trips['alighting_stop_id'] = user_trips['alighting_stop_id'].astype(int)
-bus_stops['stop_id'] = bus_stops['stop_id'].astype(int)
-bus_trips['trip_id'] = bus_trips['trip_id'].astype(str)
-bus_trips['route_id'] = bus_trips['route_id'].astype(int)
-bus_routes['route_id'] = bus_routes['route_id'].astype(int)
-
 # Rename latitude and longitude columns
 bus_stops.rename(columns={'stop_lat': 'latitude', 'stop_lon': 'longitude'}, inplace=True)
-
-# Parse 'stops' and 'times' columns in bus_trips
-bus_trips['stops'] = bus_trips['stops'].apply(lambda x: [int(s.strip()) for s in x.strip('[]').split(',')])
-bus_trips['times'] = bus_trips['times'].apply(lambda x: [t.strip(" '") for t in x.strip('[]').split(',')])
 
 # Merge bus_trips with bus_routes to get 'route_name'
 bus_trips = bus_trips.merge(bus_routes, on='route_id', how='left')

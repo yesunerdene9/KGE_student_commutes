@@ -12,13 +12,13 @@ tqdm.pandas()
 
 # Load user location data
 print("Loading user location data...")
-user_loc_df = pd.read_csv('user_loc.csv')
+user_loc_df = pd.read_json('user_loc.json', dtype={'trip_id': str})
 user_loc_df['user_timestamp'] = pd.to_datetime(user_loc_df['user_timestamp'])
 user_loc_df['date'] = user_loc_df['user_timestamp'].dt.date
 
 # Load bus trip data
 print("Loading bus trip data...")
-bus_trips = pd.read_csv('./bus_trips.csv')
+bus_trips = pd.read_json('./bus_trips.json', dtype={'trip_id': str})
 
 # Prepare bus trip stop sequences with scheduled arrival datetimes
 print("Preparing bus trip stop sequences...")
@@ -27,8 +27,8 @@ trip_stop_sequences = {}  # Key: (trip_id, date), Value: list of dicts with 'sto
 # Iterate over bus trips with a progress bar
 for _, trip in tqdm(bus_trips.iterrows(), total=bus_trips.shape[0], desc="Processing Bus Trips"):
     trip_id = trip['trip_id']
-    start_date_str = str(trip['start_date'])
-    end_date_str = str(trip['end_date'])
+    start_date_str = trip['start_date']
+    end_date_str = trip['end_date']
     try:
         start_date = pd.to_datetime(start_date_str, format='%Y%m%d').date()
         end_date = pd.to_datetime(end_date_str, format='%Y%m%d').date()
@@ -37,39 +37,25 @@ for _, trip in tqdm(bus_trips.iterrows(), total=bus_trips.shape[0], desc="Proces
         continue  # Skip this trip if dates are invalid
 
     # Parse served_days
-    served_days_str = trip['served_days']
-    if pd.notna(served_days_str) and served_days_str.strip():
-        served_days = [int(x.strip()) for x in served_days_str.strip('[]').split(',')]
-    else:
-        served_days = [0]*7  # Default to not running any day
+    served_days = trip['served_days']
 
     # Map days of week to served_days (Monday=0, Sunday=6)
     served_days_dict = {i: served_days[i] for i in range(7)}
 
     # Parse extra_dates and excluded_dates
     def parse_dates(date_str):
-        if pd.notna(date_str) and date_str.strip('[] '):
-            return [pd.to_datetime(ds.strip(), format='%Y%m%d').date() for ds in date_str.strip('[]').split(',') if ds.strip()]
-        else:
+        if not date_str:
             return []
+        return [datetime.strptime(date, '%Y%m%d').date() for date in date_str]
 
     extra_dates = parse_dates(trip['extra_dates'])
     excluded_dates = parse_dates(trip['excluded_dates'])
 
     # Parse stops
-    stops_str = trip['stops']
-    if pd.notna(stops_str) and stops_str.strip('[] '):
-        stops = [int(s.strip()) for s in stops_str.strip('[]').split(',')]
-    else:
-        continue  # Skip trips without stops
+    stops = trip['stops']
 
     # Parse times
-    times_str = trip['times']
-    if pd.notna(times_str) and times_str.strip('[] '):
-        times = [t.strip(" '") for t in times_str.strip('[]').split(',')]
-        times = [t for t in times if t != 'nan']
-    else:
-        continue  # Skip trips without times
+    times = trip['times']
 
     if len(stops) != len(times):
         continue  # Skip trips with mismatched stops and times
@@ -93,20 +79,19 @@ for _, trip in tqdm(bus_trips.iterrows(), total=bus_trips.shape[0], desc="Proces
 
         # Build stop sequence with scheduled arrival datetimes
         stop_times = []
-        for stop_id, arrival_time_str in zip(stops, times):
-            arrival_time_str = arrival_time_str.strip()
-            if not arrival_time_str:
+        for stop_id, arrival_time in zip(stops, times):
+            if not arrival_time:
                 continue
             try:
-                if arrival_time_str.startswith('24:'):
-                    arrival_time_str = '00' + arrival_time_str[2:]
-                if arrival_time_str.startswith('25:'):
-                    arrival_time_str = '01' + arrival_time_str[2:]
-                arrival_time = datetime.strptime(arrival_time_str, '%H:%M:%S').time()
+                if arrival_time.startswith('24:'):
+                    arrival_time = '00' + arrival_time[2:]
+                if arrival_time.startswith('25:'):
+                    arrival_time = '01' + arrival_time[2:]
+                arrival_time = datetime.strptime(arrival_time, '%H:%M:%S').time()
                 arrival_datetime = datetime.combine(trip_date, arrival_time)
                 stop_times.append({'stop_id': stop_id, 'arrival_datetime': arrival_datetime})
             except ValueError as e:
-                print(f"Error parsing arrival time '{arrival_time_str}' for trip {trip_id}, stop {stop_id}: {e}")
+                print(f"Error parsing arrival time '{arrival_time}' for trip {trip_id}, stop {stop_id}: {e}")
                 continue  # Skip invalid times
 
         if stop_times:
@@ -251,12 +236,12 @@ for user_id in tqdm(unique_users, desc="Processing Users"):
         # Append to user_likely_trips
         user_likely_trips.append({
             'user_id': user_id,
-            'date': date,
+            'date': date.strftime('%Y-%m-%d'),
             'trip_id': trip_id,
             'boarding_stop_id': boarding_stop_id,
             'alighting_stop_id': alighting_stop_id,
-            'boarding_time': boarding_time,
-            'alighting_time': alighting_time,
+            'boarding_time': boarding_time.strftime('%H:%M:%S'),
+            'alighting_time': alighting_time.strftime('%H:%M:%S'),
             'duration_minutes': duration,
             'number_of_stops': best_trip['lis_length'],
             'total_time_difference_seconds': best_trip['total_time_diff'],
@@ -264,7 +249,7 @@ for user_id in tqdm(unique_users, desc="Processing Users"):
         })
 
 # Create DataFrame and save to CSV
-print("\nSaving the identified trips to 'user_likely_trips.csv'...")
+print("\nSaving the identified trips to 'user_likely_trips.json'...")
 user_trips_df = pd.DataFrame(user_likely_trips)
-user_trips_df.to_csv('user_likely_trips.csv', index=False)
+user_trips_df.to_json('user_likely_trips.json', orient='records')
 print("Process completed successfully.")

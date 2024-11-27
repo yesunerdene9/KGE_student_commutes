@@ -2,6 +2,7 @@ import pandas as pd
 from geopy.geocoders import Nominatim
 import os
 from tqdm import tqdm
+import json
 
 COMPUTE_OSM_IDS = True
 
@@ -130,6 +131,13 @@ def process_bus_trips(gtfs_data):
 
     return trips_info
 
+def convert_dates_to_string(df):
+    df['extra_dates'] = df['extra_dates'].apply(lambda x: [str(date) for date in x] if x.__class__ == list else x)
+    df['excluded_dates'] = df['excluded_dates'].apply(lambda x: [str(date) for date in x] if x.__class__ == list else x)
+    df["start_date"] = df["start_date"].apply(lambda x: str(x))
+    df["end_date"] = df["end_date"].apply(lambda x: str(x))
+    return df
+
 # Main function to execute the processing
 def main():
     # Load GTFS data
@@ -137,18 +145,19 @@ def main():
 
     # Process bus stops
     bus_stops = process_bus_stops(gtfs_data)
-    bus_stops.to_csv('bus_stops.csv', index=False)
-    print("Bus stops data saved to bus_stops.csv")
+    bus_stops.to_json('bus_stops.json', orient='records')
+    print("Bus stops data saved to bus_stops.json")
 
     # Process bus routes
     bus_routes = process_bus_routes(gtfs_data)
-    bus_routes.to_csv('bus_routes.csv', index=False)
-    print("Bus routes data saved to bus_routes.csv")
+    bus_routes.to_json('bus_routes.json', orient='records')
+    print("Bus routes data saved to bus_routes.json")
 
     # Process bus trips
     bus_trips = process_bus_trips(gtfs_data)
-    bus_trips.to_csv('bus_trips.csv', index=False)
-    print("Bus trips data saved to bus_trips.csv")
+    bus_trips = convert_dates_to_string(bus_trips)
+    bus_trips.to_json('bus_trips.json', orient='records')
+    print("Bus trips data saved to bus_trips.json")
 
 if __name__ == "__main__":
     main()

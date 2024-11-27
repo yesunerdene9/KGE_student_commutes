@@ -4,9 +4,9 @@ from tqdm import tqdm
 
 # -------------------- Configuration --------------------
 # File paths
-POI_CSV_PATH = '../Poi_osm/poi_and_osm_full.csv'
+POI_CSV_PATH = '../Poi_osm/poi_and_osm_full.json'
 USER_PARQUET_PATH_TEMPLATE = "C:/Users/david/Downloads/dataset/Sensors/Sensors/Position/locationeventpertime_rd.parquet/part.{}.parquet"
-OUTPUT_CSV_PATH = './user_poi_matches.csv'
+OUTPUT_CSV_PATH = './user_poi_matches.json'
 
 # Parameters
 POSITION_BUFFER_KM = 0.05  # 50 meters
@@ -17,7 +17,7 @@ CHUNK_SIZE = 100000 # Number of records to process at a time
 try:
     # Load OSM PoI data
     print("Loading OSM PoI data...")
-    osm_data = pd.read_csv(POI_CSV_PATH)
+    osm_data = pd.read_json(POI_CSV_PATH)
     print(f"OSM PoI data loaded with {len(osm_data)} records.")
 
     # Convert PoI data to GeoDataFrame
@@ -124,9 +124,12 @@ try:
     user_osm_df['userid'] = user_osm_df['userid'].astype(int)
     user_osm_df['osm_id'] = user_osm_df['osm_id'].astype(int)
 
+    # convert user_timestamp to datetime string
+    user_osm_df['user_timestamp'] = user_osm_df['user_timestamp'].dt.strftime('%Y-%m-%d %H:%M:%S')
+
     # useridSave to CSV
     print(f"Saving results to {OUTPUT_CSV_PATH}...")
-    user_osm_df.to_csv(OUTPUT_CSV_PATH, index=False)
+    user_osm_df.to_json(OUTPUT_CSV_PATH, orient='records')
     print("Spatial join completed successfully.")
 
 except Exception as e:

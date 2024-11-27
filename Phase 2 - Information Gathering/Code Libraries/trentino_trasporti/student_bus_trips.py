@@ -7,9 +7,9 @@ from datetime import datetime
 from tqdm import tqdm
 
 # Load bus data
-bus_stops = pd.read_csv('./bus_stops.csv')
-bus_routes = pd.read_csv('./bus_routes.csv')
-bus_trips = pd.read_csv('./bus_trips.csv')
+bus_stops = pd.read_json('./bus_stops.json')
+bus_routes = pd.read_json('./bus_routes.json')
+bus_trips = pd.read_json('./bus_trips.json', dtype={'trip_id': str})
 
 # Parameters
 POSITION_BUFFER = 0.05  # in kilometers (50m meters)
@@ -28,49 +28,35 @@ print(f"Processing {len(bus_trips)} bus trips...")
 for _, trip in tqdm(bus_trips.iterrows(), total=len(bus_trips)):
     trip_id = trip['trip_id']
     route_id = trip['route_id']
-    start_date_str = str(trip['start_date'])
-    end_date_str = str(trip['end_date'])
+    start_date = trip['start_date']
+    end_date = trip['end_date']
     try:
-        start_date = pd.to_datetime(start_date_str, format='%Y%m%d')
-        end_date = pd.to_datetime(end_date_str, format='%Y%m%d')
+        start_date = pd.to_datetime(start_date, format='%Y%m%d')
+        end_date = pd.to_datetime(end_date, format='%Y%m%d')
     except ValueError as e:
         print(f"Error parsing start or end date for trip {trip_id}: {e}")
         continue  # Skip this trip if dates are invalid
 
     # Parse served_days
-    served_days_str = trip['served_days']
-    if pd.notna(served_days_str) and served_days_str.strip():
-        served_days = [int(x.strip()) for x in served_days_str.strip('[]').split(',')]
-    else:
-        served_days = [0]*7  # Default to not running any day
-
+    served_days = trip['served_days']
     # Map days of week to served_days (assuming Monday=0, Sunday=6)
     served_days_dict = {i: served_days[i] for i in range(7)}  # 0=Monday, ..., 6=Sunday
 
     # Parse extra_dates and excluded_dates
     def parse_dates(date_str):
-        if pd.notna(date_str) and date_str.strip('[] '):
-            return [pd.to_datetime(ds.strip(), format='%Y%m%d') for ds in date_str.strip('[]').split(',') if ds.strip()]
-        else:
+        if not date_str:
             return []
+        return [datetime.strptime(date, '%Y%m%d').date() for date in date_str]
 
-    extra_dates_str = trip['extra_dates']
-    extra_dates = parse_dates(extra_dates_str)
+    extra_dates = trip['extra_dates']
+    extra_dates = parse_dates(extra_dates)
 
-    excluded_dates_str = trip['excluded_dates']
-    excluded_dates = parse_dates(excluded_dates_str)
+    excluded_dates = trip['excluded_dates']
+    excluded_dates = parse_dates(excluded_dates)
+    
+    stops = trip['stops']
 
-    stops_str = trip['stops']
-    if pd.notna(stops_str) and stops_str.strip('[] '):
-        stops = [int(s.strip()) for s in stops_str.strip('[]').split(',')]
-    else:
-        stops = []
-
-    times_str = trip['times']
-    if pd.notna(times_str) and times_str.strip('[] '):
-        times = [t.strip(" '") for t in times_str.strip('[]').split(',')]
-    else:
-        times = []
+    times = trip['times']
 
     if not stops or not times:
         continue  # Skip if no stops or times
@@ -94,8 +80,7 @@ for _, trip in tqdm(bus_trips.iterrows(), total=len(bus_trips)):
 
         # For each stop and time, create an arrival entry
         for stop_id, arrival_time in zip(stops, times):
-            arrival_time = arrival_time.strip()
-            if arrival_time == 'nan' or not arrival_time:
+            if not arrival_time:
                 continue
             try:
                 if arrival_time.startswith('24:'):
@@ -174,8 +159,14 @@ for i in tqdm(range(0, len(user_data), chunk_size)):
     # Append results
     user_results = user_arrivals[['userid', 'stop_id', 'arrival_time', 'trip_id', 'user_timestamp']].copy()
     user_results.rename(columns={'userid': 'user_id'}, inplace=True)
+    
+    # convert stop_id to int
+    user_results['stop_id'] = user_results['stop_id'].astype(int)
+    # convert user_timestamp to string
+    user_results['user_timestamp'] = user_results['user_timestamp'].astype(str)
+    
     user_results_list.append(user_results)
 
-# Concatenate all results and save to CSV
+# Concatenate all results and save to JSON 
 user_loc_df = pd.concat(user_results_list, ignore_index=True)
-user_loc_df.to_csv('user_loc.csv', index=False)
+user_loc_df.to_json('user_loc.json', orient='records')

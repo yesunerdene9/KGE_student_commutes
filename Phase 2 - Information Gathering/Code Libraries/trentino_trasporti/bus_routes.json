@@ -1,0 +1,166 @@
+[
+    {
+        "route_id": 396,
+        "route_name": "3 - Cortesano Gardolo P.Dante Villazzano 3"
+    },
+    {
+        "route_id": 400,
+        "route_name": "5 - Piazza Dante P.Fiera Povo Oltrecastello"
+    },
+    {
+        "route_id": 402,
+        "route_name": "7 - Canova Melta Piazza Dante Gocciadoro"
+    },
+    {
+        "route_id": 404,
+        "route_name": "8 - Centochiavi Piazza Dante Mattarello"
+    },
+    {
+        "route_id": 406,
+        "route_name": "9 - P.Dante S.Don\u00e0 Cognola Villamontagna"
+    },
+    {
+        "route_id": 408,
+        "route_name": "10 - P.Dante Martignano Cognola \/ Montevaccino"
+    },
+    {
+        "route_id": 411,
+        "route_name": "12 - P.Dante Via Ghiaie Ravina Romagnano"
+    },
+    {
+        "route_id": 415,
+        "route_name": "14 - P.Dante Via Sanseverino Belvedere Ravina"
+    },
+    {
+        "route_id": 423,
+        "route_name": "B - Piazza Dante Laste Piazza Dante"
+    },
+    {
+        "route_id": 424,
+        "route_name": "11 - Spini Di Gardolo Via Brennero P.Dante"
+    },
+    {
+        "route_id": 460,
+        "route_name": "NP - Navetta Parcheggi: Zuffo M.Te Baldo Zuffo"
+    },
+    {
+        "route_id": 466,
+        "route_name": "13 - P.Dante Rosmini S.Rocco Povo Polo Soc."
+    },
+    {
+        "route_id": 478,
+        "route_name": "15 - Piazza Dante Interporto Spini Di Gardolo"
+    },
+    {
+        "route_id": 484,
+        "route_name": "16 - Centochiavi Martignano Cognola Povo"
+    },
+    {
+        "route_id": 488,
+        "route_name": "1 - 01 Corso Bettini Ospedale Lizzana Marco"
+    },
+    {
+        "route_id": 490,
+        "route_name": "2 - Costa Corso Rosmini S.Giorgio"
+    },
+    {
+        "route_id": 496,
+        "route_name": "6 - 06 Nomi Pomarolo\/Volano Rosmini Mori"
+    },
+    {
+        "route_id": 497,
+        "route_name": "5 - Mori Villa Lagarina Pomarolo Nomi"
+    },
+    {
+        "route_id": 504,
+        "route_name": "N2 - Costa Corso Rosmini"
+    },
+    {
+        "route_id": 508,
+        "route_name": "N3 - Castellano Stazione Fs"
+    },
+    {
+        "route_id": 510,
+        "route_name": "N5 - C.So Bettini Isera Nomi"
+    },
+    {
+        "route_id": 511,
+        "route_name": "N6 - Nomi Besenello Stazione Fs"
+    },
+    {
+        "route_id": 512,
+        "route_name": "7 - Noriglio Rosmini Campana Dei Caduti"
+    },
+    {
+        "route_id": 516,
+        "route_name": "N1 - C.So Bettini Lizzana Marco Mori"
+    },
+    {
+        "route_id": 531,
+        "route_name": "Fu - Funivia Trento Sardagna"
+    },
+    {
+        "route_id": 533,
+        "route_name": "C - Rsa \"S.Bartolomeo\" Rsa \"Angeli Custodi\""
+    },
+    {
+        "route_id": 535,
+        "route_name": "5\/ - P.Dante P.Fiera Universit\u00e0 Mesiano Povo"
+    },
+    {
+        "route_id": 536,
+        "route_name": "1 - Ospedale P.Dante Sopramonte"
+    },
+    {
+        "route_id": 538,
+        "route_name": "2 - Piedic. Stazione Osp.S.Chiara Regione Piedic."
+    },
+    {
+        "route_id": 539,
+        "route_name": "4 - Gardolo Roncafort Stazione V.Deg. Mad.Bianca"
+    },
+    {
+        "route_id": 541,
+        "route_name": "6 - Vela P.Dante Villazzano Grotta"
+    },
+    {
+        "route_id": 543,
+        "route_name": "17 - Piazza Dante Via Bolzano Lamar Lavis"
+    },
+    {
+        "route_id": 545,
+        "route_name": "A - P.Dante Osp. S.Chiara Clarina P.Dante"
+    },
+    {
+        "route_id": 562,
+        "route_name": "A - Brione Cesari Ospedale Podesta' Brione"
+    },
+    {
+        "route_id": 563,
+        "route_name": "B - Ossario Osp. S.Giorgio Osp. Ossario"
+    },
+    {
+        "route_id": 566,
+        "route_name": "AB - Via Magazol S.Giorgio Cornacalda"
+    },
+    {
+        "route_id": 568,
+        "route_name": "G - Gardolo Gardolo Di Mezzo E Spini"
+    },
+    {
+        "route_id": 570,
+        "route_name": "CM - Povo Borino Celva Passo Cimirlo"
+    },
+    {
+        "route_id": 572,
+        "route_name": "8 - Ospedale Stazione Fs Isera Villa Lag."
+    },
+    {
+        "route_id": 574,
+        "route_name": "4 - 04 Villa Lagarina Brione Stazione Fs Isera"
+    },
+    {
+        "route_id": 575,
+        "route_name": "3 - 03 Pedersano Brione Stazione Fs Lenzima"
+    }
+]

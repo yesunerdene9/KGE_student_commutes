@@ -16,4 +16,4 @@ user_ids = user_data['userid'].unique()
 
 # save the user ids to a csv file
 user_ids_df = pd.DataFrame(user_ids, columns=['userid'])
-user_ids_df.to_csv('user_ids.csv', index=False)
+user_ids_df.to_json('user_ids.json', orient='records')
