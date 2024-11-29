@@ -4,315 +4,315 @@
         "latitude": 46.0769744,
         "longitude": 11.141749,
         "name": "Biblioteca Argentario",
-        "type": "library"
+        "type": "biblioteca"
     },
     {
         "osm_id": 428313995,
         "latitude": 46.0517426,
         "longitude": 11.1276494,
         "name": "Biblioteca Clarina",
-        "type": "library"
+        "type": "biblioteca"
     },
     {
         "osm_id": 1559090545,
         "latitude": 46.0663953,
         "longitude": 11.1388567,
         "name": "BUM - Biblioteca Universitaria Mesiano",
-        "type": "library"
+        "type": "biblioteca"
     },
     {
         "osm_id": 1607714595,
         "latitude": 46.0060602,
         "longitude": 11.1278038,
         "name": "Biblioteca Mattarello",
-        "type": "library"
+        "type": "biblioteca"
     },
     {
         "osm_id": 1721783679,
         "latitude": 46.0627341,
         "longitude": 11.1244168,
         "name": "Biblioteca del Polo Umanistico",
-        "type": "library"
+        "type": "biblioteca"
     },
     {
         "osm_id": 3292585477,
         "latitude": 46.0648792,
         "longitude": 11.1534216,
         "name": "Biblioteca Povo",
-        "type": "library"
+        "type": "biblioteca"
     },
     {
         "osm_id": 4715779117,
         "latitude": 46.1266441,
         "longitude": 11.1161334,
         "name": "Biblioteca di Meano",
-        "type": "library"
+        "type": "biblioteca"
     },
     {
         "osm_id": 4924544965,
         "latitude": 46.0626921,
         "longitude": 11.1152767,
         "name": "Gino Tomasi",
-        "type": "library"
+        "type": "biblioteca"
     },
     {
         "osm_id": 7095449512,
         "latitude": 46.1079123,
         "longitude": 11.1123636,
         "name": "Biblioteca Gardolo",
-        "type": "library"
+        "type": "biblioteca"
     },
     {
         "osm_id": 7095449513,
         "latitude": 46.0378105,
         "longitude": 11.106449,
         "name": "Biblioteca Ravina",
-        "type": "library"
+        "type": "biblioteca"
     },
     {
         "osm_id": 7095449514,
         "latitude": 46.0716169,
         "longitude": 11.0599502,
         "name": "Biblioteca Sopramonte",
-        "type": "library"
+        "type": "biblioteca"
     },
     {
         "osm_id": 7095449515,
         "latitude": 46.0171551,
         "longitude": 11.1059033,
         "name": "Punto di prestito Romagnano",
-        "type": "library"
+        "type": "biblioteca"
     },
     {
         "osm_id": 7095449516,
         "latitude": 46.0402507,
         "longitude": 11.1332977,
         "name": "Punto di prestito Madonna Bianca",
-        "type": "library"
+        "type": "biblioteca"
     },
     {
         "osm_id": 7095449517,
         "latitude": 46.0857594,
         "longitude": 11.0628437,
         "name": "Piccola biblioteca di Cadine",
-        "type": "library"
+        "type": "biblioteca"
     },
     {
         "osm_id": 7095449518,
         "latitude": 46.1081273,
         "longitude": 11.1442395,
         "name": "Punto di prestito Montevaccino",
-        "type": "library"
+        "type": "biblioteca"
     },
     {
         "osm_id": 7095449519,
         "latitude": 46.0898203,
         "longitude": 11.1314618,
         "name": "Punto di prestito Martignano",
-        "type": "library"
+        "type": "biblioteca"
     },
     {
         "osm_id": 9196004472,
         "latitude": 46.0685816,
         "longitude": 11.1254832,
         "name": "CISMed - Centro Interdipartimentale di Scienze Mediche",
-        "type": "university"
+        "type": "university-facility"
     },
     {
         "osm_id": 9630961821,
         "latitude": 46.0663033,
         "longitude": 11.1166087,
         "name": "Sala studio Cavazzani",
-        "type": "library"
+        "type": "biblioteca"
     },
     {
         "osm_id": 9859813787,
         "latitude": 46.0643383,
         "longitude": 11.1164915,
         "name": "Polo universitario delle professioni sanitarie",
-        "type": "university"
+        "type": "university-facility"
     },
     {
         "osm_id": "10033381157",
         "latitude": 46.0674665,
         "longitude": 11.1189775,
         "name": "Facolt\u00e0 di Giurisprudenza Entrata",
-        "type": "library"
+        "type": "biblioteca"
     },
     {
         "osm_id": 1155540,
         "latitude": 46.0656582,
         "longitude": 11.1355634,
         "name": "Biblioteca San Bernardino",
-        "type": "library"
+        "type": "biblioteca"
     },
     {
         "osm_id": "10981990849",
         "latitude": 46.0704115,
         "longitude": 11.1310588,
         "name": "College La Collina",
-        "type": "student_accommodation"
+        "type": "student-accommodation"
     },
     {
         "osm_id": "11160363209",
         "latitude": 46.0730511,
         "longitude": 11.1289144,
         "name": "Biblioteca dei Cappuccini",
-        "type": "library"
+        "type": "biblioteca"
     },
     {
         "osm_id": "12301854152",
         "latitude": 46.0825531,
         "longitude": 11.1228301,
         "name": "Polo universitario delle professioni sanitarie",
-        "type": "university"
+        "type": "university-facility"
     },
     {
         "osm_id": 24581559,
         "latitude": 46.0466378,
         "longitude": 11.1347276,
         "name": "Studentato San Bartolameo",
-        "type": "student_accommodation"
+        "type": "student-accommodation"
     },
     {
         "osm_id": 819927358,
         "latitude": 46.0669804,
         "longitude": 11.1395393,
         "name": "Laboratori Ingegneria",
-        "type": "university"
+        "type": "university-facility"
     },
     {
         "osm_id": 819927358,
         "latitude": 46.0663683,
         "longitude": 11.1398154,
         "name": "Mensa e bar Mesiano",
-        "type": "restaurant"
+        "type": "ristorante"
     },
     {
         "osm_id": 819927358,
         "latitude": 46.0645438,
         "longitude": 11.1400773,
         "name": "Laboratorio Idraulica",
-        "type": "university"
+        "type": "university-facility"
     },
     {
         "osm_id": 819927358,
         "latitude": 46.0644425,
         "longitude": 11.1397296,
         "name": "Laboratorio di metrologia",
-        "type": "university"
+        "type": "university-facility"
     },
     {
         "osm_id": 36843504,
         "latitude": 46.0480768,
         "longitude": 11.1459807,
         "name": "Biblioteca Villazzano",
-        "type": "library"
+        "type": "biblioteca"
     },
     {
         "osm_id": 7704585208,
         "latitude": 46.0661841,
         "longitude": 11.1169523,
         "name": "ex Biblioteca universitaria centrale",
-        "type": "university"
+        "type": "university-facility"
     },
     {
         "osm_id": 67197001,
         "latitude": 46.0620987,
         "longitude": 11.1231034,
         "name": "Seminario Maggiore",
-        "type": "university"
+        "type": "university-facility"
     },
     {
         "osm_id": 70882135,
         "latitude": 46.0685568,
         "longitude": 11.1181241,
         "name": "Collegio Bernardo Clesio",
-        "type": "student_accommodation"
+        "type": "student-accommodation"
     },
     {
         "osm_id": 72455760,
         "latitude": 46.0679071,
         "longitude": 11.1163113,
         "name": "Dipartimento di Lettere e Filosofia e Studi Internazionali",
-        "type": "university"
+        "type": "university-facility"
     },
     {
         "osm_id": 1366801083,
         "latitude": 46.0687239,
         "longitude": 11.1257251,
         "name": "Il Centro Interdipartimentale di Scienze Mediche (CISMed)",
-        "type": "university"
+        "type": "university-facility"
     },
     {
         "osm_id": 4264239318,
         "latitude": 46.0709242,
         "longitude": 11.1208778,
         "name": "Biblioteca dei Ragazzi",
-        "type": "library"
+        "type": "biblioteca"
     },
     {
         "osm_id": 91501515,
         "latitude": 46.0722295,
         "longitude": 11.1271173,
         "name": "Biblioteca della Fondazione - Museo Storico del Trentino",
-        "type": "library"
+        "type": "biblioteca"
     },
     {
         "osm_id": 126733787,
         "latitude": 46.1054395,
         "longitude": 11.1115782,
         "name": "Villa Foyer",
-        "type": "student_accommodation"
+        "type": "student-accommodation"
     },
     {
         "osm_id": 208909969,
         "latitude": 46.0656454,
         "longitude": 11.1177066,
         "name": "Dipartimento di Economia e Management",
-        "type": "university"
+        "type": "university-facility"
     },
     {
         "osm_id": 215037366,
         "latitude": 46.0677605,
         "longitude": 11.1191643,
         "name": "Facolt\u00e0 di Giurisprudenza",
-        "type": "university"
+        "type": "university-facility"
     },
     {
         "osm_id": 72455760,
         "latitude": 46.0678439,
         "longitude": 11.1164666,
         "name": "Palazzo Paolo Prodi",
-        "type": "university"
+        "type": "university-facility"
     },
     {
         "osm_id": 5775655090,
         "latitude": 46.0596466,
         "longitude": 11.1155914,
         "name": "Central Library, BUC - Biblioteca Universitaria Centrale",
-        "type": "library"
+        "type": "biblioteca"
     },
     {
         "osm_id": 275318443,
         "latitude": 46.0664097,
         "longitude": 11.1506218,
         "name": "Povo 0, Dipartimenti di Matematica e Fisica",
-        "type": "university"
+        "type": "university-facility"
     },
     {
         "osm_id": 275318445,
         "latitude": 46.0674763,
         "longitude": 11.149296,
         "name": "Povo 1, Dipartimento di Ingegneria e Scienza dell'Informazione",
-        "type": "university"
+        "type": "university-facility"
     },
     {
         "osm_id": 275318462,
         "latitude": 46.0669407,
         "longitude": 11.1501332,
         "name": "BUP - Biblioteca Universitaria Povo",
-        "type": "library"
+        "type": "biblioteca"
     },
     {
         "osm_id": 275318465,
@@ -326,63 +326,63 @@
         "latitude": 46.0618785,
         "longitude": 11.1218162,
         "name": "Vigilianum - Polo Culturale Diocesano",
-        "type": "library"
+        "type": "biblioteca"
     },
     {
         "osm_id": 498631940,
         "latitude": 46.0733553,
         "longitude": 11.118293,
         "name": "Studentato Mayer",
-        "type": "student_accommodation"
+        "type": "student-accommodation"
     },
     {
         "osm_id": 668474307,
         "latitude": 46.0087621,
         "longitude": 11.1341461,
         "name": "LNiF/CIMeC e BIOtech",
-        "type": "university"
+        "type": "university-facility"
     },
     {
         "osm_id": 668474307,
         "latitude": 46.0087621,
         "longitude": 11.1341461,
         "name": "Centro Sportivo Universitario di Mattarello",
-        "type": "university"
+        "type": "university-facility"
     },
     {
         "osm_id": "11726705877",
         "latitude": 46.0676553,
         "longitude": 11.1493131,
         "name": "Povo 2, Dipartimento di Ingegneria Industriale",
-        "type": "university"
+        "type": "university-facility"
     },
     {
         "osm_id": 930522309,
         "latitude": 46.0666582,
         "longitude": 11.119793,
         "name": "Dipartimento di Sociologia e Ricerca Sociale",
-        "type": "university"
+        "type": "university-facility"
     },
     {
         "osm_id": 7699915777,
         "latitude": 46.0670398,
         "longitude": 11.1388996,
         "name": "Dipartimento di Ingegneria Civile, Ambientale e Meccanica",
-        "type": "university"
+        "type": "university-facility"
     },
     {
         "osm_id": 1016831603,
         "latitude": 8.0439311,
         "longitude": 126.0636266,
         "name": "Agusan Del Sur State University - Trento Annex",
-        "type": "university"
+        "type": "university-facility"
     },
     {
         "osm_id": 1181361605,
         "latitude": 46.0697009,
         "longitude": 11.1210695,
         "name": "Biblioteca Comunale di Trento",
-        "type": "library"
+        "type": "biblioteca"
     },
     {
         "osm_id": 1219539037,
@@ -494,7 +494,7 @@
         "latitude": 46.131138,
         "longitude": 11.245898,
         "name": "Giovannini Roberto",
-        "type": "abbigliamento"
+        "type": "negozio_di_abbigliamento"
     },
     {
         "osm_id": 1246628870,
@@ -515,7 +515,7 @@
         "latitude": 46.169333,
         "longitude": 11.217748,
         "name": "CANTINA PELZ",
-        "type": "prodottitipici"
+        "type": "negozio_di_prodotti_tipici"
     },
     {
         "osm_id": 832929590,
@@ -592,7 +592,7 @@
         "latitude": 46.1305,
         "longitude": 11.2461,
         "name": "GIOVANNINI EGIDIO",
-        "type": "appartamentovacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 293233413,
@@ -627,21 +627,21 @@
         "latitude": 46.14318,
         "longitude": 11.194926,
         "name": "INTERNET POINT DI ALBIANO",
-        "type": "wifi"
+        "type": "internet_point"
     },
     {
         "osm_id": 1732692637,
         "latitude": 46.1341,
         "longitude": 11.2475,
         "name": "IORIATTI NORMA",
-        "type": "appartamentovacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 253576180,
         "latitude": 46.230278,
         "longitude": 11.300556,
         "name": "CONDOMINIO PERLA",
-        "type": "appartamentovacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 2967453837,
@@ -718,7 +718,7 @@
         "latitude": 46.132386,
         "longitude": 11.244372,
         "name": "Colibri Artigianato",
-        "type": "souvenir"
+        "type": "negozio_di_souvenir"
     },
     {
         "osm_id": 29236099,
@@ -739,7 +739,7 @@
         "latitude": 46.127995,
         "longitude": 11.24419,
         "name": "INTERNET POINT DI BASELGA DI PINE'",
-        "type": "wifi"
+        "type": "internet_point"
     },
     {
         "osm_id": 253215463,
@@ -767,7 +767,7 @@
         "latitude": 46.082876,
         "longitude": 11.200151,
         "name": "Sottobosco",
-        "type": "prodottitipici"
+        "type": "negozio_di_prodotti_tipici"
     },
     {
         "osm_id": 256197490,
@@ -879,7 +879,7 @@
         "latitude": 46.158166,
         "longitude": 11.288884,
         "name": "APICOLTURA GOCCE D'ORO",
-        "type": "prodottitipici"
+        "type": "negozio_di_prodotti_tipici"
     },
     {
         "osm_id": 832929594,
@@ -893,7 +893,7 @@
         "latitude": 46.186722,
         "longitude": 11.26064,
         "name": "DISTILLERIA GIACOMOZZI RENZO",
-        "type": "prodottitipici"
+        "type": "negozio_di_prodotti_tipici"
     },
     {
         "osm_id": 42733332,
@@ -935,7 +935,7 @@
         "latitude": 46.136944,
         "longitude": 11.248333,
         "name": "GATTI CARLA",
-        "type": "appartamentovacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 42733331,
@@ -963,7 +963,7 @@
         "latitude": 46.174803,
         "longitude": 11.221179,
         "name": "AZIENDA AGRICOLA ZANOTELLI ELIO & F.LLI",
-        "type": "prodottitipici"
+        "type": "negozio_di_prodotti_tipici"
     },
     {
         "osm_id": 103129729,
@@ -998,7 +998,7 @@
         "latitude": 46.157627,
         "longitude": 11.154821,
         "name": "INTERNET POINT DI GIOVO",
-        "type": "wifi"
+        "type": "internet_point"
     },
     {
         "osm_id": 74772709,
@@ -1040,7 +1040,7 @@
         "latitude": 46.134401,
         "longitude": 11.248873,
         "name": "Dallapiccola Sara",
-        "type": "abbigliamento"
+        "type": "negozio_di_abbigliamento"
     },
     {
         "osm_id": 253791977,
@@ -1096,7 +1096,7 @@
         "latitude": 46.16151,
         "longitude": 11.303131,
         "name": "TORREFAZIONE TRIVENETA",
-        "type": "prodottitipici"
+        "type": "negozio_di_prodotti_tipici"
     },
     {
         "osm_id": 110448041,
@@ -1124,7 +1124,7 @@
         "latitude": 46.088699,
         "longitude": 11.180879,
         "name": "Calzature Molinari",
-        "type": "abbigliamento"
+        "type": "negozio_di_abbigliamento"
     },
     {
         "osm_id": 9201653,
@@ -1194,7 +1194,7 @@
         "latitude": 46.1811,
         "longitude": 11.2363,
         "name": "SAVOI MARIA GRAZIA",
-        "type": "appartamentovacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 168154138,
@@ -1229,7 +1229,7 @@
         "latitude": 46.1325,
         "longitude": 11.2377,
         "name": "BORTOLOTTI ARMANDO",
-        "type": "appartamentovacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 82604931,
@@ -1334,7 +1334,7 @@
         "latitude": 46.1436,
         "longitude": 11.2608,
         "name": "MARZADRI MARIA",
-        "type": "appartamentovacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 528256120,
@@ -1376,21 +1376,21 @@
         "latitude": 46.132577,
         "longitude": 11.244665,
         "name": "Renata Mode",
-        "type": "abbigliamento"
+        "type": "negozio_di_abbigliamento"
     },
     {
         "osm_id": 654054278,
         "latitude": 46.183138,
         "longitude": 11.251027,
         "name": "AZIENDA AGRICOLA BARONE A PRATO PAOLO",
-        "type": "prodottitipici"
+        "type": "negozio_di_prodotti_tipici"
     },
     {
         "osm_id": 26239297,
         "latitude": 46.157032,
         "longitude": 11.281,
         "name": "ANDREATTA ROMANO",
-        "type": "appartamentovacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 1245762615,
@@ -1481,7 +1481,7 @@
         "latitude": 46.168062,
         "longitude": 11.298557,
         "name": "AZIENDA AGRICOLA \"LE MANDRE\"",
-        "type": "prodottitipici"
+        "type": "negozio_di_prodotti_tipici"
     },
     {
         "osm_id": 8900599275,
@@ -1523,7 +1523,7 @@
         "latitude": 46.088678,
         "longitude": 11.181939,
         "name": "INTERNET POINT DI CIVEZZANO",
-        "type": "wifi"
+        "type": "internet_point"
     },
     {
         "osm_id": 1187919807,
@@ -1544,7 +1544,7 @@
         "latitude": 46.2086,
         "longitude": 11.2691,
         "name": "FASSAN ERMANNO",
-        "type": "appartamentovacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": "10857941804",
@@ -1593,7 +1593,7 @@
         "latitude": 46.175217,
         "longitude": 11.131275,
         "name": "AZIENDA AGRICOLA BIOLOGICA \"MOLINO DEI LESSI\"",
-        "type": "prodottitipici"
+        "type": "negozio_di_prodotti_tipici"
     },
     {
         "osm_id": 74772709,
@@ -1614,7 +1614,7 @@
         "latitude": 46.1485925,
         "longitude": 11.2607198,
         "name": "GIOVANNINI WALTER",
-        "type": "appartamentovacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 167521032,
@@ -1642,7 +1642,7 @@
         "latitude": 46.160278,
         "longitude": 11.294722,
         "name": "MATTIVI FERNANDO",
-        "type": "appartamentovacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 122919173,
@@ -1670,7 +1670,7 @@
         "latitude": 46.1341,
         "longitude": 11.2438,
         "name": "VILLA COSTALTA",
-        "type": "appartamentovacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 24811049,
@@ -1684,7 +1684,7 @@
         "latitude": 46.1583,
         "longitude": 11.283,
         "name": "ANDREATTA CLAUDIA",
-        "type": "appartamentovacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 261569633,
@@ -1705,7 +1705,7 @@
         "latitude": 46.117023,
         "longitude": 11.205888,
         "name": "INTERNET POINT DI FORNACE",
-        "type": "wifi"
+        "type": "internet_point"
     },
     {
         "osm_id": 54175290,
@@ -1782,7 +1782,7 @@
         "latitude": 46.083337,
         "longitude": 11.199099,
         "name": "IL DINOSAURO",
-        "type": "abbigliamento"
+        "type": "negozio_di_abbigliamento"
     },
     {
         "osm_id": 253348828,
@@ -1796,7 +1796,7 @@
         "latitude": 46.1763,
         "longitude": 11.223,
         "name": "NARDON LAURA",
-        "type": "appartamentovacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 274085436,
@@ -1817,7 +1817,7 @@
         "latitude": 46.2225,
         "longitude": 11.2677,
         "name": "MASO ZEPP",
-        "type": "appartamentovacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 1809408737,
@@ -1950,7 +1950,7 @@
         "latitude": 46.054739102607,
         "longitude": 11.2361598014832,
         "name": "Formica",
-        "type": "abbigliamento"
+        "type": "negozio_di_abbigliamento"
     },
     {
         "osm_id": 1111843220,
@@ -1999,7 +1999,7 @@
         "latitude": 46.0679383947018,
         "longitude": 11.2229740619659,
         "name": "Cisalfa Sport",
-        "type": "abbigliamento"
+        "type": "negozio_di_abbigliamento"
     },
     {
         "osm_id": 4217197513,
@@ -2069,7 +2069,7 @@
         "latitude": 46.0696727540531,
         "longitude": 11.2201952934265,
         "name": "Cimenti Linda",
-        "type": "gelateria"
+        "type": "gelateria-pasticceria"
     },
     {
         "osm_id": 388084231,
@@ -2146,7 +2146,7 @@
         "latitude": 46.0786786365809,
         "longitude": 11.5522313117981,
         "name": "Az. Agricola Busarello",
-        "type": "prodottitipici"
+        "type": "negozio_di_prodotti_tipici"
     },
     {
         "osm_id": 6575340093,
@@ -2272,7 +2272,7 @@
         "latitude": 46.0698886147082,
         "longitude": 11.2212574481964,
         "name": "Enovalsugana Sas di Baldi Massimo",
-        "type": "prodottitipici"
+        "type": "negozio_di_prodotti_tipici"
     },
     {
         "osm_id": 25152033,
@@ -2349,7 +2349,7 @@
         "latitude": 46.0596901375352,
         "longitude": 11.239367723465,
         "name": "La Dote di Sandra",
-        "type": "abbigliamento"
+        "type": "negozio_di_abbigliamento"
     },
     {
         "osm_id": 413711732,
@@ -2412,7 +2412,7 @@
         "latitude": 46.060151715161,
         "longitude": 11.2405371665955,
         "name": "Confezione Lucia di Hu Chunlan",
-        "type": "abbigliamento"
+        "type": "negozio_di_abbigliamento"
     },
     {
         "osm_id": 3950175833,
@@ -2461,14 +2461,14 @@
         "latitude": 46.0632933184229,
         "longitude": 11.243509054184,
         "name": "Dalsasso Eugenio",
-        "type": "abbigliamento"
+        "type": "negozio_di_abbigliamento"
     },
     {
         "osm_id": 1049118724,
         "latitude": 46.0722332536453,
         "longitude": 11.2359237670898,
         "name": "Latte Trento",
-        "type": "prodottitipici"
+        "type": "negozio_di_prodotti_tipici"
     },
     {
         "osm_id": 497095123,
@@ -2489,14 +2489,14 @@
         "latitude": 46.0679383947018,
         "longitude": 11.2229740619659,
         "name": "Conte of Florence",
-        "type": "abbigliamento"
+        "type": "negozio_di_abbigliamento"
     },
     {
         "osm_id": 5763437488,
         "latitude": 46.0118810830332,
         "longitude": 11.2992453575134,
         "name": "La Ciotola",
-        "type": "souvenir"
+        "type": "negozio_di_souvenir"
     },
     {
         "osm_id": "10950812636",
@@ -2510,7 +2510,7 @@
         "latitude": 46.0619458754105,
         "longitude": 11.2425971031189,
         "name": "Bancarella 3",
-        "type": "abbigliamento"
+        "type": "negozio_di_abbigliamento"
     },
     {
         "osm_id": 3952821558,
@@ -2573,7 +2573,7 @@
         "latitude": 46.0695834321557,
         "longitude": 11.2204957008362,
         "name": "Comunello & co",
-        "type": "abbigliamento"
+        "type": "negozio_di_abbigliamento"
     },
     {
         "osm_id": 3952792061,
@@ -2587,7 +2587,7 @@
         "latitude": 46.0116873495375,
         "longitude": 11.3011765480042,
         "name": "Cose Cos\u00ec",
-        "type": "prodottitipici"
+        "type": "negozio_di_prodotti_tipici"
     },
     {
         "osm_id": 662440702,
@@ -2790,7 +2790,7 @@
         "latitude": 46.0118065702306,
         "longitude": 11.3008117675781,
         "name": "Pasticceria Milano",
-        "type": "gelateria"
+        "type": "gelateria-pasticceria"
     },
     {
         "osm_id": 4597944674,
@@ -2832,7 +2832,7 @@
         "latitude": 46.0679383947018,
         "longitude": 11.2229740619659,
         "name": "Zhang Haidong",
-        "type": "abbigliamento"
+        "type": "negozio_di_abbigliamento"
     },
     {
         "osm_id": 299966136,
@@ -2867,7 +2867,7 @@
         "latitude": 46.0642536306644,
         "longitude": 11.2307739257813,
         "name": "Carlin Marco",
-        "type": "abbigliamento"
+        "type": "negozio_di_abbigliamento"
     },
     {
         "osm_id": 7687845080,
@@ -2944,7 +2944,7 @@
         "latitude": 46.0593848985985,
         "longitude": 11.2374043464661,
         "name": "Re Laurino",
-        "type": "souvenir"
+        "type": "negozio_di_souvenir"
     },
     {
         "osm_id": 1080452747,
@@ -2986,7 +2986,7 @@
         "latitude": 46.064744946747,
         "longitude": 11.2300443649292,
         "name": "Zorzi Armando",
-        "type": "elettronica"
+        "type": "negozio_di_elettronica"
     },
     {
         "osm_id": 51178661,
@@ -3000,7 +3000,7 @@
         "latitude": 46.0679383947018,
         "longitude": 11.2229740619659,
         "name": "Salmoiraghi e Vigan\u00f2",
-        "type": "ottico"
+        "type": "negozio_di_ottica"
     },
     {
         "osm_id": 28922411,
@@ -3091,7 +3091,7 @@
         "latitude": 46.0616183152342,
         "longitude": 11.2419319152832,
         "name": "Carpe Diem di Obletter Adriana",
-        "type": "abbigliamento"
+        "type": "negozio_di_abbigliamento"
     },
     {
         "osm_id": 1111843220,
@@ -3119,7 +3119,7 @@
         "latitude": 46.0679383947018,
         "longitude": 11.2229740619659,
         "name": "Conbipel",
-        "type": "abbigliamento"
+        "type": "negozio_di_abbigliamento"
     },
     {
         "osm_id": 106667856,
@@ -3147,7 +3147,7 @@
         "latitude": 46.0595040164331,
         "longitude": 11.2409341335297,
         "name": "Ottica Deflorian ",
-        "type": "ottico"
+        "type": "negozio_di_ottica"
     },
     {
         "osm_id": 85540804,
@@ -3189,7 +3189,7 @@
         "latitude": 46.0620352096668,
         "longitude": 11.2359666824341,
         "name": "Ottica Avanzi - Colorvision outlet srl",
-        "type": "ottico"
+        "type": "negozio_di_ottica"
     },
     {
         "osm_id": 293868275,
@@ -3238,7 +3238,7 @@
         "latitude": 46.0602336075625,
         "longitude": 11.2399578094482,
         "name": "L. Ochner Confezioni dal 1820",
-        "type": "abbigliamento"
+        "type": "negozio_di_abbigliamento"
     },
     {
         "osm_id": "10100657378",
@@ -3273,7 +3273,7 @@
         "latitude": 46.0679383947018,
         "longitude": 11.2229740619659,
         "name": "Euronics",
-        "type": "elettronica"
+        "type": "negozio_di_elettronica"
     },
     {
         "osm_id": 5774714668,
@@ -3441,14 +3441,14 @@
         "latitude": 46.0679383947018,
         "longitude": 11.2229740619659,
         "name": "Original Marines",
-        "type": "abbigliamento"
+        "type": "negozio_di_abbigliamento"
     },
     {
         "osm_id": 7687845025,
         "latitude": 46.0599804852016,
         "longitude": 11.2374258041382,
         "name": "Carlin Mauro",
-        "type": "gelateria"
+        "type": "gelateria-pasticceria"
     },
     {
         "osm_id": 5776542429,
@@ -3462,7 +3462,7 @@
         "latitude": 46.0617672064643,
         "longitude": 11.242264509201,
         "name": "Penelope",
-        "type": "abbigliamento"
+        "type": "negozio_di_abbigliamento"
     },
     {
         "osm_id": 35673491,
@@ -3504,7 +3504,7 @@
         "latitude": 46.0610971927666,
         "longitude": 11.2385308742523,
         "name": "Sopra Sotto di Smerrieri Alessandro",
-        "type": "abbigliamento"
+        "type": "negozio_di_abbigliamento"
     },
     {
         "osm_id": 5748667830,
@@ -3539,7 +3539,7 @@
         "latitude": 46.0604718393128,
         "longitude": 11.239914894104,
         "name": "Bazar Sartori",
-        "type": "abbigliamento"
+        "type": "negozio_di_abbigliamento"
     },
     {
         "osm_id": 1300059484,
@@ -3560,7 +3560,7 @@
         "latitude": 46.0602931655965,
         "longitude": 11.2398827075958,
         "name": "Calzature Fruet",
-        "type": "abbigliamento"
+        "type": "negozio_di_abbigliamento"
     },
     {
         "osm_id": 481282430,
@@ -3574,7 +3574,7 @@
         "latitude": 46.0636878673345,
         "longitude": 11.2319433689117,
         "name": "Tentazioni - Artigianato artistico",
-        "type": "souvenir"
+        "type": "negozio_di_souvenir"
     },
     {
         "osm_id": 373734502,
@@ -3616,7 +3616,7 @@
         "latitude": 46.0679383947018,
         "longitude": 11.2229740619659,
         "name": "Calzedonia",
-        "type": "abbigliamento"
+        "type": "negozio_di_abbigliamento"
     },
     {
         "osm_id": 3952792086,
@@ -3637,7 +3637,7 @@
         "latitude": 46.0614992019609,
         "longitude": 11.2415456771851,
         "name": "Oper\u00e0 di Dalla Costa Ketty",
-        "type": "abbigliamento"
+        "type": "negozio_di_abbigliamento"
     },
     {
         "osm_id": "10250777007",
@@ -3651,7 +3651,7 @@
         "latitude": 46.0607696275551,
         "longitude": 11.2393140792847,
         "name": "I Monelli di Mengarda Sonia",
-        "type": "abbigliamento"
+        "type": "negozio_di_abbigliamento"
     },
     {
         "osm_id": 5414900370,
@@ -3665,7 +3665,7 @@
         "latitude": 46.0607324041126,
         "longitude": 11.2390458583832,
         "name": "Lilian di Alvarez Gallardo Carolina",
-        "type": "abbigliamento"
+        "type": "negozio_di_abbigliamento"
     },
     {
         "osm_id": 1300059484,
@@ -3721,7 +3721,7 @@
         "latitude": 46.0647747233388,
         "longitude": 11.2451076507568,
         "name": "Pasticceria Laner",
-        "type": "gelateria"
+        "type": "gelateria-pasticceria"
     },
     {
         "osm_id": 406814319,
@@ -3763,7 +3763,7 @@
         "latitude": 46.0618714300865,
         "longitude": 11.242618560791,
         "name": "Pasticceria Grazia di Angeli Samantha",
-        "type": "gelateria"
+        "type": "gelateria-pasticceria"
     },
     {
         "osm_id": 5808652209,
@@ -3812,7 +3812,7 @@
         "latitude": 46.069024,
         "longitude": 11.11869,
         "name": "Residenza \u0093Torre Vanga\u0094",
-        "type": "appartamentovacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 1371175994,
@@ -3889,7 +3889,7 @@
         "latitude": 46.032785,
         "longitude": 11.130995,
         "name": "Cantina Sociale di Trento Le Meridiane S.C.A.",
-        "type": "prodottitipici"
+        "type": "negozio_di_prodotti_tipici"
     },
     {
         "osm_id": 939851135,
@@ -4008,7 +4008,7 @@
         "latitude": 46.069636,
         "longitude": 11.121366,
         "name": "Azienda per il Turismo Trento, Monte Bondone, Valle dei Laghi",
-        "type": "souvenir"
+        "type": "negozio_di_souvenir"
     },
     {
         "osm_id": 165174345,
@@ -4190,14 +4190,14 @@
         "latitude": 46.068676,
         "longitude": 11.121286,
         "name": "T&T Services Di Nguyen Thu Thuy",
-        "type": "wifi"
+        "type": "internet_point"
     },
     {
         "osm_id": 1687733849,
         "latitude": 46.069092,
         "longitude": 11.118484,
         "name": "International Communication And Service'S M.D.",
-        "type": "wifi"
+        "type": "internet_point"
     },
     {
         "osm_id": 268429704,
@@ -4232,7 +4232,7 @@
         "latitude": 46.077333,
         "longitude": 11.124297,
         "name": "Chaudhry Food And Phone Center S.A.S.",
-        "type": "wifi"
+        "type": "internet_point"
     },
     {
         "osm_id": 6239519384,
@@ -4302,7 +4302,7 @@
         "latitude": 46.043122,
         "longitude": 11.112756,
         "name": "Cantine Ferrari - F.lli Lunelli",
-        "type": "prodottitipici"
+        "type": "negozio_di_prodotti_tipici"
     },
     {
         "osm_id": 1150232421,
@@ -4372,7 +4372,7 @@
         "latitude": 46.068391,
         "longitude": 11.124797,
         "name": "Trio Comunicazioni S.R.L.",
-        "type": "wifi"
+        "type": "internet_point"
     },
     {
         "osm_id": 2565396445,
@@ -4477,7 +4477,7 @@
         "latitude": 46.094022,
         "longitude": 11.131381,
         "name": "Maso Bergamini",
-        "type": "prodottitipici"
+        "type": "negozio_di_prodotti_tipici"
     },
     {
         "osm_id": 43924940,
@@ -4610,7 +4610,7 @@
         "latitude": 45.980768,
         "longitude": 11.091773,
         "name": "Cantina Aldeno",
-        "type": "prodottitipici"
+        "type": "negozio_di_prodotti_tipici"
     },
     {
         "osm_id": 2556494830,
@@ -4806,7 +4806,7 @@
         "latitude": 46.054177,
         "longitude": 11.135225,
         "name": "Residenza \u0093Gocciadoro\u0094",
-        "type": "appartamentovacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 23058904,
@@ -4855,7 +4855,7 @@
         "latitude": 46.067904,
         "longitude": 11.125848,
         "name": "Residenza \u0093Galileo\u0094",
-        "type": "appartamentovacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 1276868946,
@@ -4904,7 +4904,7 @@
         "latitude": 46.043697,
         "longitude": 11.136582,
         "name": "Collina appartamenti",
-        "type": "appartamentovacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 51547879,
@@ -4918,7 +4918,7 @@
         "latitude": 46.068332,
         "longitude": 11.127067,
         "name": "Residenza \u0093Port\u0092Aquila\u0094",
-        "type": "appartamentovacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 70439885,
@@ -4953,7 +4953,7 @@
         "latitude": 46.070648,
         "longitude": 11.111976,
         "name": "Residenza \u0093Piedicastello\u0094",
-        "type": "appartamentovacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 431622345,
@@ -4981,7 +4981,7 @@
         "latitude": 46.103108,
         "longitude": 11.110538,
         "name": "Residenza \u0093Al Parco\u0094",
-        "type": "appartamentovacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 70439850,
@@ -5030,7 +5030,7 @@
         "latitude": 46.122042,
         "longitude": 11.09206,
         "name": "Residenza \u0093Antonella\u0094",
-        "type": "appartamentovacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 2455219,
@@ -5072,7 +5072,7 @@
         "latitude": 46.085279,
         "longitude": 11.118651,
         "name": "Bonvecchio Associati & C. S.A.S.",
-        "type": "wifi"
+        "type": "internet_point"
     },
     {
         "osm_id": 81846322,
@@ -5086,7 +5086,7 @@
         "latitude": 45.995601,
         "longitude": 11.126269,
         "name": "Karinhall",
-        "type": "appartamentovacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 121967941,
@@ -5415,7 +5415,7 @@
         "latitude": 46.000874,
         "longitude": 11.086009,
         "name": "Azienda per il Turismo Trento, Monte Bondone, Valle dei Laghi",
-        "type": "souvenir"
+        "type": "negozio_di_souvenir"
     },
     {
         "osm_id": 557197357,
@@ -5723,7 +5723,7 @@
         "latitude": 46.071114,
         "longitude": 11.124084,
         "name": "America 2",
-        "type": "appartamentovacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 64167420,
@@ -5933,7 +5933,7 @@
         "latitude": 46.066693,
         "longitude": 11.132449,
         "name": "Borgo Rossi Via delle Cave",
-        "type": "appartamentovacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 24874751,
@@ -6045,7 +6045,7 @@
         "latitude": 46.202564,
         "longitude": 11.122026,
         "name": "Cantine Rotari / Nosio S.P.A.",
-        "type": "prodottitipici"
+        "type": "negozio_di_prodotti_tipici"
     },
     {
         "osm_id": 94132080,
@@ -6192,7 +6192,7 @@
         "latitude": 46.09804,
         "longitude": 11.112821,
         "name": "Alex",
-        "type": "appartamentovacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 3123802726,
@@ -6213,7 +6213,7 @@
         "latitude": 46.037492,
         "longitude": 11.002635,
         "name": "Lagolo",
-        "type": "appartamentovacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 32431184,
@@ -6269,7 +6269,7 @@
         "latitude": 46.043122,
         "longitude": 11.112756,
         "name": "Distilleria Segnana - F.lli Lunelli",
-        "type": "prodottitipici"
+        "type": "negozio_di_prodotti_tipici"
     },
     {
         "osm_id": 24310652,
@@ -6332,7 +6332,7 @@
         "latitude": 46.075419,
         "longitude": 10.996386,
         "name": "Azienda per il Turismo Trento, Monte Bondone, Valle dei Laghi",
-        "type": "souvenir"
+        "type": "negozio_di_souvenir"
     },
     {
         "osm_id": 255539182,
@@ -6346,7 +6346,7 @@
         "latitude": 46.042214,
         "longitude": 11.113421,
         "name": "Cavit - Cantina ed Enoteca",
-        "type": "prodottitipici"
+        "type": "negozio_di_prodotti_tipici"
     },
     {
         "osm_id": 3682643029,
@@ -6409,7 +6409,7 @@
         "latitude": 46.062525,
         "longitude": 11.125071,
         "name": "Borgo Rossi Via G. Ossanna",
-        "type": "appartamentovacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 388934086,
@@ -6423,7 +6423,7 @@
         "latitude": 46.074019,
         "longitude": 11.060518,
         "name": "Antica Salumeria Belli",
-        "type": "prodottitipici"
+        "type": "negozio_di_prodotti_tipici"
     },
     {
         "osm_id": 39092306,
@@ -6591,7 +6591,7 @@
         "latitude": 46.070585,
         "longitude": 11.124683,
         "name": "Borgo Rossi Via Suffragio",
-        "type": "appartamentovacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 364810090,
@@ -6668,7 +6668,7 @@
         "latitude": 46.068191,
         "longitude": 11.121307,
         "name": "La Bottega degli Antichi Sapori",
-        "type": "prodottitipici"
+        "type": "negozio_di_prodotti_tipici"
     },
     {
         "osm_id": 263380183,
@@ -6710,7 +6710,7 @@
         "latitude": 46.050889,
         "longitude": 11.072877,
         "name": "Azienda per il Turismo Trento, Monte Bondone, Valle dei Laghi",
-        "type": "souvenir"
+        "type": "negozio_di_souvenir"
     },
     {
         "osm_id": 401768421,
@@ -6731,7 +6731,7 @@
         "latitude": 46.067167,
         "longitude": 11.12356,
         "name": "Antica Salumeria Belli",
-        "type": "prodottitipici"
+        "type": "negozio_di_prodotti_tipici"
     },
     {
         "osm_id": 307993862,
@@ -6745,7 +6745,7 @@
         "latitude": 46.156841,
         "longitude": 11.158176,
         "name": "AZIENDA VITIVINICOLA VILLA CORNIOLE",
-        "type": "prodottitipici"
+        "type": "negozio_di_prodotti_tipici"
     },
     {
         "osm_id": 126273701,
@@ -6808,7 +6808,7 @@
         "latitude": 46.1286,
         "longitude": 11.2505,
         "name": "SIGHEL NOEMI",
-        "type": "appartamentovacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 832929591,
@@ -6920,7 +6920,7 @@
         "latitude": 46.098591,
         "longitude": 11.236052,
         "name": "Calzature Carlin Luigi e c. Sas",
-        "type": "abbigliamento"
+        "type": "negozio_di_abbigliamento"
     },
     {
         "osm_id": 24845131,
@@ -7116,7 +7116,7 @@
         "latitude": 46.1308,
         "longitude": 11.2455,
         "name": "BROSEGHINI FABIO",
-        "type": "appartamentovacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 24794537,
@@ -7158,14 +7158,14 @@
         "latitude": 46.135,
         "longitude": 11.2491,
         "name": "BRAGHIROLI TOMASI ALESSANDRA",
-        "type": "appartamentovacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 82604931,
         "latitude": 46.096111,
         "longitude": 11.23472,
         "name": "FRANCESCHI NADIA",
-        "type": "appartamentovacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 1212440287,
@@ -7186,7 +7186,7 @@
         "latitude": 46.12991,
         "longitude": 11.2332869,
         "name": "ANESI TULLIO",
-        "type": "appartamentovacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 1923458359,
@@ -7235,7 +7235,7 @@
         "latitude": 46.1275,
         "longitude": 11.235,
         "name": "ANESI MARIA",
-        "type": "appartamentovacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 97548127,
@@ -7277,7 +7277,7 @@
         "latitude": 46.1647,
         "longitude": 11.3069,
         "name": "NATTIVI LUCIANO",
-        "type": "appartamentovacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 1299717583,
@@ -7291,7 +7291,7 @@
         "latitude": 46.1441,
         "longitude": 11.2608,
         "name": "BORTOLOTTI LORENZO",
-        "type": "appartamentovacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 42178042,
@@ -7319,7 +7319,7 @@
         "latitude": 46.158268,
         "longitude": 11.140582,
         "name": "AZIENDA AGRICOLA SIMONI FERRUCCIO",
-        "type": "prodottitipici"
+        "type": "negozio_di_prodotti_tipici"
     },
     {
         "osm_id": "11971458672",
@@ -7438,7 +7438,7 @@
         "latitude": 46.1333992,
         "longitude": 11.2530465,
         "name": "ANDREATTA ESTER",
-        "type": "appartamentovacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 41532412,
@@ -7466,7 +7466,7 @@
         "latitude": 46.1494088,
         "longitude": 11.2695905,
         "name": "ANDREATTA ONORINA",
-        "type": "appartamentovacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 255423481,
@@ -7480,7 +7480,7 @@
         "latitude": 46.221667,
         "longitude": 11.293611,
         "name": "SIMEONI LUISA",
-        "type": "appartamentovacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 1923459909,
@@ -7501,14 +7501,14 @@
         "latitude": 46.130278,
         "longitude": 11.245278,
         "name": "SIGHEL CRISTINA",
-        "type": "appartamentovacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 123631727,
         "latitude": 46.207001,
         "longitude": 11.266594,
         "name": "INTERNET - CAFE' BEER BAR WNOE'",
-        "type": "wifi"
+        "type": "internet_point"
     },
     {
         "osm_id": 42691880,
@@ -7529,7 +7529,7 @@
         "latitude": 46.13273,
         "longitude": 11.247403,
         "name": "Erspamer Irene Snc",
-        "type": "souvenir"
+        "type": "negozio_di_souvenir"
     },
     {
         "osm_id": 26122961,
@@ -7613,14 +7613,14 @@
         "latitude": 46.157005,
         "longitude": 11.153031,
         "name": "Enrici Giovanna",
-        "type": "abbigliamento"
+        "type": "negozio_di_abbigliamento"
     },
     {
         "osm_id": 293233403,
         "latitude": 46.1313,
         "longitude": 11.2463,
         "name": "SIGHEL SANDRO",
-        "type": "appartamentovacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 445468059,
@@ -7634,14 +7634,14 @@
         "latitude": 46.083337,
         "longitude": 11.199099,
         "name": "CENTRO MODA",
-        "type": "abbigliamento"
+        "type": "negozio_di_abbigliamento"
     },
     {
         "osm_id": 24998820,
         "latitude": 46.1353,
         "longitude": 11.248,
         "name": "ANESI GRAZIELLA",
-        "type": "appartamentovacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 520622911,
@@ -7781,7 +7781,7 @@
         "latitude": 46.160758,
         "longitude": 11.302338,
         "name": "Soc. MACELLERIA CASAGRANDA sas",
-        "type": "prodottitipici"
+        "type": "negozio_di_prodotti_tipici"
     },
     {
         "osm_id": 1154520451,
@@ -7809,7 +7809,7 @@
         "latitude": 46.175,
         "longitude": 11.2225,
         "name": "RESIDENZA SAN ROCCO",
-        "type": "appartamentovacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 26122960,
@@ -7844,7 +7844,7 @@
         "latitude": 46.124444,
         "longitude": 11.246667,
         "name": "SIGHEL ROSANNA",
-        "type": "appartamentovacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 24765061,
@@ -7872,7 +7872,7 @@
         "latitude": 46.1763,
         "longitude": 11.2225,
         "name": "GOTTARDI ANNINO",
-        "type": "appartamentovacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 1287407451,
@@ -7900,21 +7900,21 @@
         "latitude": 46.1408,
         "longitude": 11.2541,
         "name": "RESIDENZA DOSSALT",
-        "type": "appartamentovacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 504022293,
         "latitude": 46.095833,
         "longitude": 11.233056,
         "name": "RENSI CLAUDIO",
-        "type": "appartamentovacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 26135722,
         "latitude": 46.134631,
         "longitude": 11.24827,
         "name": "Viliotti Italo & C. Snc",
-        "type": "abbigliamento"
+        "type": "negozio_di_abbigliamento"
     },
     {
         "osm_id": 5711588722,
@@ -7935,7 +7935,7 @@
         "latitude": 46.158075,
         "longitude": 11.139298,
         "name": "Pellegrini",
-        "type": "abbigliamento"
+        "type": "negozio_di_abbigliamento"
     },
     {
         "osm_id": 24794532,
@@ -8047,14 +8047,14 @@
         "latitude": 46.197805,
         "longitude": 11.246308,
         "name": "DISTILLERIA PILZER S.n.c.",
-        "type": "prodottitipici"
+        "type": "negozio_di_prodotti_tipici"
     },
     {
         "osm_id": 253348825,
         "latitude": 46.184477,
         "longitude": 11.24206,
         "name": "DISTILLERIA PAOLAZZI VITTORIO",
-        "type": "prodottitipici"
+        "type": "negozio_di_prodotti_tipici"
     },
     {
         "osm_id": 331350610,
@@ -8117,7 +8117,7 @@
         "latitude": 46.175434,
         "longitude": 11.223175,
         "name": "CANTINA LA VIS E VALLE DI CEMBRA SCARL",
-        "type": "prodottitipici"
+        "type": "negozio_di_prodotti_tipici"
     },
     {
         "osm_id": 168005054,
@@ -8138,7 +8138,7 @@
         "latitude": 46.13356,
         "longitude": 11.245848,
         "name": "Lopez Lidia",
-        "type": "souvenir"
+        "type": "negozio_di_souvenir"
     },
     {
         "osm_id": 104384273,
@@ -8229,7 +8229,7 @@
         "latitude": 46.087856,
         "longitude": 11.17972,
         "name": "CANTINA DELL'AZIENDA AGRICOLA MASO CANTANGHEL",
-        "type": "prodottitipici"
+        "type": "negozio_di_prodotti_tipici"
     },
     {
         "osm_id": 1205979358,
@@ -8306,7 +8306,7 @@
         "latitude": 46.154552,
         "longitude": 11.154576,
         "name": "OPERA VITIVINICOLA IN VAL DI CEMBRA",
-        "type": "prodottitipici"
+        "type": "negozio_di_prodotti_tipici"
     },
     {
         "osm_id": 8070710575,
@@ -8341,7 +8341,7 @@
         "latitude": 46.1313,
         "longitude": 11.243,
         "name": "SIGHEL GILIO",
-        "type": "appartamentovacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 139782816,
@@ -8418,7 +8418,7 @@
         "latitude": 46.11667,
         "longitude": 11.207116,
         "name": "PRODOTTI AGRICOLI",
-        "type": "prodottitipici"
+        "type": "negozio_di_prodotti_tipici"
     },
     {
         "osm_id": 125480046,
@@ -8523,7 +8523,7 @@
         "latitude": 46.161835,
         "longitude": 11.303649,
         "name": "CALZATURE SVALDI",
-        "type": "abbigliamento"
+        "type": "negozio_di_abbigliamento"
     },
     {
         "osm_id": 253226907,
@@ -8593,7 +8593,7 @@
         "latitude": 46.13791,
         "longitude": 11.10788,
         "name": "CANTINA LA VIS E VALLE DI CEMBRA SCARL",
-        "type": "prodottitipici"
+        "type": "negozio_di_prodotti_tipici"
     },
     {
         "osm_id": 9201653,
@@ -8733,7 +8733,7 @@
         "latitude": 46.174387,
         "longitude": 11.218958,
         "name": "Callegari Fulvio ",
-        "type": "abbigliamento"
+        "type": "negozio_di_abbigliamento"
     },
     {
         "osm_id": 239014474,
@@ -8747,7 +8747,7 @@
         "latitude": 46.1252,
         "longitude": 11.243,
         "name": "FOLLADOR FRANCESCO",
-        "type": "appartamentovacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 167260543,
@@ -8775,7 +8775,7 @@
         "latitude": 46.1805,
         "longitude": 11.2336,
         "name": "PAOLAZZI MONICA",
-        "type": "appartamentovacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": "11043617883",
@@ -8831,7 +8831,7 @@
         "latitude": 46.177009,
         "longitude": 11.223679,
         "name": "AZIENDA VINICOLA NICOLODI ALFIO",
-        "type": "prodottitipici"
+        "type": "negozio_di_prodotti_tipici"
     },
     {
         "osm_id": 261569633,
@@ -8880,7 +8880,7 @@
         "latitude": 46.13412,
         "longitude": 11.247143,
         "name": "Viliotti Italo & C. Snc",
-        "type": "abbigliamento"
+        "type": "negozio_di_abbigliamento"
     },
     {
         "osm_id": 255928035,
@@ -8992,14 +8992,14 @@
         "latitude": 46.1875,
         "longitude": 11.257222,
         "name": "PEDRI ARMANDO",
-        "type": "appartamentovacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 259521111,
         "latitude": 46.1363,
         "longitude": 11.248,
         "name": "CASA DEI CHECHI",
-        "type": "appartamentovacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 1190841516,
@@ -9027,7 +9027,7 @@
         "latitude": 46.13,
         "longitude": 11.2344,
         "name": "AVI LUCIA",
-        "type": "appartamentovacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 42691880,
@@ -9083,7 +9083,7 @@
         "latitude": 46.153601,
         "longitude": 11.119965,
         "name": "AZIENDA AGRICOLA DEVIGLI ELIO",
-        "type": "prodottitipici"
+        "type": "negozio_di_prodotti_tipici"
     },
     {
         "osm_id": 28163721,
@@ -9104,7 +9104,7 @@
         "latitude": 46.1294,
         "longitude": 11.2333,
         "name": "AVI CLAUDIO",
-        "type": "appartamentovacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 76788043,
@@ -9167,7 +9167,7 @@
         "latitude": 46.133,
         "longitude": 11.2477,
         "name": "FAM. GERMANO - SCHMOHL",
-        "type": "appartamentovacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 1154520450,
@@ -9188,14 +9188,14 @@
         "latitude": 46.1263,
         "longitude": 11.2472,
         "name": "TESSADRI GIORGIO",
-        "type": "appartamentovacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 440717488,
         "latitude": 46.1077,
         "longitude": 11.235,
         "name": "LEONARDELLI GIUSEPPE",
-        "type": "appartamentovacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 26135722,
@@ -9223,7 +9223,7 @@
         "latitude": 46.1327,
         "longitude": 11.2491,
         "name": "GIOVANNINI SILVANO",
-        "type": "appartamentovacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 927947054,
@@ -9265,7 +9265,7 @@
         "latitude": 46.098557,
         "longitude": 11.235977,
         "name": "Carlin Maria Rosa in Sighel",
-        "type": "abbigliamento"
+        "type": "negozio_di_abbigliamento"
     },
     {
         "osm_id": 1301455857,
@@ -9300,14 +9300,14 @@
         "latitude": 46.230833,
         "longitude": 11.300278,
         "name": "CONDOMINIO AL SOL",
-        "type": "appartamentovacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 26165192,
         "latitude": 46.1283,
         "longitude": 11.2366,
         "name": "AVI MARIO",
-        "type": "appartamentovacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 253472677,
@@ -9321,7 +9321,7 @@
         "latitude": 46.1247,
         "longitude": 11.2413,
         "name": "CASAGRANDA MAURO",
-        "type": "appartamentovacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 936139698,
@@ -9356,7 +9356,7 @@
         "latitude": 46.125556,
         "longitude": 11.249722,
         "name": "FONTANA ANDREA",
-        "type": "appartamentovacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 227692436,
@@ -9377,14 +9377,14 @@
         "latitude": 46.160278,
         "longitude": 11.173333,
         "name": "RESIDENZA SOFIA",
-        "type": "appartamentovacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 87053305,
         "latitude": 46.175304,
         "longitude": 11.220627,
         "name": "INTERNET POINT DI CEMBRA",
-        "type": "wifi"
+        "type": "internet_point"
     },
     {
         "osm_id": 1154520450,
@@ -9412,7 +9412,7 @@
         "latitude": 46.161915,
         "longitude": 11.303384,
         "name": "INTERNET POINT DI BEDOLLO",
-        "type": "wifi"
+        "type": "internet_point"
     },
     {
         "osm_id": 253576180,
@@ -9482,14 +9482,14 @@
         "latitude": 46.1408471,
         "longitude": 11.2568737,
         "name": "DALLAFIOR LUCIANO",
-        "type": "appartamentovacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 82591578,
         "latitude": 46.1086,
         "longitude": 11.2402,
         "name": "CA' DEI SONI",
-        "type": "appartamentovacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 259536186,
@@ -9608,7 +9608,7 @@
         "latitude": 46.1305042,
         "longitude": 11.2441154,
         "name": "BORTOLOTTI IVO",
-        "type": "appartamentovacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 26122961,
@@ -9678,7 +9678,7 @@
         "latitude": 46.139444,
         "longitude": 11.251111,
         "name": "ISCHIA NADIA",
-        "type": "appartamentovacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 76788009,
@@ -9699,7 +9699,7 @@
         "latitude": 46.2305,
         "longitude": 11.2977,
         "name": "TONEZZER MATTEO",
-        "type": "appartamentovacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 261827791,
@@ -9741,7 +9741,7 @@
         "latitude": 46.140278,
         "longitude": 11.256667,
         "name": "IORIATTI SERGIO",
-        "type": "appartamentovacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 259537211,
@@ -9930,7 +9930,7 @@
         "latitude": 46.0679383947018,
         "longitude": 11.2229740619659,
         "name": "Calzature Volpato",
-        "type": "abbigliamento"
+        "type": "negozio_di_abbigliamento"
     },
     {
         "osm_id": 576305606,
@@ -9944,7 +9944,7 @@
         "latitude": 46.0688093029905,
         "longitude": 11.2389278411865,
         "name": "Mondo Cavallo",
-        "type": "abbigliamento"
+        "type": "negozio_di_abbigliamento"
     },
     {
         "osm_id": 1224360376,
@@ -10119,7 +10119,7 @@
         "latitude": 46.0613800884307,
         "longitude": 11.2367498874664,
         "name": "Italcina Trova Tutto",
-        "type": "abbigliamento"
+        "type": "negozio_di_abbigliamento"
     },
     {
         "osm_id": 1111843220,
@@ -10203,7 +10203,7 @@
         "latitude": 46.0110763394521,
         "longitude": 11.3028287887573,
         "name": "Keramos",
-        "type": "souvenir"
+        "type": "negozio_di_souvenir"
     },
     {
         "osm_id": 1111843220,
@@ -10238,14 +10238,14 @@
         "latitude": 46.0679383947018,
         "longitude": 11.2229740619659,
         "name": "Bata Superstore",
-        "type": "abbigliamento"
+        "type": "negozio_di_abbigliamento"
     },
     {
         "osm_id": 106263889,
         "latitude": 46.0654968007714,
         "longitude": 11.2379944324493,
         "name": "Lavasecco Al Cristallo di Moro Alviana",
-        "type": "abbigliamento"
+        "type": "negozio_di_abbigliamento"
     },
     {
         "osm_id": 406813115,
@@ -10315,7 +10315,7 @@
         "latitude": 46.0643131843619,
         "longitude": 11.2299156188965,
         "name": "EP Leonardelli Shop Center",
-        "type": "elettronica"
+        "type": "negozio_di_elettronica"
     },
     {
         "osm_id": 229110821,
@@ -10343,7 +10343,7 @@
         "latitude": 46.012119523327,
         "longitude": 11.2965631484985,
         "name": "Bottega Artigiana di Capozzi Lorenzo",
-        "type": "prodottitipici"
+        "type": "negozio_di_prodotti_tipici"
     },
     {
         "osm_id": 6732654698,
@@ -10371,7 +10371,7 @@
         "latitude": 46.0619012082281,
         "longitude": 11.2420606613159,
         "name": "Baratto Confezioni",
-        "type": "abbigliamento"
+        "type": "negozio_di_abbigliamento"
     },
     {
         "osm_id": 8967695841,
@@ -10427,7 +10427,7 @@
         "latitude": 46.0699556057744,
         "longitude": 11.221182346344,
         "name": "Io Bimbo",
-        "type": "abbigliamento"
+        "type": "negozio_di_abbigliamento"
     },
     {
         "osm_id": 1225088527,
@@ -10441,7 +10441,7 @@
         "latitude": 46.0628243226525,
         "longitude": 11.2402153015137,
         "name": "A.B. Intimo di Alessi & Brunelli snc",
-        "type": "abbigliamento"
+        "type": "negozio_di_abbigliamento"
     },
     {
         "osm_id": 3952806161,
@@ -10553,7 +10553,7 @@
         "latitude": 46.0544934005909,
         "longitude": 11.2359344959259,
         "name": "Cenca srl (vicino formica)",
-        "type": "abbigliamento"
+        "type": "negozio_di_abbigliamento"
     },
     {
         "osm_id": 1299719648,
@@ -10672,7 +10672,7 @@
         "latitude": 46.0609334104038,
         "longitude": 11.2386918067932,
         "name": "Foto Ottica Fanton",
-        "type": "ottico"
+        "type": "negozio_di_ottica"
     },
     {
         "osm_id": 458708907,
@@ -10721,7 +10721,7 @@
         "latitude": 46.0679383947018,
         "longitude": 11.2229740619659,
         "name": "Benetton",
-        "type": "abbigliamento"
+        "type": "negozio_di_abbigliamento"
     },
     {
         "osm_id": "11968236746",
@@ -10847,7 +10847,7 @@
         "latitude": 46.0698960581641,
         "longitude": 11.2218475341797,
         "name": "Pi\u00f9 Gusto srl",
-        "type": "prodottitipici"
+        "type": "negozio_di_prodotti_tipici"
     },
     {
         "osm_id": 26789155,
@@ -10868,14 +10868,14 @@
         "latitude": 46.0598985924247,
         "longitude": 11.2379837036133,
         "name": "Pasticceria Milano",
-        "type": "gelateria"
+        "type": "gelateria-pasticceria"
     },
     {
         "osm_id": 1111843220,
         "latitude": 46.0679383947018,
         "longitude": 11.2229740619659,
         "name": "Lin Ruiqiu",
-        "type": "abbigliamento"
+        "type": "negozio_di_abbigliamento"
     },
     {
         "osm_id": 5748664805,
@@ -10924,7 +10924,7 @@
         "latitude": 46.0679383947018,
         "longitude": 11.2229740619659,
         "name": "Huang Ziangqun",
-        "type": "abbigliamento"
+        "type": "negozio_di_abbigliamento"
     },
     {
         "osm_id": 3952792063,
@@ -10959,7 +10959,7 @@
         "latitude": 46.0679383947018,
         "longitude": 11.2229740619659,
         "name": "Gamestop",
-        "type": "elettronica"
+        "type": "negozio_di_elettronica"
     },
     {
         "osm_id": 6593002908,
@@ -11015,7 +11015,7 @@
         "latitude": 46.0117022521382,
         "longitude": 11.3026571273804,
         "name": "Grappa Vettorazzi",
-        "type": "prodottitipici"
+        "type": "negozio_di_prodotti_tipici"
     },
     {
         "osm_id": 149624843,
@@ -11113,7 +11113,7 @@
         "latitude": 46.0628392114684,
         "longitude": 11.6340065002441,
         "name": "Da Camillo",
-        "type": "gelateria"
+        "type": "gelateria-pasticceria"
     },
     {
         "osm_id": 293869755,
@@ -11162,7 +11162,7 @@
         "latitude": 46.0611716391345,
         "longitude": 11.2409448623657,
         "name": "Mattivi",
-        "type": "abbigliamento"
+        "type": "negozio_di_abbigliamento"
     },
     {
         "osm_id": 3951277745,
@@ -11253,7 +11253,7 @@
         "latitude": 46.0597124720252,
         "longitude": 11.2387561798096,
         "name": "Mifro",
-        "type": "elettronica"
+        "type": "negozio_di_elettronica"
     },
     {
         "osm_id": 30854675,
@@ -11281,7 +11281,7 @@
         "latitude": 46.058193706119,
         "longitude": 11.2370610237122,
         "name": "NKD Italia",
-        "type": "abbigliamento"
+        "type": "negozio_di_abbigliamento"
     },
     {
         "osm_id": 518505157,
@@ -11295,7 +11295,7 @@
         "latitude": 46.0611716391345,
         "longitude": 11.2383484840393,
         "name": "Sinfonia Sara di Trenti Sara",
-        "type": "abbigliamento"
+        "type": "negozio_di_abbigliamento"
     },
     {
         "osm_id": 4941869749,
@@ -11428,7 +11428,7 @@
         "latitude": 46.0657275657945,
         "longitude": 11.2415885925293,
         "name": "MG di Morelli Gilberto",
-        "type": "elettronica"
+        "type": "negozio_di_elettronica"
     },
     {
         "osm_id": 6627414305,
@@ -11470,7 +11470,7 @@
         "latitude": 46.0610376356,
         "longitude": 11.2390351295471,
         "name": "Osler Sport",
-        "type": "abbigliamento"
+        "type": "negozio_di_abbigliamento"
     },
     {
         "osm_id": 466641130,
@@ -11645,7 +11645,7 @@
         "latitude": 46.0624372120311,
         "longitude": 11.2431335449219,
         "name": "Giovannini Luisa",
-        "type": "abbigliamento"
+        "type": "negozio_di_abbigliamento"
     },
     {
         "osm_id": 518505157,
@@ -11666,7 +11666,7 @@
         "latitude": 46.0679383947018,
         "longitude": 11.2229740619659,
         "name": "Moda Club",
-        "type": "abbigliamento"
+        "type": "negozio_di_abbigliamento"
     },
     {
         "osm_id": 388561437,
@@ -11729,7 +11729,7 @@
         "latitude": 46.0119108881262,
         "longitude": 11.3007473945618,
         "name": "Hobby e Fantasia",
-        "type": "souvenir"
+        "type": "negozio_di_souvenir"
     },
     {
         "osm_id": 497099020,
@@ -11750,7 +11750,7 @@
         "latitude": 46.0626307676811,
         "longitude": 11.2397861480713,
         "name": "Elettrocentro di Morelli Egidio",
-        "type": "elettronica"
+        "type": "negozio_di_elettronica"
     },
     {
         "osm_id": 259094719,
@@ -11848,7 +11848,7 @@
         "latitude": 46.0620054315974,
         "longitude": 11.2430262565613,
         "name": "Abbigliamento all'Angolo",
-        "type": "abbigliamento"
+        "type": "negozio_di_abbigliamento"
     },
     {
         "osm_id": 799244269,
@@ -11897,7 +11897,7 @@
         "latitude": 46.0559303696104,
         "longitude": 11.473503112793,
         "name": "Centro Commerciale Le Valli",
-        "type": "centrocommerciale"
+        "type": "centro_commerciale"
     },
     {
         "osm_id": 4628585424,
@@ -11960,7 +11960,7 @@
         "latitude": 46.0637771987721,
         "longitude": 11.2321901321411,
         "name": "Giga Shop Computer",
-        "type": "elettronica"
+        "type": "negozio_di_elettronica"
     },
     {
         "osm_id": 1111843220,
@@ -12051,14 +12051,14 @@
         "latitude": 46.0591764417697,
         "longitude": 11.2371146678925,
         "name": "Sposa Chic",
-        "type": "abbigliamento"
+        "type": "negozio_di_abbigliamento"
     },
     {
         "osm_id": 3952792060,
         "latitude": 46.0608738530605,
         "longitude": 11.2386703491211,
         "name": "Linea Intima Young",
-        "type": "abbigliamento"
+        "type": "negozio_di_abbigliamento"
     },
     {
         "osm_id": 334713709,
@@ -12163,7 +12163,7 @@
         "latitude": 46.0627052119812,
         "longitude": 11.2421250343323,
         "name": "Pasticceria Olzer",
-        "type": "gelateria"
+        "type": "gelateria-pasticceria"
     },
     {
         "osm_id": 620196086,
@@ -12177,14 +12177,14 @@
         "latitude": 46.0610301909496,
         "longitude": 11.2394213676453,
         "name": "Linea Dematt\u00e8",
-        "type": "abbigliamento"
+        "type": "negozio_di_abbigliamento"
     },
     {
         "osm_id": 106406115,
         "latitude": 46.0612907531144,
         "longitude": 11.2410950660706,
         "name": "Linea Calzature - Rosy Sport",
-        "type": "abbigliamento"
+        "type": "negozio_di_abbigliamento"
     },
     {
         "osm_id": 65608580,
@@ -12198,7 +12198,7 @@
         "latitude": 46.0692335866661,
         "longitude": 11.6087293624878,
         "name": "Macelleria Capraro",
-        "type": "prodottitipici"
+        "type": "negozio_di_prodotti_tipici"
     },
     {
         "osm_id": 139501762,
@@ -12226,7 +12226,7 @@
         "latitude": 46.0679383947018,
         "longitude": 11.2229740619659,
         "name": "DMO Dettaglio Moderno Organizzato",
-        "type": "abbigliamento"
+        "type": "negozio_di_abbigliamento"
     },
     {
         "osm_id": 85541113,
@@ -12338,7 +12338,7 @@
         "latitude": 46.2903757288985,
         "longitude": 11.433527469635,
         "name": "FAMIGLIA COOPERATIVA - VERONZA",
-        "type": "Supermercato/minimarket"
+        "type": "supermercato"
     },
     {
         "osm_id": 23101090,
@@ -12373,14 +12373,14 @@
         "latitude": 46.3141906611446,
         "longitude": 11.5985584259033,
         "name": "DESPAR - PREDAZZO",
-        "type": "Supermercato/minimarket"
+        "type": "supermercato"
     },
     {
         "osm_id": 23100749,
         "latitude": 46.2899976305797,
         "longitude": 11.511504650116,
         "name": "FAMIGLIA COOPERATIVA - TESERO",
-        "type": "Supermercato/minimarket"
+        "type": "supermercato"
     },
     {
         "osm_id": "11676261997",
@@ -12513,7 +12513,7 @@
         "latitude": 46.2873508692661,
         "longitude": 11.4444494247437,
         "name": "FAMIGLIA COOPERATIVA - CENTRO ALIMENTARE",
-        "type": "Supermercato/minimarket"
+        "type": "supermercato"
     },
     {
         "osm_id": 110880120,
@@ -12597,7 +12597,7 @@
         "latitude": 46.3001015962498,
         "longitude": 11.4484405517578,
         "name": "FAMIGLIA COOPERATIVA DAIANO",
-        "type": "Supermercato/minimarket"
+        "type": "supermercato"
     },
     {
         "osm_id": 58779173,
@@ -12723,7 +12723,7 @@
         "latitude": 46.3131013152124,
         "longitude": 11.6007900238037,
         "name": "FAMIGLIA COOPERATIVA - PREDAZZO",
-        "type": "Supermercato/minimarket"
+        "type": "supermercato"
     },
     {
         "osm_id": 110880120,
@@ -12779,7 +12779,7 @@
         "latitude": 46.2914210459614,
         "longitude": 11.4603710174561,
         "name": "COSE BUONE DA PAOLO",
-        "type": "Gelateria / Pasticceria"
+        "type": "gelateria-pasticceria"
     },
     {
         "osm_id": 4582441587,
@@ -12821,14 +12821,14 @@
         "latitude": 46.303461,
         "longitude": 11.456182,
         "name": "FAMIGLIA COOPERATIVA - VARENA",
-        "type": "Supermercato/minimarket"
+        "type": "supermercato"
     },
     {
         "osm_id": 255422796,
         "latitude": 46.283488,
         "longitude": 11.485578,
         "name": "FAMIGLIA COOPERATIVA-MASI DI CAVALESE",
-        "type": "Supermercato/minimarket"
+        "type": "supermercato"
     },
     {
         "osm_id": 533337998,
@@ -13003,7 +13003,7 @@
         "latitude": 46.2916656917546,
         "longitude": 11.4598774909973,
         "name": "FAMIGLIA COOPERATIVA-SEDE",
-        "type": "Supermercato/minimarket"
+        "type": "supermercato"
     },
     {
         "osm_id": 401779757,
@@ -13038,7 +13038,7 @@
         "latitude": 46.291623,
         "longitude": 11.439793,
         "name": "DELVAI MARKET",
-        "type": "Supermercato/minimarket"
+        "type": "supermercato"
     },
     {
         "osm_id": 64194135,
@@ -13059,7 +13059,7 @@
         "latitude": 46.2862887,
         "longitude": 11.5413526,
         "name": "CASA DEL DOLCE",
-        "type": "Gelateria / Pasticceria"
+        "type": "gelateria-pasticceria"
     },
     {
         "osm_id": 70259263,
@@ -13087,7 +13087,7 @@
         "latitude": 46.2926739174312,
         "longitude": 11.4904546737671,
         "name": "EUROSPAR",
-        "type": "Supermercato/minimarket"
+        "type": "supermercato"
     },
     {
         "osm_id": 26821593,
@@ -13122,7 +13122,7 @@
         "latitude": 46.2628707,
         "longitude": 11.3393244,
         "name": "FAMIGLIA COOPERATIVA - CAPRIANA",
-        "type": "Supermercato/minimarket"
+        "type": "supermercato"
     },
     {
         "osm_id": 1263209698,
@@ -13199,7 +13199,7 @@
         "latitude": 46.31161,
         "longitude": 11.60185,
         "name": "FIOR DI BOSCO",
-        "type": "Gelateria / Pasticceria"
+        "type": "gelateria-pasticceria"
     },
     {
         "osm_id": 832931372,
@@ -13220,7 +13220,7 @@
         "latitude": 46.29137,
         "longitude": 11.46134,
         "name": "DESPAR - CAVALESE",
-        "type": "Supermercato/minimarket"
+        "type": "supermercato"
     },
     {
         "osm_id": 6967196898,
@@ -13248,14 +13248,14 @@
         "latitude": 46.289196943171,
         "longitude": 11.454781293869,
         "name": "EUROSPESA",
-        "type": "Supermercato/minimarket"
+        "type": "supermercato"
     },
     {
         "osm_id": 599230129,
         "latitude": 46.2866687699942,
         "longitude": 11.5611684322357,
         "name": "FAMIGLIA COOPERATIVA",
-        "type": "Supermercato/minimarket"
+        "type": "supermercato"
     },
     {
         "osm_id": 64167414,
@@ -13339,7 +13339,7 @@
         "latitude": 46.277577,
         "longitude": 11.4139499,
         "name": "FAMIGLIA COPERATIVA PREDAIA",
-        "type": "Supermercato/minimarket"
+        "type": "supermercato"
     },
     {
         "osm_id": 27662015,
@@ -13360,7 +13360,7 @@
         "latitude": 46.31341,
         "longitude": 11.66114,
         "name": "FAMIGLIA COOPERATIVA - BELLAMONTE",
-        "type": "Supermercato/minimarket"
+        "type": "supermercato"
     },
     {
         "osm_id": 58779173,
@@ -13451,7 +13451,7 @@
         "latitude": 46.2918139614005,
         "longitude": 11.4383983612061,
         "name": "FAMIGLIA COOPERATIVA - CARANO",
-        "type": "Supermercato/minimarket"
+        "type": "supermercato"
     },
     {
         "osm_id": 364810092,
@@ -13528,7 +13528,7 @@
         "latitude": 46.2874101818449,
         "longitude": 11.4445352554321,
         "name": "EUROSPIN DISCOUNT",
-        "type": "Supermercato/minimarket"
+        "type": "supermercato"
     },
     {
         "osm_id": 1135835044,
@@ -13696,7 +13696,7 @@
         "latitude": 46.273247,
         "longitude": 11.416193,
         "name": "FAMIGLIA COPERATIVA MOLINA DI FIEMME",
-        "type": "Supermercato/minimarket"
+        "type": "supermercato"
     },
     {
         "osm_id": 4586771959,
@@ -13710,7 +13710,7 @@
         "latitude": 46.2825463370991,
         "longitude": 11.552402973175,
         "name": "SUPERMERCATI POLI REGINA",
-        "type": "Supermercato/minimarket"
+        "type": "supermercato"
     },
     {
         "osm_id": 303828168,
@@ -13808,7 +13808,7 @@
         "latitude": 46.281633,
         "longitude": 11.4348379,
         "name": "FAMIGLIA COPERATIVA CASTELLO DI FIEMME",
-        "type": "Supermercato/minimarket"
+        "type": "supermercato"
     },
     {
         "osm_id": 255422796,
@@ -13920,7 +13920,7 @@
         "latitude": 46.3036149375978,
         "longitude": 11.5934944152832,
         "name": "SUPERMERCATI POLI",
-        "type": "Supermercato/minimarket"
+        "type": "supermercato"
     },
     {
         "osm_id": 462926354,
@@ -13962,7 +13962,7 @@
         "latitude": 46.285615,
         "longitude": 11.542551,
         "name": "FAMIGLIA COOPERATIVA - PANCHIA'",
-        "type": "Supermercato/minimarket"
+        "type": "supermercato"
     },
     {
         "osm_id": 1263209696,
@@ -13976,14 +13976,14 @@
         "latitude": 46.2818243,
         "longitude": 11.5153823,
         "name": "FAMIGLIA COOPERATIVA - LAGO DI TESERO",
-        "type": "Supermercato/minimarket"
+        "type": "supermercato"
     },
     {
         "osm_id": 1256563364,
         "latitude": 46.2904646928295,
         "longitude": 11.4641261100769,
         "name": "CASSA DI RISPARMIO SPARKASSE",
-        "type": "Filiale istituto di credito"
+        "type": "filiale_bancaria"
     },
     {
         "osm_id": 1121890270,
@@ -13997,21 +13997,21 @@
         "latitude": 46.2889078031748,
         "longitude": 11.5105390548706,
         "name": "CASSA RURALE DI FIEMME - TESERO",
-        "type": "Filiale istituto di credito"
+        "type": "filiale_bancaria"
     },
     {
         "osm_id": 832931370,
         "latitude": 46.3039114117841,
         "longitude": 11.5937948226929,
         "name": "CASSA RURALE DI FIEMME c/o CENTRO COMMERCIALE",
-        "type": "Filiale istituto di credito"
+        "type": "filiale_bancaria"
     },
     {
         "osm_id": 794376032,
         "latitude": 46.2819383261421,
         "longitude": 11.4359092712402,
         "name": "PUNTO DI LETTURA c/o ED.POLIFUNZIONALE",
-        "type": "Biblioteca"
+        "type": "biblioteca"
     },
     {
         "osm_id": 58779190,
@@ -14032,7 +14032,7 @@
         "latitude": 46.30368,
         "longitude": 11.45611,
         "name": "CASSA RURALE CENTROFIEMME - VARENA",
-        "type": "Filiale istituto di credito"
+        "type": "filiale_bancaria"
     },
     {
         "osm_id": 96362184,
@@ -14046,21 +14046,21 @@
         "latitude": 46.288922630904,
         "longitude": 11.4638578891754,
         "name": "CINEMA TEATRO COMUNALE CAVALESE",
-        "type": "teatro/opera/cinema"
+        "type": "cinema"
     },
     {
         "osm_id": 905479879,
         "latitude": 46.2628707,
         "longitude": 11.3393244,
         "name": "CASSA RURALE DI FIEMME - CAPRIANA",
-        "type": "Filiale istituto di credito"
+        "type": "filiale_bancaria"
     },
     {
         "osm_id": 41209200,
         "latitude": 46.2887372839999,
         "longitude": 11.5142726898193,
         "name": "CINEMA TEATRO COMUNALE TESERO",
-        "type": "teatro/opera/cinema"
+        "type": "cinema"
     },
     {
         "osm_id": 461609182,
@@ -14081,21 +14081,21 @@
         "latitude": 46.2910577820099,
         "longitude": 11.4614975452423,
         "name": "PARAFARMACIA LAGORAI",
-        "type": "Farmacia"
+        "type": "farmacia"
     },
     {
         "osm_id": 24310659,
         "latitude": 46.2797583289525,
         "longitude": 11.4345037937164,
         "name": "CASSA RURALE DI FIEMME - CASTELLO DI FIEMME",
-        "type": "Filiale istituto di credito"
+        "type": "filiale_bancaria"
     },
     {
         "osm_id": 110676509,
         "latitude": 46.31396,
         "longitude": 11.5995899,
         "name": "UNICREDIT BANCA - PREDAZZO",
-        "type": "Filiale istituto di credito"
+        "type": "filiale_bancaria"
     },
     {
         "osm_id": 905479879,
@@ -14116,7 +14116,7 @@
         "latitude": 46.3118711433972,
         "longitude": 11.6020131111145,
         "name": "CASSA RURALE DI FIEMME - SEDE AMMINISTRATIVA",
-        "type": "Filiale istituto di credito"
+        "type": "filiale_bancaria"
     },
     {
         "osm_id": 600608550,
@@ -14144,7 +14144,7 @@
         "latitude": 46.2901162499411,
         "longitude": 11.4612829685211,
         "name": "BANCA POPOLARE dell'ALTO ADIGE VOLKSBANK",
-        "type": "Filiale istituto di credito"
+        "type": "filiale_bancaria"
     },
     {
         "osm_id": 1076808529,
@@ -14179,7 +14179,7 @@
         "latitude": 46.2729137605555,
         "longitude": 11.4166402816772,
         "name": "CASSA RURALE DI FIEMME - MOLINA DI FIEMME",
-        "type": "Filiale istituto di credito"
+        "type": "filiale_bancaria"
     },
     {
         "osm_id": 794376032,
@@ -14193,7 +14193,7 @@
         "latitude": 46.3115499,
         "longitude": 11.60272,
         "name": "FARMACIA PASI - PREDAZZO",
-        "type": "Farmacia"
+        "type": "farmacia"
     },
     {
         "osm_id": 599230129,
@@ -14207,7 +14207,7 @@
         "latitude": 46.2926590907175,
         "longitude": 11.4580750465393,
         "name": "BANCA POPOLARE DEL TRENTINO",
-        "type": "Filiale istituto di credito"
+        "type": "filiale_bancaria"
     },
     {
         "osm_id": 964693113,
@@ -14228,21 +14228,21 @@
         "latitude": 46.2887743534309,
         "longitude": 11.5140795707703,
         "name": "BIBLIOTECA COMUNALE DI TESERO",
-        "type": "Biblioteca"
+        "type": "biblioteca"
     },
     {
         "osm_id": 2534783919,
         "latitude": 46.2908502015273,
         "longitude": 11.4618301391602,
         "name": "FARMACIA ALLA MADONNA",
-        "type": "Farmacia"
+        "type": "farmacia"
     },
     {
         "osm_id": 441496198,
         "latitude": 46.30936,
         "longitude": 11.6018899,
         "name": "BANCO POPOLARE DEL TRENTINO",
-        "type": "Filiale istituto di credito"
+        "type": "filiale_bancaria"
     },
     {
         "osm_id": 462913338,
@@ -14263,7 +14263,7 @@
         "latitude": 46.3115598907235,
         "longitude": 11.5991806983948,
         "name": "BIBLIOTECA COMUNALE PREDAZZO",
-        "type": "Biblioteca"
+        "type": "biblioteca"
     },
     {
         "osm_id": 832931370,
@@ -14277,14 +14277,14 @@
         "latitude": 46.2921994606013,
         "longitude": 11.4399862289429,
         "name": "FARMACIA SOFFRITTI",
-        "type": "Farmacia"
+        "type": "farmacia"
     },
     {
         "osm_id": 24310654,
         "latitude": 46.3010058955272,
         "longitude": 11.4479470252991,
         "name": "CASSA RURALE CENTROFIEMME - DAIANO",
-        "type": "Filiale istituto di credito"
+        "type": "filiale_bancaria"
     },
     {
         "osm_id": 363002075,
@@ -14298,14 +14298,14 @@
         "latitude": 46.29181,
         "longitude": 11.45926,
         "name": "CASSA RURALE CENTROFIEMME - CAVALESE",
-        "type": "Filiale istituto di credito"
+        "type": "filiale_bancaria"
     },
     {
         "osm_id": 24226327,
         "latitude": 46.31074,
         "longitude": 11.60263,
         "name": "BANCA DI TRENTO E BOLZANO",
-        "type": "Filiale istituto di credito"
+        "type": "filiale_bancaria"
     },
     {
         "osm_id": 313867360,
@@ -14319,14 +14319,14 @@
         "latitude": 46.2910948498704,
         "longitude": 11.4609503746033,
         "name": "UNICREDIT BANCA - CAVALESE",
-        "type": "Filiale istituto di credito"
+        "type": "filiale_bancaria"
     },
     {
         "osm_id": 599230129,
         "latitude": 46.2863870308598,
         "longitude": 11.561393737793,
         "name": "FARMACIA PASI - ZIANO DI FIEMME",
-        "type": "Farmacia"
+        "type": "farmacia"
     },
     {
         "osm_id": 964640556,
@@ -14347,7 +14347,7 @@
         "latitude": 46.285371275109,
         "longitude": 11.5407407283783,
         "name": "CASSA RURALE DI FIEMME - PANCHIA'",
-        "type": "Filiale istituto di credito"
+        "type": "filiale_bancaria"
     },
     {
         "osm_id": 260405101,
@@ -14361,7 +14361,7 @@
         "latitude": 46.2832932,
         "longitude": 11.4828882,
         "name": "CASSA RURALE CENTROFIEMME - CAVALESE",
-        "type": "Filiale istituto di credito"
+        "type": "filiale_bancaria"
     },
     {
         "osm_id": 126605830,
@@ -14396,35 +14396,35 @@
         "latitude": 46.2887002145438,
         "longitude": 11.4620661735535,
         "name": "BIBLIOTECA COMUNALE DI CAVALESE",
-        "type": "Biblioteca"
+        "type": "biblioteca"
     },
     {
         "osm_id": "11457234230",
         "latitude": 46.2895305643471,
         "longitude": 11.5097236633301,
         "name": "FARMACIA SAN LEONARDO",
-        "type": "Farmacia"
+        "type": "farmacia"
     },
     {
         "osm_id": 26142577,
         "latitude": 46.2840123,
         "longitude": 11.5685772,
         "name": "\"SALA DELLA CULTURA\" - SALA DI LETTURA",
-        "type": "Biblioteca"
+        "type": "biblioteca"
     },
     {
         "osm_id": 4570644490,
         "latitude": 46.2913320835838,
         "longitude": 11.4602530002594,
         "name": "BANCA POPOLARE DI TRENTO E BOLZANO",
-        "type": "Filiale istituto di credito"
+        "type": "filiale_bancaria"
     },
     {
         "osm_id": 7958929671,
         "latitude": 46.2882257232903,
         "longitude": 11.5118265151978,
         "name": "UNICREDIT BANCA - TESERO",
-        "type": "Filiale istituto di credito"
+        "type": "filiale_bancaria"
     },
     {
         "osm_id": 73697165,
@@ -14438,21 +14438,21 @@
         "latitude": 46.3132902849388,
         "longitude": 11.6007256507874,
         "name": "CINEMA TEATRO COMUNALE PREDAZZO",
-        "type": "teatro/opera/cinema"
+        "type": "cinema"
     },
     {
         "osm_id": 64167432,
         "latitude": 46.2865279006082,
         "longitude": 11.5610718727112,
         "name": "CASSA RURALE DI FIEMME - ZIANO DI FIEMME",
-        "type": "Filiale istituto di credito"
+        "type": "filiale_bancaria"
     },
     {
         "osm_id": 8976351017,
         "latitude": 46.2922439411037,
         "longitude": 11.4401578903198,
         "name": "CASSA RURALE CENTROFIEMME - CARANO",
-        "type": "Filiale istituto di credito"
+        "type": "filiale_bancaria"
     },
     {
         "osm_id": 550959594,
@@ -14487,21 +14487,21 @@
         "latitude": 46.272548,
         "longitude": 11.4200199,
         "name": "FARMACIA VINANTE - MOLINA DI FIEMME",
-        "type": "Farmacia"
+        "type": "farmacia"
     },
     {
         "osm_id": 261081716,
         "latitude": 46.2818938372706,
         "longitude": 11.4361882209778,
         "name": "FARMACIA VINANTE - CASTELLO DI FIEMME",
-        "type": "Farmacia"
+        "type": "farmacia"
     },
     {
         "osm_id": 1184533598,
         "latitude": 46.3026,
         "longitude": 11.4563,
         "name": "SALVATERRA FERNANDA",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 409348238,
@@ -14529,42 +14529,42 @@
         "latitude": 46.289115391019,
         "longitude": 11.5706741809845,
         "name": "ENI ANA",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 40358030,
         "latitude": 46.2946,
         "longitude": 11.4604,
         "name": "CASA MARTINELLI",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 23308425,
         "latitude": 46.282865,
         "longitude": 11.436743,
         "name": "CONCI DAVIDE",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 9897035184,
         "latitude": 46.290402,
         "longitude": 11.511575,
         "name": "BORTOLOTTI MAURO",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 3324640811,
         "latitude": 46.2496002210523,
         "longitude": 11.5051746368408,
         "name": "CHALET CERMIS",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 110099491,
         "latitude": 46.2912024,
         "longitude": 11.4605662,
         "name": "VOCATURO ERNESTO",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 110064768,
@@ -14578,70 +14578,70 @@
         "latitude": 46.2859125195686,
         "longitude": 11.438934803009,
         "name": "RUNGALDIER MARIO",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 27658643,
         "latitude": 46.3109889,
         "longitude": 11.6027703,
         "name": "BONINSEGNA CHIARA/Casa Nicoleta",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 96362188,
         "latitude": 46.2865,
         "longitude": 11.4554,
         "name": "BARBOLINI ROSA LINA",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 1119200666,
         "latitude": 46.30314,
         "longitude": 11.60151,
         "name": "GUADAGNINI LORETTA",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 27658643,
         "latitude": 46.311044,
         "longitude": 11.603092,
         "name": "BRIGADOI GIORGIO",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 26820214,
         "latitude": 46.2974,
         "longitude": 11.5975,
         "name": "MORANDINI PIETRO",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 317777724,
         "latitude": 46.288,
         "longitude": 11.467,
         "name": "DELVAI RIZZOLI OLGA",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 699922054,
         "latitude": 46.2869912853824,
         "longitude": 11.5652185678482,
         "name": "ZORZI GIANFRANCO",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 363738680,
         "latitude": 46.2994,
         "longitude": 11.4022,
         "name": "FANTON ROSA",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 24226362,
         "latitude": 46.31117,
         "longitude": 11.60255,
         "name": "MODENA FIORENZO",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 318198942,
@@ -14655,56 +14655,56 @@
         "latitude": 46.3078,
         "longitude": 11.6011,
         "name": "FESTA STEFANO",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 3727868209,
         "latitude": 46.2877662,
         "longitude": 11.5392303,
         "name": "ISABELLA FIPINGER",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 303781638,
         "latitude": 46.3164,
         "longitude": 11.5989,
         "name": "MORANDINI GIUSEPPE",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 698914612,
         "latitude": 46.2875065646484,
         "longitude": 11.5631425380707,
         "name": "DELLAGIACOMA VANZO PATRIZIA",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 927541697,
         "latitude": 46.3141,
         "longitude": 11.6608,
         "name": "CUCCIA MARIACLARA",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 8502838957,
         "latitude": 46.2915037,
         "longitude": 11.4379931,
         "name": "BONELLI CRISTINA",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 492163695,
         "latitude": 46.3131,
         "longitude": 11.6625,
         "name": "VARESCO RINA",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 61420771,
         "latitude": 46.2885074529678,
         "longitude": 11.5651273727417,
         "name": "VANZETTA RENZO",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 317777724,
@@ -14725,14 +14725,14 @@
         "latitude": 46.2871,
         "longitude": 11.4638,
         "name": "MAGNI FAMIGLIA",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 303832113,
         "latitude": 46.3071,
         "longitude": 11.5975,
         "name": "COSTA MARGHERITA",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 23308077,
@@ -14746,7 +14746,7 @@
         "latitude": 46.3120193583339,
         "longitude": 11.6041696071625,
         "name": "BONINSEGNA CHIARA / Casa Nicoleta",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 27658637,
@@ -14760,7 +14760,7 @@
         "latitude": 46.285456540002,
         "longitude": 11.563013792038,
         "name": "GIACOMUZZI GIANCARLO",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 23308425,
@@ -14774,7 +14774,7 @@
         "latitude": 46.305,
         "longitude": 11.6019,
         "name": "MICHIELINI AGOSTINO",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 229699908,
@@ -14788,7 +14788,7 @@
         "latitude": 46.2903,
         "longitude": 11.4591,
         "name": "GIACOMUZZI CARLA",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 492163696,
@@ -14802,14 +14802,14 @@
         "latitude": 46.3037347,
         "longitude": 11.6008107,
         "name": "BALUGANI LORENA",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 64167421,
         "latitude": 46.2807074540364,
         "longitude": 11.5595269203186,
         "name": "CARENI MARISA",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 140890115,
@@ -14823,7 +14823,7 @@
         "latitude": 46.281758,
         "longitude": 11.435393,
         "name": "NONES NICOLETTA",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 64167420,
@@ -14837,35 +14837,35 @@
         "latitude": 46.3126,
         "longitude": 11.603,
         "name": "CEMIN RENATO",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 27658637,
         "latitude": 46.3167,
         "longitude": 11.5999,
         "name": "GABRIELLI TULLIO",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 66096226,
         "latitude": 46.2932,
         "longitude": 11.4399,
         "name": "LONGO ELISA",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 1124627452,
         "latitude": 46.3087,
         "longitude": 11.6038,
         "name": "BONINSEGNA LIVIO",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 40358003,
         "latitude": 46.2923,
         "longitude": 11.4633,
         "name": "FINATO DINO",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 24935644,
@@ -14879,14 +14879,14 @@
         "latitude": 46.3184,
         "longitude": 11.5993,
         "name": "COTTONE IVANO",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 441491584,
         "latitude": 46.3184,
         "longitude": 11.5993,
         "name": "COTTONE MIRKO",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 492163696,
@@ -14900,21 +14900,21 @@
         "latitude": 46.2882,
         "longitude": 11.4631,
         "name": "CARIOLI ENRICO",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 1311953788,
         "latitude": 46.3025,
         "longitude": 11.4492,
         "name": "CAVIOLA DIEGO",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 400431834,
         "latitude": 46.3074,
         "longitude": 11.602,
         "name": "STOFFIE VALENTINA",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 116535449,
@@ -14928,35 +14928,35 @@
         "latitude": 46.250305,
         "longitude": 11.343062,
         "name": "TOSATO PAMELA",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 441471194,
         "latitude": 46.3274,
         "longitude": 11.5907,
         "name": "MORANDINI BRUNA",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 1163031612,
         "latitude": 46.2957,
         "longitude": 11.4102,
         "name": "CIRESA GIORGIO",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 27664548,
         "latitude": 46.3119,
         "longitude": 11.5996,
         "name": "DELLAGIACOMA DELLASEGA PIA",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 317777724,
         "latitude": 46.2888972,
         "longitude": 11.4685805,
         "name": "LE PLEJADI APPARTAMENTI",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 24310654,
@@ -14977,14 +14977,14 @@
         "latitude": 46.3128,
         "longitude": 11.6605,
         "name": "MANCURTI OLGA",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 317777724,
         "latitude": 46.289892,
         "longitude": 11.470073,
         "name": "FULVI CLAUDIO",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 40358021,
@@ -15005,7 +15005,7 @@
         "latitude": 46.3017,
         "longitude": 11.4038,
         "name": "BONELLI CLAUDIO",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 161972644,
@@ -15026,28 +15026,28 @@
         "latitude": 46.2912,
         "longitude": 11.4841,
         "name": "VILLA MIRABELL",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 64167412,
         "latitude": 46.2862,
         "longitude": 11.5456,
         "name": "DEFRANCESCO BRUNO",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 64167430,
         "latitude": 46.2859866622288,
         "longitude": 11.5632498264313,
         "name": "GAMBONI SORCI ANGELA",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 23308060,
         "latitude": 46.2885,
         "longitude": 11.4401,
         "name": "VARESCO WILMA",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 23860269,
@@ -15061,7 +15061,7 @@
         "latitude": 46.2897,
         "longitude": 11.5139,
         "name": "IELLICI MARIO",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 303832089,
@@ -15075,21 +15075,21 @@
         "latitude": 46.2926,
         "longitude": 11.4645,
         "name": "SANGIORGI CATIA",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 1119200663,
         "latitude": 46.3062,
         "longitude": 11.601,
         "name": "BIANCOLI GANDOLFI",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 24310658,
         "latitude": 46.2796,
         "longitude": 11.4345,
         "name": "CASA RIZ - CAVADA RIZ ELISABETTA",
-        "type": "Bed & Breakfast"
+        "type": "bedbreakfast"
     },
     {
         "osm_id": "11457234230",
@@ -15103,14 +15103,14 @@
         "latitude": 46.2875,
         "longitude": 11.5675,
         "name": "ZORZI SANDRA",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 116535433,
         "latitude": 46.3148,
         "longitude": 11.6651,
         "name": "CRISTELLON JELLICI ROSA",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 24310654,
@@ -15124,21 +15124,21 @@
         "latitude": 46.2909,
         "longitude": 11.4334,
         "name": "SEGAT GIORGIO",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 23970247,
         "latitude": 46.3031,
         "longitude": 11.6005,
         "name": "BALDI GABRIELLA",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 25211214,
         "latitude": 46.2893,
         "longitude": 11.4721,
         "name": "LARGER PAOLA",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 312975564,
@@ -15152,14 +15152,14 @@
         "latitude": 46.2811325,
         "longitude": 11.4825604,
         "name": "VAIA PAOLA",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 927541697,
         "latitude": 46.3141,
         "longitude": 11.6608,
         "name": "MORONI ALESSANDRO",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 23161220,
@@ -15173,14 +15173,14 @@
         "latitude": 46.31524,
         "longitude": 11.59775,
         "name": "DEZULIAN RITA",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 441463122,
         "latitude": 46.3121,
         "longitude": 11.5982,
         "name": "DELLANTONIO CLARA",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 1330708352,
@@ -15194,7 +15194,7 @@
         "latitude": 46.3131,
         "longitude": 11.6609,
         "name": "DEFLORIAN SESTO",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 448972818,
@@ -15215,56 +15215,56 @@
         "latitude": 46.2072,
         "longitude": 11.2323,
         "name": "VENTURA ADRIANA",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": "12146342359",
         "latitude": 46.3108,
         "longitude": 11.6033,
         "name": "CRAFFONARA ITALO",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 317777724,
         "latitude": 46.289892,
         "longitude": 11.470073,
         "name": "MANNUCCI ADOLFO",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 26456993,
         "latitude": 46.2858554,
         "longitude": 11.4570189,
         "name": "B&B EL MOLIN - NONES CHRISTINE",
-        "type": "Bed & Breakfast"
+        "type": "bedbreakfast"
     },
     {
         "osm_id": 4575931566,
         "latitude": 46.2925413,
         "longitude": 11.4397947,
         "name": "PELLEGRINI MARIAGRAZIA",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 1252306270,
         "latitude": 46.2982,
         "longitude": 11.5062,
         "name": "B&B LE CAORE - PAOLAZZI MARIA",
-        "type": "Bed & Breakfast"
+        "type": "bedbreakfast"
     },
     {
         "osm_id": 25211816,
         "latitude": 46.2815,
         "longitude": 11.4858,
         "name": "ALBERTI LUISA",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 27661485,
         "latitude": 46.3057,
         "longitude": 11.6008,
         "name": "LOCHMANN VINCENZO",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 65425087,
@@ -15285,21 +15285,21 @@
         "latitude": 46.2870987900899,
         "longitude": 11.5602350234985,
         "name": "VANZETTA RAFFAELA",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 26514811,
         "latitude": 46.3113,
         "longitude": 11.608,
         "name": "CROCE LUIGIA",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 64167445,
         "latitude": 46.2866391133115,
         "longitude": 11.5658569335938,
         "name": "ZORZI GIULIANO",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 1165926919,
@@ -15320,14 +15320,14 @@
         "latitude": 46.281883,
         "longitude": 11.435125,
         "name": "FALLIVA ROBERTO",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 798466344,
         "latitude": 46.2895899,
         "longitude": 11.56955,
         "name": "LA CASA DI ARISTOTELE - COMINI MARZIA",
-        "type": "Bed & Breakfast"
+        "type": "bedbreakfast"
     },
     {
         "osm_id": 492163696,
@@ -15341,14 +15341,14 @@
         "latitude": 46.2860459762847,
         "longitude": 11.5724551677704,
         "name": "CRISTELLON JELLICI ROSA",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 318198942,
         "latitude": 46.2886,
         "longitude": 11.4575,
         "name": "ANTONIAZZI DONATELLA",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 23308077,
@@ -15362,7 +15362,7 @@
         "latitude": 46.3037,
         "longitude": 11.6021,
         "name": "CASAGRANDE ALBERTO",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 4582538941,
@@ -15376,14 +15376,14 @@
         "latitude": 46.2909243375042,
         "longitude": 11.4499425888062,
         "name": "CASA BAZZANELLA - CRISTOFOLETTI CLARA",
-        "type": "Bed & Breakfast"
+        "type": "bedbreakfast"
     },
     {
         "osm_id": 73512416,
         "latitude": 46.2898049,
         "longitude": 11.4609894,
         "name": "DEL PERO LUIGI",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 25626079,
@@ -15397,7 +15397,7 @@
         "latitude": 46.3166,
         "longitude": 11.5999,
         "name": "GUADAGNINI ERNESTINA",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 762094802,
@@ -15411,21 +15411,21 @@
         "latitude": 46.2912024,
         "longitude": 11.4605662,
         "name": "RASTELLI AUGUSTA",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 27658642,
         "latitude": 46.313,
         "longitude": 11.6023,
         "name": "PALLA ROSALBA",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 123445623,
         "latitude": 46.3085,
         "longitude": 11.5053,
         "name": "DEFLORIAN GIOVANNI",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 492163696,
@@ -15446,21 +15446,21 @@
         "latitude": 46.31603,
         "longitude": 11.5972899,
         "name": "3 CUORI - GABRIELLI SOFIA",
-        "type": "Bed & Breakfast"
+        "type": "bedbreakfast"
     },
     {
         "osm_id": 24874480,
         "latitude": 46.2935,
         "longitude": 11.438,
         "name": "DELVAI AUGUSTO",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 33551666,
         "latitude": 46.30927,
         "longitude": 11.60275,
         "name": "GIACOMELLI SILVANO",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 29146411,
@@ -15474,7 +15474,7 @@
         "latitude": 46.286,
         "longitude": 11.5668,
         "name": "POLO VANZETTA SILVIA",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 442674619,
@@ -15488,21 +15488,21 @@
         "latitude": 46.285913,
         "longitude": 11.479908,
         "name": "VAIA RICCARDO",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 116535433,
         "latitude": 46.3162499,
         "longitude": 11.66624,
         "name": "ZENI MARIA VALENTINA",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 27658651,
         "latitude": 46.3128,
         "longitude": 11.6056,
         "name": "MAS DEL TAS APPARTAMENTI",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 1252323746,
@@ -15516,14 +15516,14 @@
         "latitude": 46.3122,
         "longitude": 11.6041,
         "name": "BONINSEGNA CHIARA / Casa Volpin",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 29722270,
         "latitude": 46.3023,
         "longitude": 11.4503,
         "name": "DEFRANCESCO DOLORES",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 140946513,
@@ -15537,7 +15537,7 @@
         "latitude": 46.3138592,
         "longitude": 11.6009585,
         "name": "BONINSEGNA MICHELANGELO",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 4594136927,
@@ -15551,7 +15551,7 @@
         "latitude": 46.2894,
         "longitude": 11.47,
         "name": "FOCHI MAURA",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 25211817,
@@ -15565,7 +15565,7 @@
         "latitude": 46.3015,
         "longitude": 11.4496,
         "name": "TURETTA GIUSEPPE",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 110884340,
@@ -15579,91 +15579,91 @@
         "latitude": 46.29191,
         "longitude": 11.43259,
         "name": "QUADRAROLI FLORENZA",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 4570029728,
         "latitude": 46.29007,
         "longitude": 11.4578399,
         "name": "SPAZZALI GIANCARLA",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 26330869,
         "latitude": 46.2891063,
         "longitude": 11.454834,
         "name": "RIZZOLI GIUSEPPINA",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 66096400,
         "latitude": 46.2931,
         "longitude": 11.4398,
         "name": "GIOVANELLI FIRMO",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 1154713762,
         "latitude": 46.28931,
         "longitude": 11.45417,
         "name": "APPARTAMENTI NEGRITELLA DI DEGIAMPIETRO MARIO",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 4742702886,
         "latitude": 46.292512,
         "longitude": 11.460786,
         "name": "SANGIORGI CATIA",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 303832083,
         "latitude": 46.3078,
         "longitude": 11.6011,
         "name": "DELLASEGA ANTONIO",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 24155736,
         "latitude": 46.2839,
         "longitude": 11.5436,
         "name": "CORRADINI CARLA",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 254172891,
         "latitude": 46.240088,
         "longitude": 11.324865,
         "name": "SASSOTINATI - CONSIGLIERE LUCA",
-        "type": "Bed & Breakfast"
+        "type": "bedbreakfast"
     },
     {
         "osm_id": 232308863,
         "latitude": 46.2071,
         "longitude": 11.2324,
         "name": "CAVADA MARIA CRISTINA",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 27191729,
         "latitude": 46.2868,
         "longitude": 11.5671,
         "name": "FONTANARi ANGELA",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 464125663,
         "latitude": 46.2919,
         "longitude": 11.4644,
         "name": "BETTA NATALINA",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 26330868,
         "latitude": 46.2871499,
         "longitude": 11.44816,
         "name": "ZANCANELLA RAFFAELE",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 492163696,
@@ -15677,7 +15677,7 @@
         "latitude": 46.2832789,
         "longitude": 11.5685974,
         "name": "MENTANI LUCA",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 23161220,
@@ -15705,7 +15705,7 @@
         "latitude": 46.2896,
         "longitude": 11.4637,
         "name": "CHELODI BETTA ESTER",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 23155126,
@@ -15733,35 +15733,35 @@
         "latitude": 46.2863,
         "longitude": 11.5575,
         "name": "MARTINI ANNALISA",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 7958845808,
         "latitude": 46.2895,
         "longitude": 11.5091,
         "name": "DELLADIO FABIANA E SAVERIA",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 27662907,
         "latitude": 46.3109,
         "longitude": 11.6019,
         "name": "FREE HOLIDAYS - LAGASIO SILVIA",
-        "type": "Bed & Breakfast"
+        "type": "bedbreakfast"
     },
     {
         "osm_id": 27658638,
         "latitude": 46.3158,
         "longitude": 11.5989,
         "name": "DELLASEGA ROBERTA",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 25422176,
         "latitude": 46.283513,
         "longitude": 11.524658,
         "name": "VINANTE ALESSANDRO",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 492163696,
@@ -15775,14 +15775,14 @@
         "latitude": 46.2942422,
         "longitude": 11.4403729,
         "name": "BED AND BREAKFAST VILLA MARIA - FONTANAZZI SONIA",
-        "type": "Bed & Breakfast"
+        "type": "bedbreakfast"
     },
     {
         "osm_id": 313409918,
         "latitude": 46.3079,
         "longitude": 11.5995,
         "name": "MODENA FIORENZO",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 492163696,
@@ -15803,7 +15803,7 @@
         "latitude": 46.3181,
         "longitude": 11.5009,
         "name": "LONGO MARIA AGNESE",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 550959594,
@@ -15824,14 +15824,14 @@
         "latitude": 46.2904,
         "longitude": 11.4665,
         "name": "CORRADINI LORETTA",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 1099496034,
         "latitude": 46.29175,
         "longitude": 11.4606999,
         "name": "CASA SILVANO WELPONER",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 441463122,
@@ -15845,21 +15845,21 @@
         "latitude": 46.2864315160826,
         "longitude": 11.5591621398926,
         "name": "VANZETTA LORENZO",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 26330876,
         "latitude": 46.2875,
         "longitude": 11.4537,
         "name": "DEL DIN MARCO",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 110884340,
         "latitude": 46.2869,
         "longitude": 11.5383,
         "name": "LA CASA DELLE BAMBOLE - CIUFFO DE MARCO DANIELA",
-        "type": "Bed & Breakfast"
+        "type": "bedbreakfast"
     },
     {
         "osm_id": 318199609,
@@ -15880,14 +15880,14 @@
         "latitude": 46.3055,
         "longitude": 11.463,
         "name": "UTILI FULVIO",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 23970247,
         "latitude": 46.3032,
         "longitude": 11.6006,
         "name": "GABRIELLI GIUSEPPINA",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 461609182,
@@ -15908,7 +15908,7 @@
         "latitude": 46.3107,
         "longitude": 11.6044,
         "name": "FIORINI ZELINDA PERBELLINI RENZO",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 23308409,
@@ -15929,21 +15929,21 @@
         "latitude": 46.314499,
         "longitude": 11.661994,
         "name": "NEGRO EMILIO",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 24226336,
         "latitude": 46.3076,
         "longitude": 11.6006,
         "name": "VOLPETTI FRANCESCA",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 64167445,
         "latitude": 46.2872,
         "longitude": 11.567,
         "name": "CASA VANZETTA - IDDA PATRIZIA",
-        "type": "Bed & Breakfast"
+        "type": "bedbreakfast"
     },
     {
         "osm_id": 63162336,
@@ -15957,14 +15957,14 @@
         "latitude": 46.2871,
         "longitude": 11.4562,
         "name": "MONTAGNA GIUSY",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 27658645,
         "latitude": 46.317852,
         "longitude": 11.598482,
         "name": "GNUDI GIANFRANCA",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 23970247,
@@ -15978,7 +15978,7 @@
         "latitude": 46.2836,
         "longitude": 11.4374,
         "name": "BRAITO ELVIRA",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 318048163,
@@ -15999,7 +15999,7 @@
         "latitude": 46.2915,
         "longitude": 11.4368,
         "name": "DELVAI ERNESTO",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 64743678,
@@ -16013,70 +16013,70 @@
         "latitude": 46.3122426,
         "longitude": 11.6037886,
         "name": "DELLAGIACOMA GIUSEPPINA",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 432173226,
         "latitude": 46.285773,
         "longitude": 11.575428,
         "name": "BRESSANI GIANLUIGI",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 253636016,
         "latitude": 46.2935,
         "longitude": 11.4582,
         "name": "DEMATTIO MARIA ERNA",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 1321861272,
         "latitude": 46.3009,
         "longitude": 11.4477,
         "name": "BRAITO LUCIANO",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": "11465225121",
         "latitude": 46.2911,
         "longitude": 11.4618,
         "name": "BETTA NATALINA",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 463258241,
         "latitude": 46.2849,
         "longitude": 11.4538,
         "name": "IL NIDO - CHELODI COMAI ANNA",
-        "type": "Bed & Breakfast"
+        "type": "bedbreakfast"
     },
     {
         "osm_id": 27658637,
         "latitude": 46.3167,
         "longitude": 11.5999,
         "name": "LESO ERIBERTO",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 1225652926,
         "latitude": 46.2854528328355,
         "longitude": 11.4770650863647,
         "name": "GALVAN RENZO",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 492163695,
         "latitude": 46.3131,
         "longitude": 11.6625,
         "name": "CASA SOREGHINA DI VARESCO MARIA",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 492163695,
         "latitude": 46.3128755,
         "longitude": 11.6631891,
         "name": "IELLICI BIANCA MARIA",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 293241693,
@@ -16097,7 +16097,7 @@
         "latitude": 46.2822942358139,
         "longitude": 11.4362955093384,
         "name": "LA DUCA ELOISA",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 313972964,
@@ -16111,14 +16111,14 @@
         "latitude": 46.3113,
         "longitude": 11.6039,
         "name": "DEFLORIAN GERARDO",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 24326542,
         "latitude": 46.28318,
         "longitude": 11.44086,
         "name": "PICHLER CASA - NICHELA MARILENA PICHLER",
-        "type": "Bed & Breakfast"
+        "type": "bedbreakfast"
     },
     {
         "osm_id": 27658638,
@@ -16132,56 +16132,56 @@
         "latitude": 46.2723959,
         "longitude": 11.420648,
         "name": "MARCH SARA",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 7822905828,
         "latitude": 46.2885,
         "longitude": 11.5059,
         "name": "TRETTEL PAOLO",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 27192129,
         "latitude": 46.2866094566127,
         "longitude": 11.5744292736053,
         "name": "ZANOL TULLIO",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 40358026,
         "latitude": 46.293112,
         "longitude": 11.460171,
         "name": "CAVADA ANNALISA",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 4582538930,
         "latitude": 46.2906,
         "longitude": 11.459,
         "name": "DEFRANCESCO GIOVANNI",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 441471194,
         "latitude": 46.3274,
         "longitude": 11.5907,
         "name": "BONORA RINA",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 27658642,
         "latitude": 46.31311,
         "longitude": 11.60245,
         "name": "MORANDINI GIUSEPPE",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 798466344,
         "latitude": 46.2894712540643,
         "longitude": 11.5706956386566,
         "name": "ZORZI GIORGIO",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 229699905,
@@ -16195,28 +16195,28 @@
         "latitude": 46.3078,
         "longitude": 11.6011,
         "name": "PEZZO FAUSTO",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 369814322,
         "latitude": 46.31089,
         "longitude": 11.60134,
         "name": "GUADAGNINI LORETTA Via Garibaldi",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 96832092,
         "latitude": 46.288,
         "longitude": 11.4611,
         "name": "ANTONIAZZI PATRIZIA",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 520953478,
         "latitude": 46.2865,
         "longitude": 11.5597,
         "name": "ZORZI PAOLO",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 27658643,
@@ -16230,7 +16230,7 @@
         "latitude": 46.29095,
         "longitude": 11.43895,
         "name": "VARESCO  WILMA",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 1091285141,
@@ -16244,35 +16244,35 @@
         "latitude": 46.312,
         "longitude": 11.5981,
         "name": "BRIGADOI VALENTINO",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 123445623,
         "latitude": 46.3181269,
         "longitude": 11.50167,
         "name": "BERTASI RITA",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 448972818,
         "latitude": 46.3023,
         "longitude": 11.6023,
         "name": "GUADAGNINI GIACOMO",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 23308409,
         "latitude": 46.283,
         "longitude": 11.4349,
         "name": "AMADIO AVERARDO",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 489635537,
         "latitude": 46.2643119,
         "longitude": 11.337547,
         "name": "CASAL CARLO",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 229699908,
@@ -16286,7 +16286,7 @@
         "latitude": 46.312,
         "longitude": 11.5981,
         "name": "DE VILLA FERRUCCIO",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 262468472,
@@ -16307,14 +16307,14 @@
         "latitude": 46.2750678,
         "longitude": 11.4651669,
         "name": "FANT\u00d3 ANTONELLA",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 58779178,
         "latitude": 46.2902,
         "longitude": 11.4568,
         "name": "CAVIOLA IDA",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 600596202,
@@ -16335,7 +16335,7 @@
         "latitude": 46.288032,
         "longitude": 11.4657867,
         "name": "B&B SEPPI- SEPPI VIVIANA",
-        "type": "Bed & Breakfast"
+        "type": "bedbreakfast"
     },
     {
         "osm_id": 168587960,
@@ -16356,7 +16356,7 @@
         "latitude": 46.3113,
         "longitude": 11.6001,
         "name": "BONINSEGNA GIOVANNI",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 1583728920,
@@ -16377,35 +16377,35 @@
         "latitude": 46.2824,
         "longitude": 11.4381,
         "name": "ECCHER RENZO",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 27663070,
         "latitude": 46.3105,
         "longitude": 11.6012,
         "name": "BENUZZI GIULIO",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 77015485,
         "latitude": 46.2873656974168,
         "longitude": 11.5613722801208,
         "name": "VANZETTA FRANCESCA",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 63162336,
         "latitude": 46.3162,
         "longitude": 11.5031,
         "name": "PIAZZI GABRIELE",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 26628872,
         "latitude": 46.3011,
         "longitude": 11.4456,
         "name": "RIGOTTI ENZO",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 23161220,
@@ -16419,28 +16419,28 @@
         "latitude": 46.2856233622349,
         "longitude": 11.5658891201019,
         "name": "CAVADA OLGA",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 24066128,
         "latitude": 46.2802,
         "longitude": 11.4334,
         "name": "DALPALU' GIOVANNA",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 26330885,
         "latitude": 46.2900935,
         "longitude": 11.4566416,
         "name": "KINOWEB APPARTAMENTI",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 927541697,
         "latitude": 46.3141,
         "longitude": 11.6608,
         "name": "ZORZI GIANFRANCO",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 1526314493,
@@ -16461,7 +16461,7 @@
         "latitude": 46.3048,
         "longitude": 11.6013,
         "name": "MARINO RENATA",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 123445623,
@@ -16475,14 +16475,14 @@
         "latitude": 46.3013677,
         "longitude": 11.4530137,
         "name": "MONSORNO  NADIA",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 24846670,
         "latitude": 46.3098,
         "longitude": 11.6019,
         "name": "LAFORGIA ANTONIO",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 118369045,
@@ -16496,7 +16496,7 @@
         "latitude": 46.2958021,
         "longitude": 11.4603494,
         "name": "GIANMOENA MARIAELENA",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 116597814,
@@ -16510,7 +16510,7 @@
         "latitude": 46.31683,
         "longitude": 11.60082,
         "name": "DI GIROLAMO BARBARA",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 167096838,
@@ -16545,7 +16545,7 @@
         "latitude": 46.2901777,
         "longitude": 11.4605315,
         "name": "CORSO FRANCO",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 396222466,
@@ -16559,7 +16559,7 @@
         "latitude": 46.2913,
         "longitude": 11.4639,
         "name": "BERNARDI REMO",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 123268442,
@@ -16580,14 +16580,14 @@
         "latitude": 46.2920752,
         "longitude": 11.4319375,
         "name": "MUNDA CALOGERO",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 1176698243,
         "latitude": 46.2858754482008,
         "longitude": 11.4388704299927,
         "name": "RUNGALDIER MARIO",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 303826375,
@@ -16615,21 +16615,21 @@
         "latitude": 46.28110786125,
         "longitude": 11.5595161914825,
         "name": "MICH DARIO",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 40358149,
         "latitude": 46.28724,
         "longitude": 11.4504,
         "name": "VENTURINI ADRIANO",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 32364133,
         "latitude": 46.2860284,
         "longitude": 11.4811959,
         "name": "MASO CHELO'",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 58734644,
@@ -16643,7 +16643,7 @@
         "latitude": 46.2877,
         "longitude": 11.5391,
         "name": "ZORZI CARLO",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 23161220,
@@ -16671,14 +16671,14 @@
         "latitude": 46.2818,
         "longitude": 11.431,
         "name": "VENTURA ROMANO",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 27658655,
         "latitude": 46.3157,
         "longitude": 11.6003,
         "name": "ROSE DI BOSCO - LONGO DANILA",
-        "type": "Bed & Breakfast"
+        "type": "bedbreakfast"
     },
     {
         "osm_id": 699922054,
@@ -16699,14 +16699,14 @@
         "latitude": 46.3131,
         "longitude": 11.6609,
         "name": "CASATI GIULIANO",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 697140616,
         "latitude": 46.2869208511494,
         "longitude": 11.564649939537,
         "name": "ZORZI GIAMPAOLO",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 1451017696,
@@ -16727,7 +16727,7 @@
         "latitude": 46.3139,
         "longitude": 11.6688,
         "name": "DELLANTONIO LUIGI",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 295618970,
@@ -16741,14 +16741,14 @@
         "latitude": 46.2912024,
         "longitude": 11.4605662,
         "name": "HENDEL LORENZO",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 110099491,
         "latitude": 46.2912024,
         "longitude": 11.4605662,
         "name": "B&B WALDNER - WALDNER STEFANO",
-        "type": "Bed & Breakfast"
+        "type": "bedbreakfast"
     },
     {
         "osm_id": 73548884,
@@ -16769,35 +16769,35 @@
         "latitude": 46.3002,
         "longitude": 11.45,
         "name": "SPINEL BENIAMINO",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 94132080,
         "latitude": 46.312,
         "longitude": 11.6617,
         "name": "BAITA L'OR",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 58734646,
         "latitude": 46.287,
         "longitude": 11.51,
         "name": "PIAZZI CLEMENTE",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 96827111,
         "latitude": 46.2906,
         "longitude": 11.4548,
         "name": "DEMARCHI LORENZO",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 40358027,
         "latitude": 46.2929,
         "longitude": 11.4601,
         "name": "PIAZZI ANNA MARIA",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 492163696,
@@ -16818,7 +16818,7 @@
         "latitude": 46.2908,
         "longitude": 11.4677,
         "name": "MARASTONI LAURO",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 1155866686,
@@ -16832,14 +16832,14 @@
         "latitude": 46.3109889,
         "longitude": 11.6027703,
         "name": "GABRIELLI EVARISTO",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 27658638,
         "latitude": 46.3158,
         "longitude": 11.5989,
         "name": "SIMEONI RITA",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 1270666630,
@@ -16853,35 +16853,35 @@
         "latitude": 46.3146,
         "longitude": 11.472,
         "name": "LA BAITA - BOLOGNANI FRANCO",
-        "type": "Bed & Breakfast"
+        "type": "bedbreakfast"
     },
     {
         "osm_id": 229699908,
         "latitude": 46.3484,
         "longitude": 11.4907,
         "name": "BACCHINI PATRIZIO",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 441491587,
         "latitude": 46.3175887,
         "longitude": 11.6000307,
         "name": "IMMOBILIARE SAN VITO",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 1252306270,
         "latitude": 46.300706,
         "longitude": 11.5058623,
         "name": "LONGO PAOLA",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 364810092,
         "latitude": 46.2906,
         "longitude": 11.4599,
         "name": "VINANTE DARIA",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 110064768,
@@ -16895,7 +16895,7 @@
         "latitude": 46.2958021,
         "longitude": 11.4603494,
         "name": "MONSORNO MARIA",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 23161220,
@@ -16909,7 +16909,7 @@
         "latitude": 46.3166,
         "longitude": 11.5971,
         "name": "GUADAGNINI ANGELA",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 492163696,
@@ -16923,28 +16923,28 @@
         "latitude": 46.3139,
         "longitude": 11.6688,
         "name": "BULFON BRIGADOI NELLA",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 24155736,
         "latitude": 46.2839,
         "longitude": 11.5434,
         "name": "DEFRANCESCO DOLORES",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 40357994,
         "latitude": 46.2924,
         "longitude": 11.4582,
         "name": "BONELLI PAOLO",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 64167445,
         "latitude": 46.2869949924448,
         "longitude": 11.5671014785767,
         "name": "FONTANARI LUIGI",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 649201981,
@@ -16958,7 +16958,7 @@
         "latitude": 46.3106,
         "longitude": 11.6014,
         "name": "GABRIELLI DUNIA",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 461609182,
@@ -16972,14 +16972,14 @@
         "latitude": 46.2884499,
         "longitude": 11.4492982,
         "name": "BUTTARELLI ATTILIO",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 24310653,
         "latitude": 46.2946018,
         "longitude": 11.4556249,
         "name": "CASA SILVANO WELPONER",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 29146411,
@@ -16993,7 +16993,7 @@
         "latitude": 46.3048,
         "longitude": 11.6013,
         "name": "ZANON ENOS",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 46165909,
@@ -17007,7 +17007,7 @@
         "latitude": 46.0708488122203,
         "longitude": 11.6237497329712,
         "name": "BAITA FIGLIEZZI",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 698333066,
@@ -17049,7 +17049,7 @@
         "latitude": 46.0028270426318,
         "longitude": 11.2464380264282,
         "name": "MOSER MARIA RICCARDA - CASA LIBA",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 5751006061,
@@ -17077,7 +17077,7 @@
         "latitude": 46.0042,
         "longitude": 11.2458,
         "name": "MARTINELLI ANNA MARIA",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 401954322,
@@ -17119,7 +17119,7 @@
         "latitude": 46.0278,
         "longitude": 11.2472,
         "name": "CHALET CAMPOLONGO di OSS REMO E VANNINI AMELIA",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 40551902,
@@ -17140,14 +17140,14 @@
         "latitude": 46.1028160814592,
         "longitude": 11.4894676208496,
         "name": "CHALET MUSIERA",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 1222079482,
         "latitude": 46.0106143517355,
         "longitude": 11.2906837463379,
         "name": "MOSCHEN ALESSANDRA",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 224157950,
@@ -17196,7 +17196,7 @@
         "latitude": 46.0723672300047,
         "longitude": 11.6290497779846,
         "name": "BAITA LISSA DI BALLERIN EMILIO",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 318750696,
@@ -17210,7 +17210,7 @@
         "latitude": 46.0688316337916,
         "longitude": 11.6081070899963,
         "name": "NOEMI BRUNA BRENTARI",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 6681794737,
@@ -17224,35 +17224,35 @@
         "latitude": 46.0666803918037,
         "longitude": 11.6261744499207,
         "name": "CASA PARADISO",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 106875145,
         "latitude": 46.008,
         "longitude": 11.3064,
         "name": "IL GLICINE - PALAORO FRANCA",
-        "type": "Bed & Breakfast"
+        "type": "bedbreakfast"
     },
     {
         "osm_id": 31723534,
         "latitude": 46.0166645948594,
         "longitude": 11.3031077384949,
         "name": "CASA ELI di Ferrari Claudia",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 231728175,
         "latitude": 46.0258132125181,
         "longitude": 11.2486267089844,
         "name": "CHALET PINETA di OSS REMO E VANNINI AMELIA",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": "10100657355",
         "latitude": 46.0121791332399,
         "longitude": 11.3032740354538,
         "name": "LORENZINI SERGIO",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 7687845036,
@@ -17287,21 +17287,21 @@
         "latitude": 46.009399752717,
         "longitude": 11.3126564025879,
         "name": "CASA DEI CILIEGI - Libardi Antonio",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 31872901,
         "latitude": 46.0418575,
         "longitude": 11.3067494,
         "name": "GRISENTI ROBERTO",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 5763084834,
         "latitude": 46.0082894517523,
         "longitude": 11.3008546829224,
         "name": "OSLER GIACOMO",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 6662865615,
@@ -17322,28 +17322,28 @@
         "latitude": 46.0581699,
         "longitude": 11.52232,
         "name": "PIZZINI ANGELA",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 5763498909,
         "latitude": 46.0101,
         "longitude": 11.3024,
         "name": "NADALINI GIULIANO",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 65475955,
         "latitude": 46.0133,
         "longitude": 11.2944,
         "name": "MARTELLO GUIDO",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 6611557710,
         "latitude": 45.9984410755044,
         "longitude": 11.2643069028854,
         "name": "BRIDA ALBERTO",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 481282430,
@@ -17364,7 +17364,7 @@
         "latitude": 46.0099,
         "longitude": 11.2942,
         "name": "PACHER MARIO",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 447284028,
@@ -17399,7 +17399,7 @@
         "latitude": 46.081314,
         "longitude": 11.5212475,
         "name": "APPARTAMENTO AI TISI  di Cirulli Egle",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 5994950135,
@@ -17434,21 +17434,21 @@
         "latitude": 46.0097,
         "longitude": 11.3118,
         "name": "BERTOLINI ALESSANDRA",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 9311530903,
         "latitude": 46.0107,
         "longitude": 11.3034,
         "name": "MANFREDI LIA",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 233412190,
         "latitude": 46.081268486046,
         "longitude": 11.537082195282,
         "name": "BAITA MIRALEFRE",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 799244067,
@@ -17476,7 +17476,7 @@
         "latitude": 46.012,
         "longitude": 11.3005,
         "name": "VETTORAZZI ROSANNA",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 1049119566,
@@ -17497,21 +17497,21 @@
         "latitude": 46.0694792230928,
         "longitude": 11.6339635848999,
         "name": "BAITA CORNAL\u00c8",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 78239149,
         "latitude": 46.1181085739068,
         "longitude": 11.654691696167,
         "name": "BAITA DEGLI ANGELI di Walter Viero",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 4028228713,
         "latitude": 46.02497,
         "longitude": 11.22842,
         "name": "BERGAMO MARTA",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 65608580,
@@ -17532,7 +17532,7 @@
         "latitude": 46.0518,
         "longitude": 11.4013,
         "name": "CASA CADENZI di Postai Riccardo",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 5743429893,
@@ -17581,28 +17581,28 @@
         "latitude": 46.0107,
         "longitude": 11.294,
         "name": "CIPOLLA RINO",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 220186058,
         "latitude": 46.0039523579267,
         "longitude": 11.258647441864,
         "name": "APPARTAMENTO AL LAGO",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 401999398,
         "latitude": 46.0390119697384,
         "longitude": 11.2341642379761,
         "name": "VILLA SOPHIE",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 5772609368,
         "latitude": 46.0088,
         "longitude": 11.3123,
         "name": "CETTO MARIO",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 301398703,
@@ -17616,7 +17616,7 @@
         "latitude": 46.0972960563313,
         "longitude": 11.2974214553833,
         "name": "LA MARIANNA - PRATI GIULIO",
-        "type": "Bed & Breakfast"
+        "type": "bedbreakfast"
     },
     {
         "osm_id": 298285514,
@@ -17637,7 +17637,7 @@
         "latitude": 46.0621,
         "longitude": 11.6343,
         "name": "BRAUS SIRO",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 1049119566,
@@ -17665,14 +17665,14 @@
         "latitude": 46.0603,
         "longitude": 11.6349,
         "name": "MORANDUZZO PIERSISTO",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 65476009,
         "latitude": 46.015,
         "longitude": 11.2964,
         "name": "MAGNAGO GIORGIO",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 5748578379,
@@ -17728,21 +17728,21 @@
         "latitude": 46.01205991335,
         "longitude": 11.2949270009995,
         "name": "APPARTAMENTO VERDEBLEU - CARLINI CARLA",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 105602343,
         "latitude": 46.0028270426318,
         "longitude": 11.2414920330048,
         "name": "APPARTAMENTO AL LAGO",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 6793166937,
         "latitude": 46.0050254849648,
         "longitude": 11.3331484794617,
         "name": "B&B RENE' - COPAT RENATA",
-        "type": "Bed & Breakfast"
+        "type": "bedbreakfast"
     },
     {
         "osm_id": 65476009,
@@ -17763,35 +17763,35 @@
         "latitude": 46.0104550768499,
         "longitude": 11.2980397045612,
         "name": "GELMETTI MERCEDES",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 5755496469,
         "latitude": 46.0138183806658,
         "longitude": 11.2938380241394,
         "name": "GROFF GIORGIO",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 103069968,
         "latitude": 46.1291,
         "longitude": 11.349,
         "name": "STELDERHOF",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 364777109,
         "latitude": 46.0658020059187,
         "longitude": 11.6269254684448,
         "name": "ZAMPIERO GIUSEPPINA",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 418084202,
         "latitude": 46.0657424538273,
         "longitude": 11.6286635398865,
         "name": "PASQUALIN IDA",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 187831429,
@@ -17812,14 +17812,14 @@
         "latitude": 46.0691963689303,
         "longitude": 11.6078174114227,
         "name": "AVANZO MARIA",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 5748578324,
         "latitude": 46.01594933,
         "longitude": 11.302528381,
         "name": "B&B DOMUSFLAVIA - FAM. DECARLI - DECARLI STEFANO",
-        "type": "Bed & Breakfast"
+        "type": "bedbreakfast"
     },
     {
         "osm_id": 7687845036,
@@ -17854,7 +17854,7 @@
         "latitude": 46.0572705142721,
         "longitude": 11.5212464332581,
         "name": "SOGGIORNO CARRARO",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 390202382,
@@ -17889,14 +17889,14 @@
         "latitude": 46.0718,
         "longitude": 11.4921,
         "name": "LE ROSE - CAPRA GIOVANNI",
-        "type": "Bed & Breakfast"
+        "type": "bedbreakfast"
     },
     {
         "osm_id": 1151340824,
         "latitude": 46.0342378396148,
         "longitude": 11.2459874153137,
         "name": "BANELLI MARIO",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 3917212935,
@@ -17917,14 +17917,14 @@
         "latitude": 46.0121,
         "longitude": 11.3161,
         "name": "CETTO GIANCARLO",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 47511860,
         "latitude": 46.1013580153235,
         "longitude": 11.4868497848511,
         "name": "CHALET MUSIERA",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 6593024305,
@@ -17938,21 +17938,21 @@
         "latitude": 46.0041,
         "longitude": 11.2444,
         "name": "FERRARI MICHELA",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 282013578,
         "latitude": 46.0546,
         "longitude": 11.2358,
         "name": "DEFLORIAN GIOVANNA",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 5759889212,
         "latitude": 46.0092961,
         "longitude": 11.294123,
         "name": "MOSCHEN ALESSANDRA",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 106413098,
@@ -17987,21 +17987,21 @@
         "latitude": 46.0388369504105,
         "longitude": 11.234872341156,
         "name": "ROSATI MARIA GRAZIA",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 5763437465,
         "latitude": 46.0119,
         "longitude": 11.299,
         "name": "GAIGHER PAOLO",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 103069968,
         "latitude": 46.1291,
         "longitude": 11.349,
         "name": "MAS DE L'ORS",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 799244470,
@@ -18029,7 +18029,7 @@
         "latitude": 46.0473526736072,
         "longitude": 11.3915348052979,
         "name": "B&B MONTE TESOBO - DAL FIOR STEFANIA",
-        "type": "Bed & Breakfast"
+        "type": "bedbreakfast"
     },
     {
         "osm_id": 298271532,
@@ -18057,7 +18057,7 @@
         "latitude": 46.0098095897232,
         "longitude": 11.2999749183655,
         "name": "SETTICASI FRANCESCA",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 225334851,
@@ -18071,28 +18071,28 @@
         "latitude": 46.0642834075212,
         "longitude": 11.6323435306549,
         "name": "ZANETTIN GUSTAVO",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 2719640174,
         "latitude": 46.0418643342568,
         "longitude": 11.5539264678955,
         "name": "B&B LA CASA DEL GELSOMINO - POPOV DRAGHITA ",
-        "type": "Bed & Breakfast"
+        "type": "bedbreakfast"
     },
     {
         "osm_id": 729689601,
         "latitude": 46.0580355,
         "longitude": 11.2133885,
         "name": "ASENADA - OSS PEGORAR ROBERTA",
-        "type": "Bed & Breakfast"
+        "type": "bedbreakfast"
     },
     {
         "osm_id": 8717963609,
         "latitude": 46.0023474,
         "longitude": 11.2455336,
         "name": "BED & BREAKFAST EMI - PISTOLATO PAOLA",
-        "type": "Bed & Breakfast"
+        "type": "bedbreakfast"
     },
     {
         "osm_id": 149624843,
@@ -18127,7 +18127,7 @@
         "latitude": 46.0122536455406,
         "longitude": 11.3028931617737,
         "name": "TOMASI NADIA",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 5759889204,
@@ -18148,7 +18148,7 @@
         "latitude": 46.060486728763,
         "longitude": 11.6346073150635,
         "name": "SORDO FRANCO",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 30050116,
@@ -18162,14 +18162,14 @@
         "latitude": 46.0104019851195,
         "longitude": 11.3003182411194,
         "name": "LORENZINI AURELIA",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 6313844442,
         "latitude": 46.0524,
         "longitude": 11.4578,
         "name": "CASA TITTI",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 481282430,
@@ -18197,7 +18197,7 @@
         "latitude": 46.0642945738383,
         "longitude": 11.6313457489014,
         "name": "SORDO FRANCO",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 625509309,
@@ -18225,14 +18225,14 @@
         "latitude": 46.0053808,
         "longitude": 11.3444768,
         "name": "CASA DELLE MORE - CARBONI ALESSANDRA",
-        "type": "Bed & Breakfast"
+        "type": "bedbreakfast"
     },
     {
         "osm_id": 5751006056,
         "latitude": 46.0143,
         "longitude": 11.3038,
         "name": "ANNA ANDREATTA",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 106774504,
@@ -18281,28 +18281,28 @@
         "latitude": 46.0145839,
         "longitude": 11.2662951,
         "name": "LA ROSA DEI VENTI - MOSNA GIOVANNA",
-        "type": "Bed & Breakfast"
+        "type": "bedbreakfast"
     },
     {
         "osm_id": 515455507,
         "latitude": 46.0021,
         "longitude": 11.2647,
         "name": "DI BELLO GIOVANNI",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 5763460385,
         "latitude": 46.0108,
         "longitude": 11.3006,
         "name": "LORENZINI MONICA",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 9783835643,
         "latitude": 46.0640675249458,
         "longitude": 11.633448600769,
         "name": "MENGUZZATO SABRINA - CASA VEGLIA",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 26773480,
@@ -18316,7 +18316,7 @@
         "latitude": 46.0126262055383,
         "longitude": 11.3033974170685,
         "name": "ALLA LOGGIA DELL'IMPERATORE - ANGELI STEFANIA",
-        "type": "Bed & Breakfast"
+        "type": "bedbreakfast"
     },
     {
         "osm_id": 5795453674,
@@ -18330,28 +18330,28 @@
         "latitude": 46.0415441022364,
         "longitude": 11.3081073760986,
         "name": "VILLA ABETINA",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 35100545,
         "latitude": 46.1138842239054,
         "longitude": 11.3074636459351,
         "name": "CASA DELLE ROSE",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 5763498909,
         "latitude": 46.010107651093,
         "longitude": 11.3024210929871,
         "name": "NADALINI GIULIANO",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 42367215,
         "latitude": 46.1118,
         "longitude": 11.2998,
         "name": "MAS DEI OSTI",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 587759192,
@@ -18379,14 +18379,14 @@
         "latitude": 46.0372,
         "longitude": 11.3908,
         "name": "ORLER FRANCO",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 406265470,
         "latitude": 46.0686,
         "longitude": 11.477,
         "name": "CASA ROSSA - DEBORTOLI EUGENIA",
-        "type": "Bed & Breakfast"
+        "type": "bedbreakfast"
     },
     {
         "osm_id": 977861430,
@@ -18407,7 +18407,7 @@
         "latitude": 46.0012545438469,
         "longitude": 11.3409805297852,
         "name": "CARLINI CARLA  - CASA ROBERTO",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 121382581,
@@ -18421,7 +18421,7 @@
         "latitude": 46.0696429801034,
         "longitude": 11.634156703949,
         "name": "BAITA CORNALE",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 1049119566,
@@ -18456,7 +18456,7 @@
         "latitude": 46.0101672631742,
         "longitude": 11.3023567199707,
         "name": "NADALINI GIULIANO",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 50730287,
@@ -18470,7 +18470,7 @@
         "latitude": 46.0104,
         "longitude": 11.2981,
         "name": "GELMETTI MERCEDES",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": "11986216045",
@@ -18505,7 +18505,7 @@
         "latitude": 46.012,
         "longitude": 11.295,
         "name": "MERIGGI LIDIA E MOSCHEN ELDA",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 669128408,
@@ -18519,7 +18519,7 @@
         "latitude": 46.0418,
         "longitude": 11.4457,
         "name": "PIAGARO - CASAGRANDE GIULIANA",
-        "type": "Bed & Breakfast"
+        "type": "bedbreakfast"
     },
     {
         "osm_id": 3383501283,
@@ -18547,28 +18547,28 @@
         "latitude": 46.0643727379951,
         "longitude": 11.6287708282471,
         "name": "BOSO ROBERTO",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 78239149,
         "latitude": 46.1139734740849,
         "longitude": 11.6449928283691,
         "name": "BAITA SPERANDIO - CASA PER FERIE",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 1083420310,
         "latitude": 46.0018507571774,
         "longitude": 11.2636470794678,
         "name": "CASTAGNOLI MARIO",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 95590820,
         "latitude": 46.0427356538465,
         "longitude": 11.304931640625,
         "name": "B&B MASO ZONT - ECCHER MASSIMILIANO",
-        "type": "Bed & Breakfast"
+        "type": "bedbreakfast"
     },
     {
         "osm_id": 24790566,
@@ -18582,7 +18582,7 @@
         "latitude": 46.0653255873891,
         "longitude": 11.6324293613434,
         "name": "NICETTO FRANCA",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 6741919059,
@@ -18596,21 +18596,21 @@
         "latitude": 46.0093,
         "longitude": 11.2994,
         "name": "DALMASO RENATO",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 5769517358,
         "latitude": 46.0096,
         "longitude": 11.2984,
         "name": "CASA PRANDEL di Bruno Prandel",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 8458502419,
         "latitude": 45.9949566482091,
         "longitude": 11.2664580345154,
         "name": "BORT ALDO",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 963166943,
@@ -18638,7 +18638,7 @@
         "latitude": 46.0649459384296,
         "longitude": 11.6333091259003,
         "name": "MENATO GIULIO",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 66183772,
@@ -18673,7 +18673,7 @@
         "latitude": 46.0976234047716,
         "longitude": 11.2947177886963,
         "name": "GIAN - DALBOSCO DANIELA",
-        "type": "Bed & Breakfast"
+        "type": "bedbreakfast"
     },
     {
         "osm_id": 331711279,
@@ -18687,7 +18687,7 @@
         "latitude": 45.9993,
         "longitude": 11.2535,
         "name": "FERRARI GIULIA",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 423844092,
@@ -18701,7 +18701,7 @@
         "latitude": 46.0648566088833,
         "longitude": 11.6326224803925,
         "name": "BOSO ROBERTO",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 7687845036,
@@ -18729,21 +18729,21 @@
         "latitude": 46.0143,
         "longitude": 11.3142,
         "name": "OCHNER MARILINA",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 29188293,
         "latitude": 46.0177,
         "longitude": 11.2949,
         "name": "LIBARDONI GIUSEPPE",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 5755583207,
         "latitude": 46.014,
         "longitude": 11.2934,
         "name": "CETTO LETIZIA",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 5795095594,
@@ -18757,28 +18757,28 @@
         "latitude": 46.0028419476197,
         "longitude": 11.2465560436249,
         "name": "MOSER MARIA RICCARDA - CASA LIBA",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 6583629282,
         "latitude": 46.0482462457647,
         "longitude": 11.4065337181091,
         "name": "AZZOLINI PIERPAOLO",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 5763085559,
         "latitude": 46.0078796034825,
         "longitude": 11.3008868694305,
         "name": "OSLER GIACOMO",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 6591719465,
         "latitude": 46.012,
         "longitude": 11.2669,
         "name": "ROSANELLI MARIO",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 72667661,
@@ -18799,7 +18799,7 @@
         "latitude": 46.0125,
         "longitude": 11.2954,
         "name": "MASCOTTO GIUSEPPE",
-        "type": "appartamenti vacanze"
+        "type": "appartamento"
     },
     {
         "osm_id": 203462705,
@@ -18813,7 +18813,7 @@
         "latitude": 46.2910355412815,
         "longitude": 11.4606392383575,
         "name": "TANA DEL GRILLO",
-        "type": "Bar"
+        "type": "bar"
     },
     {
         "osm_id": 116535418,
@@ -18834,21 +18834,21 @@
         "latitude": 46.3131383681514,
         "longitude": 11.6007900238037,
         "name": "BLACKOUT BAR",
-        "type": "Bar"
+        "type": "bar"
     },
     {
         "osm_id": 449036481,
         "latitude": 46.30584,
         "longitude": 11.59728,
         "name": "BAR LAGORAI",
-        "type": "Bar"
+        "type": "bar"
     },
     {
         "osm_id": 441478458,
         "latitude": 46.3096330490621,
         "longitude": 11.6049528121948,
         "name": "BAR PASTICCERIA SCARABELLIN",
-        "type": "Bar"
+        "type": "bar"
     },
     {
         "osm_id": 24154766,
@@ -18869,14 +18869,14 @@
         "latitude": 46.3097516258924,
         "longitude": 11.6045236587524,
         "name": "MEETING BAR",
-        "type": "Bar"
+        "type": "bar"
     },
     {
         "osm_id": 4575931566,
         "latitude": 46.2925553036091,
         "longitude": 11.4398574829102,
         "name": "BAR BOCCE - CARANO",
-        "type": "Bar"
+        "type": "bar"
     },
     {
         "osm_id": 303826370,
@@ -18918,7 +18918,7 @@
         "latitude": 46.2892784952017,
         "longitude": 11.4664649963379,
         "name": "FITNESS BAR",
-        "type": "Bar"
+        "type": "bar"
     },
     {
         "osm_id": 144884236,
@@ -18960,7 +18960,7 @@
         "latitude": 46.2881070998347,
         "longitude": 11.563925743103,
         "name": "BAR AL PARCO - ZIANO DI FIEMME",
-        "type": "Bar"
+        "type": "bar"
     },
     {
         "osm_id": 361715944,
@@ -18981,14 +18981,14 @@
         "latitude": 46.2857292,
         "longitude": 11.5619307,
         "name": "EXTRA BAR",
-        "type": "Bar"
+        "type": "bar"
     },
     {
         "osm_id": 6397206527,
         "latitude": 46.2897084948101,
         "longitude": 11.5100240707397,
         "name": "DIXIE PUB",
-        "type": "Birreria / Pub"
+        "type": "birreria"
     },
     {
         "osm_id": 129475939,
@@ -19002,14 +19002,14 @@
         "latitude": 46.2852872,
         "longitude": 11.5422467,
         "name": "BAR GIMA",
-        "type": "Bar"
+        "type": "bar"
     },
     {
         "osm_id": 27662907,
         "latitude": 46.3108632711826,
         "longitude": 11.6019058227539,
         "name": "CAORER",
-        "type": "Bar"
+        "type": "bar"
     },
     {
         "osm_id": "10224309480",
@@ -19023,14 +19023,14 @@
         "latitude": 46.3119007864166,
         "longitude": 11.5995132923126,
         "name": "VIDEO MUSIC",
-        "type": "Bar"
+        "type": "bar"
     },
     {
         "osm_id": 1200767959,
         "latitude": 46.2852007449248,
         "longitude": 11.5153455734253,
         "name": "BAR DE VAL",
-        "type": "Bar"
+        "type": "bar"
     },
     {
         "osm_id": 167096859,
@@ -19044,7 +19044,7 @@
         "latitude": 46.285434,
         "longitude": 11.540483,
         "name": "BAR CROCE BIANCA",
-        "type": "Bar"
+        "type": "bar"
     },
     {
         "osm_id": 7958929671,
@@ -19058,14 +19058,14 @@
         "latitude": 46.2912208804086,
         "longitude": 11.46036028862,
         "name": "CAFFE DA TE",
-        "type": "Bar"
+        "type": "bar"
     },
     {
         "osm_id": 261086638,
         "latitude": 46.281633,
         "longitude": 11.4348379,
         "name": "BAR CASTELLO",
-        "type": "Bar"
+        "type": "bar"
     },
     {
         "osm_id": 25995829,
@@ -19100,7 +19100,7 @@
         "latitude": 46.2903609015626,
         "longitude": 11.5076422691345,
         "name": "THE CLUB",
-        "type": "Birreria / Pub"
+        "type": "birreria"
     },
     {
         "osm_id": 3430680534,
@@ -19121,7 +19121,7 @@
         "latitude": 46.2850376285998,
         "longitude": 11.5624666213989,
         "name": "BAR  BUNKER",
-        "type": "Bar"
+        "type": "bar"
     },
     {
         "osm_id": 303832073,
@@ -19142,7 +19142,7 @@
         "latitude": 46.3032146,
         "longitude": 11.4560116,
         "name": "BAR AL DRAGO",
-        "type": "Bar"
+        "type": "bar"
     },
     {
         "osm_id": "11457234230",
@@ -19156,14 +19156,14 @@
         "latitude": 46.3421134929553,
         "longitude": 11.540515422821,
         "name": "SPORT HOTEL PAMPEAGO",
-        "type": "Bar"
+        "type": "bar"
     },
     {
         "osm_id": 325140257,
         "latitude": 46.3419505461732,
         "longitude": 11.5410733222961,
         "name": "SKI BAR SCUOLA DI SCI",
-        "type": "Bar"
+        "type": "bar"
     },
     {
         "osm_id": 109938109,
@@ -19177,14 +19177,14 @@
         "latitude": 46.2896269434197,
         "longitude": 11.463965177536,
         "name": "BAR TEATRO",
-        "type": "Bar"
+        "type": "bar"
     },
     {
         "osm_id": 6397060067,
         "latitude": 46.2895157367824,
         "longitude": 11.5100026130676,
         "name": "BAR STELLA",
-        "type": "Bar"
+        "type": "bar"
     },
     {
         "osm_id": 23125331,
@@ -19205,14 +19205,14 @@
         "latitude": 46.2908,
         "longitude": 11.46276,
         "name": "BAR CORONA",
-        "type": "Bar"
+        "type": "bar"
     },
     {
         "osm_id": 58779173,
         "latitude": 46.2909,
         "longitude": 11.46304,
         "name": "CAFFE GELATERIA KISS",
-        "type": "Bar"
+        "type": "bar"
     },
     {
         "osm_id": 27658642,
@@ -19226,7 +19226,7 @@
         "latitude": 46.2863722024442,
         "longitude": 11.4645338058472,
         "name": "BAR PUB SOTTOZERO",
-        "type": "Birreria / Pub"
+        "type": "birreria"
     },
     {
         "osm_id": 722215969,
@@ -19240,14 +19240,14 @@
         "latitude": 46.341713531805,
         "longitude": 11.5392923355103,
         "name": "BIRRERIA PUB STALA DEL NONO",
-        "type": "Birreria / Pub"
+        "type": "birreria"
     },
     {
         "osm_id": 319781785,
         "latitude": 46.2926739174312,
         "longitude": 11.4907336235046,
         "name": "MEETNESS CAFE'",
-        "type": "Bar"
+        "type": "bar"
     },
     {
         "osm_id": 8989907790,
@@ -19261,7 +19261,7 @@
         "latitude": 46.29212,
         "longitude": 11.46025,
         "name": "BIRRERIA E SPAGHETTERIA IL VICOLETTO",
-        "type": "Birreria / Pub"
+        "type": "birreria"
     },
     {
         "osm_id": 400431831,
@@ -19275,7 +19275,7 @@
         "latitude": 46.31492,
         "longitude": 11.60063,
         "name": "B'ART",
-        "type": "Birreria / Pub"
+        "type": "birreria"
     },
     {
         "osm_id": 107994768,
@@ -19296,7 +19296,7 @@
         "latitude": 46.3111893495183,
         "longitude": 11.6079783439636,
         "name": "SPORTING",
-        "type": "Bar"
+        "type": "bar"
     },
     {
         "osm_id": 385081729,
@@ -19317,7 +19317,7 @@
         "latitude": 46.3000571221295,
         "longitude": 11.4511227607727,
         "name": "BAR VIENNA",
-        "type": "Bar"
+        "type": "bar"
     },
     {
         "osm_id": 441478454,
@@ -19338,7 +19338,7 @@
         "latitude": 46.2872322439159,
         "longitude": 11.4402866363525,
         "name": "BAR BIVIO",
-        "type": "Bar"
+        "type": "bar"
     },
     {
         "osm_id": 107050297,
@@ -19366,7 +19366,7 @@
         "latitude": 46.31547,
         "longitude": 11.60214,
         "name": "OSTARIA AL SANTO",
-        "type": "Birreria / Pub"
+        "type": "birreria"
     },
     {
         "osm_id": 441491571,
@@ -19401,14 +19401,14 @@
         "latitude": 46.292658,
         "longitude": 11.506665,
         "name": "BAR BOCCE - TESERO",
-        "type": "Bar"
+        "type": "bar"
     },
     {
         "osm_id": "10816640692",
         "latitude": 46.313513,
         "longitude": 11.6023099,
         "name": "EL PIRLE",
-        "type": "Bar"
+        "type": "bar"
     },
     {
         "osm_id": 291291910,
@@ -19436,7 +19436,7 @@
         "latitude": 46.2912505346107,
         "longitude": 11.4623022079468,
         "name": "BAR PLAZA",
-        "type": "Bar"
+        "type": "bar"
     },
     {
         "osm_id": 1468556028,
@@ -19478,7 +19478,7 @@
         "latitude": 46.29115,
         "longitude": 11.458937,
         "name": "BAR GIARDINETTO",
-        "type": "Bar"
+        "type": "bar"
     },
     {
         "osm_id": 25825231,
@@ -19499,49 +19499,49 @@
         "latitude": 46.279522,
         "longitude": 11.43413,
         "name": "ANNY BAR",
-        "type": "Bar"
+        "type": "bar"
     },
     {
         "osm_id": 24154770,
         "latitude": 46.2843851584426,
         "longitude": 11.4727306365967,
         "name": "OLIMPIA SKI BAR",
-        "type": "Birreria / Pub"
+        "type": "birreria"
     },
     {
         "osm_id": 5352766114,
         "latitude": 46.30368,
         "longitude": 11.45611,
         "name": "BAR VARENA",
-        "type": "Bar"
+        "type": "bar"
     },
     {
         "osm_id": 1403121846,
         "latitude": 46.289486081641,
         "longitude": 11.5101957321167,
         "name": "BAR POZZO",
-        "type": "Bar"
+        "type": "bar"
     },
     {
         "osm_id": 4586771954,
         "latitude": 46.2908650287307,
         "longitude": 11.4618623256683,
         "name": "BAR ROMA",
-        "type": "Bar"
+        "type": "bar"
     },
     {
         "osm_id": 832931370,
         "latitude": 46.3039707064287,
         "longitude": 11.593816280365,
         "name": "LA PASTICCERIA DI TONINO",
-        "type": "Gelateria / Pasticceria"
+        "type": "gelateria-pasticceria"
     },
     {
         "osm_id": 24066129,
         "latitude": 46.280368,
         "longitude": 11.434943,
         "name": "BAR ALLA TORRE",
-        "type": "Bar"
+        "type": "bar"
     },
     {
         "osm_id": 230752546,
@@ -19555,7 +19555,7 @@
         "latitude": 46.3150873173768,
         "longitude": 11.5977001190186,
         "name": "BIRRERIA PUB GAMS",
-        "type": "Birreria / Pub"
+        "type": "birreria"
     },
     {
         "osm_id": 463221373,
@@ -19569,7 +19569,7 @@
         "latitude": 46.2864463444822,
         "longitude": 11.5621340274811,
         "name": "SUAN'CAFE'",
-        "type": "Bar"
+        "type": "bar"
     },
     {
         "osm_id": 26628744,
@@ -19590,7 +19590,7 @@
         "latitude": 46.2727728558009,
         "longitude": 11.4168334007263,
         "name": "BAR SPORT",
-        "type": "Bar"
+        "type": "bar"
     },
     {
         "osm_id": 25642278,
@@ -19625,14 +19625,14 @@
         "latitude": 46.31661,
         "longitude": 11.59892,
         "name": "POLDO PUB",
-        "type": "Birreria / Pub"
+        "type": "birreria"
     },
     {
         "osm_id": 4379326550,
         "latitude": 46.290598138455,
         "longitude": 11.4618408679962,
         "name": "BAR CAFFETTERIA BETTA BISTROT",
-        "type": "Bar"
+        "type": "bar"
     },
     {
         "osm_id": 681808230,
@@ -19653,7 +19653,7 @@
         "latitude": 46.3038224696968,
         "longitude": 11.5937733650208,
         "name": "ARMONJ CAFE'",
-        "type": "Bar"
+        "type": "bar"
     },
     {
         "osm_id": 907334657,
@@ -19695,7 +19695,7 @@
         "latitude": 46.3001608950206,
         "longitude": 11.4498138427734,
         "name": "BAR BOCCE - DAIANO",
-        "type": "Bar"
+        "type": "bar"
     },
     {
         "osm_id": 293908131,
@@ -19723,7 +19723,7 @@
         "latitude": 46.3283205509667,
         "longitude": 11.6018629074097,
         "name": "LATEMAR STUBE",
-        "type": "Bar"
+        "type": "bar"
     },
     {
         "osm_id": 23155702,
@@ -19758,7 +19758,7 @@
         "latitude": 46.2886112477469,
         "longitude": 11.5127062797546,
         "name": "PASTICCERIA ELISIANA",
-        "type": "Gelateria / Pasticceria"
+        "type": "gelateria-pasticceria"
     },
     {
         "osm_id": 25996671,
@@ -19772,21 +19772,21 @@
         "latitude": 46.3171012,
         "longitude": 11.5015078,
         "name": "CAFE' STRADIVARI",
-        "type": "Bar"
+        "type": "bar"
     },
     {
         "osm_id": 318048593,
         "latitude": 46.2858976910245,
         "longitude": 11.462345123291,
         "name": "BAR AL PARCO - CAVALESE",
-        "type": "Bar"
+        "type": "bar"
     },
     {
         "osm_id": 4586662296,
         "latitude": 46.2832719,
         "longitude": 11.483345,
         "name": "PICCOLO BAR",
-        "type": "Bar"
+        "type": "bar"
     },
     {
         "osm_id": 102819702,
@@ -19800,7 +19800,7 @@
         "latitude": 46.2914699,
         "longitude": 11.43875,
         "name": "BAR AL TABIO",
-        "type": "Bar"
+        "type": "bar"
     },
     {
         "osm_id": 27658643,
@@ -19814,35 +19814,35 @@
         "latitude": 46.31179,
         "longitude": 11.60269,
         "name": "BAR GELATERIA MEZZALUNA",
-        "type": "Bar"
+        "type": "bar"
     },
     {
         "osm_id": 96832115,
         "latitude": 46.2912134668555,
         "longitude": 11.4606821537018,
         "name": "BAR PUB CANTON",
-        "type": "Birreria / Pub"
+        "type": "birreria"
     },
     {
         "osm_id": 7958929671,
         "latitude": 46.2887446978881,
         "longitude": 11.5115261077881,
         "name": "BAR PAN & CAFFE'",
-        "type": "Bar"
+        "type": "bar"
     },
     {
         "osm_id": 26330869,
         "latitude": 46.28896,
         "longitude": 11.45467,
         "name": "BAR TRENTO",
-        "type": "Bar"
+        "type": "bar"
     },
     {
         "osm_id": 33551666,
         "latitude": 46.309314372558,
         "longitude": 11.6022920608521,
         "name": "BAR CAFFE' MARILYN",
-        "type": "Bar"
+        "type": "bar"
     },
     {
         "osm_id": 8084071904,
@@ -19870,7 +19870,7 @@
         "latitude": 46.31133,
         "longitude": 11.60267,
         "name": "BAR ANCORA",
-        "type": "Bar"
+        "type": "bar"
     },
     {
         "osm_id": 426977370,
@@ -19891,7 +19891,7 @@
         "latitude": 46.3109818453476,
         "longitude": 11.6011548042297,
         "name": "CAFFE' PREDAZZO",
-        "type": "Bar"
+        "type": "bar"
     },
     {
         "osm_id": 400431829,
@@ -19912,7 +19912,7 @@
         "latitude": 46.290271937463,
         "longitude": 11.4636754989624,
         "name": "TRE VALLI",
-        "type": "Gelateria / Pasticceria Bar"
+        "type": "gelateria-pasticceria"
     },
     {
         "osm_id": 27191729,
@@ -19940,7 +19940,7 @@
         "latitude": 46.2895528056866,
         "longitude": 11.5090584754944,
         "name": "BAR BOLINI",
-        "type": "Bar"
+        "type": "bar"
     },
     {
         "osm_id": 110073466,
@@ -19954,14 +19954,14 @@
         "latitude": 46.31016,
         "longitude": 11.60222,
         "name": "BAR PASTICCERIA LISA",
-        "type": "Bar"
+        "type": "bar"
     },
     {
         "osm_id": 463398976,
         "latitude": 46.2831098534246,
         "longitude": 11.5574669837952,
         "name": "BAR LA CAPANNA",
-        "type": "Bar"
+        "type": "bar"
     },
     {
         "osm_id": 886161159,
@@ -19996,7 +19996,7 @@
         "latitude": 46.2885667642942,
         "longitude": 11.5105390548706,
         "name": "CAFFE FILO'",
-        "type": "Bar"
+        "type": "bar"
     },
     {
         "osm_id": 203462700,
@@ -20017,14 +20017,14 @@
         "latitude": 46.2884745,
         "longitude": 11.4543516,
         "name": "BAR NUOVO POME",
-        "type": "Bar"
+        "type": "bar"
     },
     {
         "osm_id": 210472098,
         "latitude": 46.3129234607562,
         "longitude": 11.6014552116394,
         "name": "BAR PASTICCERIA SCARABELLIN",
-        "type": "Bar"
+        "type": "bar"
     },
     {
         "osm_id": 24874751,
@@ -20045,7 +20045,7 @@
         "latitude": 46.2880552019921,
         "longitude": 11.4633214473724,
         "name": "BAR STAZIONE",
-        "type": "Bar"
+        "type": "bar"
     },
     {
         "osm_id": 65425151,
@@ -20059,7 +20059,7 @@
         "latitude": 46.31271,
         "longitude": 11.6027799,
         "name": "CAFFE' CROCE",
-        "type": "Bar"
+        "type": "bar"
     },
     {
         "osm_id": 255119471,
@@ -20115,7 +20115,7 @@
         "latitude": 46.3111522952598,
         "longitude": 11.6081178188324,
         "name": "VOLTRON CLUB",
-        "type": "Palestra"
+        "type": "palestra"
     },
     {
         "osm_id": 58779169,
@@ -20150,7 +20150,7 @@
         "latitude": 46.3161403,
         "longitude": 11.5017992,
         "name": "CENTRO SPORTIVO DI STAVA: PALESTRA DI ROCCIA",
-        "type": "Palestra"
+        "type": "palestra"
     },
     {
         "osm_id": 95209157,
@@ -20185,7 +20185,7 @@
         "latitude": 46.3108632711826,
         "longitude": 11.6170978546143,
         "name": "EN PALESTRA",
-        "type": "Palestra"
+        "type": "palestra"
     },
     {
         "osm_id": 33889538,
@@ -20248,7 +20248,7 @@
         "latitude": 46.3161403,
         "longitude": 11.5017992,
         "name": "SALA MULTIUSO",
-        "type": "teatro/opera/cinema"
+        "type": "cinema"
     },
     {
         "osm_id": 26330869,
@@ -20276,7 +20276,7 @@
         "latitude": 46.2894119437173,
         "longitude": 11.4668941497803,
         "name": "PALAZZETTO DELLO SPORT",
-        "type": "Palestra"
+        "type": "palestra"
     },
     {
         "osm_id": 8976351017,
@@ -20395,7 +20395,7 @@
         "latitude": 46.2914136324354,
         "longitude": 11.511332988739,
         "name": "PALESTRA STILBODY",
-        "type": "Palestra"
+        "type": "palestra"
     },
     {
         "osm_id": 8531078022,
@@ -20486,7 +20486,7 @@
         "latitude": 46.2898493560167,
         "longitude": 11.5135645866394,
         "name": "PALESTRE E AUDITORIUM ISTITUTO COMPRENSIVO",
-        "type": "Palestra"
+        "type": "palestra"
     },
     {
         "osm_id": 663151874,
@@ -20549,7 +20549,7 @@
         "latitude": 46.2900198717295,
         "longitude": 11.4303731918335,
         "name": "ARETE'CLUB - CENTRO BENESSERE",
-        "type": "Palestra"
+        "type": "palestra"
     },
     {
         "osm_id": 230751468,
