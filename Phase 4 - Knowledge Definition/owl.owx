@@ -1,0 +1,806 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://knowdive.disi.unitn.it/etype"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://knowdive.disi.unitn.it/etype">
+    <Prefix name="" IRI="http://www.semanticweb.org/david/ontologies/2024/10/untitled-ontology-2/"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Prefix name="etype" IRI="http://knowdive.disi.unitn.it/etype#"/>
+    <Declaration>
+        <Class IRI="#Entity_GID-1"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#bus_route_GID-45117"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#bus_stop_GID-45118"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#event_GID-56"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#location_GID-695"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#mood_GID-39957"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#point_of_interest_KGE24-0A-20"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#stay_GID-5335"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#student_GID-53021"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#trip_journey_GID-1474"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_board_GID-102601"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_feel_GID-101373"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_get_off_GID-102589"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_go_through_GID-102767"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_located_GID-85982"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_particpate_in_GID-97811"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_stay_put_GID-101763"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_take_GID-101699"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_travel_by_KGE24-0A-50"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#has_Event_ID_KGE24-0A-18"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#has_OSM_place_ID_KGE24-0A-19"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#has_PoI_ID_KGE24-0A-15"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#has_PoI_name_KGE24-0A-8"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#has_PoI_type_KGE24-0A-7"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#has_activity_GID-2006"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#has_boarding_time_KGE24-0A-2"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#has_bus_line_ID_KGE24-0A-17"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#has_bus_line_name_KGE24-0A-9"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#has_duration_GID-72859"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#has_end_date_KGE24-0A-4"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#has_excluded_dates_KGE24-0A-6"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#has_extra_dates_KGE24-0A-5"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#has_latitude_GID-45424"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#has_longitude_GID-45429"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#has_mood_GID-39957"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#has_route_ID_KGE24-0A-16"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#has_served_days_friday_KGE24-0A-32"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#has_served_days_monday_KGE24-0A-12"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#has_served_days_saturday_KGE24-0A-33"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#has_served_days_sunday_KGE24-0A-34"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#has_served_days_thursday_KGE24-0A-31"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#has_served_days_tuesday_KGE24-0A-29"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#has_served_days_wednesday_KGE24-0A-30"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#has_start_date_KGE24-0A-3"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#has_start_time_GID-73577"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#has_stop_ID_KGE24-0A-14"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#has_stop_name_KGE24-0A-10"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#has_stop_order_KGE24-0A-49"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#has_student_ID_KGE24-0A-13"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#has_timestamp_GID-27373"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#has_timetable_GID-34211"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#has_trip_headsign_KGE24-0A-11"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#isEtype"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#bus_route_GID-45117"/>
+        <Class IRI="#Entity_GID-1"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#bus_stop_GID-45118"/>
+        <Class IRI="#Entity_GID-1"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#event_GID-56"/>
+        <Class IRI="#Entity_GID-1"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#location_GID-695"/>
+        <Class IRI="#Entity_GID-1"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#mood_GID-39957"/>
+        <Class IRI="#Entity_GID-1"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#point_of_interest_KGE24-0A-20"/>
+        <Class IRI="#Entity_GID-1"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#stay_GID-5335"/>
+        <Class IRI="#Entity_GID-1"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#student_GID-53021"/>
+        <Class IRI="#Entity_GID-1"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#trip_journey_GID-1474"/>
+        <Class IRI="#Entity_GID-1"/>
+    </SubClassOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#has_board_GID-102601"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#has_feel_GID-101373"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#has_get_off_GID-102589"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#has_go_through_GID-102767"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#has_located_GID-85982"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#has_particpate_in_GID-97811"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#has_stay_put_GID-101763"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#has_take_GID-101699"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#has_travel_by_KGE24-0A-50"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_board_GID-102601"/>
+        <Class IRI="#trip_journey_GID-1474"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_feel_GID-101373"/>
+        <Class IRI="#student_GID-53021"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_get_off_GID-102589"/>
+        <Class IRI="#trip_journey_GID-1474"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_go_through_GID-102767"/>
+        <Class IRI="#bus_route_GID-45117"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_located_GID-85982"/>
+        <Class IRI="#student_GID-53021"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_particpate_in_GID-97811"/>
+        <Class IRI="#student_GID-53021"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_stay_put_GID-101763"/>
+        <Class IRI="#student_GID-53021"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_take_GID-101699"/>
+        <Class IRI="#student_GID-53021"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_travel_by_KGE24-0A-50"/>
+        <Class IRI="#trip_journey_GID-1474"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_board_GID-102601"/>
+        <Class IRI="#bus_stop_GID-45118"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_feel_GID-101373"/>
+        <Class IRI="#mood_GID-39957"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_get_off_GID-102589"/>
+        <Class IRI="#bus_stop_GID-45118"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_go_through_GID-102767"/>
+        <Class IRI="#bus_stop_GID-45118"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_located_GID-85982"/>
+        <Class IRI="#location_GID-695"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_particpate_in_GID-97811"/>
+        <Class IRI="#event_GID-56"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_stay_put_GID-101763"/>
+        <Class IRI="#stay_GID-5335"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_take_GID-101699"/>
+        <Class IRI="#trip_journey_GID-1474"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_travel_by_KGE24-0A-50"/>
+        <Class IRI="#bus_route_GID-45117"/>
+    </ObjectPropertyRange>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#has_Event_ID_KGE24-0A-18"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#has_OSM_place_ID_KGE24-0A-19"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#has_PoI_ID_KGE24-0A-15"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#has_PoI_name_KGE24-0A-8"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#has_PoI_type_KGE24-0A-7"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#has_activity_GID-2006"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#has_boarding_time_KGE24-0A-2"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#has_bus_line_ID_KGE24-0A-17"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#has_bus_line_name_KGE24-0A-9"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#has_duration_GID-72859"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#has_end_date_KGE24-0A-4"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#has_excluded_dates_KGE24-0A-6"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#has_extra_dates_KGE24-0A-5"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#has_latitude_GID-45424"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#has_longitude_GID-45429"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#has_mood_GID-39957"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#has_route_ID_KGE24-0A-16"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#has_served_days_friday_KGE24-0A-32"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#has_served_days_monday_KGE24-0A-12"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#has_served_days_saturday_KGE24-0A-33"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#has_served_days_sunday_KGE24-0A-34"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#has_served_days_thursday_KGE24-0A-31"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#has_served_days_tuesday_KGE24-0A-29"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#has_served_days_wednesday_KGE24-0A-30"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#has_start_date_KGE24-0A-3"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#has_start_time_GID-73577"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#has_stop_ID_KGE24-0A-14"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#has_stop_name_KGE24-0A-10"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#has_student_ID_KGE24-0A-13"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#has_timestamp_GID-27373"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#has_timetable_GID-34211"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#has_trip_headsign_KGE24-0A-11"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_Event_ID_KGE24-0A-18"/>
+        <Class IRI="#event_GID-56"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_OSM_place_ID_KGE24-0A-19"/>
+        <Class IRI="#bus_stop_GID-45118"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_OSM_place_ID_KGE24-0A-19"/>
+        <Class IRI="#point_of_interest_KGE24-0A-20"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_PoI_ID_KGE24-0A-15"/>
+        <Class IRI="#point_of_interest_KGE24-0A-20"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_PoI_name_KGE24-0A-8"/>
+        <Class IRI="#point_of_interest_KGE24-0A-20"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_PoI_type_KGE24-0A-7"/>
+        <Class IRI="#point_of_interest_KGE24-0A-20"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_activity_GID-2006"/>
+        <Class IRI="#event_GID-56"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_boarding_time_KGE24-0A-2"/>
+        <Class IRI="#trip_journey_GID-1474"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_bus_line_ID_KGE24-0A-17"/>
+        <Class IRI="#bus_route_GID-45117"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_bus_line_name_KGE24-0A-9"/>
+        <Class IRI="#bus_route_GID-45117"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_duration_GID-72859"/>
+        <Class IRI="#event_GID-56"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_duration_GID-72859"/>
+        <Class IRI="#mood_GID-39957"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_duration_GID-72859"/>
+        <Class IRI="#stay_GID-5335"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_duration_GID-72859"/>
+        <Class IRI="#trip_journey_GID-1474"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_end_date_KGE24-0A-4"/>
+        <Class IRI="#bus_route_GID-45117"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_excluded_dates_KGE24-0A-6"/>
+        <Class IRI="#bus_route_GID-45117"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_extra_dates_KGE24-0A-5"/>
+        <Class IRI="#bus_route_GID-45117"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_latitude_GID-45424"/>
+        <Class IRI="#bus_stop_GID-45118"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_latitude_GID-45424"/>
+        <Class IRI="#location_GID-695"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_latitude_GID-45424"/>
+        <Class IRI="#point_of_interest_KGE24-0A-20"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_longitude_GID-45429"/>
+        <Class IRI="#bus_stop_GID-45118"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_longitude_GID-45429"/>
+        <Class IRI="#location_GID-695"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_longitude_GID-45429"/>
+        <Class IRI="#point_of_interest_KGE24-0A-20"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_mood_GID-39957"/>
+        <Class IRI="#mood_GID-39957"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_route_ID_KGE24-0A-16"/>
+        <Class IRI="#bus_route_GID-45117"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_served_days_friday_KGE24-0A-32"/>
+        <Class IRI="#bus_route_GID-45117"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_served_days_monday_KGE24-0A-12"/>
+        <Class IRI="#bus_route_GID-45117"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_served_days_saturday_KGE24-0A-33"/>
+        <Class IRI="#bus_route_GID-45117"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_served_days_sunday_KGE24-0A-34"/>
+        <Class IRI="#bus_route_GID-45117"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_served_days_thursday_KGE24-0A-31"/>
+        <Class IRI="#bus_route_GID-45117"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_served_days_tuesday_KGE24-0A-29"/>
+        <Class IRI="#bus_route_GID-45117"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_served_days_wednesday_KGE24-0A-30"/>
+        <Class IRI="#bus_route_GID-45117"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_start_date_KGE24-0A-3"/>
+        <Class IRI="#bus_route_GID-45117"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_start_time_GID-73577"/>
+        <Class IRI="#bus_route_GID-45117"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_stop_ID_KGE24-0A-14"/>
+        <Class IRI="#bus_stop_GID-45118"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_stop_name_KGE24-0A-10"/>
+        <Class IRI="#bus_stop_GID-45118"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_stop_order_KGE24-0A-49"/>
+        <Class IRI="#bus_route_GID-45117"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_student_ID_KGE24-0A-13"/>
+        <Class IRI="#student_GID-53021"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_timestamp_GID-27373"/>
+        <Class IRI="#event_GID-56"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_timestamp_GID-27373"/>
+        <Class IRI="#location_GID-695"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_timestamp_GID-27373"/>
+        <Class IRI="#mood_GID-39957"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_timestamp_GID-27373"/>
+        <Class IRI="#stay_GID-5335"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_timestamp_GID-27373"/>
+        <Class IRI="#trip_journey_GID-1474"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_timetable_GID-34211"/>
+        <Class IRI="#bus_stop_GID-45118"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_trip_headsign_KGE24-0A-11"/>
+        <Class IRI="#bus_route_GID-45117"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#has_Event_ID_KGE24-0A-18"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#has_OSM_place_ID_KGE24-0A-19"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#has_PoI_ID_KGE24-0A-15"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#has_PoI_name_KGE24-0A-8"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#has_PoI_type_KGE24-0A-7"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#has_activity_GID-2006"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#has_boarding_time_KGE24-0A-2"/>
+        <Datatype abbreviatedIRI="xsd:dateTime"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#has_bus_line_ID_KGE24-0A-17"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#has_bus_line_name_KGE24-0A-9"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#has_duration_GID-72859"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#has_end_date_KGE24-0A-4"/>
+        <Datatype abbreviatedIRI="xsd:dateTime"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#has_latitude_GID-45424"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#has_longitude_GID-45429"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#has_mood_GID-39957"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#has_route_ID_KGE24-0A-16"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#has_served_days_friday_KGE24-0A-32"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#has_served_days_monday_KGE24-0A-12"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#has_served_days_saturday_KGE24-0A-33"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#has_served_days_sunday_KGE24-0A-34"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#has_served_days_thursday_KGE24-0A-31"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#has_served_days_tuesday_KGE24-0A-29"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#has_served_days_wednesday_KGE24-0A-30"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#has_start_date_KGE24-0A-3"/>
+        <Datatype abbreviatedIRI="xsd:dateTime"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#has_start_time_GID-73577"/>
+        <Datatype abbreviatedIRI="xsd:dateTime"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#has_stop_ID_KGE24-0A-14"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#has_stop_name_KGE24-0A-10"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#has_stop_order_KGE24-0A-49"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#has_student_ID_KGE24-0A-13"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#has_timestamp_GID-27373"/>
+        <Datatype abbreviatedIRI="xsd:dateTime"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#has_timetable_GID-34211"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#has_trip_headsign_KGE24-0A-11"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#isEtype"/>
+        <IRI>#Entity_GID-1</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#isEtype"/>
+        <IRI>#bus_route_GID-45117</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#isEtype"/>
+        <IRI>#bus_stop_GID-45118</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#isEtype"/>
+        <IRI>#event_GID-56</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#isEtype"/>
+        <IRI>#location_GID-695</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#isEtype"/>
+        <IRI>#mood_GID-39957</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#isEtype"/>
+        <IRI>#point_of_interest_KGE24-0A-20</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#isEtype"/>
+        <IRI>#stay_GID-5335</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#isEtype"/>
+        <IRI>#student_GID-53021</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#isEtype"/>
+        <IRI>#trip_journey_GID-1474</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+
