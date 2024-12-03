@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+    <uri id="Imports Wizard Entry" name="http://vocab.gtfs.org/terms#" uri="gtfs.ttl"/>
+    <uri id="Imports Wizard Entry" name="http://www.semanticweb.org/munkhdelger/ontologies/2024/0/untitled-ontology-44" uri="su2_schema.rdf"/>
+    <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base="">
+        <uri id="Automatically generated entry, Timestamp=1733221802327" name="http://www.semanticweb.org/david/ontologies/2024/10/untitled-ontology-2/" uri="owl.rdf"/>
+        <uri id="Automatically generated entry, Timestamp=1733221802327" name="http://www.semanticweb.org/munkhdelger/ontologies/2024/0/untitled-ontology-44/" uri="su2_schema.rdf"/>
+        <uri id="Automatically generated entry, Timestamp=1733221802327" name="http://www.w3.org/2006/time" uri="owl.owx"/>
+    </group>
+</catalog>

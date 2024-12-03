@@ -13,8 +13,12 @@
     <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
     <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
     <Prefix name="etype" IRI="http://knowdive.disi.unitn.it/etype#"/>
+    <Prefix name="schema" IRI="http://vocab.gtfs.org/terms#"/>
     <Declaration>
         <Class IRI="#Entity_GID-1"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#bus_line_KGE24-0A-1"/>
     </Declaration>
     <Declaration>
         <Class IRI="#bus_route_GID-45117"/>
@@ -60,6 +64,9 @@
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#has_particpate_in_GID-97811"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_serve_GID-97875"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#has_stay_put_GID-101763"/>
@@ -173,6 +180,10 @@
         <AnnotationProperty IRI="#isEtype"/>
     </Declaration>
     <SubClassOf>
+        <Class IRI="#bus_line_KGE24-0A-1"/>
+        <Class IRI="#Entity_GID-1"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#bus_route_GID-45117"/>
         <Class IRI="#Entity_GID-1"/>
     </SubClassOf>
@@ -269,6 +280,10 @@
         <Class IRI="#student_GID-53021"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_serve_GID-97875"/>
+        <Class IRI="#bus_route_GID-45117"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
         <ObjectProperty IRI="#has_stay_put_GID-101763"/>
         <Class IRI="#student_GID-53021"/>
     </ObjectPropertyDomain>
@@ -303,6 +318,10 @@
     <ObjectPropertyRange>
         <ObjectProperty IRI="#has_particpate_in_GID-97811"/>
         <Class IRI="#event_GID-56"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_serve_GID-97875"/>
+        <Class IRI="#bus_line_KGE24-0A-1"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#has_stay_put_GID-101763"/>
@@ -478,11 +497,11 @@
     </DataPropertyDomain>
     <DataPropertyDomain>
         <DataProperty IRI="#has_bus_line_ID_KGE24-0A-17"/>
-        <Class IRI="#bus_route_GID-45117"/>
+        <Class IRI="#bus_line_KGE24-0A-1"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
         <DataProperty IRI="#has_bus_line_name_KGE24-0A-9"/>
-        <Class IRI="#bus_route_GID-45117"/>
+        <Class IRI="#bus_line_KGE24-0A-1"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
         <DataProperty IRI="#has_duration_GID-72859"/>
