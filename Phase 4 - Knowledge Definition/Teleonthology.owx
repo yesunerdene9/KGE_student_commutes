@@ -18,11 +18,11 @@
     <Prefix name="KGE24_0A" IRI="http://knowdive.disi.unitn.it/etype"/>
     <Annotation>
         <AnnotationProperty IRI="http://purl.org/dc/terms/creator"/>
-        <AnonymousIndividual nodeID="_:genid2147483650"/>
+        <AnonymousIndividual nodeID="_:genid2147483648"/>
     </Annotation>
     <Annotation>
         <AnnotationProperty IRI="http://purl.org/dc/terms/creator"/>
-        <AnonymousIndividual nodeID="_:genid2147483651"/>
+        <AnonymousIndividual nodeID="_:genid2147483649"/>
     </Annotation>
     <Annotation>
         <AnnotationProperty IRI="http://purl.org/dc/terms/description"/>
@@ -65,34 +65,37 @@
         <Literal>28.1</Literal>
     </Annotation>
     <Declaration>
-        <Class IRI="http://knowdive.disi.unitn.it/etype#bus_line_KGE24-0A-1"/>
+        <Class IRI="http://knowdive.disi.unitn.it/etype/#Entity_GID-1"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://knowdive.disi.unitn.it/etype#bus_route_GID-45117"/>
+        <Class IRI="http://knowdive.disi.unitn.it/etype/#bus_line_KGE24-0A-1"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://knowdive.disi.unitn.it/etype#bus_stop_GID-45118"/>
+        <Class IRI="http://knowdive.disi.unitn.it/etype/#bus_route_GID-45117"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://knowdive.disi.unitn.it/etype#event_GID-56"/>
+        <Class IRI="http://knowdive.disi.unitn.it/etype/#bus_stop_GID-45118"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://knowdive.disi.unitn.it/etype#location_GID-695"/>
+        <Class IRI="http://knowdive.disi.unitn.it/etype/#event_GID-56"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://knowdive.disi.unitn.it/etype#mood_GID-39957"/>
+        <Class IRI="http://knowdive.disi.unitn.it/etype/#location_GID-695"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://knowdive.disi.unitn.it/etype#point_of_interest_KGE24-0A-20"/>
+        <Class IRI="http://knowdive.disi.unitn.it/etype/#mood_GID-39957"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://knowdive.disi.unitn.it/etype#stay_GID-5335"/>
+        <Class IRI="http://knowdive.disi.unitn.it/etype/#point_of_interest_KGE24-0A-20"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://knowdive.disi.unitn.it/etype#student_GID-53021"/>
+        <Class IRI="http://knowdive.disi.unitn.it/etype/#stay_GID-5335"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://knowdive.disi.unitn.it/etype#trip_journey_GID-1474"/>
+        <Class IRI="http://knowdive.disi.unitn.it/etype/#student_GID-53021"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://knowdive.disi.unitn.it/etype/#trip_journey_GID-1474"/>
     </Declaration>
     <Declaration>
         <Class abbreviatedIRI="gtfs:Route"/>
@@ -5261,7 +5264,7 @@
         <AnnotationProperty IRI="http://creativecommons.org/ns#license"/>
     </Declaration>
     <Declaration>
-        <AnnotationProperty IRI="http://knowdive.disi.unitn.it/etype#isEtype"/>
+        <AnnotationProperty IRI="http://knowdive.disi.unitn.it/etype/#isEtype"/>
     </Declaration>
     <Declaration>
         <AnnotationProperty IRI="http://purl.org/dc/terms/creator"/>
@@ -5321,53 +5324,92 @@
         <AnnotationProperty IRI="http://xmlns.com/foaf/0.1/primaryTopic"/>
     </Declaration>
     <Declaration>
+        <AnnotationProperty IRI="#isEtype"/>
+    </Declaration>
+    <Declaration>
         <Datatype abbreviatedIRI="xsd:date"/>
     </Declaration>
     <Declaration>
         <Datatype abbreviatedIRI="xsd:duration"/>
     </Declaration>
     <SubClassOf>
-        <Class IRI="http://knowdive.disi.unitn.it/etype#bus_line_KGE24-0A-1"/>
+        <Class IRI="http://knowdive.disi.unitn.it/etype/#bus_line_KGE24-0A-1"/>
+        <Class IRI="http://knowdive.disi.unitn.it/etype/#Entity_GID-1"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://knowdive.disi.unitn.it/etype/#bus_line_KGE24-0A-1"/>
         <Class abbreviatedIRI="gtfs:Route"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://knowdive.disi.unitn.it/etype#bus_route_GID-45117"/>
+        <Class IRI="http://knowdive.disi.unitn.it/etype/#bus_route_GID-45117"/>
+        <Class IRI="http://knowdive.disi.unitn.it/etype/#Entity_GID-1"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://knowdive.disi.unitn.it/etype/#bus_route_GID-45117"/>
         <Class abbreviatedIRI="gtfs:Trip"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://knowdive.disi.unitn.it/etype#bus_stop_GID-45118"/>
+        <Class IRI="http://knowdive.disi.unitn.it/etype/#bus_stop_GID-45118"/>
+        <Class IRI="http://knowdive.disi.unitn.it/etype/#Entity_GID-1"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://knowdive.disi.unitn.it/etype/#bus_stop_GID-45118"/>
         <Class abbreviatedIRI="gtfs:Stop"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://knowdive.disi.unitn.it/etype#bus_stop_GID-45118"/>
-        <Class abbreviatedIRI="OSM_LW:OSM_place1"/>
+        <Class IRI="http://knowdive.disi.unitn.it/etype/#event_GID-56"/>
+        <Class IRI="http://knowdive.disi.unitn.it/etype/#Entity_GID-1"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://knowdive.disi.unitn.it/etype#event_GID-56"/>
+        <Class IRI="http://knowdive.disi.unitn.it/etype/#event_GID-56"/>
         <Class abbreviatedIRI="schema:Event"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://knowdive.disi.unitn.it/etype#location_GID-695"/>
+        <Class IRI="http://knowdive.disi.unitn.it/etype/#location_GID-695"/>
+        <Class IRI="http://knowdive.disi.unitn.it/etype/#Entity_GID-1"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://knowdive.disi.unitn.it/etype/#location_GID-695"/>
         <Class abbreviatedIRI="schema:Place"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://knowdive.disi.unitn.it/etype#mood_GID-39957"/>
+        <Class IRI="http://knowdive.disi.unitn.it/etype/#mood_GID-39957"/>
+        <Class IRI="http://knowdive.disi.unitn.it/etype/#Entity_GID-1"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://knowdive.disi.unitn.it/etype/#mood_GID-39957"/>
         <Class abbreviatedIRI="schema:ReactAction"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://knowdive.disi.unitn.it/etype#point_of_interest_KGE24-0A-20"/>
+        <Class IRI="http://knowdive.disi.unitn.it/etype/#point_of_interest_KGE24-0A-20"/>
+        <Class IRI="http://knowdive.disi.unitn.it/etype/#Entity_GID-1"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://knowdive.disi.unitn.it/etype/#point_of_interest_KGE24-0A-20"/>
         <Class abbreviatedIRI="OSM_LW:pois"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://knowdive.disi.unitn.it/etype#stay_GID-5335"/>
+        <Class IRI="http://knowdive.disi.unitn.it/etype/#stay_GID-5335"/>
+        <Class IRI="http://knowdive.disi.unitn.it/etype/#Entity_GID-1"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://knowdive.disi.unitn.it/etype/#stay_GID-5335"/>
         <Class abbreviatedIRI="schema:Action"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://knowdive.disi.unitn.it/etype#student_GID-53021"/>
+        <Class IRI="http://knowdive.disi.unitn.it/etype/#student_GID-53021"/>
+        <Class IRI="http://knowdive.disi.unitn.it/etype/#Entity_GID-1"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://knowdive.disi.unitn.it/etype/#student_GID-53021"/>
         <Class abbreviatedIRI="schema:Person"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://knowdive.disi.unitn.it/etype#trip_journey_GID-1474"/>
+        <Class IRI="http://knowdive.disi.unitn.it/etype/#trip_journey_GID-1474"/>
+        <Class IRI="http://knowdive.disi.unitn.it/etype/#Entity_GID-1"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://knowdive.disi.unitn.it/etype/#trip_journey_GID-1474"/>
         <Class abbreviatedIRI="schema:TravelAction"/>
     </SubClassOf>
     <SubClassOf>
@@ -5456,6 +5498,18 @@
         <Class abbreviatedIRI="schema:TravelAction"/>
         <Class abbreviatedIRI="schema:MoveAction"/>
     </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="http://knowdive.disi.unitn.it/etype/#bus_line_KGE24-0A-1"/>
+        <Class IRI="http://knowdive.disi.unitn.it/etype/#bus_route_GID-45117"/>
+        <Class IRI="http://knowdive.disi.unitn.it/etype/#bus_stop_GID-45118"/>
+        <Class IRI="http://knowdive.disi.unitn.it/etype/#event_GID-56"/>
+        <Class IRI="http://knowdive.disi.unitn.it/etype/#location_GID-695"/>
+        <Class IRI="http://knowdive.disi.unitn.it/etype/#mood_GID-39957"/>
+        <Class IRI="http://knowdive.disi.unitn.it/etype/#point_of_interest_KGE24-0A-20"/>
+        <Class IRI="http://knowdive.disi.unitn.it/etype/#stay_GID-5335"/>
+        <Class IRI="http://knowdive.disi.unitn.it/etype/#student_GID-53021"/>
+        <Class IRI="http://knowdive.disi.unitn.it/etype/#trip_journey_GID-1474"/>
+    </DisjointClasses>
     <ObjectPropertyAssertion>
         <ObjectProperty abbreviatedIRI="schema:supersededBy"/>
         <NamedIndividual abbreviatedIRI="schema:actors"/>
@@ -7078,48 +7132,48 @@
         <Datatype abbreviatedIRI="xsd:int"/>
     </DataPropertyRange>
     <AnnotationAssertion>
-        <AnnotationProperty IRI="http://knowdive.disi.unitn.it/etype#isEtype"/>
-        <IRI>http://knowdive.disi.unitn.it/etype#bus_route_GID-45117</IRI>
+        <AnnotationProperty IRI="http://knowdive.disi.unitn.it/etype/#isEtype"/>
+        <IRI>http://knowdive.disi.unitn.it/etype/#bus_route_GID-45117</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty IRI="http://knowdive.disi.unitn.it/etype#isEtype"/>
-        <IRI>http://knowdive.disi.unitn.it/etype#bus_stop_GID-45118</IRI>
+        <AnnotationProperty IRI="http://knowdive.disi.unitn.it/etype/#isEtype"/>
+        <IRI>http://knowdive.disi.unitn.it/etype/#bus_stop_GID-45118</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty IRI="http://knowdive.disi.unitn.it/etype#isEtype"/>
-        <IRI>http://knowdive.disi.unitn.it/etype#event_GID-56</IRI>
+        <AnnotationProperty IRI="http://knowdive.disi.unitn.it/etype/#isEtype"/>
+        <IRI>http://knowdive.disi.unitn.it/etype/#event_GID-56</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty IRI="http://knowdive.disi.unitn.it/etype#isEtype"/>
-        <IRI>http://knowdive.disi.unitn.it/etype#location_GID-695</IRI>
+        <AnnotationProperty IRI="http://knowdive.disi.unitn.it/etype/#isEtype"/>
+        <IRI>http://knowdive.disi.unitn.it/etype/#location_GID-695</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty IRI="http://knowdive.disi.unitn.it/etype#isEtype"/>
-        <IRI>http://knowdive.disi.unitn.it/etype#mood_GID-39957</IRI>
+        <AnnotationProperty IRI="http://knowdive.disi.unitn.it/etype/#isEtype"/>
+        <IRI>http://knowdive.disi.unitn.it/etype/#mood_GID-39957</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty IRI="http://knowdive.disi.unitn.it/etype#isEtype"/>
-        <IRI>http://knowdive.disi.unitn.it/etype#point_of_interest_KGE24-0A-20</IRI>
+        <AnnotationProperty IRI="http://knowdive.disi.unitn.it/etype/#isEtype"/>
+        <IRI>http://knowdive.disi.unitn.it/etype/#point_of_interest_KGE24-0A-20</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty IRI="http://knowdive.disi.unitn.it/etype#isEtype"/>
-        <IRI>http://knowdive.disi.unitn.it/etype#stay_GID-5335</IRI>
+        <AnnotationProperty IRI="http://knowdive.disi.unitn.it/etype/#isEtype"/>
+        <IRI>http://knowdive.disi.unitn.it/etype/#stay_GID-5335</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty IRI="http://knowdive.disi.unitn.it/etype#isEtype"/>
-        <IRI>http://knowdive.disi.unitn.it/etype#student_GID-53021</IRI>
+        <AnnotationProperty IRI="http://knowdive.disi.unitn.it/etype/#isEtype"/>
+        <IRI>http://knowdive.disi.unitn.it/etype/#student_GID-53021</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty IRI="http://knowdive.disi.unitn.it/etype#isEtype"/>
-        <IRI>http://knowdive.disi.unitn.it/etype#trip_journey_GID-1474</IRI>
+        <AnnotationProperty IRI="http://knowdive.disi.unitn.it/etype/#isEtype"/>
+        <IRI>http://knowdive.disi.unitn.it/etype/#trip_journey_GID-1474</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
@@ -32585,22 +32639,22 @@ Typical unit code(s): CMT for centimeters, MTR for meters, INH for inches, FOT f
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://xmlns.com/foaf/0.1/mbox"/>
-        <AnonymousIndividual nodeID="_:genid2147483650"/>
+        <AnonymousIndividual nodeID="_:genid2147483648"/>
         <Literal>abyrd@conveyal.com</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://xmlns.com/foaf/0.1/name"/>
-        <AnonymousIndividual nodeID="_:genid2147483650"/>
+        <AnonymousIndividual nodeID="_:genid2147483648"/>
         <Literal>Andrew Byrd</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://xmlns.com/foaf/0.1/mbox"/>
-        <AnonymousIndividual nodeID="_:genid2147483651"/>
+        <AnonymousIndividual nodeID="_:genid2147483649"/>
         <Literal>Pieter.Colpaert@UGent.be</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://xmlns.com/foaf/0.1/name"/>
-        <AnonymousIndividual nodeID="_:genid2147483651"/>
+        <AnonymousIndividual nodeID="_:genid2147483649"/>
         <Literal>Pieter Colpaert</Literal>
     </AnnotationAssertion>
     <SubAnnotationPropertyOf>

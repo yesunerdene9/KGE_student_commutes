@@ -12,8 +12,6 @@
     <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
     <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
     <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
-    <Prefix name="etype" IRI="http://knowdive.disi.unitn.it/etype#"/>
-    <Prefix name="schema" IRI="http://vocab.gtfs.org/terms#"/>
     <Declaration>
         <Class IRI="#Entity_GID-1"/>
     </Declaration>
@@ -219,6 +217,18 @@
         <Class IRI="#trip_journey_GID-1474"/>
         <Class IRI="#Entity_GID-1"/>
     </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#bus_line_KGE24-0A-1"/>
+        <Class IRI="#bus_route_GID-45117"/>
+        <Class IRI="#bus_stop_GID-45118"/>
+        <Class IRI="#event_GID-56"/>
+        <Class IRI="#location_GID-695"/>
+        <Class IRI="#mood_GID-39957"/>
+        <Class IRI="#point_of_interest_KGE24-0A-20"/>
+        <Class IRI="#stay_GID-5335"/>
+        <Class IRI="#student_GID-53021"/>
+        <Class IRI="#trip_journey_GID-1474"/>
+    </DisjointClasses>
     <SubObjectPropertyOf>
         <ObjectProperty IRI="#has_board_GID-102601"/>
         <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
