@@ -41,7 +41,7 @@ matched_df['stay_id'] = matched_df.groupby('userid')['new_stay'].cumsum()
 print("Assigned unique 'stay_id' to each consecutive stay within the same PoI.")
 
 # Step 4: Calculate duration of each stay
-stay_df = matched_df.groupby(['userid', 'osm_id', 'stay_id']).agg(
+stay_df = matched_df.groupby(['userid', 'osm_id', 'name', 'stay_id']).agg(
     timestamp=('user_timestamp', 'first'),
     end_time=('user_timestamp', 'last')
 ).reset_index()
@@ -55,8 +55,10 @@ valid_stays = stay_df[stay_df['duration'] >= MIN_DURATION_MINUTES].copy()
 print(f"Filtered stays to retain only those with duration >= {MIN_DURATION_MINUTES} minutes. Total valid stays: {len(valid_stays)}.")
 
 # Step 6: Select and rename required columns
-final_stays = valid_stays[['userid', 'osm_id', 'timestamp', 'duration']].copy()
+final_stays = valid_stays[['userid', 'osm_id', 'name', 'timestamp', 'duration']].copy()
 final_stays.rename(columns={'userid': 'user_id'}, inplace=True)
+final_stays.rename(columns={'osm_id': 'poi_osm_id'}, inplace=True)
+final_stays.rename(columns={'name': 'poi_name'}, inplace=True)
 print("Selected and renamed required columns for the final output.")
 
 # convert timestamp to datetime string

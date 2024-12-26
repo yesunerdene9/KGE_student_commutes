@@ -4,401 +4,408 @@
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix KGE24: <http://knowdive.disi.unitn.it/etype#> .
 @base <http://www.semanticweb.org/david/ontologies/2024/10/untitled-ontology-2/> .
 
-<http://knowdive.disi.unitn.it/etype> rdf:type owl:Ontology .
+<http://knowdive.disi.unitn.it/etype#> rdf:type owl:Ontology .
 
 #################################################################
 #    Annotation properties
 #################################################################
 
-###  http://knowdive.disi.unitn.it/etype/isEtype
-<http://knowdive.disi.unitn.it/etype/isEtype> rdf:type owl:AnnotationProperty .
+###  http://knowdive.disi.unitn.it/etype#isEtype
+KGE24:isEtype rdf:type owl:AnnotationProperty .
 
 
 #################################################################
 #    Object Properties
 #################################################################
 
-###  http://knowdive.disi.unitn.it/etype/has_board_GID-102601
-<http://knowdive.disi.unitn.it/etype/has_board_GID-102601> rdf:type owl:ObjectProperty ;
-                                                           rdfs:subPropertyOf owl:topObjectProperty ;
-                                                           rdfs:domain <http://knowdive.disi.unitn.it/etype/trip_journey_GID-1474> ;
-                                                           rdfs:range <http://knowdive.disi.unitn.it/etype/bus_stop_GID-45118> .
+###  http://knowdive.disi.unitn.it/etype#has_board_GID-102601
+KGE24:has_board_GID-102601 rdf:type owl:ObjectProperty ;
+                           rdfs:subPropertyOf owl:topObjectProperty ;
+                           rdfs:domain KGE24:trip_journey_GID-1474 ;
+                           rdfs:range KGE24:bus_stop_GID-45118 .
 
 
-###  http://knowdive.disi.unitn.it/etype/has_feel_GID-101373
-<http://knowdive.disi.unitn.it/etype/has_feel_GID-101373> rdf:type owl:ObjectProperty ;
-                                                          rdfs:subPropertyOf owl:topObjectProperty ;
-                                                          rdfs:domain <http://knowdive.disi.unitn.it/etype/student_GID-53021> ;
-                                                          rdfs:range <http://knowdive.disi.unitn.it/etype/mood_GID-39957> .
+###  http://knowdive.disi.unitn.it/etype#has_feel_GID-101373
+KGE24:has_feel_GID-101373 rdf:type owl:ObjectProperty ;
+                          rdfs:subPropertyOf owl:topObjectProperty ;
+                          rdfs:domain KGE24:student_GID-53021 ;
+                          rdfs:range KGE24:mood_GID-39957 .
 
 
-###  http://knowdive.disi.unitn.it/etype/has_get_off_GID-102589
-<http://knowdive.disi.unitn.it/etype/has_get_off_GID-102589> rdf:type owl:ObjectProperty ;
-                                                             rdfs:subPropertyOf owl:topObjectProperty ;
-                                                             rdfs:domain <http://knowdive.disi.unitn.it/etype/trip_journey_GID-1474> ;
-                                                             rdfs:range <http://knowdive.disi.unitn.it/etype/bus_stop_GID-45118> .
+###  http://knowdive.disi.unitn.it/etype#has_get_off_GID-102589
+KGE24:has_get_off_GID-102589 rdf:type owl:ObjectProperty ;
+                             rdfs:subPropertyOf owl:topObjectProperty ;
+                             rdfs:domain KGE24:trip_journey_GID-1474 ;
+                             rdfs:range KGE24:bus_stop_GID-45118 .
 
 
-###  http://knowdive.disi.unitn.it/etype/has_go_through_GID-102767
-<http://knowdive.disi.unitn.it/etype/has_go_through_GID-102767> rdf:type owl:ObjectProperty ;
-                                                                rdfs:subPropertyOf owl:topObjectProperty ;
-                                                                rdfs:domain <http://knowdive.disi.unitn.it/etype/bus_route_GID-45117> ;
-                                                                rdfs:range <http://knowdive.disi.unitn.it/etype/bus_stop_GID-45118> .
+###  http://knowdive.disi.unitn.it/etype#has_go_through_GID-102767
+KGE24:has_go_through_GID-102767 rdf:type owl:ObjectProperty ;
+                                rdfs:subPropertyOf owl:topObjectProperty ;
+                                rdfs:domain KGE24:bus_route_GID-45117 ;
+                                rdfs:range KGE24:bus_stop_GID-45118 .
 
 
-###  http://knowdive.disi.unitn.it/etype/has_located_GID-85982
-<http://knowdive.disi.unitn.it/etype/has_located_GID-85982> rdf:type owl:ObjectProperty ;
-                                                            rdfs:subPropertyOf owl:topObjectProperty ;
-                                                            rdfs:domain <http://knowdive.disi.unitn.it/etype/student_GID-53021> ;
-                                                            rdfs:range <http://knowdive.disi.unitn.it/etype/location_GID-695> .
+###  http://knowdive.disi.unitn.it/etype#has_inside_GID-106969
+KGE24:has_inside_GID-106969 rdf:type owl:ObjectProperty ;
+                            rdfs:domain KGE24:stay_GID-5335 ;
+                            rdfs:range KGE24:point_of_interest_KGE24-0A-20 .
 
 
-###  http://knowdive.disi.unitn.it/etype/has_particpate_in_GID-97811
-<http://knowdive.disi.unitn.it/etype/has_particpate_in_GID-97811> rdf:type owl:ObjectProperty ;
-                                                                  rdfs:subPropertyOf owl:topObjectProperty ;
-                                                                  rdfs:domain <http://knowdive.disi.unitn.it/etype/student_GID-53021> ;
-                                                                  rdfs:range <http://knowdive.disi.unitn.it/etype/event_GID-56> .
+###  http://knowdive.disi.unitn.it/etype#has_located_GID-85982
+KGE24:has_located_GID-85982 rdf:type owl:ObjectProperty ;
+                            rdfs:subPropertyOf owl:topObjectProperty ;
+                            rdfs:domain KGE24:student_GID-53021 ;
+                            rdfs:range KGE24:location_GID-695 .
 
 
-###  http://knowdive.disi.unitn.it/etype/has_serve_GID-97875
-<http://knowdive.disi.unitn.it/etype/has_serve_GID-97875> rdf:type owl:ObjectProperty ;
-                                                          rdfs:domain <http://knowdive.disi.unitn.it/etype/bus_route_GID-45117> ;
-                                                          rdfs:range <http://knowdive.disi.unitn.it/etype/bus_line_KGE24-0A-1> .
+###  http://knowdive.disi.unitn.it/etype#has_particpate_in_GID-97811
+KGE24:has_particpate_in_GID-97811 rdf:type owl:ObjectProperty ;
+                                  rdfs:subPropertyOf owl:topObjectProperty ;
+                                  rdfs:domain KGE24:student_GID-53021 ;
+                                  rdfs:range KGE24:event_GID-56 .
 
 
-###  http://knowdive.disi.unitn.it/etype/has_stay_put_GID-101763
-<http://knowdive.disi.unitn.it/etype/has_stay_put_GID-101763> rdf:type owl:ObjectProperty ;
-                                                              rdfs:subPropertyOf owl:topObjectProperty ;
-                                                              rdfs:domain <http://knowdive.disi.unitn.it/etype/student_GID-53021> ;
-                                                              rdfs:range <http://knowdive.disi.unitn.it/etype/stay_GID-5335> .
+###  http://knowdive.disi.unitn.it/etype#has_serve_GID-97875
+KGE24:has_serve_GID-97875 rdf:type owl:ObjectProperty ;
+                          rdfs:domain KGE24:bus_route_GID-45117 ;
+                          rdfs:range KGE24:bus_line_KGE24-0A-1 .
 
 
-###  http://knowdive.disi.unitn.it/etype/has_take_GID-101699
-<http://knowdive.disi.unitn.it/etype/has_take_GID-101699> rdf:type owl:ObjectProperty ;
-                                                          rdfs:subPropertyOf owl:topObjectProperty ;
-                                                          rdfs:domain <http://knowdive.disi.unitn.it/etype/student_GID-53021> ;
-                                                          rdfs:range <http://knowdive.disi.unitn.it/etype/trip_journey_GID-1474> .
+###  http://knowdive.disi.unitn.it/etype#has_stay_put_GID-101763
+KGE24:has_stay_put_GID-101763 rdf:type owl:ObjectProperty ;
+                              rdfs:subPropertyOf owl:topObjectProperty ;
+                              rdfs:domain KGE24:student_GID-53021 ;
+                              rdfs:range KGE24:stay_GID-5335 .
 
 
-###  http://knowdive.disi.unitn.it/etype/has_travel_by_KGE24-0A-50
-<http://knowdive.disi.unitn.it/etype/has_travel_by_KGE24-0A-50> rdf:type owl:ObjectProperty ;
-                                                                rdfs:subPropertyOf owl:topObjectProperty ;
-                                                                rdfs:domain <http://knowdive.disi.unitn.it/etype/trip_journey_GID-1474> ;
-                                                                rdfs:range <http://knowdive.disi.unitn.it/etype/bus_route_GID-45117> .
+###  http://knowdive.disi.unitn.it/etype#has_take_GID-101699
+KGE24:has_take_GID-101699 rdf:type owl:ObjectProperty ;
+                          rdfs:subPropertyOf owl:topObjectProperty ;
+                          rdfs:domain KGE24:student_GID-53021 ;
+                          rdfs:range KGE24:trip_journey_GID-1474 .
+
+
+###  http://knowdive.disi.unitn.it/etype#has_travel_by_KGE24-0A-50
+KGE24:has_travel_by_KGE24-0A-50 rdf:type owl:ObjectProperty ;
+                                rdfs:subPropertyOf owl:topObjectProperty ;
+                                rdfs:domain KGE24:trip_journey_GID-1474 ;
+                                rdfs:range KGE24:bus_route_GID-45117 .
 
 
 #################################################################
 #    Data properties
 #################################################################
 
-###  http://knowdive.disi.unitn.it/etype/has_Event_ID_KGE24-0A-18
-<http://knowdive.disi.unitn.it/etype/has_Event_ID_KGE24-0A-18> rdf:type owl:DatatypeProperty ;
-                                                               rdfs:subPropertyOf owl:topDataProperty ;
-                                                               rdfs:domain <http://knowdive.disi.unitn.it/etype/event_GID-56> ;
-                                                               rdfs:range xsd:int .
+###  http://knowdive.disi.unitn.it/etype#has_Event_ID_KGE24-0A-18
+KGE24:has_Event_ID_KGE24-0A-18 rdf:type owl:DatatypeProperty ;
+                               rdfs:subPropertyOf owl:topDataProperty ;
+                               rdfs:domain KGE24:event_GID-56 ;
+                               rdfs:range xsd:int .
 
 
-###  http://knowdive.disi.unitn.it/etype/has_OSM_place_ID_KGE24-0A-19
-<http://knowdive.disi.unitn.it/etype/has_OSM_place_ID_KGE24-0A-19> rdf:type owl:DatatypeProperty ;
-                                                                   rdfs:subPropertyOf owl:topDataProperty ;
-                                                                   rdfs:domain <http://knowdive.disi.unitn.it/etype/bus_stop_GID-45118> ,
-                                                                               <http://knowdive.disi.unitn.it/etype/point_of_interest_KGE24-0A-20> ;
-                                                                   rdfs:range xsd:int .
+###  http://knowdive.disi.unitn.it/etype#has_OSM_place_ID_KGE24-0A-19
+KGE24:has_OSM_place_ID_KGE24-0A-19 rdf:type owl:DatatypeProperty ;
+                                   rdfs:subPropertyOf owl:topDataProperty ;
+                                   rdfs:domain KGE24:bus_stop_GID-45118 ,
+                                               KGE24:point_of_interest_KGE24-0A-20 ;
+                                   rdfs:range xsd:int .
 
 
-###  http://knowdive.disi.unitn.it/etype/has_PoI_ID_KGE24-0A-15
-<http://knowdive.disi.unitn.it/etype/has_PoI_ID_KGE24-0A-15> rdf:type owl:DatatypeProperty ;
-                                                             rdfs:subPropertyOf owl:topDataProperty ;
-                                                             rdfs:domain <http://knowdive.disi.unitn.it/etype/point_of_interest_KGE24-0A-20> ;
-                                                             rdfs:range xsd:int .
+###  http://knowdive.disi.unitn.it/etype#has_PoI_ID_KGE24-0A-15
+KGE24:has_PoI_ID_KGE24-0A-15 rdf:type owl:DatatypeProperty ;
+                             rdfs:subPropertyOf owl:topDataProperty ;
+                             rdfs:domain KGE24:point_of_interest_KGE24-0A-20 ;
+                             rdfs:range xsd:int .
 
 
-###  http://knowdive.disi.unitn.it/etype/has_PoI_name_KGE24-0A-8
-<http://knowdive.disi.unitn.it/etype/has_PoI_name_KGE24-0A-8> rdf:type owl:DatatypeProperty ;
-                                                              rdfs:subPropertyOf owl:topDataProperty ;
-                                                              rdfs:domain <http://knowdive.disi.unitn.it/etype/point_of_interest_KGE24-0A-20> ;
-                                                              rdfs:range xsd:string .
+###  http://knowdive.disi.unitn.it/etype#has_PoI_name_KGE24-0A-8
+KGE24:has_PoI_name_KGE24-0A-8 rdf:type owl:DatatypeProperty ;
+                              rdfs:subPropertyOf owl:topDataProperty ;
+                              rdfs:domain KGE24:point_of_interest_KGE24-0A-20 ;
+                              rdfs:range xsd:string .
 
 
-###  http://knowdive.disi.unitn.it/etype/has_PoI_type_KGE24-0A-7
-<http://knowdive.disi.unitn.it/etype/has_PoI_type_KGE24-0A-7> rdf:type owl:DatatypeProperty ;
-                                                              rdfs:subPropertyOf owl:topDataProperty ;
-                                                              rdfs:domain <http://knowdive.disi.unitn.it/etype/point_of_interest_KGE24-0A-20> ;
-                                                              rdfs:range xsd:string .
+###  http://knowdive.disi.unitn.it/etype#has_PoI_type_KGE24-0A-7
+KGE24:has_PoI_type_KGE24-0A-7 rdf:type owl:DatatypeProperty ;
+                              rdfs:subPropertyOf owl:topDataProperty ;
+                              rdfs:domain KGE24:point_of_interest_KGE24-0A-20 ;
+                              rdfs:range xsd:string .
 
 
-###  http://knowdive.disi.unitn.it/etype/has_activity_GID-2006
-<http://knowdive.disi.unitn.it/etype/has_activity_GID-2006> rdf:type owl:DatatypeProperty ;
-                                                            rdfs:subPropertyOf owl:topDataProperty ;
-                                                            rdfs:domain <http://knowdive.disi.unitn.it/etype/event_GID-56> ;
-                                                            rdfs:range xsd:string .
+###  http://knowdive.disi.unitn.it/etype#has_activity_GID-2006
+KGE24:has_activity_GID-2006 rdf:type owl:DatatypeProperty ;
+                            rdfs:subPropertyOf owl:topDataProperty ;
+                            rdfs:domain KGE24:event_GID-56 ;
+                            rdfs:range xsd:string .
 
 
-###  http://knowdive.disi.unitn.it/etype/has_boarding_time_KGE24-0A-2
-<http://knowdive.disi.unitn.it/etype/has_boarding_time_KGE24-0A-2> rdf:type owl:DatatypeProperty ;
-                                                                   rdfs:subPropertyOf owl:topDataProperty ;
-                                                                   rdfs:domain <http://knowdive.disi.unitn.it/etype/trip_journey_GID-1474> ;
-                                                                   rdfs:range xsd:dateTime .
+###  http://knowdive.disi.unitn.it/etype#has_boarding_time_KGE24-0A-2
+KGE24:has_boarding_time_KGE24-0A-2 rdf:type owl:DatatypeProperty ;
+                                   rdfs:subPropertyOf owl:topDataProperty ;
+                                   rdfs:domain KGE24:trip_journey_GID-1474 ;
+                                   rdfs:range xsd:dateTime .
 
 
-###  http://knowdive.disi.unitn.it/etype/has_bus_line_ID_KGE24-0A-17
-<http://knowdive.disi.unitn.it/etype/has_bus_line_ID_KGE24-0A-17> rdf:type owl:DatatypeProperty ;
-                                                                  rdfs:subPropertyOf owl:topDataProperty ;
-                                                                  rdfs:domain <http://knowdive.disi.unitn.it/etype/bus_line_KGE24-0A-1> ;
-                                                                  rdfs:range xsd:int .
+###  http://knowdive.disi.unitn.it/etype#has_bus_line_ID_KGE24-0A-17
+KGE24:has_bus_line_ID_KGE24-0A-17 rdf:type owl:DatatypeProperty ;
+                                  rdfs:subPropertyOf owl:topDataProperty ;
+                                  rdfs:domain KGE24:bus_line_KGE24-0A-1 ;
+                                  rdfs:range xsd:int .
 
 
-###  http://knowdive.disi.unitn.it/etype/has_bus_line_name_KGE24-0A-9
-<http://knowdive.disi.unitn.it/etype/has_bus_line_name_KGE24-0A-9> rdf:type owl:DatatypeProperty ;
-                                                                   rdfs:subPropertyOf owl:topDataProperty ;
-                                                                   rdfs:domain <http://knowdive.disi.unitn.it/etype/bus_line_KGE24-0A-1> ;
-                                                                   rdfs:range xsd:string .
+###  http://knowdive.disi.unitn.it/etype#has_bus_line_name_KGE24-0A-9
+KGE24:has_bus_line_name_KGE24-0A-9 rdf:type owl:DatatypeProperty ;
+                                   rdfs:subPropertyOf owl:topDataProperty ;
+                                   rdfs:domain KGE24:bus_line_KGE24-0A-1 ;
+                                   rdfs:range xsd:string .
 
 
-###  http://knowdive.disi.unitn.it/etype/has_duration_GID-72859
-<http://knowdive.disi.unitn.it/etype/has_duration_GID-72859> rdf:type owl:DatatypeProperty ;
-                                                             rdfs:subPropertyOf owl:topDataProperty ;
-                                                             rdfs:domain <http://knowdive.disi.unitn.it/etype/event_GID-56> ,
-                                                                         <http://knowdive.disi.unitn.it/etype/mood_GID-39957> ,
-                                                                         <http://knowdive.disi.unitn.it/etype/stay_GID-5335> ,
-                                                                         <http://knowdive.disi.unitn.it/etype/trip_journey_GID-1474> ;
-                                                             rdfs:range xsd:float .
+###  http://knowdive.disi.unitn.it/etype#has_duration_GID-72859
+KGE24:has_duration_GID-72859 rdf:type owl:DatatypeProperty ;
+                             rdfs:subPropertyOf owl:topDataProperty ;
+                             rdfs:domain KGE24:event_GID-56 ,
+                                         KGE24:mood_GID-39957 ,
+                                         KGE24:stay_GID-5335 ,
+                                         KGE24:trip_journey_GID-1474 ;
+                             rdfs:range xsd:float .
 
 
-###  http://knowdive.disi.unitn.it/etype/has_end_date_KGE24-0A-4
-<http://knowdive.disi.unitn.it/etype/has_end_date_KGE24-0A-4> rdf:type owl:DatatypeProperty ;
-                                                              rdfs:subPropertyOf owl:topDataProperty ;
-                                                              rdfs:domain <http://knowdive.disi.unitn.it/etype/bus_route_GID-45117> ;
-                                                              rdfs:range xsd:dateTime .
+###  http://knowdive.disi.unitn.it/etype#has_end_date_KGE24-0A-4
+KGE24:has_end_date_KGE24-0A-4 rdf:type owl:DatatypeProperty ;
+                              rdfs:subPropertyOf owl:topDataProperty ;
+                              rdfs:domain KGE24:bus_route_GID-45117 ;
+                              rdfs:range xsd:dateTime .
 
 
-###  http://knowdive.disi.unitn.it/etype/has_excluded_dates_KGE24-0A-6
-<http://knowdive.disi.unitn.it/etype/has_excluded_dates_KGE24-0A-6> rdf:type owl:DatatypeProperty ;
-                                                                    rdfs:subPropertyOf owl:topDataProperty ;
-                                                                    rdfs:domain <http://knowdive.disi.unitn.it/etype/bus_route_GID-45117> .
+###  http://knowdive.disi.unitn.it/etype#has_excluded_dates_KGE24-0A-6
+KGE24:has_excluded_dates_KGE24-0A-6 rdf:type owl:DatatypeProperty ;
+                                    rdfs:subPropertyOf owl:topDataProperty ;
+                                    rdfs:domain KGE24:bus_route_GID-45117 .
 
 
-###  http://knowdive.disi.unitn.it/etype/has_extra_dates_KGE24-0A-5
-<http://knowdive.disi.unitn.it/etype/has_extra_dates_KGE24-0A-5> rdf:type owl:DatatypeProperty ;
-                                                                 rdfs:subPropertyOf owl:topDataProperty ;
-                                                                 rdfs:domain <http://knowdive.disi.unitn.it/etype/bus_route_GID-45117> .
+###  http://knowdive.disi.unitn.it/etype#has_extra_dates_KGE24-0A-5
+KGE24:has_extra_dates_KGE24-0A-5 rdf:type owl:DatatypeProperty ;
+                                 rdfs:subPropertyOf owl:topDataProperty ;
+                                 rdfs:domain KGE24:bus_route_GID-45117 .
 
 
-###  http://knowdive.disi.unitn.it/etype/has_latitude_GID-45424
-<http://knowdive.disi.unitn.it/etype/has_latitude_GID-45424> rdf:type owl:DatatypeProperty ;
-                                                             rdfs:subPropertyOf owl:topDataProperty ;
-                                                             rdfs:domain <http://knowdive.disi.unitn.it/etype/bus_stop_GID-45118> ,
-                                                                         <http://knowdive.disi.unitn.it/etype/location_GID-695> ,
-                                                                         <http://knowdive.disi.unitn.it/etype/point_of_interest_KGE24-0A-20> ;
-                                                             rdfs:range xsd:float .
+###  http://knowdive.disi.unitn.it/etype#has_latitude_GID-45424
+KGE24:has_latitude_GID-45424 rdf:type owl:DatatypeProperty ;
+                             rdfs:subPropertyOf owl:topDataProperty ;
+                             rdfs:domain KGE24:bus_stop_GID-45118 ,
+                                         KGE24:location_GID-695 ,
+                                         KGE24:point_of_interest_KGE24-0A-20 ;
+                             rdfs:range xsd:float .
 
 
-###  http://knowdive.disi.unitn.it/etype/has_longitude_GID-45429
-<http://knowdive.disi.unitn.it/etype/has_longitude_GID-45429> rdf:type owl:DatatypeProperty ;
-                                                              rdfs:subPropertyOf owl:topDataProperty ;
-                                                              rdfs:domain <http://knowdive.disi.unitn.it/etype/bus_stop_GID-45118> ,
-                                                                          <http://knowdive.disi.unitn.it/etype/location_GID-695> ,
-                                                                          <http://knowdive.disi.unitn.it/etype/point_of_interest_KGE24-0A-20> ;
-                                                              rdfs:range xsd:float .
+###  http://knowdive.disi.unitn.it/etype#has_longitude_GID-45429
+KGE24:has_longitude_GID-45429 rdf:type owl:DatatypeProperty ;
+                              rdfs:subPropertyOf owl:topDataProperty ;
+                              rdfs:domain KGE24:bus_stop_GID-45118 ,
+                                          KGE24:location_GID-695 ,
+                                          KGE24:point_of_interest_KGE24-0A-20 ;
+                              rdfs:range xsd:float .
 
 
-###  http://knowdive.disi.unitn.it/etype/has_mood_GID-39957
-<http://knowdive.disi.unitn.it/etype/has_mood_GID-39957> rdf:type owl:DatatypeProperty ;
-                                                         rdfs:subPropertyOf owl:topDataProperty ;
-                                                         rdfs:domain <http://knowdive.disi.unitn.it/etype/mood_GID-39957> ;
-                                                         rdfs:range xsd:string .
+###  http://knowdive.disi.unitn.it/etype#has_mood_GID-39957
+KGE24:has_mood_GID-39957 rdf:type owl:DatatypeProperty ;
+                         rdfs:subPropertyOf owl:topDataProperty ;
+                         rdfs:domain KGE24:mood_GID-39957 ;
+                         rdfs:range xsd:string .
 
 
-###  http://knowdive.disi.unitn.it/etype/has_route_ID_KGE24-0A-16
-<http://knowdive.disi.unitn.it/etype/has_route_ID_KGE24-0A-16> rdf:type owl:DatatypeProperty ;
-                                                               rdfs:subPropertyOf owl:topDataProperty ;
-                                                               rdfs:domain <http://knowdive.disi.unitn.it/etype/bus_route_GID-45117> ;
-                                                               rdfs:range xsd:string .
+###  http://knowdive.disi.unitn.it/etype#has_route_ID_KGE24-0A-16
+KGE24:has_route_ID_KGE24-0A-16 rdf:type owl:DatatypeProperty ;
+                               rdfs:subPropertyOf owl:topDataProperty ;
+                               rdfs:domain KGE24:bus_route_GID-45117 ;
+                               rdfs:range xsd:string .
 
 
-###  http://knowdive.disi.unitn.it/etype/has_served_days_friday_KGE24-0A-32
-<http://knowdive.disi.unitn.it/etype/has_served_days_friday_KGE24-0A-32> rdf:type owl:DatatypeProperty ;
-                                                                         rdfs:subPropertyOf owl:topDataProperty ;
-                                                                         rdfs:domain <http://knowdive.disi.unitn.it/etype/bus_route_GID-45117> ;
-                                                                         rdfs:range xsd:boolean .
+###  http://knowdive.disi.unitn.it/etype#has_served_days_friday_KGE24-0A-32
+KGE24:has_served_days_friday_KGE24-0A-32 rdf:type owl:DatatypeProperty ;
+                                         rdfs:subPropertyOf owl:topDataProperty ;
+                                         rdfs:domain KGE24:bus_route_GID-45117 ;
+                                         rdfs:range xsd:boolean .
 
 
-###  http://knowdive.disi.unitn.it/etype/has_served_days_monday_KGE24-0A-12
-<http://knowdive.disi.unitn.it/etype/has_served_days_monday_KGE24-0A-12> rdf:type owl:DatatypeProperty ;
-                                                                         rdfs:subPropertyOf owl:topDataProperty ;
-                                                                         rdfs:domain <http://knowdive.disi.unitn.it/etype/bus_route_GID-45117> ;
-                                                                         rdfs:range xsd:boolean .
+###  http://knowdive.disi.unitn.it/etype#has_served_days_monday_KGE24-0A-12
+KGE24:has_served_days_monday_KGE24-0A-12 rdf:type owl:DatatypeProperty ;
+                                         rdfs:subPropertyOf owl:topDataProperty ;
+                                         rdfs:domain KGE24:bus_route_GID-45117 ;
+                                         rdfs:range xsd:boolean .
 
 
-###  http://knowdive.disi.unitn.it/etype/has_served_days_saturday_KGE24-0A-33
-<http://knowdive.disi.unitn.it/etype/has_served_days_saturday_KGE24-0A-33> rdf:type owl:DatatypeProperty ;
-                                                                           rdfs:subPropertyOf owl:topDataProperty ;
-                                                                           rdfs:domain <http://knowdive.disi.unitn.it/etype/bus_route_GID-45117> ;
-                                                                           rdfs:range xsd:boolean .
+###  http://knowdive.disi.unitn.it/etype#has_served_days_saturday_KGE24-0A-33
+KGE24:has_served_days_saturday_KGE24-0A-33 rdf:type owl:DatatypeProperty ;
+                                           rdfs:subPropertyOf owl:topDataProperty ;
+                                           rdfs:domain KGE24:bus_route_GID-45117 ;
+                                           rdfs:range xsd:boolean .
 
 
-###  http://knowdive.disi.unitn.it/etype/has_served_days_sunday_KGE24-0A-34
-<http://knowdive.disi.unitn.it/etype/has_served_days_sunday_KGE24-0A-34> rdf:type owl:DatatypeProperty ;
-                                                                         rdfs:subPropertyOf owl:topDataProperty ;
-                                                                         rdfs:domain <http://knowdive.disi.unitn.it/etype/bus_route_GID-45117> ;
-                                                                         rdfs:range xsd:boolean .
+###  http://knowdive.disi.unitn.it/etype#has_served_days_sunday_KGE24-0A-34
+KGE24:has_served_days_sunday_KGE24-0A-34 rdf:type owl:DatatypeProperty ;
+                                         rdfs:subPropertyOf owl:topDataProperty ;
+                                         rdfs:domain KGE24:bus_route_GID-45117 ;
+                                         rdfs:range xsd:boolean .
 
 
-###  http://knowdive.disi.unitn.it/etype/has_served_days_thursday_KGE24-0A-31
-<http://knowdive.disi.unitn.it/etype/has_served_days_thursday_KGE24-0A-31> rdf:type owl:DatatypeProperty ;
-                                                                           rdfs:subPropertyOf owl:topDataProperty ;
-                                                                           rdfs:domain <http://knowdive.disi.unitn.it/etype/bus_route_GID-45117> ;
-                                                                           rdfs:range xsd:boolean .
+###  http://knowdive.disi.unitn.it/etype#has_served_days_thursday_KGE24-0A-31
+KGE24:has_served_days_thursday_KGE24-0A-31 rdf:type owl:DatatypeProperty ;
+                                           rdfs:subPropertyOf owl:topDataProperty ;
+                                           rdfs:domain KGE24:bus_route_GID-45117 ;
+                                           rdfs:range xsd:boolean .
 
 
-###  http://knowdive.disi.unitn.it/etype/has_served_days_tuesday_KGE24-0A-29
-<http://knowdive.disi.unitn.it/etype/has_served_days_tuesday_KGE24-0A-29> rdf:type owl:DatatypeProperty ;
-                                                                          rdfs:subPropertyOf owl:topDataProperty ;
-                                                                          rdfs:domain <http://knowdive.disi.unitn.it/etype/bus_route_GID-45117> ;
-                                                                          rdfs:range xsd:boolean .
+###  http://knowdive.disi.unitn.it/etype#has_served_days_tuesday_KGE24-0A-29
+KGE24:has_served_days_tuesday_KGE24-0A-29 rdf:type owl:DatatypeProperty ;
+                                          rdfs:subPropertyOf owl:topDataProperty ;
+                                          rdfs:domain KGE24:bus_route_GID-45117 ;
+                                          rdfs:range xsd:boolean .
 
 
-###  http://knowdive.disi.unitn.it/etype/has_served_days_wednesday_KGE24-0A-30
-<http://knowdive.disi.unitn.it/etype/has_served_days_wednesday_KGE24-0A-30> rdf:type owl:DatatypeProperty ;
-                                                                            rdfs:subPropertyOf owl:topDataProperty ;
-                                                                            rdfs:domain <http://knowdive.disi.unitn.it/etype/bus_route_GID-45117> ;
-                                                                            rdfs:range xsd:boolean .
+###  http://knowdive.disi.unitn.it/etype#has_served_days_wednesday_KGE24-0A-30
+KGE24:has_served_days_wednesday_KGE24-0A-30 rdf:type owl:DatatypeProperty ;
+                                            rdfs:subPropertyOf owl:topDataProperty ;
+                                            rdfs:domain KGE24:bus_route_GID-45117 ;
+                                            rdfs:range xsd:boolean .
 
 
-###  http://knowdive.disi.unitn.it/etype/has_start_date_KGE24-0A-3
-<http://knowdive.disi.unitn.it/etype/has_start_date_KGE24-0A-3> rdf:type owl:DatatypeProperty ;
-                                                                rdfs:subPropertyOf owl:topDataProperty ;
-                                                                rdfs:domain <http://knowdive.disi.unitn.it/etype/bus_route_GID-45117> ;
-                                                                rdfs:range xsd:dateTime .
+###  http://knowdive.disi.unitn.it/etype#has_start_date_KGE24-0A-3
+KGE24:has_start_date_KGE24-0A-3 rdf:type owl:DatatypeProperty ;
+                                rdfs:subPropertyOf owl:topDataProperty ;
+                                rdfs:domain KGE24:bus_route_GID-45117 ;
+                                rdfs:range xsd:dateTime .
 
 
-###  http://knowdive.disi.unitn.it/etype/has_start_time_GID-73577
-<http://knowdive.disi.unitn.it/etype/has_start_time_GID-73577> rdf:type owl:DatatypeProperty ;
-                                                               rdfs:subPropertyOf owl:topDataProperty ;
-                                                               rdfs:domain <http://knowdive.disi.unitn.it/etype/bus_route_GID-45117> ;
-                                                               rdfs:range xsd:dateTime .
+###  http://knowdive.disi.unitn.it/etype#has_start_time_GID-73577
+KGE24:has_start_time_GID-73577 rdf:type owl:DatatypeProperty ;
+                               rdfs:subPropertyOf owl:topDataProperty ;
+                               rdfs:domain KGE24:bus_route_GID-45117 ;
+                               rdfs:range xsd:dateTime .
 
 
-###  http://knowdive.disi.unitn.it/etype/has_stop_ID_KGE24-0A-14
-<http://knowdive.disi.unitn.it/etype/has_stop_ID_KGE24-0A-14> rdf:type owl:DatatypeProperty ;
-                                                              rdfs:subPropertyOf owl:topDataProperty ;
-                                                              rdfs:domain <http://knowdive.disi.unitn.it/etype/bus_stop_GID-45118> ;
-                                                              rdfs:range xsd:int .
+###  http://knowdive.disi.unitn.it/etype#has_stop_ID_KGE24-0A-14
+KGE24:has_stop_ID_KGE24-0A-14 rdf:type owl:DatatypeProperty ;
+                              rdfs:subPropertyOf owl:topDataProperty ;
+                              rdfs:domain KGE24:bus_stop_GID-45118 ;
+                              rdfs:range xsd:int .
 
 
-###  http://knowdive.disi.unitn.it/etype/has_stop_name_KGE24-0A-10
-<http://knowdive.disi.unitn.it/etype/has_stop_name_KGE24-0A-10> rdf:type owl:DatatypeProperty ;
-                                                                rdfs:subPropertyOf owl:topDataProperty ;
-                                                                rdfs:domain <http://knowdive.disi.unitn.it/etype/bus_stop_GID-45118> ;
-                                                                rdfs:range xsd:string .
+###  http://knowdive.disi.unitn.it/etype#has_stop_name_KGE24-0A-10
+KGE24:has_stop_name_KGE24-0A-10 rdf:type owl:DatatypeProperty ;
+                                rdfs:subPropertyOf owl:topDataProperty ;
+                                rdfs:domain KGE24:bus_stop_GID-45118 ;
+                                rdfs:range xsd:string .
 
 
-###  http://knowdive.disi.unitn.it/etype/has_stop_order_KGE24-0A-49
-<http://knowdive.disi.unitn.it/etype/has_stop_order_KGE24-0A-49> rdf:type owl:DatatypeProperty ;
-                                                                 rdfs:domain <http://knowdive.disi.unitn.it/etype/bus_route_GID-45117> ;
-                                                                 rdfs:range xsd:string .
+###  http://knowdive.disi.unitn.it/etype#has_stop_order_KGE24-0A-49
+KGE24:has_stop_order_KGE24-0A-49 rdf:type owl:DatatypeProperty ;
+                                 rdfs:domain KGE24:bus_route_GID-45117 ;
+                                 rdfs:range xsd:string .
 
 
-###  http://knowdive.disi.unitn.it/etype/has_student_ID_KGE24-0A-13
-<http://knowdive.disi.unitn.it/etype/has_student_ID_KGE24-0A-13> rdf:type owl:DatatypeProperty ;
-                                                                 rdfs:subPropertyOf owl:topDataProperty ;
-                                                                 rdfs:domain <http://knowdive.disi.unitn.it/etype/student_GID-53021> ;
-                                                                 rdfs:range xsd:int .
+###  http://knowdive.disi.unitn.it/etype#has_student_ID_KGE24-0A-13
+KGE24:has_student_ID_KGE24-0A-13 rdf:type owl:DatatypeProperty ;
+                                 rdfs:subPropertyOf owl:topDataProperty ;
+                                 rdfs:domain KGE24:student_GID-53021 ;
+                                 rdfs:range xsd:int .
 
 
-###  http://knowdive.disi.unitn.it/etype/has_timestamp_GID-27373
-<http://knowdive.disi.unitn.it/etype/has_timestamp_GID-27373> rdf:type owl:DatatypeProperty ;
-                                                              rdfs:subPropertyOf owl:topDataProperty ;
-                                                              rdfs:domain <http://knowdive.disi.unitn.it/etype/event_GID-56> ,
-                                                                          <http://knowdive.disi.unitn.it/etype/location_GID-695> ,
-                                                                          <http://knowdive.disi.unitn.it/etype/mood_GID-39957> ,
-                                                                          <http://knowdive.disi.unitn.it/etype/stay_GID-5335> ,
-                                                                          <http://knowdive.disi.unitn.it/etype/trip_journey_GID-1474> ;
-                                                              rdfs:range xsd:dateTime .
+###  http://knowdive.disi.unitn.it/etype#has_timestamp_GID-27373
+KGE24:has_timestamp_GID-27373 rdf:type owl:DatatypeProperty ;
+                              rdfs:subPropertyOf owl:topDataProperty ;
+                              rdfs:domain KGE24:event_GID-56 ,
+                                          KGE24:location_GID-695 ,
+                                          KGE24:mood_GID-39957 ,
+                                          KGE24:stay_GID-5335 ,
+                                          KGE24:trip_journey_GID-1474 ;
+                              rdfs:range xsd:dateTime .
 
 
-###  http://knowdive.disi.unitn.it/etype/has_timetable_GID-34211
-<http://knowdive.disi.unitn.it/etype/has_timetable_GID-34211> rdf:type owl:DatatypeProperty ;
-                                                              rdfs:subPropertyOf owl:topDataProperty ;
-                                                              rdfs:domain <http://knowdive.disi.unitn.it/etype/bus_stop_GID-45118> ;
-                                                              rdfs:range xsd:string .
+###  http://knowdive.disi.unitn.it/etype#has_timetable_GID-34211
+KGE24:has_timetable_GID-34211 rdf:type owl:DatatypeProperty ;
+                              rdfs:subPropertyOf owl:topDataProperty ;
+                              rdfs:domain KGE24:bus_stop_GID-45118 ;
+                              rdfs:range xsd:string .
 
 
-###  http://knowdive.disi.unitn.it/etype/has_trip_headsign_KGE24-0A-11
-<http://knowdive.disi.unitn.it/etype/has_trip_headsign_KGE24-0A-11> rdf:type owl:DatatypeProperty ;
-                                                                    rdfs:subPropertyOf owl:topDataProperty ;
-                                                                    rdfs:domain <http://knowdive.disi.unitn.it/etype/bus_route_GID-45117> ;
-                                                                    rdfs:range xsd:string .
+###  http://knowdive.disi.unitn.it/etype#has_trip_headsign_KGE24-0A-11
+KGE24:has_trip_headsign_KGE24-0A-11 rdf:type owl:DatatypeProperty ;
+                                    rdfs:subPropertyOf owl:topDataProperty ;
+                                    rdfs:domain KGE24:bus_route_GID-45117 ;
+                                    rdfs:range xsd:string .
 
 
 #################################################################
 #    Classes
 #################################################################
 
-###  http://knowdive.disi.unitn.it/etype/Entity_GID-1
-<http://knowdive.disi.unitn.it/etype/Entity_GID-1> rdf:type owl:Class ;
-                                                   <http://knowdive.disi.unitn.it/etype/isEtype> "true"^^xsd:boolean .
+###  http://knowdive.disi.unitn.it/etype#Entity_GID-1
+KGE24:Entity_GID-1 rdf:type owl:Class ;
+                   KGE24:isEtype "true"^^xsd:boolean .
 
 
-###  http://knowdive.disi.unitn.it/etype/bus_line_KGE24-0A-1
-<http://knowdive.disi.unitn.it/etype/bus_line_KGE24-0A-1> rdf:type owl:Class ;
-                                                          rdfs:subClassOf <http://knowdive.disi.unitn.it/etype/Entity_GID-1> .
+###  http://knowdive.disi.unitn.it/etype#bus_line_KGE24-0A-1
+KGE24:bus_line_KGE24-0A-1 rdf:type owl:Class ;
+                          rdfs:subClassOf KGE24:Entity_GID-1 .
 
 
-###  http://knowdive.disi.unitn.it/etype/bus_route_GID-45117
-<http://knowdive.disi.unitn.it/etype/bus_route_GID-45117> rdf:type owl:Class ;
-                                                          rdfs:subClassOf <http://knowdive.disi.unitn.it/etype/Entity_GID-1> ;
-                                                          <http://knowdive.disi.unitn.it/etype/isEtype> "true"^^xsd:boolean .
+###  http://knowdive.disi.unitn.it/etype#bus_route_GID-45117
+KGE24:bus_route_GID-45117 rdf:type owl:Class ;
+                          rdfs:subClassOf KGE24:Entity_GID-1 ;
+                          KGE24:isEtype "true"^^xsd:boolean .
 
 
-###  http://knowdive.disi.unitn.it/etype/bus_stop_GID-45118
-<http://knowdive.disi.unitn.it/etype/bus_stop_GID-45118> rdf:type owl:Class ;
-                                                         rdfs:subClassOf <http://knowdive.disi.unitn.it/etype/Entity_GID-1> ;
-                                                         <http://knowdive.disi.unitn.it/etype/isEtype> "true"^^xsd:boolean .
+###  http://knowdive.disi.unitn.it/etype#bus_stop_GID-45118
+KGE24:bus_stop_GID-45118 rdf:type owl:Class ;
+                         rdfs:subClassOf KGE24:Entity_GID-1 ;
+                         KGE24:isEtype "true"^^xsd:boolean .
 
 
-###  http://knowdive.disi.unitn.it/etype/event_GID-56
-<http://knowdive.disi.unitn.it/etype/event_GID-56> rdf:type owl:Class ;
-                                                   rdfs:subClassOf <http://knowdive.disi.unitn.it/etype/Entity_GID-1> ;
-                                                   <http://knowdive.disi.unitn.it/etype/isEtype> "true"^^xsd:boolean .
+###  http://knowdive.disi.unitn.it/etype#event_GID-56
+KGE24:event_GID-56 rdf:type owl:Class ;
+                   rdfs:subClassOf KGE24:Entity_GID-1 ;
+                   KGE24:isEtype "true"^^xsd:boolean .
 
 
-###  http://knowdive.disi.unitn.it/etype/location_GID-695
-<http://knowdive.disi.unitn.it/etype/location_GID-695> rdf:type owl:Class ;
-                                                       rdfs:subClassOf <http://knowdive.disi.unitn.it/etype/Entity_GID-1> ;
-                                                       <http://knowdive.disi.unitn.it/etype/isEtype> "true"^^xsd:boolean .
+###  http://knowdive.disi.unitn.it/etype#location_GID-695
+KGE24:location_GID-695 rdf:type owl:Class ;
+                       rdfs:subClassOf KGE24:Entity_GID-1 ;
+                       KGE24:isEtype "true"^^xsd:boolean .
 
 
-###  http://knowdive.disi.unitn.it/etype/mood_GID-39957
-<http://knowdive.disi.unitn.it/etype/mood_GID-39957> rdf:type owl:Class ;
-                                                     rdfs:subClassOf <http://knowdive.disi.unitn.it/etype/Entity_GID-1> ;
-                                                     <http://knowdive.disi.unitn.it/etype/isEtype> "true"^^xsd:boolean .
+###  http://knowdive.disi.unitn.it/etype#mood_GID-39957
+KGE24:mood_GID-39957 rdf:type owl:Class ;
+                     rdfs:subClassOf KGE24:Entity_GID-1 ;
+                     KGE24:isEtype "true"^^xsd:boolean .
 
 
-###  http://knowdive.disi.unitn.it/etype/point_of_interest_KGE24-0A-20
-<http://knowdive.disi.unitn.it/etype/point_of_interest_KGE24-0A-20> rdf:type owl:Class ;
-                                                                    rdfs:subClassOf <http://knowdive.disi.unitn.it/etype/Entity_GID-1> ;
-                                                                    <http://knowdive.disi.unitn.it/etype/isEtype> "true"^^xsd:boolean .
+###  http://knowdive.disi.unitn.it/etype#point_of_interest_KGE24-0A-20
+KGE24:point_of_interest_KGE24-0A-20 rdf:type owl:Class ;
+                                    rdfs:subClassOf KGE24:Entity_GID-1 ;
+                                    KGE24:isEtype "true"^^xsd:boolean .
 
 
-###  http://knowdive.disi.unitn.it/etype/stay_GID-5335
-<http://knowdive.disi.unitn.it/etype/stay_GID-5335> rdf:type owl:Class ;
-                                                    rdfs:subClassOf <http://knowdive.disi.unitn.it/etype/Entity_GID-1> ;
-                                                    <http://knowdive.disi.unitn.it/etype/isEtype> "true"^^xsd:boolean .
+###  http://knowdive.disi.unitn.it/etype#stay_GID-5335
+KGE24:stay_GID-5335 rdf:type owl:Class ;
+                    rdfs:subClassOf KGE24:Entity_GID-1 ;
+                    KGE24:isEtype "true"^^xsd:boolean .
 
 
-###  http://knowdive.disi.unitn.it/etype/student_GID-53021
-<http://knowdive.disi.unitn.it/etype/student_GID-53021> rdf:type owl:Class ;
-                                                        rdfs:subClassOf <http://knowdive.disi.unitn.it/etype/Entity_GID-1> ;
-                                                        <http://knowdive.disi.unitn.it/etype/isEtype> "true"^^xsd:boolean .
+###  http://knowdive.disi.unitn.it/etype#student_GID-53021
+KGE24:student_GID-53021 rdf:type owl:Class ;
+                        rdfs:subClassOf KGE24:Entity_GID-1 ;
+                        KGE24:isEtype "true"^^xsd:boolean .
 
 
-###  http://knowdive.disi.unitn.it/etype/trip_journey_GID-1474
-<http://knowdive.disi.unitn.it/etype/trip_journey_GID-1474> rdf:type owl:Class ;
-                                                            rdfs:subClassOf <http://knowdive.disi.unitn.it/etype/Entity_GID-1> ;
-                                                            <http://knowdive.disi.unitn.it/etype/isEtype> "true"^^xsd:boolean .
+###  http://knowdive.disi.unitn.it/etype#trip_journey_GID-1474
+KGE24:trip_journey_GID-1474 rdf:type owl:Class ;
+                            rdfs:subClassOf KGE24:Entity_GID-1 ;
+                            KGE24:isEtype "true"^^xsd:boolean .
 
 
 #################################################################
@@ -406,16 +413,16 @@
 #################################################################
 
 [ rdf:type owl:AllDisjointClasses ;
-  owl:members ( <http://knowdive.disi.unitn.it/etype/bus_line_KGE24-0A-1>
-                <http://knowdive.disi.unitn.it/etype/bus_route_GID-45117>
-                <http://knowdive.disi.unitn.it/etype/bus_stop_GID-45118>
-                <http://knowdive.disi.unitn.it/etype/event_GID-56>
-                <http://knowdive.disi.unitn.it/etype/location_GID-695>
-                <http://knowdive.disi.unitn.it/etype/mood_GID-39957>
-                <http://knowdive.disi.unitn.it/etype/point_of_interest_KGE24-0A-20>
-                <http://knowdive.disi.unitn.it/etype/stay_GID-5335>
-                <http://knowdive.disi.unitn.it/etype/student_GID-53021>
-                <http://knowdive.disi.unitn.it/etype/trip_journey_GID-1474>
+  owl:members ( KGE24:bus_line_KGE24-0A-1
+                KGE24:bus_route_GID-45117
+                KGE24:bus_stop_GID-45118
+                KGE24:event_GID-56
+                KGE24:location_GID-695
+                KGE24:mood_GID-39957
+                KGE24:point_of_interest_KGE24-0A-20
+                KGE24:stay_GID-5335
+                KGE24:student_GID-53021
+                KGE24:trip_journey_GID-1474
               )
 ] .
 

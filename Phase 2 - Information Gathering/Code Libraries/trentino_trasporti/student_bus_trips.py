@@ -38,7 +38,7 @@ for _, trip in tqdm(bus_trips.iterrows(), total=len(bus_trips)):
         continue  # Skip this trip if dates are invalid
 
     # Parse served_days
-    served_days = trip['served_days']
+    served_days = [trip['monday'], trip['tuesday'], trip['wednesday'], trip['thursday'], trip['friday'], trip['saturday'], trip['sunday']]
     # Map days of week to served_days (assuming Monday=0, Sunday=6)
     served_days_dict = {i: served_days[i] for i in range(7)}  # 0=Monday, ..., 6=Sunday
 

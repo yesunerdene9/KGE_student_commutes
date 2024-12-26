@@ -109,8 +109,8 @@ def process_bus_trips(gtfs_data):
     
     calendar_df = gtfs_data['calendar']
     # make a list of days by using the columns monday, tuesday, wednesday, thursday, friday, saturday, sunday
-    calendar_df['served_days'] = calendar_df[['monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday', 'sunday']].values.tolist()
-    calendar_df = calendar_df.drop(columns=['monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday', 'sunday'])
+    # calendar_df['served_days'] = calendar_df[['monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday', 'sunday']].values.tolist()
+    # calendar_df = calendar_df.drop(columns=['monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday', 'sunday'])
     
     # Merge with calendar to get service days
     trips_calendar = pd.merge(trips_stops, calendar_df, on='service_id', how='left')
@@ -143,15 +143,15 @@ def main():
     # Load GTFS data
     gtfs_data = load_gtfs_data("./gtfs")
 
-    # Process bus stops
-    bus_stops = process_bus_stops(gtfs_data)
-    bus_stops.to_json('bus_stops.json', orient='records')
-    print("Bus stops data saved to bus_stops.json")
+    # # Process bus stops
+    # bus_stops = process_bus_stops(gtfs_data)
+    # bus_stops.to_json('bus_stops.json', orient='records')
+    # print("Bus stops data saved to bus_stops.json")
 
-    # Process bus routes
-    bus_routes = process_bus_routes(gtfs_data)
-    bus_routes.to_json('bus_routes.json', orient='records')
-    print("Bus routes data saved to bus_routes.json")
+    # # Process bus routes
+    # bus_routes = process_bus_routes(gtfs_data)
+    # bus_routes.to_json('bus_routes.json', orient='records')
+    # print("Bus routes data saved to bus_routes.json")
 
     # Process bus trips
     bus_trips = process_bus_trips(gtfs_data)

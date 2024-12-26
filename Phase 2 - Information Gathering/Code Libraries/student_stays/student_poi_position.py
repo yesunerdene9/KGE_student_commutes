@@ -4,9 +4,9 @@ from tqdm import tqdm
 
 # -------------------- Configuration --------------------
 # File paths
-POI_CSV_PATH = '../Poi_osm/poi_and_osm_full.json'
+POI_JSON_PATH = '../Poi_osm/poi_and_osm_full.json'
 USER_PARQUET_PATH_TEMPLATE = "C:/Users/david/Downloads/dataset/Sensors/Sensors/Position/locationeventpertime_rd.parquet/part.{}.parquet"
-OUTPUT_CSV_PATH = './user_poi_matches.json'
+OUTPUT_JSON_PATH = './user_poi_matches.json'
 
 # Parameters
 POSITION_BUFFER_KM = 0.05  # 50 meters
@@ -17,7 +17,7 @@ CHUNK_SIZE = 100000 # Number of records to process at a time
 try:
     # Load OSM PoI data
     print("Loading OSM PoI data...")
-    osm_data = pd.read_json(POI_CSV_PATH)
+    osm_data = pd.read_json(POI_JSON_PATH)
     print(f"OSM PoI data loaded with {len(osm_data)} records.")
 
     # Convert PoI data to GeoDataFrame
@@ -94,14 +94,14 @@ try:
         # useridPerform spatial join between buffer and PoIs
         user_osm_matches = gpd.sjoin(
             buffer_gdf,
-            osm_data_gdf[['osm_id', 'geometry']],
+            osm_data_gdf[['osm_id', 'name', 'geometry']],
             how='left',
             predicate='intersects'
         )
         # print(f"Spatial join completed with {len(user_osm_matches)} records.")
 
         # useridSelect required columns
-        user_osm_matches = user_osm_matches[['userid', 'osm_id', 'user_timestamp']].copy()
+        user_osm_matches = user_osm_matches[['userid', 'osm_id', 'name', 'user_timestamp']].copy()
         # print("Selected required columns: 'userid', 'osm_id', 'user_timestamp'.")
 
         # remove where osm_id is null
@@ -117,7 +117,7 @@ try:
         user_osm_df = pd.concat(user_results_list, ignore_index=True)
         print(f"Total matched records: {len(user_osm_df)}.")
     else:
-        user_osm_df = pd.DataFrame(columns=['userid', 'poi_id', 'user_timestamp'])
+        user_osm_df = pd.DataFrame(columns=['userid', 'poi_id', 'name', 'user_timestamp'])
         print("No matches found across all chunks.")
 
     # interpret id columns as integers
@@ -128,8 +128,8 @@ try:
     user_osm_df['user_timestamp'] = user_osm_df['user_timestamp'].dt.strftime('%Y-%m-%d %H:%M:%S')
 
     # useridSave to CSV
-    print(f"Saving results to {OUTPUT_CSV_PATH}...")
-    user_osm_df.to_json(OUTPUT_CSV_PATH, orient='records')
+    print(f"Saving results to {OUTPUT_JSON_PATH}...")
+    user_osm_df.to_json(OUTPUT_JSON_PATH, orient='records')
     print("Spatial join completed successfully.")
 
 except Exception as e:
