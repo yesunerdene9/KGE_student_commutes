@@ -1,9 +1,9 @@
 @prefix rr: <http://www.w3.org/ns/r2rml#> .
 @prefix km-dev: <http://isi.edu/integration/karma/dev#> .
 
-_:node1ifqmc69rx1 a km-dev:R2RMLMapping ;
+_:node1ig9ve5r0x1 a km-dev:R2RMLMapping ;
 	km-dev:sourceName "bus_stops.json" ;
-	km-dev:modelPublicationTime "1734988929339"^^<http://www.w3.org/2001/XMLSchema#long> ;
+	km-dev:modelPublicationTime "1735501748064"^^<http://www.w3.org/2001/XMLSchema#long> ;
 	km-dev:modelVersion "1.7" ;
 	km-dev:hasModelLabel "bus_stops.json" ;
 	km-dev:hasBaseURI "http://localhost:8080/source/" ;
@@ -50,7 +50,7 @@ _:node1ifqmc69rx1 a km-dev:R2RMLMapping ;
             {
                 \"name\": \"inputColumns\",
                 \"type\": \"hNodeIdList\",
-                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"arrival_time\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"route_id\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"trip_id\\\"}]}]\"
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"trip_id\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"arrival_time\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"route_id\\\"}]}]\"
             },
             {
                 \"name\": \"outputColumns\",
@@ -61,8 +61,8 @@ _:node1ifqmc69rx1 a km-dev:R2RMLMapping ;
         \"tags\": [\"Transformation\"]
     },
     {
-        \"commandName\": \"SetMetaPropertyCommand\",
-        \"model\": \"http://localhost:8080/R2RMLMapping/local/bus_stops.json-history-model.ttl\",
+        \"commandName\": \"SubmitPythonTransformationCommand\",
+        \"model\": \"new\",
         \"inputParameters\": [
             {
                 \"name\": \"hNodeId\",
@@ -80,46 +80,24 @@ _:node1ifqmc69rx1 a km-dev:R2RMLMapping ;
                 \"value\": \"DEFAULT_TEST\"
             },
             {
-                \"name\": \"metaPropertyName\",
+                \"name\": \"newColumnName\",
                 \"type\": \"other\",
-                \"value\": \"isUriOfClass\"
+                \"value\": \"stop_uri\"
             },
             {
-                \"name\": \"metaPropertyUri\",
+                \"name\": \"transformationCode\",
                 \"type\": \"other\",
-                \"value\": \"http://knowdive.disi.unitn.it/etype#bus_stop_GID-45118\"
+                \"value\": \"return \\\"bus_stop_GID-45118_\\\"+getValue(\\\"stop_id\\\")\"
             },
             {
-                \"name\": \"metaPropertyId\",
-                \"type\": \"other\",
-                \"value\": \"http://knowdive.disi.unitn.it/etype#bus_stop_GID-451181\"
-            },
-            {
-                \"name\": \"SemanticTypesArray\",
-                \"type\": \"other\",
-                \"value\": [{
-                    \"DomainUri\": \"http://knowdive.disi.unitn.it/etype#bus_stop_GID-45118\",
-                    \"DomainId\": \"http://knowdive.disi.unitn.it/etype#bus_stop_GID-451181\",
-                    \"isPrimary\": true,
-                    \"isProvenance\": false,
-                    \"FullType\": \"http://isi.edu/integration/karma/dev#classLink\",
-                    \"DomainLabel\": \"http://knowdive.disi.unitn.it/etype#bus_stop_GID-45118/bus_stop_GID-451181 (add)\"
-                }]
-            },
-            {
-                \"name\": \"trainAndShowUpdates\",
-                \"type\": \"other\",
-                \"value\": true
-            },
-            {
-                \"name\": \"rdfLiteralType\",
+                \"name\": \"errorDefaultValue\",
                 \"type\": \"other\",
                 \"value\": \"\"
             },
             {
-                \"name\": \"language\",
+                \"name\": \"isJSONOutput\",
                 \"type\": \"other\",
-                \"value\": \"\"
+                \"value\": \"false\"
             },
             {
                 \"name\": \"inputColumns\",
@@ -129,10 +107,10 @@ _:node1ifqmc69rx1 a km-dev:R2RMLMapping ;
             {
                 \"name\": \"outputColumns\",
                 \"type\": \"hNodeIdList\",
-                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"stop_id\\\"}]}]\"
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"stop_uri\\\"}]}]\"
             }
         ],
-        \"tags\": [\"SemanticType\"]
+        \"tags\": [\"Transformation\"]
     },
     {
         \"commandName\": \"SetSemanticTypeCommand\",
@@ -425,6 +403,80 @@ _:node1ifqmc69rx1 a km-dev:R2RMLMapping ;
                 \"name\": \"outputColumns\",
                 \"type\": \"hNodeIdList\",
                 \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"timetable\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetMetaPropertyCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"stop_uri\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"metaPropertyName\",
+                \"type\": \"other\",
+                \"value\": \"isUriOfClass\"
+            },
+            {
+                \"name\": \"metaPropertyUri\",
+                \"type\": \"other\",
+                \"value\": \"http://knowdive.disi.unitn.it/etype#bus_stop_GID-45118\"
+            },
+            {
+                \"name\": \"metaPropertyId\",
+                \"type\": \"other\",
+                \"value\": \"http://knowdive.disi.unitn.it/etype#bus_stop_GID-451181\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://knowdive.disi.unitn.it/etype#bus_stop_GID-45118\",
+                    \"DomainId\": \"http://knowdive.disi.unitn.it/etype#bus_stop_GID-451181\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://isi.edu/integration/karma/dev#classLink\",
+                    \"DomainLabel\": \"KGE24:bus_stop_GID-451181\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"stop_uri\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"stop_uri\\\"}]}]\"
             }
         ],
         \"tags\": [\"SemanticType\"]

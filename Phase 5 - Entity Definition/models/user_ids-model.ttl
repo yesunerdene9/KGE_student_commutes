@@ -1,83 +1,137 @@
 @prefix rr: <http://www.w3.org/ns/r2rml#> .
 @prefix km-dev: <http://isi.edu/integration/karma/dev#> .
 
-_:node1ifqftjf4x1 a km-dev:R2RMLMapping ;
+_:node1iga14r44x1 a km-dev:R2RMLMapping ;
 	km-dev:sourceName "user_ids.json" ;
-	km-dev:modelPublicationTime "1734982159847"^^<http://www.w3.org/2001/XMLSchema#long> ;
+	km-dev:modelPublicationTime "1735503539332"^^<http://www.w3.org/2001/XMLSchema#long> ;
 	km-dev:modelVersion "1.7" ;
 	km-dev:hasModelLabel "user_ids.json" ;
 	km-dev:hasBaseURI "http://localhost:8080/source/" ;
-	km-dev:hasWorksheetHistory """[{
-    \"commandName\": \"SetMetaPropertyCommand\",
-    \"model\": \"new\",
-    \"inputParameters\": [
-        {
-            \"name\": \"hNodeId\",
-            \"type\": \"hNodeId\",
-            \"value\": [{\"columnName\": \"userid\"}]
-        },
-        {
-            \"name\": \"worksheetId\",
-            \"type\": \"worksheetId\",
-            \"value\": \"W\"
-        },
-        {
-            \"name\": \"selectionName\",
-            \"type\": \"other\",
-            \"value\": \"DEFAULT_TEST\"
-        },
-        {
-            \"name\": \"metaPropertyName\",
-            \"type\": \"other\",
-            \"value\": \"isUriOfClass\"
-        },
-        {
-            \"name\": \"metaPropertyUri\",
-            \"type\": \"other\",
-            \"value\": \"http://knowdive.disi.unitn.it/etype#student_GID-53021\"
-        },
-        {
-            \"name\": \"metaPropertyId\",
-            \"type\": \"other\",
-            \"value\": \"http://knowdive.disi.unitn.it/etype#student_GID-530211\"
-        },
-        {
-            \"name\": \"SemanticTypesArray\",
-            \"type\": \"other\",
-            \"value\": [{
-                \"DomainUri\": \"http://knowdive.disi.unitn.it/etype#student_GID-53021\",
-                \"DomainId\": \"http://knowdive.disi.unitn.it/etype#student_GID-530211\",
-                \"isPrimary\": true,
-                \"isProvenance\": false,
-                \"FullType\": \"http://isi.edu/integration/karma/dev#classLink\",
-                \"DomainLabel\": \"http://knowdive.disi.unitn.it/etype#student_GID-53021/student_GID-530211 (add)\"
-            }]
-        },
-        {
-            \"name\": \"trainAndShowUpdates\",
-            \"type\": \"other\",
-            \"value\": true
-        },
-        {
-            \"name\": \"rdfLiteralType\",
-            \"type\": \"other\",
-            \"value\": \"\"
-        },
-        {
-            \"name\": \"language\",
-            \"type\": \"other\",
-            \"value\": \"\"
-        },
-        {
-            \"name\": \"inputColumns\",
-            \"type\": \"hNodeIdList\",
-            \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"userid\\\"}]}]\"
-        },
-        {
-            \"name\": \"outputColumns\",
-            \"type\": \"hNodeIdList\",
-            \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"userid\\\"}]}]\"
-        }
-    ],
-    \"tags\": [\"SemanticType\"]
-}]""" .
+	km-dev:hasWorksheetHistory """[
+    {
+        \"commandName\": \"SubmitPythonTransformationCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"userid\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"newColumnName\",
+                \"type\": \"other\",
+                \"value\": \"STUDENT_URI\"
+            },
+            {
+                \"name\": \"transformationCode\",
+                \"type\": \"other\",
+                \"value\": \"return \\\"student_GID-53021_\\\"+getValue(\\\"userid\\\")\"
+            },
+            {
+                \"name\": \"errorDefaultValue\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"isJSONOutput\",
+                \"type\": \"other\",
+                \"value\": \"false\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"userid\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"STUDENT_URI\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"Transformation\"]
+    },
+    {
+        \"commandName\": \"SetMetaPropertyCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"STUDENT_URI\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"metaPropertyName\",
+                \"type\": \"other\",
+                \"value\": \"isUriOfClass\"
+            },
+            {
+                \"name\": \"metaPropertyUri\",
+                \"type\": \"other\",
+                \"value\": \"http://knowdive.disi.unitn.it/etype#student_GID-53021\"
+            },
+            {
+                \"name\": \"metaPropertyId\",
+                \"type\": \"other\",
+                \"value\": \"http://knowdive.disi.unitn.it/etype#student_GID-530211\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://knowdive.disi.unitn.it/etype#student_GID-53021\",
+                    \"DomainId\": \"http://knowdive.disi.unitn.it/etype#student_GID-530211\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://isi.edu/integration/karma/dev#classLink\",
+                    \"DomainLabel\": \"KGE24:student_GID-530211 (add)\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"STUDENT_URI\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"STUDENT_URI\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    }
+]""" .

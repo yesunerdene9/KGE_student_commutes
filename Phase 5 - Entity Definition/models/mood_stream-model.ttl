@@ -1,9 +1,9 @@
 @prefix rr: <http://www.w3.org/ns/r2rml#> .
 @prefix km-dev: <http://isi.edu/integration/karma/dev#> .
 
-_:node1ig4ugclex1 a km-dev:R2RMLMapping ;
+_:node1iga5dnsqx1 a km-dev:R2RMLMapping ;
 	km-dev:sourceName "mood_stream.json" ;
-	km-dev:modelPublicationTime "1735332999855"^^<http://www.w3.org/2001/XMLSchema#long> ;
+	km-dev:modelPublicationTime "1735508025242"^^<http://www.w3.org/2001/XMLSchema#long> ;
 	km-dev:modelVersion "1.7" ;
 	km-dev:hasModelLabel "mood_stream.json" ;
 	km-dev:hasBaseURI "http://localhost:8080/source/" ;
@@ -30,12 +30,12 @@ _:node1ig4ugclex1 a km-dev:R2RMLMapping ;
             {
                 \"name\": \"newColumnName\",
                 \"type\": \"other\",
-                \"value\": \"mood_id\"
+                \"value\": \"student_id\"
             },
             {
                 \"name\": \"transformationCode\",
                 \"type\": \"other\",
-                \"value\": \"return getValue(\\\"userid\\\")+\\\"~\\\"+getValue(\\\"timestamp\\\").replace(\\\":\\\", \\\";\\\").replace(\\\" \\\", \\\"%\\\")\"
+                \"value\": \"return \\\"student_GID-53021_\\\"+getValue(\\\"userid\\\")\"
             },
             {
                 \"name\": \"errorDefaultValue\",
@@ -50,24 +50,24 @@ _:node1ig4ugclex1 a km-dev:R2RMLMapping ;
             {
                 \"name\": \"inputColumns\",
                 \"type\": \"hNodeIdList\",
-                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"userid\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"timestamp\\\"}]}]\"
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"userid\\\"}]}]\"
             },
             {
                 \"name\": \"outputColumns\",
                 \"type\": \"hNodeIdList\",
-                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"mood_id\\\"}]}]\"
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"student_id\\\"}]}]\"
             }
         ],
         \"tags\": [\"Transformation\"]
     },
     {
-        \"commandName\": \"SetMetaPropertyCommand\",
+        \"commandName\": \"SubmitPythonTransformationCommand\",
         \"model\": \"new\",
         \"inputParameters\": [
             {
                 \"name\": \"hNodeId\",
                 \"type\": \"hNodeId\",
-                \"value\": [{\"columnName\": \"userid\"}]
+                \"value\": [{\"columnName\": \"student_id\"}]
             },
             {
                 \"name\": \"worksheetId\",
@@ -80,59 +80,37 @@ _:node1ig4ugclex1 a km-dev:R2RMLMapping ;
                 \"value\": \"DEFAULT_TEST\"
             },
             {
-                \"name\": \"metaPropertyName\",
+                \"name\": \"newColumnName\",
                 \"type\": \"other\",
-                \"value\": \"isUriOfClass\"
+                \"value\": \"mood_id\"
             },
             {
-                \"name\": \"metaPropertyUri\",
+                \"name\": \"transformationCode\",
                 \"type\": \"other\",
-                \"value\": \"http://knowdive.disi.unitn.it/etype/student_GID-53021\"
+                \"value\": \"return \\\"mood_GID-39957_\\\"+getValue(\\\"student_id\\\")+\\\"~\\\"+getValue(\\\"timestamp\\\").replace(\\\":\\\", \\\";\\\").replace(\\\" \\\", \\\"%\\\")\"
             },
             {
-                \"name\": \"metaPropertyId\",
-                \"type\": \"other\",
-                \"value\": \"http://knowdive.disi.unitn.it/etype/student_GID-530211\"
-            },
-            {
-                \"name\": \"SemanticTypesArray\",
-                \"type\": \"other\",
-                \"value\": [{
-                    \"DomainUri\": \"http://knowdive.disi.unitn.it/etype/student_GID-53021\",
-                    \"DomainId\": \"http://knowdive.disi.unitn.it/etype/student_GID-530211\",
-                    \"isPrimary\": true,
-                    \"isProvenance\": false,
-                    \"FullType\": \"http://isi.edu/integration/karma/dev#classLink\",
-                    \"DomainLabel\": \"http://knowdive.disi.unitn.it/etype/student_GID-53021/student_GID-530211 (add)\"
-                }]
-            },
-            {
-                \"name\": \"trainAndShowUpdates\",
-                \"type\": \"other\",
-                \"value\": true
-            },
-            {
-                \"name\": \"rdfLiteralType\",
+                \"name\": \"errorDefaultValue\",
                 \"type\": \"other\",
                 \"value\": \"\"
             },
             {
-                \"name\": \"language\",
+                \"name\": \"isJSONOutput\",
                 \"type\": \"other\",
-                \"value\": \"\"
+                \"value\": \"false\"
             },
             {
                 \"name\": \"inputColumns\",
                 \"type\": \"hNodeIdList\",
-                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"userid\\\"}]}]\"
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"student_id\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"timestamp\\\"}]}]\"
             },
             {
                 \"name\": \"outputColumns\",
                 \"type\": \"hNodeIdList\",
-                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"userid\\\"}]}]\"
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"mood_id\\\"}]}]\"
             }
         ],
-        \"tags\": [\"SemanticType\"]
+        \"tags\": [\"Transformation\"]
     },
     {
         \"commandName\": \"SetSemanticTypeCommand\",
@@ -157,12 +135,12 @@ _:node1ig4ugclex1 a km-dev:R2RMLMapping ;
                 \"name\": \"SemanticTypesArray\",
                 \"type\": \"other\",
                 \"value\": [{
-                    \"DomainUri\": \"http://knowdive.disi.unitn.it/etype/mood_GID-39957\",
-                    \"DomainId\": \"http://knowdive.disi.unitn.it/etype/mood_GID-399571\",
+                    \"DomainUri\": \"http://knowdive.disi.unitn.it/etype#mood_GID-39957\",
+                    \"DomainId\": \"http://knowdive.disi.unitn.it/etype#mood_GID-399571\",
                     \"isPrimary\": true,
                     \"isProvenance\": false,
-                    \"FullType\": \"http://knowdive.disi.unitn.it/etype/has_timestamp_GID-27373\",
-                    \"DomainLabel\": \"http://knowdive.disi.unitn.it/etype/mood_GID-39957/mood_GID-399571 (add)\"
+                    \"FullType\": \"http://knowdive.disi.unitn.it/etype#has_timestamp_GID-27373\",
+                    \"DomainLabel\": \"http://knowdive.disi.unitn.it/etype#mood_GID-39957/mood_GID-399571 (add)\"
                 }]
             },
             {
@@ -216,12 +194,12 @@ _:node1ig4ugclex1 a km-dev:R2RMLMapping ;
                 \"name\": \"SemanticTypesArray\",
                 \"type\": \"other\",
                 \"value\": [{
-                    \"DomainUri\": \"http://knowdive.disi.unitn.it/etype/mood_GID-39957\",
-                    \"DomainId\": \"http://knowdive.disi.unitn.it/etype/mood_GID-399571\",
+                    \"DomainUri\": \"http://knowdive.disi.unitn.it/etype#mood_GID-39957\",
+                    \"DomainId\": \"http://knowdive.disi.unitn.it/etype#mood_GID-399571\",
                     \"isPrimary\": true,
                     \"isProvenance\": false,
-                    \"FullType\": \"http://knowdive.disi.unitn.it/etype/has_mood_GID-39957\",
-                    \"DomainLabel\": \"http://knowdive.disi.unitn.it/etype/mood_GID-39957/mood_GID-399571\"
+                    \"FullType\": \"http://knowdive.disi.unitn.it/etype#has_mood_GID-39957\",
+                    \"DomainLabel\": \"http://knowdive.disi.unitn.it/etype#mood_GID-39957/mood_GID-399571\"
                 }]
             },
             {
@@ -275,12 +253,12 @@ _:node1ig4ugclex1 a km-dev:R2RMLMapping ;
                 \"name\": \"SemanticTypesArray\",
                 \"type\": \"other\",
                 \"value\": [{
-                    \"DomainUri\": \"http://knowdive.disi.unitn.it/etype/mood_GID-39957\",
-                    \"DomainId\": \"http://knowdive.disi.unitn.it/etype/mood_GID-399571\",
+                    \"DomainUri\": \"http://knowdive.disi.unitn.it/etype#mood_GID-39957\",
+                    \"DomainId\": \"http://knowdive.disi.unitn.it/etype#mood_GID-399571\",
                     \"isPrimary\": true,
                     \"isProvenance\": false,
-                    \"FullType\": \"http://knowdive.disi.unitn.it/etype/has_mood_GID-39957\",
-                    \"DomainLabel\": \"http://knowdive.disi.unitn.it/etype/mood_GID-39957/mood_GID-399571\"
+                    \"FullType\": \"http://knowdive.disi.unitn.it/etype#has_mood_GID-39957\",
+                    \"DomainLabel\": \"http://knowdive.disi.unitn.it/etype#mood_GID-39957/mood_GID-399571\"
                 }]
             },
             {
@@ -334,12 +312,12 @@ _:node1ig4ugclex1 a km-dev:R2RMLMapping ;
                 \"name\": \"SemanticTypesArray\",
                 \"type\": \"other\",
                 \"value\": [{
-                    \"DomainUri\": \"http://knowdive.disi.unitn.it/etype/mood_GID-39957\",
-                    \"DomainId\": \"http://knowdive.disi.unitn.it/etype/mood_GID-399571\",
+                    \"DomainUri\": \"http://knowdive.disi.unitn.it/etype#mood_GID-39957\",
+                    \"DomainId\": \"http://knowdive.disi.unitn.it/etype#mood_GID-399571\",
                     \"isPrimary\": true,
                     \"isProvenance\": false,
-                    \"FullType\": \"http://knowdive.disi.unitn.it/etype/has_duration_GID-72859\",
-                    \"DomainLabel\": \"http://knowdive.disi.unitn.it/etype/mood_GID-39957/mood_GID-399571\"
+                    \"FullType\": \"http://knowdive.disi.unitn.it/etype#has_duration_GID-72859\",
+                    \"DomainLabel\": \"http://knowdive.disi.unitn.it/etype#mood_GID-39957/mood_GID-399571\"
                 }]
             },
             {
@@ -397,23 +375,23 @@ _:node1ig4ugclex1 a km-dev:R2RMLMapping ;
             {
                 \"name\": \"metaPropertyUri\",
                 \"type\": \"other\",
-                \"value\": \"http://knowdive.disi.unitn.it/etype/mood_GID-39957\"
+                \"value\": \"http://knowdive.disi.unitn.it/etype#mood_GID-39957\"
             },
             {
                 \"name\": \"metaPropertyId\",
                 \"type\": \"other\",
-                \"value\": \"http://knowdive.disi.unitn.it/etype/mood_GID-399571\"
+                \"value\": \"http://knowdive.disi.unitn.it/etype#mood_GID-399571\"
             },
             {
                 \"name\": \"SemanticTypesArray\",
                 \"type\": \"other\",
                 \"value\": [{
-                    \"DomainUri\": \"http://knowdive.disi.unitn.it/etype/mood_GID-39957\",
-                    \"DomainId\": \"http://knowdive.disi.unitn.it/etype/mood_GID-399571\",
+                    \"DomainUri\": \"http://knowdive.disi.unitn.it/etype#mood_GID-39957\",
+                    \"DomainId\": \"http://knowdive.disi.unitn.it/etype#mood_GID-399571\",
                     \"isPrimary\": true,
                     \"isProvenance\": false,
                     \"FullType\": \"http://isi.edu/integration/karma/dev#classLink\",
-                    \"DomainLabel\": \"http://knowdive.disi.unitn.it/etype/mood_GID-39957/mood_GID-399571\"
+                    \"DomainLabel\": \"http://knowdive.disi.unitn.it/etype#mood_GID-39957/mood_GID-399571\"
                 }]
             },
             {
@@ -445,6 +423,80 @@ _:node1ig4ugclex1 a km-dev:R2RMLMapping ;
         \"tags\": [\"SemanticType\"]
     },
     {
+        \"commandName\": \"SetMetaPropertyCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"student_id\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"metaPropertyName\",
+                \"type\": \"other\",
+                \"value\": \"isUriOfClass\"
+            },
+            {
+                \"name\": \"metaPropertyUri\",
+                \"type\": \"other\",
+                \"value\": \"http://knowdive.disi.unitn.it/etype#student_GID-53021\"
+            },
+            {
+                \"name\": \"metaPropertyId\",
+                \"type\": \"other\",
+                \"value\": \"http://knowdive.disi.unitn.it/etype#student_GID-530211\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://knowdive.disi.unitn.it/etype#student_GID-53021\",
+                    \"DomainId\": \"http://knowdive.disi.unitn.it/etype#student_GID-530211\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://isi.edu/integration/karma/dev#classLink\",
+                    \"DomainLabel\": \"http://knowdive.disi.unitn.it/etype#student_GID-53021/student_GID-530211\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"student_id\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"student_id\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
         \"commandName\": \"AddLinkCommand\",
         \"model\": \"new\",
         \"inputParameters\": [
@@ -457,11 +509,11 @@ _:node1ig4ugclex1 a km-dev:R2RMLMapping ;
                 \"name\": \"edge\",
                 \"type\": \"other\",
                 \"value\": {
-                    \"edgeTargetId\": \"http://knowdive.disi.unitn.it/etype/mood_GID-399571\",
-                    \"edgeId\": \"http://knowdive.disi.unitn.it/etype/has_feel_GID-101373\",
-                    \"edgeTargetUri\": \"http://knowdive.disi.unitn.it/etype/mood_GID-39957\",
-                    \"edgeSourceId\": \"http://knowdive.disi.unitn.it/etype/student_GID-530211\",
-                    \"edgeSourceUri\": \"http://knowdive.disi.unitn.it/etype/student_GID-53021\"
+                    \"edgeTargetId\": \"http://knowdive.disi.unitn.it/etype#mood_GID-399571\",
+                    \"edgeId\": \"http://knowdive.disi.unitn.it/etype#has_feel_GID-101373\",
+                    \"edgeTargetUri\": \"http://knowdive.disi.unitn.it/etype#mood_GID-39957\",
+                    \"edgeSourceId\": \"http://knowdive.disi.unitn.it/etype#student_GID-530211\",
+                    \"edgeSourceUri\": \"http://knowdive.disi.unitn.it/etype#student_GID-53021\"
                 }
             },
             {

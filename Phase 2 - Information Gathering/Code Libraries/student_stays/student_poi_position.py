@@ -4,7 +4,7 @@ from tqdm import tqdm
 
 # -------------------- Configuration --------------------
 # File paths
-POI_JSON_PATH = '../Poi_osm/poi_and_osm_full.json'
+POI_JSON_PATH = '../Poi_osm/poi_and_osm_full_final.json'
 USER_PARQUET_PATH_TEMPLATE = "C:/Users/david/Downloads/dataset/Sensors/Sensors/Position/locationeventpertime_rd.parquet/part.{}.parquet"
 OUTPUT_JSON_PATH = './user_poi_matches.json'
 
