@@ -1,9 +1,9 @@
 @prefix rr: <http://www.w3.org/ns/r2rml#> .
 @prefix km-dev: <http://isi.edu/integration/karma/dev#> .
 
-_:node1iga56rhbx1 a km-dev:R2RMLMapping ;
+_:node1igluadp6x1 a km-dev:R2RMLMapping ;
 	km-dev:sourceName "user_data.json" ;
-	km-dev:modelPublicationTime "1735507799597"^^<http://www.w3.org/2001/XMLSchema#long> ;
+	km-dev:modelPublicationTime "1735903229734"^^<http://www.w3.org/2001/XMLSchema#long> ;
 	km-dev:modelVersion "1.7" ;
 	km-dev:hasModelLabel "user_data.json" ;
 	km-dev:hasBaseURI "http://localhost:8080/source/" ;
@@ -108,6 +108,58 @@ _:node1iga56rhbx1 a km-dev:R2RMLMapping ;
                 \"name\": \"outputColumns\",
                 \"type\": \"hNodeIdList\",
                 \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"location_event_ID\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"Transformation\"]
+    },
+    {
+        \"commandName\": \"SubmitPythonTransformationCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"timestamp\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"newColumnName\",
+                \"type\": \"other\",
+                \"value\": \"timestamp\"
+            },
+            {
+                \"name\": \"transformationCode\",
+                \"type\": \"other\",
+                \"value\": \"import datetime\\ntimestamp = float(getValue(\\\"timestamp\\\"))\\ntimestamp_s = timestamp / 1000.0\\ndt_object = datetime.datetime.utcfromtimestamp(timestamp_s)\\n\\n# Format as ISO 8601 (YYYY-MM-DDTHH:MM:SS)\\ntimestamp_iso = dt_object.strftime('%Y-%m-%dT%H:%M:%S')\\n\\nreturn timestamp_iso\"
+            },
+            {
+                \"name\": \"errorDefaultValue\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"isJSONOutput\",
+                \"type\": \"other\",
+                \"value\": \"false\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"timestamp\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"timestamp\\\"}]}]\"
             }
         ],
         \"tags\": [\"Transformation\"]

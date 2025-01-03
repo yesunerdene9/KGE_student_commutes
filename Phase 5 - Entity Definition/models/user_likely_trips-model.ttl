@@ -1,9 +1,9 @@
 @prefix rr: <http://www.w3.org/ns/r2rml#> .
 @prefix km-dev: <http://isi.edu/integration/karma/dev#> .
 
-_:node1iga1203tx1 a km-dev:R2RMLMapping ;
+_:node1igltnkc6x1 a km-dev:R2RMLMapping ;
 	km-dev:sourceName "user_likely_trips.json" ;
-	km-dev:modelPublicationTime "1735503446141"^^<http://www.w3.org/2001/XMLSchema#long> ;
+	km-dev:modelPublicationTime "1735902613894"^^<http://www.w3.org/2001/XMLSchema#long> ;
 	km-dev:modelVersion "1.7" ;
 	km-dev:hasModelLabel "user_likely_trips.json" ;
 	km-dev:hasBaseURI "http://localhost:8080/source/" ;
@@ -139,7 +139,7 @@ _:node1iga1203tx1 a km-dev:R2RMLMapping ;
             {
                 \"name\": \"transformationCode\",
                 \"type\": \"other\",
-                \"value\": \"return \\\"trip_journey_GID-1474_\\\"+getValue(\\\"STUDENT_URI\\\")+\\\"~\\\"+getValue(\\\"ROUTE_URI\\\")+\\\"~\\\"+getValue(\\\"date\\\")+\\\"~\\\"+getValue(\\\"boarding_time\\\").replace(\\\":\\\",\\\";\\\")\"
+                \"value\": \"return \\\"trip_journey_GID-1474_\\\"+getValue(\\\"STUDENT_URI\\\")+\\\"~\\\"+getValue(\\\"ROUTE_URI\\\")+\\\"~\\\"+getValue(\\\"date\\\").replace(\\\":\\\",\\\";\\\")\"
             },
             {
                 \"name\": \"errorDefaultValue\",
@@ -154,7 +154,7 @@ _:node1iga1203tx1 a km-dev:R2RMLMapping ;
             {
                 \"name\": \"inputColumns\",
                 \"type\": \"hNodeIdList\",
-                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"boarding_time\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"ROUTE_URI\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"date\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"STUDENT_URI\\\"}]}]\"
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"STUDENT_URI\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"date\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"ROUTE_URI\\\"}]}]\"
             },
             {
                 \"name\": \"outputColumns\",
@@ -264,6 +264,110 @@ _:node1iga1203tx1 a km-dev:R2RMLMapping ;
                 \"name\": \"outputColumns\",
                 \"type\": \"hNodeIdList\",
                 \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"ALIGH_STOP_URI\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"Transformation\"]
+    },
+    {
+        \"commandName\": \"SubmitPythonTransformationCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"date\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"newColumnName\",
+                \"type\": \"other\",
+                \"value\": \"date\"
+            },
+            {
+                \"name\": \"transformationCode\",
+                \"type\": \"other\",
+                \"value\": \"return getValue(\\\"date\\\")+\\\"T\\\"+getValue(\\\"boarding_time\\\")\"
+            },
+            {
+                \"name\": \"errorDefaultValue\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"isJSONOutput\",
+                \"type\": \"other\",
+                \"value\": \"false\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"date\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"boarding_time\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"date\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"Transformation\"]
+    },
+    {
+        \"commandName\": \"SubmitPythonTransformationCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"duration_minutes\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"newColumnName\",
+                \"type\": \"other\",
+                \"value\": \"duration_minutes\"
+            },
+            {
+                \"name\": \"transformationCode\",
+                \"type\": \"other\",
+                \"value\": \"return \\\"PT\\\"+getValue(\\\"duration_minutes\\\").split(\\\".\\\")[0]+\\\"M\\\"\"
+            },
+            {
+                \"name\": \"errorDefaultValue\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"isJSONOutput\",
+                \"type\": \"other\",
+                \"value\": \"false\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"duration_minutes\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"duration_minutes\\\"}]}]\"
             }
         ],
         \"tags\": [\"Transformation\"]
