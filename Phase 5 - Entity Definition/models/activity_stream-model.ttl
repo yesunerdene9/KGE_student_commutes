@@ -1,9 +1,9 @@
 @prefix rr: <http://www.w3.org/ns/r2rml#> .
 @prefix km-dev: <http://isi.edu/integration/karma/dev#> .
 
-_:node1igltmek2x1 a km-dev:R2RMLMapping ;
+_:node1ih394vsjx1 a km-dev:R2RMLMapping ;
 	km-dev:sourceName "activity_stream.json" ;
-	km-dev:modelPublicationTime "1735902575235"^^<http://www.w3.org/2001/XMLSchema#long> ;
+	km-dev:modelPublicationTime "1736350793619"^^<http://www.w3.org/2001/XMLSchema#long> ;
 	km-dev:modelVersion "1.7" ;
 	km-dev:hasModelLabel "activity_stream.json" ;
 	km-dev:hasBaseURI "http://localhost:8080/source/" ;
@@ -244,7 +244,7 @@ _:node1igltmek2x1 a km-dev:R2RMLMapping ;
                     \"isPrimary\": true,
                     \"isProvenance\": false,
                     \"FullType\": \"http://knowdive.disi.unitn.it/etype#has_timestamp_GID-27373\",
-                    \"DomainLabel\": \"KGE24:event_GID-561 (add)\"
+                    \"DomainLabel\": \"KGE24:event_GID-561\"
                 }]
             },
             {
@@ -255,7 +255,7 @@ _:node1igltmek2x1 a km-dev:R2RMLMapping ;
             {
                 \"name\": \"rdfLiteralType\",
                 \"type\": \"other\",
-                \"value\": \"\"
+                \"value\": \"xsd:dateTime\"
             },
             {
                 \"name\": \"language\",
@@ -373,7 +373,7 @@ _:node1igltmek2x1 a km-dev:R2RMLMapping ;
             {
                 \"name\": \"rdfLiteralType\",
                 \"type\": \"other\",
-                \"value\": \"\"
+                \"value\": \"xsd:duration\"
             },
             {
                 \"name\": \"language\",

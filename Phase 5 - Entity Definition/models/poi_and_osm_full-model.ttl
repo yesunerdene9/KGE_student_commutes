@@ -1,9 +1,9 @@
 @prefix rr: <http://www.w3.org/ns/r2rml#> .
 @prefix km-dev: <http://isi.edu/integration/karma/dev#> .
 
-_:node1ige5j33bx1 a km-dev:R2RMLMapping ;
+_:node1igv00vqnx1 a km-dev:R2RMLMapping ;
 	km-dev:sourceName "poi_and_osm_full_final.json" ;
-	km-dev:modelPublicationTime "1735642418283"^^<http://www.w3.org/2001/XMLSchema#long> ;
+	km-dev:modelPublicationTime "1736207007575"^^<http://www.w3.org/2001/XMLSchema#long> ;
 	km-dev:modelVersion "1.7" ;
 	km-dev:hasModelLabel "poi_and_osm_full_final.json" ;
 	km-dev:hasBaseURI "http://localhost:8080/source/" ;
@@ -140,7 +140,7 @@ _:node1ige5j33bx1 a km-dev:R2RMLMapping ;
                     \"isPrimary\": true,
                     \"isProvenance\": false,
                     \"FullType\": \"http://knowdive.disi.unitn.it/etype#has_latitude_GID-45424\",
-                    \"DomainLabel\": \"http://knowdive.disi.unitn.it/etype#point_of_interest_KGE24-0A-20/point_of_interest_KGE24-0A-201 (add)\"
+                    \"DomainLabel\": \"KGE24:point_of_interest_KGE24-0A-201\"
                 }]
             },
             {
@@ -151,7 +151,7 @@ _:node1ige5j33bx1 a km-dev:R2RMLMapping ;
             {
                 \"name\": \"rdfLiteralType\",
                 \"type\": \"other\",
-                \"value\": \"\"
+                \"value\": \"xsd:float\"
             },
             {
                 \"name\": \"language\",
@@ -199,7 +199,7 @@ _:node1ige5j33bx1 a km-dev:R2RMLMapping ;
                     \"isPrimary\": true,
                     \"isProvenance\": false,
                     \"FullType\": \"http://knowdive.disi.unitn.it/etype#has_longitude_GID-45429\",
-                    \"DomainLabel\": \"http://knowdive.disi.unitn.it/etype#point_of_interest_KGE24-0A-20/point_of_interest_KGE24-0A-201\"
+                    \"DomainLabel\": \"KGE24:point_of_interest_KGE24-0A-201\"
                 }]
             },
             {
@@ -210,7 +210,7 @@ _:node1ige5j33bx1 a km-dev:R2RMLMapping ;
             {
                 \"name\": \"rdfLiteralType\",
                 \"type\": \"other\",
-                \"value\": \"\"
+                \"value\": \"xsd:float\"
             },
             {
                 \"name\": \"language\",
