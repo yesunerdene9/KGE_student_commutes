@@ -1,0 +1,81 @@
+PREFIX geo: <http://www.opengis.net/ont/geosparql#>
+PREFIX geof: <http://www.opengis.net/def/function/geosparql/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX e: <http://knowdive.disi.unitn.it/etype#>
+
+SELECT DISTINCT
+    ?poi ?poiName ?poiType
+    (AVG(?moodValue) AS ?generalMood)
+	(COUNT(?mood) AS ?userReviewNumber)
+WHERE {
+    ################################################################
+    # 1) Get the POIs by type
+    ################################################################
+    {
+        SELECT
+            ?poi ?poiName ?poiType
+        WHERE {
+            # accepted types
+            VALUES ?searchType {
+                "restaurant" 
+                "fast_food" 
+                "pizzeria" 
+                "agriturismo" 
+                "birreria" 
+                "Ristorante" 
+                "Rifugio / Malga" 
+                "Pizzeria" 
+                "Birreria / Pub" 
+                "Pizzeria Ristorante"
+            }
+            
+            ?poi a e:point_of_interest_KGE24-0A-20;
+                e:has_PoI_name_KGE24-0A-8 ?poiName;
+                e:has_PoI_type_KGE24-0A-7 ?poiType.
+
+            FILTER(LCASE(?poiType) = LCASE(?searchType))
+        }
+    }
+    
+    ################################################################
+    # 2) Get stays of the User at that PoI
+    ################################################################
+    {
+        SELECT ?stay
+        WHERE{
+            BIND(<http://localhost:8080/source/student_GID-53021_128> AS ?user)
+            
+            ?user e:has_stay_put_GID-101763 ?stay.
+        }
+    }
+    ?stay e:has_inside_GID-106969 ?poi ;
+		  e:has_timestamp_GID-27373 ?stayStart ;
+          e:has_duration_GID-72859 ?stayDuration .
+	BIND(?stayStart + ?stayDuration AS ?stayEnd)
+    
+    ################################################################
+    # 3) Get moods of the User around the time of the stay
+    ################################################################
+    {
+        SELECT ?mood ?moodValue ?moodStart ?moodEnd
+        WHERE {
+            BIND(<http://localhost:8080/source/student_GID-53021_128> AS ?user)
+            
+            ?user e:has_feel_GID-101373 ?mood.
+        
+            ?mood e:has_mood_GID-39957 ?moodValueStr ;
+                  e:has_timestamp_GID-27373 ?moodStart ;
+                  e:has_duration_GID-72859 ?moodDuration .
+            BIND(xsd:float(?moodValueStr) AS ?moodValue)
+            BIND(?moodStart + ?moodDuration AS ?moodEnd)
+            
+            FILTER(?moodValue > 0)
+        }
+    }
+    
+    FILTER(
+        ((?moodStart <= ?stayEnd) && (?moodEnd >= ?stayStart))
+    )
+}
+GROUP BY ?poi ?poiName ?poiType
+ORDER BY ?generalMood

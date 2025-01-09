@@ -1,0 +1,17 @@
+PREFIX e: <http://knowdive.disi.unitn.it/etype#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+SELECT ?poiName (COUNT(?stay) AS ?numberOfPeople)
+WHERE {
+    BIND("2018-05-15T11:00:00"^^xsd:dateTime AS ?currentTime)
+    
+	?stay a e:stay_GID-5335 ;
+    	e:has_inside_GID-106969 ?poi ;
+        e:has_timestamp_GID-27373 ?start ;
+        e:has_duration_GID-72859 ?duration.
+    
+    ?poi e:has_PoI_name_KGE24-0A-8 ?poiName.
+
+    FILTER(?currentTime>=?start && ?currentTime<=(?start+?duration))
+}
+GROUP BY ?poi ?poiName
