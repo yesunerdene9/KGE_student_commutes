@@ -1,0 +1,207 @@
+PREFIX fn: <http://www.w3.org/2005/xpath-functions>
+PREFIX geo: <http://www.opengis.net/ont/geosparql#>
+PREFIX geof: <http://www.opengis.net/def/function/geosparql/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX e: <http://knowdive.disi.unitn.it/etype#>
+
+SELECT DISTINCT
+    ?theUser
+    ?uLat
+    ?uLong
+    ?locTime
+    ?poiName
+    ?poiLat
+    ?poiLong
+    ?startStop
+    ?startStopLat
+    ?startStopLong
+    ?endStop
+    ?endStopLat
+    ?endStopLong
+    ?candidateRoutes
+    ?stopOrder
+    ?startStopPassTime
+    ?endStopPassTime
+WHERE {
+    ################################################################
+    # 1) Input parameters
+    ################################################################
+    BIND(<http://localhost:8080/source/student_GID-53021_1> AS ?theUser)
+    BIND("Central Library, Buc - Biblioteca Universitaria Centrale" AS ?poiNameInput)
+    BIND("2018-05-15T15:00:00"^^xsd:dateTime AS ?departTime)
+    BIND(500 AS ?radiusInMeters)
+
+    {
+        SELECT
+            ?uLat
+            ?uLong
+            ?locTime
+            ?poiName
+            ?poiLat
+            ?poiLong
+            ?startStop
+            ?startStopLat
+            ?startStopLong
+            ?endStop
+            ?endStopLat
+            ?endStopLong
+        WHERE {
+            BIND(500 AS ?radiusInMeters)
+
+            ################################################################
+            # 2) Get the user’s most recent lat/long before ?departTime
+            ################################################################
+            {
+                SELECT
+                    (?locTimestamp AS ?locTime)
+                    (?lat AS ?uLat)
+                    (?long AS ?uLong)
+                WHERE {
+                    BIND("2018-05-15T15:00:00"^^xsd:dateTime AS ?deptime)
+                    BIND(<http://localhost:8080/source/student_GID-53021_1> AS ?usr)
+
+                    ?usr e:has_located_GID-85982 ?userLoc .
+                    ?userLoc
+                        e:has_latitude_GID-45424 ?lat ;
+                        e:has_longitude_GID-45429 ?long ;
+                        e:has_timestamp_GID-27373 ?locTimestamp .
+                    
+                    FILTER(?locTimestamp < ?deptime)
+                }
+                ORDER BY DESC(?locTimestamp)
+                LIMIT 1
+            }
+
+            ################################################################
+            # 3) Get the POI lat/long by name
+            ################################################################
+            {
+                SELECT
+                    (?actualPoiName AS ?poiName)
+                    (?lat AS ?poiLat)
+                    (?long AS ?poiLong)
+                WHERE {
+                    BIND("Central Library, Buc - Biblioteca Universitaria Centrale" AS ?name)
+                    
+                    ?poi e:has_PoI_name_KGE24-0A-8 ?actualPoiName .
+                    FILTER(?actualPoiName = ?name)
+
+                    ?poi
+                        e:has_latitude_GID-45424 ?lat ;
+                        e:has_longitude_GID-45429 ?long .
+                }
+                LIMIT 1
+            }
+
+            ################################################################
+            # 4) Approximate bounding-box distance for “start stops”
+            ################################################################
+            # ~1 degree of lat = 111,111 m => for 250m, ~0.00225 deg
+            BIND(?radiusInMeters / 111320.0 AS ?deltaDegUser)
+            
+            ?startStop a e:bus_stop_GID-45118 ;
+                e:has_latitude_GID-45424 ?startStopLat ;
+                e:has_longitude_GID-45429 ?startStopLong .
+
+            FILTER(
+                ?startStopLat  > (?uLat - ?deltaDegUser) &&
+                ?startStopLat  < (?uLat + ?deltaDegUser) &&
+                ?startStopLong > (?uLong - ?deltaDegUser) &&
+                ?startStopLong < (?uLong + ?deltaDegUser)
+            )
+
+            ################################################################
+            # 5) Approximate bounding-box distance for “end stops”
+            ################################################################
+            BIND(?radiusInMeters / 111320.0 AS ?deltaDegPoi)
+
+            ?endStop a e:bus_stop_GID-45118 ;
+                e:has_latitude_GID-45424 ?endStopLat ;
+                e:has_longitude_GID-45429 ?endStopLong .
+
+            FILTER(
+                ?endStopLat  > (?poiLat - ?deltaDegPoi) &&
+                ?endStopLat  < (?poiLat + ?deltaDegPoi) &&
+                ?endStopLong > (?poiLong - ?deltaDegPoi) &&
+                ?endStopLong < (?poiLong + ?deltaDegPoi)
+            )
+        }
+    }
+	
+    ################################################################
+    # 6) Bus route check
+    ################################################################
+    {
+        SELECT (?busRoute AS ?candidateRoutes)
+        WHERE {
+            BIND("2018-05-15T15:00:00"^^xsd:dateTime AS ?departTime)
+
+            ?busRoute a e:bus_route_GID-45117 ;
+                e:has_served_days_tuesday_KGE24-0A-29 "1" ;
+                e:has_start_date_KGE24-0A-3 ?startDateTime ;
+                e:has_end_date_KGE24-0A-4 ?endDateTime .
+
+            OPTIONAL { 
+                ?busRoute e:has_extra_dates_KGE24-0A-5 ?extra_date .
+            }
+            OPTIONAL { 
+                ?busRoute e:has_excluded_dates_KGE24-0A-6 ?excluded_date .
+            }
+
+            # Use only bus routes that are being served
+            FILTER(?startDateTime <= ?departTime && ?endDateTime >= ?departTime)
+
+            FILTER(
+                (
+                    (?startDateTime <= ?departTime && ?endDateTime >= ?departTime) &&
+                    (
+                        !BOUND(?excluded_date_str) || 
+                        !(?departTime > ?excluded_date && ?departTime < (?excluded_date + "P1D"^^xsd:duration))
+                    )
+                )
+                ||
+                (
+                    BOUND(?extra_date_str) &&
+                    ?departTime >= ?extra_date && 
+                    ?departTime <= (?extra_date + "P1D"^^xsd:duration)
+                )
+            )
+        }
+    }
+	
+    ?candidateRoutes
+        e:has_go_through_GID-102767 ?startStop ;
+        e:has_go_through_GID-102767 ?endStop ;
+        e:has_stop_order_KGE24-0A-49 ?stopOrder .
+
+    # For start stop time
+    BIND(
+        STRAFTER(
+            ?stopOrder,
+            CONCAT("bus_stop_GID-45118_", STRAFTER(STR(?startStop), "bus_stop_GID-45118_"), "@")
+        ) AS ?startStopSegment
+    )
+    BIND(STRBEFORE(?startStopSegment, "~") AS ?startStopTimeString)
+    BIND(CONCAT("2018-05-15T", ?startStopTimeString) AS ?startStopDateTimeString)
+    BIND(xsd:dateTime(?startStopDateTimeString) AS ?startStopPassTime)
+
+    # For end stop time
+    BIND(
+        STRAFTER(
+            ?stopOrder,
+            CONCAT("bus_stop_GID-45118_", STRAFTER(STR(?endStop), "bus_stop_GID-45118_"), "@")
+        ) AS ?endStopSegment
+    )
+    BIND(STRBEFORE(COALESCE(CONCAT(?endStopSegment, "~"), "~"), "~") AS ?endStopTimeString)
+    BIND(CONCAT("2018-05-15T", ?endStopTimeString) AS ?endStopDateTimeString)
+    BIND(xsd:dateTime(?endStopDateTimeString) AS ?endStopPassTime)
+
+    # Time constraints
+    FILTER(?endStopPassTime > ?startStopPassTime)
+    FILTER(
+        ?startStopPassTime >= ?departTime &&
+        ?startStopPassTime <= (?departTime + "PT1H"^^xsd:duration)
+    )
+}
+ORDER BY ?candidateRoutes
