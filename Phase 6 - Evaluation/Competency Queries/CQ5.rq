@@ -1,0 +1,44 @@
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX e: <http://knowdive.disi.unitn.it/etype#>
+
+# How crowded is BUC libarary?
+
+SELECT ?poi ?poiName (COUNT(?userID) AS ?numberOfPeople)
+WHERE{
+    {
+        SELECT ?poi ?poiName ?stay
+        WHERE{
+            # GET THE POI WE WANT
+            {
+                SELECT ?poi ?poiName
+                WHERE{
+                    BIND("Central Library, Buc - Biblioteca Universitaria Centrale" AS ?name)
+
+                    ?poi a e:point_of_interest_KGE24-0A-20;
+                         e:has_PoI_name_KGE24-0A-8 ?poiName.
+
+                    FILTER(?poiName = ?name)
+                } LIMIT 1
+            }
+            # GET THE STAYS WE WANT
+            ?stay a e:stay_GID-5335 ;
+                  e:has_inside_GID-106969 ?poi ;
+                  e:has_timestamp_GID-27373 ?stayTimeStamp ;
+                  e:has_duration_GID-72859 ?stayDuration.
+            
+            BIND("2018-05-28T13:32:26"^^xsd:dateTime AS ?currTime)
+            BIND("PT1H"^^xsd:duration AS ?timeBuffer)
+
+            FILTER(
+                ?stayTimeStamp <= ?currTime
+                &&
+                (?stayTimeStamp+?stayDuration) >= (?currTime - ?timeBuffer)
+            )
+        }
+    }
+    
+    # GET THE USER CONNECTED TO EACH STAY
+    ?userID a e:student_GID-53021;
+            e:has_stay_put_GID-101763 ?stay.
+} 
+GROUP BY ?poi ?poiName

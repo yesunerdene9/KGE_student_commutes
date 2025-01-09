@@ -1,0 +1,6 @@
+PREFIX geo: <http://www.opengis.net/ont/geosparql#>
+PREFIX geof: <http://www.opengis.net/def/function/geosparql/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX e: <http://knowdive.disi.unitn.it/etype#>
+
+# How did I feel about the trip to the Coop supermarket?

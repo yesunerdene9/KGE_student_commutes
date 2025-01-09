@@ -1,0 +1,56 @@
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX e: <http://knowdive.disi.unitn.it/etype#>
+
+# Which supermarket best within trento?
+
+SELECT DISTINCT ?poiName ?poiType (AVG(?moodValue) AS ?moodInSupermarket)
+WHERE {
+    {
+        # GET THE POI WE WANT
+        {
+            SELECT ?poi ?poiName ?poiType
+            WHERE{
+                VALUES ?types { "alimentari"  "Supermercato/minimarket" "mercato" }
+                ?poi a e:point_of_interest_KGE24-0A-20;
+                    e:has_PoI_name_KGE24-0A-8 ?poiName;
+                    e:has_PoI_type_KGE24-0A-7 ?poiType.
+                FILTER(LCASE(?poiType) = LCASE(?types))
+            }
+        }
+
+        # GET THE STAYS FOR THE STUDENT
+#        {
+#            SELECT ?stay
+#            WHERE{
+#                BIND(<http://localhost:8080/source/student_GID-53021_3> AS ?user)
+#                ?user e:has_stay_put_GID-101763 ?stay.
+#            }
+#        }                
+        ?stay e:has_inside_GID-106969 ?poi;
+            e:has_timestamp_GID-27373 ?stayStartTime;
+            e:has_duration_GID-72859 ?stayDuration .
+        BIND(?stayStartTime + ?stayDuration AS ?stayEndTime)
+
+        # GET THE MOODS AROUND THE STAYS
+        {
+            SELECT ?mood ?moodValue ?moodStartTime ?moodEndTime
+            WHERE {
+#                BIND(<http://localhost: 
+                ?mood e:has_mood_GID-39957 ?moodVal ;
+                    e:has_timestamp_GID-27373 ?moodStartTime ;
+                    e:has_duration_GID-72859 ?moodDuration .
+                BIND(xsd:float(?moodVal) AS ?moodValue)
+                BIND(?moodStartTime + ?moodDuration AS ?moodEndTime)
+
+                FILTER(?moodValue > 0)
+            }
+        }
+#		# SELECT THE MOODS ACCORDING TO STAY
+        FILTER(
+            ((?moodStartTime <= ?stayEndTime) && (?moodEndTime >= ?stayStartTime))
+        )
+    }
+} 
+GROUP BY ?poiName ?poiType
+ORDER BY DESC(?moodInFacility)
+LIMIT 3
