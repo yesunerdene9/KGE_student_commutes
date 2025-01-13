@@ -1,47 +1,54 @@
 <?xml version="1.0"?>
 <Ontology xmlns="http://www.w3.org/2002/07/owl#"
-     xml:base="urn:absolute:teleonthology"
+     xml:base="http://knowdive.disi.unitn.it/etype#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     ontologyIRI="urn:absolute:teleonthology">
-    <Prefix name="" IRI="urn:absolute:teleonthology/"/>
+     ontologyIRI="http://knowdive.disi.unitn.it/etype#">
+    <Prefix name="" IRI="http://knowdive.disi.unitn.it/etype#"/>
+    <Prefix name="ns" IRI="http://creativecommons.org/ns#"/>
+    <Prefix name="ns3" IRI="http://www.w3.org/2003/06/sw-vocab-status/ns#"/>
     <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
     <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
     <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
     <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="foaf" IRI="http://xmlns.com/foaf/0.1/"/>
     <Prefix name="gtfs" IRI="http://vocab.gtfs.org/terms#"/>
     <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Prefix name="vann" IRI="http://purl.org/vocab/vann/"/>
+    <Prefix name="KGE24" IRI="http://knowdive.disi.unitn.it/etype/#"/>
+    <Prefix name="terms" IRI="http://purl.org/dc/terms/"/>
     <Prefix name="OSM_LW" IRI="http://www.semanticweb.org/lixiaoyue/ontologies/2023/2/untitled-ontology-26#"/>
     <Prefix name="schema" IRI="https://schema.org/"/>
-    <Prefix name="KGE24_0A" IRI="http://knowdive.disi.unitn.it/etype"/>
+    <Prefix name="schema2" IRI="http://schema.org/"/>
+    <Prefix name="teleonthology" IRI="urn:absolute:teleonthology#"/>
     <Annotation>
-        <AnnotationProperty IRI="http://purl.org/dc/terms/creator"/>
-        <AnonymousIndividual nodeID="_:genid2147483648"/>
+        <AnnotationProperty abbreviatedIRI="terms:creator"/>
+        <AnonymousIndividual nodeID="_:genid2147483670"/>
     </Annotation>
     <Annotation>
-        <AnnotationProperty IRI="http://purl.org/dc/terms/creator"/>
-        <AnonymousIndividual nodeID="_:genid2147483649"/>
+        <AnnotationProperty abbreviatedIRI="terms:creator"/>
+        <AnonymousIndividual nodeID="_:genid2147483671"/>
     </Annotation>
     <Annotation>
-        <AnnotationProperty IRI="http://purl.org/dc/terms/description"/>
+        <AnnotationProperty abbreviatedIRI="terms:description"/>
         <Literal xml:lang="es">Esta ontologÃ­a es una traducciÃ³n de la EspecificaciÃ³n General de Feeds de Transporte PÃºblico a URIs. El objetivo es crear una plataforma de intercambio donde el modelo Linked GTFS pueda usarse para obtener los datos correctos en el formato adecuado. Para la especificaciÃ³n semÃ¡ntica de clases y propiedades, visite https://developers.google.com/transit/gtfs/reference.</Literal>
     </Annotation>
     <Annotation>
-        <AnnotationProperty IRI="http://purl.org/dc/terms/description"/>
+        <AnnotationProperty abbreviatedIRI="terms:description"/>
         <Literal xml:lang="en">This ontology is a translation of the General Transit Feed Specification towards URIs. Its intended use is creating an exchange platform where the Linked GTFS model can be used as a start to get the right data into the right format. For semantics of the classes and properties, see https://developers.google.com/transit/gtfs/reference.</Literal>
     </Annotation>
     <Annotation>
-        <AnnotationProperty IRI="http://purl.org/dc/terms/modified"/>
+        <AnnotationProperty abbreviatedIRI="terms:modified"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">2024-11-22</Literal>
     </Annotation>
     <Annotation>
-        <AnnotationProperty IRI="http://purl.org/vocab/vann/preferredNamespacePrefix"/>
+        <AnnotationProperty abbreviatedIRI="vann:preferredNamespacePrefix"/>
         <Literal>gtfs</Literal>
     </Annotation>
     <Annotation>
-        <AnnotationProperty IRI="http://purl.org/vocab/vann/preferredNamespaceUri"/>
+        <AnnotationProperty abbreviatedIRI="vann:preferredNamespaceUri"/>
         <Literal>http://vocab.gtfs.org/terms#</Literal>
     </Annotation>
     <Annotation>
@@ -65,37 +72,37 @@
         <Literal>28.1</Literal>
     </Annotation>
     <Declaration>
-        <Class IRI="http://knowdive.disi.unitn.it/etype/#Entity_GID-1"/>
+        <Class IRI="Entity_GID-1"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://knowdive.disi.unitn.it/etype/#bus_line_KGE24-0A-1"/>
+        <Class IRI="bus_line_KGE24-0A-1"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://knowdive.disi.unitn.it/etype/#bus_route_GID-45117"/>
+        <Class IRI="bus_route_GID-45117"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://knowdive.disi.unitn.it/etype/#bus_stop_GID-45118"/>
+        <Class IRI="bus_stop_GID-45118"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://knowdive.disi.unitn.it/etype/#event_GID-56"/>
+        <Class IRI="event_GID-56"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://knowdive.disi.unitn.it/etype/#location_GID-695"/>
+        <Class IRI="location_GID-695"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://knowdive.disi.unitn.it/etype/#mood_GID-39957"/>
+        <Class IRI="mood_GID-39957"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://knowdive.disi.unitn.it/etype/#point_of_interest_KGE24-0A-20"/>
+        <Class IRI="point_of_interest_KGE24-0A-20"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://knowdive.disi.unitn.it/etype/#stay_GID-5335"/>
+        <Class IRI="stay_GID-5335"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://knowdive.disi.unitn.it/etype/#student_GID-53021"/>
+        <Class IRI="student_GID-53021"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://knowdive.disi.unitn.it/etype/#trip_journey_GID-1474"/>
+        <Class IRI="trip_journey_GID-1474"/>
     </Declaration>
     <Declaration>
         <Class abbreviatedIRI="gtfs:Route"/>
@@ -141,6 +148,39 @@
     </Declaration>
     <Declaration>
         <Class abbreviatedIRI="schema:TravelAction"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="has_board_GID-102601"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="has_feel_GID-101373"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="has_get_off_GID-102589"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="has_go_through_GID-102767"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="has_inside_GID-106969"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="has_located_GID-85982"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="has_particpate_in_GID-97811"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="has_serve_GID-97875"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="has_stay_put_GID-101763"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="has_take_GID-101699"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="has_travel_by_KGE24-0A-50"/>
     </Declaration>
     <Declaration>
         <ObjectProperty abbreviatedIRI="gtfs:destinationStop"/>
@@ -641,6 +681,9 @@
         <ObjectProperty abbreviatedIRI="schema:biomechnicalClass"/>
     </Declaration>
     <Declaration>
+        <ObjectProperty abbreviatedIRI="schema:birthDate"/>
+    </Declaration>
+    <Declaration>
         <ObjectProperty abbreviatedIRI="schema:birthPlace"/>
     </Declaration>
     <Declaration>
@@ -1094,6 +1137,9 @@
         <ObjectProperty abbreviatedIRI="schema:dayOfWeek"/>
     </Declaration>
     <Declaration>
+        <ObjectProperty abbreviatedIRI="schema:deathDate"/>
+    </Declaration>
+    <Declaration>
         <ObjectProperty abbreviatedIRI="schema:deathPlace"/>
     </Declaration>
     <Declaration>
@@ -1218,6 +1264,9 @@
     </Declaration>
     <Declaration>
         <ObjectProperty abbreviatedIRI="schema:domainIncludes"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI="schema:doorTime"/>
     </Declaration>
     <Declaration>
         <ObjectProperty abbreviatedIRI="schema:dosageForm"/>
@@ -1754,6 +1803,9 @@
         <ObjectProperty abbreviatedIRI="schema:hasDigitalDocumentPermission"/>
     </Declaration>
     <Declaration>
+        <ObjectProperty abbreviatedIRI="schema:hasDriveThroughService"/>
+    </Declaration>
+    <Declaration>
         <ObjectProperty abbreviatedIRI="schema:hasEnergyConsumptionDetails"/>
     </Declaration>
     <Declaration>
@@ -2225,6 +2277,9 @@
         <ObjectProperty abbreviatedIRI="schema:legislationConsolidates"/>
     </Declaration>
     <Declaration>
+        <ObjectProperty abbreviatedIRI="schema:legislationDate"/>
+    </Declaration>
+    <Declaration>
         <ObjectProperty abbreviatedIRI="schema:legislationIdentifier"/>
     </Declaration>
     <Declaration>
@@ -2363,7 +2418,16 @@
         <ObjectProperty abbreviatedIRI="schema:mathExpression"/>
     </Declaration>
     <Declaration>
+        <ObjectProperty abbreviatedIRI="schema:maximumAttendeeCapacity"/>
+    </Declaration>
+    <Declaration>
         <ObjectProperty abbreviatedIRI="schema:maximumIntake"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI="schema:maximumPhysicalAttendeeCapacity"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI="schema:maximumVirtualAttendeeCapacity"/>
     </Declaration>
     <Declaration>
         <ObjectProperty abbreviatedIRI="schema:mealService"/>
@@ -2894,6 +2958,9 @@
         <ObjectProperty abbreviatedIRI="schema:previousItem"/>
     </Declaration>
     <Declaration>
+        <ObjectProperty abbreviatedIRI="schema:previousStartDate"/>
+    </Declaration>
+    <Declaration>
         <ObjectProperty abbreviatedIRI="schema:price"/>
     </Declaration>
     <Declaration>
@@ -3009,6 +3076,9 @@
     </Declaration>
     <Declaration>
         <ObjectProperty abbreviatedIRI="schema:providesService"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI="schema:publicAccess"/>
     </Declaration>
     <Declaration>
         <ObjectProperty abbreviatedIRI="schema:publicTransportClosuresInfo"/>
@@ -3162,6 +3232,9 @@
     </Declaration>
     <Declaration>
         <ObjectProperty abbreviatedIRI="schema:relevantSpecialty"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI="schema:remainingAttendeeCapacity"/>
     </Declaration>
     <Declaration>
         <ObjectProperty abbreviatedIRI="schema:repeatFrequency"/>
@@ -3486,6 +3559,9 @@
     </Declaration>
     <Declaration>
         <ObjectProperty abbreviatedIRI="schema:smiles"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI="schema:smokingAllowed"/>
     </Declaration>
     <Declaration>
         <ObjectProperty abbreviatedIRI="schema:sodiumContent"/>
@@ -4077,6 +4153,105 @@
     </Declaration>
     <Declaration>
         <ObjectProperty abbreviatedIRI="schema:yield"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="has_Event_ID_KGE24-0A-18"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="has_OSM_place_ID_KGE24-0A-19"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="has_PoI_ID_KGE24-0A-15"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="has_PoI_name_KGE24-0A-8"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="has_PoI_type_KGE24-0A-7"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="has_activity_GID-2006"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="has_boarding_time_KGE24-0A-2"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="has_bus_line_ID_KGE24-0A-17"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="has_bus_line_name_KGE24-0A-9"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="has_duration_GID-72859"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="has_end_date_KGE24-0A-4"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="has_excluded_dates_KGE24-0A-6"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="has_extra_dates_KGE24-0A-5"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="has_latitude_GID-45424"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="has_longitude_GID-45429"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="has_mood_GID-39957"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="has_route_ID_KGE24-0A-16"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="has_served_days_friday_KGE24-0A-32"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="has_served_days_monday_KGE24-0A-12"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="has_served_days_saturday_KGE24-0A-33"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="has_served_days_sunday_KGE24-0A-34"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="has_served_days_thursday_KGE24-0A-31"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="has_served_days_tuesday_KGE24-0A-29"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="has_served_days_wednesday_KGE24-0A-30"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="has_start_date_KGE24-0A-3"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="has_start_time_GID-73577"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="has_stop_ID_KGE24-0A-14"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="has_stop_name_KGE24-0A-10"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="has_stop_order_KGE24-0A-49"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="has_student_ID_KGE24-0A-13"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="has_timestamp_GID-27373"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="has_timetable_GID-34211"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="has_trip_headsign_KGE24-0A-11"/>
     </Declaration>
     <Declaration>
         <DataProperty abbreviatedIRI="gtfs:arrivalTime"/>
@@ -5261,40 +5436,43 @@
         <NamedIndividual abbreviatedIRI="schema:warrantyPromise"/>
     </Declaration>
     <Declaration>
-        <AnnotationProperty IRI="http://creativecommons.org/ns#license"/>
+        <AnnotationProperty abbreviatedIRI="ns:license"/>
     </Declaration>
     <Declaration>
-        <AnnotationProperty IRI="http://knowdive.disi.unitn.it/etype/#isEtype"/>
+        <AnnotationProperty IRI="isEtype"/>
     </Declaration>
     <Declaration>
-        <AnnotationProperty IRI="http://purl.org/dc/terms/creator"/>
+        <AnnotationProperty IRI="#isEtype"/>
     </Declaration>
     <Declaration>
-        <AnnotationProperty IRI="http://purl.org/dc/terms/description"/>
+        <AnnotationProperty abbreviatedIRI="terms:creator"/>
     </Declaration>
     <Declaration>
-        <AnnotationProperty IRI="http://purl.org/dc/terms/hasFormat"/>
+        <AnnotationProperty abbreviatedIRI="terms:description"/>
     </Declaration>
     <Declaration>
-        <AnnotationProperty IRI="http://purl.org/dc/terms/issued"/>
+        <AnnotationProperty abbreviatedIRI="terms:hasFormat"/>
     </Declaration>
     <Declaration>
-        <AnnotationProperty IRI="http://purl.org/dc/terms/modified"/>
+        <AnnotationProperty abbreviatedIRI="terms:issued"/>
     </Declaration>
     <Declaration>
-        <AnnotationProperty IRI="http://purl.org/dc/terms/rights"/>
+        <AnnotationProperty abbreviatedIRI="terms:modified"/>
     </Declaration>
     <Declaration>
-        <AnnotationProperty IRI="http://purl.org/dc/terms/title"/>
+        <AnnotationProperty abbreviatedIRI="terms:rights"/>
     </Declaration>
     <Declaration>
-        <AnnotationProperty IRI="http://purl.org/vocab/vann/preferredNamespacePrefix"/>
+        <AnnotationProperty abbreviatedIRI="terms:title"/>
     </Declaration>
     <Declaration>
-        <AnnotationProperty IRI="http://purl.org/vocab/vann/preferredNamespaceUri"/>
+        <AnnotationProperty abbreviatedIRI="vann:preferredNamespacePrefix"/>
     </Declaration>
     <Declaration>
-        <AnnotationProperty IRI="http://schema.org/contributor"/>
+        <AnnotationProperty abbreviatedIRI="vann:preferredNamespaceUri"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="schema2:contributor"/>
     </Declaration>
     <Declaration>
         <AnnotationProperty abbreviatedIRI="gtfs:comment"/>
@@ -5309,22 +5487,22 @@
         <AnnotationProperty abbreviatedIRI="gtfs:shortName"/>
     </Declaration>
     <Declaration>
-        <AnnotationProperty IRI="http://www.w3.org/2003/06/sw-vocab-status/ns#term_status"/>
+        <AnnotationProperty abbreviatedIRI="ns3:term_status"/>
     </Declaration>
     <Declaration>
-        <AnnotationProperty IRI="http://xmlns.com/foaf/0.1/mbox"/>
+        <AnnotationProperty abbreviatedIRI="foaf:mbox"/>
     </Declaration>
     <Declaration>
-        <AnnotationProperty IRI="http://xmlns.com/foaf/0.1/name"/>
+        <AnnotationProperty abbreviatedIRI="foaf:name"/>
     </Declaration>
     <Declaration>
-        <AnnotationProperty IRI="http://xmlns.com/foaf/0.1/page"/>
+        <AnnotationProperty abbreviatedIRI="foaf:page"/>
     </Declaration>
     <Declaration>
-        <AnnotationProperty IRI="http://xmlns.com/foaf/0.1/primaryTopic"/>
+        <AnnotationProperty abbreviatedIRI="foaf:primaryTopic"/>
     </Declaration>
     <Declaration>
-        <AnnotationProperty IRI="#isEtype"/>
+        <AnnotationProperty abbreviatedIRI="schema:name"/>
     </Declaration>
     <Declaration>
         <Datatype abbreviatedIRI="xsd:date"/>
@@ -5333,83 +5511,83 @@
         <Datatype abbreviatedIRI="xsd:duration"/>
     </Declaration>
     <SubClassOf>
-        <Class IRI="http://knowdive.disi.unitn.it/etype/#bus_line_KGE24-0A-1"/>
-        <Class IRI="http://knowdive.disi.unitn.it/etype/#Entity_GID-1"/>
+        <Class IRI="bus_line_KGE24-0A-1"/>
+        <Class IRI="Entity_GID-1"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://knowdive.disi.unitn.it/etype/#bus_line_KGE24-0A-1"/>
+        <Class IRI="bus_line_KGE24-0A-1"/>
         <Class abbreviatedIRI="gtfs:Route"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://knowdive.disi.unitn.it/etype/#bus_route_GID-45117"/>
-        <Class IRI="http://knowdive.disi.unitn.it/etype/#Entity_GID-1"/>
+        <Class IRI="bus_route_GID-45117"/>
+        <Class IRI="Entity_GID-1"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://knowdive.disi.unitn.it/etype/#bus_route_GID-45117"/>
+        <Class IRI="bus_route_GID-45117"/>
         <Class abbreviatedIRI="gtfs:Trip"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://knowdive.disi.unitn.it/etype/#bus_stop_GID-45118"/>
-        <Class IRI="http://knowdive.disi.unitn.it/etype/#Entity_GID-1"/>
+        <Class IRI="bus_stop_GID-45118"/>
+        <Class IRI="Entity_GID-1"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://knowdive.disi.unitn.it/etype/#bus_stop_GID-45118"/>
+        <Class IRI="bus_stop_GID-45118"/>
         <Class abbreviatedIRI="gtfs:Stop"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://knowdive.disi.unitn.it/etype/#event_GID-56"/>
-        <Class IRI="http://knowdive.disi.unitn.it/etype/#Entity_GID-1"/>
+        <Class IRI="event_GID-56"/>
+        <Class IRI="Entity_GID-1"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://knowdive.disi.unitn.it/etype/#event_GID-56"/>
+        <Class IRI="event_GID-56"/>
         <Class abbreviatedIRI="schema:Event"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://knowdive.disi.unitn.it/etype/#location_GID-695"/>
-        <Class IRI="http://knowdive.disi.unitn.it/etype/#Entity_GID-1"/>
+        <Class IRI="location_GID-695"/>
+        <Class IRI="Entity_GID-1"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://knowdive.disi.unitn.it/etype/#location_GID-695"/>
+        <Class IRI="location_GID-695"/>
         <Class abbreviatedIRI="schema:Place"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://knowdive.disi.unitn.it/etype/#mood_GID-39957"/>
-        <Class IRI="http://knowdive.disi.unitn.it/etype/#Entity_GID-1"/>
+        <Class IRI="mood_GID-39957"/>
+        <Class IRI="Entity_GID-1"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://knowdive.disi.unitn.it/etype/#mood_GID-39957"/>
+        <Class IRI="mood_GID-39957"/>
         <Class abbreviatedIRI="schema:ReactAction"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://knowdive.disi.unitn.it/etype/#point_of_interest_KGE24-0A-20"/>
-        <Class IRI="http://knowdive.disi.unitn.it/etype/#Entity_GID-1"/>
+        <Class IRI="point_of_interest_KGE24-0A-20"/>
+        <Class IRI="Entity_GID-1"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://knowdive.disi.unitn.it/etype/#point_of_interest_KGE24-0A-20"/>
+        <Class IRI="point_of_interest_KGE24-0A-20"/>
         <Class abbreviatedIRI="OSM_LW:pois"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://knowdive.disi.unitn.it/etype/#stay_GID-5335"/>
-        <Class IRI="http://knowdive.disi.unitn.it/etype/#Entity_GID-1"/>
+        <Class IRI="stay_GID-5335"/>
+        <Class IRI="Entity_GID-1"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://knowdive.disi.unitn.it/etype/#stay_GID-5335"/>
+        <Class IRI="stay_GID-5335"/>
         <Class abbreviatedIRI="schema:Action"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://knowdive.disi.unitn.it/etype/#student_GID-53021"/>
-        <Class IRI="http://knowdive.disi.unitn.it/etype/#Entity_GID-1"/>
+        <Class IRI="student_GID-53021"/>
+        <Class IRI="Entity_GID-1"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://knowdive.disi.unitn.it/etype/#student_GID-53021"/>
+        <Class IRI="student_GID-53021"/>
         <Class abbreviatedIRI="schema:Person"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://knowdive.disi.unitn.it/etype/#trip_journey_GID-1474"/>
-        <Class IRI="http://knowdive.disi.unitn.it/etype/#Entity_GID-1"/>
+        <Class IRI="trip_journey_GID-1474"/>
+        <Class IRI="Entity_GID-1"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://knowdive.disi.unitn.it/etype/#trip_journey_GID-1474"/>
+        <Class IRI="trip_journey_GID-1474"/>
         <Class abbreviatedIRI="schema:TravelAction"/>
     </SubClassOf>
     <SubClassOf>
@@ -5499,16 +5677,16 @@
         <Class abbreviatedIRI="schema:MoveAction"/>
     </SubClassOf>
     <DisjointClasses>
-        <Class IRI="http://knowdive.disi.unitn.it/etype/#bus_line_KGE24-0A-1"/>
-        <Class IRI="http://knowdive.disi.unitn.it/etype/#bus_route_GID-45117"/>
-        <Class IRI="http://knowdive.disi.unitn.it/etype/#bus_stop_GID-45118"/>
-        <Class IRI="http://knowdive.disi.unitn.it/etype/#event_GID-56"/>
-        <Class IRI="http://knowdive.disi.unitn.it/etype/#location_GID-695"/>
-        <Class IRI="http://knowdive.disi.unitn.it/etype/#mood_GID-39957"/>
-        <Class IRI="http://knowdive.disi.unitn.it/etype/#point_of_interest_KGE24-0A-20"/>
-        <Class IRI="http://knowdive.disi.unitn.it/etype/#stay_GID-5335"/>
-        <Class IRI="http://knowdive.disi.unitn.it/etype/#student_GID-53021"/>
-        <Class IRI="http://knowdive.disi.unitn.it/etype/#trip_journey_GID-1474"/>
+        <Class IRI="bus_line_KGE24-0A-1"/>
+        <Class IRI="bus_route_GID-45117"/>
+        <Class IRI="bus_stop_GID-45118"/>
+        <Class IRI="event_GID-56"/>
+        <Class IRI="location_GID-695"/>
+        <Class IRI="mood_GID-39957"/>
+        <Class IRI="point_of_interest_KGE24-0A-20"/>
+        <Class IRI="stay_GID-5335"/>
+        <Class IRI="student_GID-53021"/>
+        <Class IRI="trip_journey_GID-1474"/>
     </DisjointClasses>
     <ObjectPropertyAssertion>
         <ObjectProperty abbreviatedIRI="schema:supersededBy"/>
@@ -5860,6 +6038,42 @@
         <NamedIndividual abbreviatedIRI="schema:warrantyPromise"/>
         <NamedIndividual abbreviatedIRI="schema:warranty"/>
     </ObjectPropertyAssertion>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="has_board_GID-102601"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="has_feel_GID-101373"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="has_get_off_GID-102589"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="has_go_through_GID-102767"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="has_located_GID-85982"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="has_particpate_in_GID-97811"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="has_stay_put_GID-101763"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="has_take_GID-101699"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="has_travel_by_KGE24-0A-50"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
     <SubObjectPropertyOf>
         <ObjectProperty abbreviatedIRI="schema:acceptedAnswer"/>
         <ObjectProperty abbreviatedIRI="schema:suggestedAnswer"/>
@@ -6593,6 +6807,50 @@
         <ObjectProperty abbreviatedIRI="schema:workTranslation"/>
     </InverseObjectProperties>
     <ObjectPropertyDomain>
+        <ObjectProperty IRI="has_board_GID-102601"/>
+        <Class IRI="trip_journey_GID-1474"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="has_feel_GID-101373"/>
+        <Class IRI="student_GID-53021"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="has_get_off_GID-102589"/>
+        <Class IRI="trip_journey_GID-1474"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="has_go_through_GID-102767"/>
+        <Class IRI="bus_route_GID-45117"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="has_inside_GID-106969"/>
+        <Class IRI="stay_GID-5335"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="has_located_GID-85982"/>
+        <Class IRI="student_GID-53021"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="has_particpate_in_GID-97811"/>
+        <Class IRI="student_GID-53021"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="has_serve_GID-97875"/>
+        <Class IRI="bus_route_GID-45117"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="has_stay_put_GID-101763"/>
+        <Class IRI="student_GID-53021"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="has_take_GID-101699"/>
+        <Class IRI="student_GID-53021"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="has_travel_by_KGE24-0A-50"/>
+        <Class IRI="trip_journey_GID-1474"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
         <ObjectProperty abbreviatedIRI="gtfs:parentStation"/>
         <Class abbreviatedIRI="gtfs:Stop"/>
     </ObjectPropertyDomain>
@@ -6956,6 +7214,50 @@
         <Class abbreviatedIRI="schema:Person"/>
     </ObjectPropertyDomain>
     <ObjectPropertyRange>
+        <ObjectProperty IRI="has_board_GID-102601"/>
+        <Class IRI="bus_stop_GID-45118"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="has_feel_GID-101373"/>
+        <Class IRI="mood_GID-39957"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="has_get_off_GID-102589"/>
+        <Class IRI="bus_stop_GID-45118"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="has_go_through_GID-102767"/>
+        <Class IRI="bus_stop_GID-45118"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="has_inside_GID-106969"/>
+        <Class IRI="point_of_interest_KGE24-0A-20"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="has_located_GID-85982"/>
+        <Class IRI="location_GID-695"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="has_particpate_in_GID-97811"/>
+        <Class IRI="event_GID-56"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="has_serve_GID-97875"/>
+        <Class IRI="bus_line_KGE24-0A-1"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="has_stay_put_GID-101763"/>
+        <Class IRI="stay_GID-5335"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="has_take_GID-101699"/>
+        <Class IRI="trip_journey_GID-1474"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="has_travel_by_KGE24-0A-50"/>
+        <Class IRI="bus_route_GID-45117"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
         <ObjectProperty abbreviatedIRI="gtfs:destinationStop"/>
         <Class abbreviatedIRI="gtfs:Stop"/>
     </ObjectPropertyRange>
@@ -6975,10 +7277,442 @@
         <ObjectProperty abbreviatedIRI="gtfs:trip"/>
         <Class abbreviatedIRI="gtfs:Trip"/>
     </ObjectPropertyRange>
+    <SubDataPropertyOf>
+        <DataProperty IRI="has_Event_ID_KGE24-0A-18"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="has_OSM_place_ID_KGE24-0A-19"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="has_PoI_ID_KGE24-0A-15"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="has_PoI_name_KGE24-0A-8"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="has_PoI_type_KGE24-0A-7"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="has_activity_GID-2006"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="has_boarding_time_KGE24-0A-2"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="has_bus_line_ID_KGE24-0A-17"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="has_bus_line_name_KGE24-0A-9"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="has_duration_GID-72859"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="has_end_date_KGE24-0A-4"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="has_excluded_dates_KGE24-0A-6"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="has_extra_dates_KGE24-0A-5"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="has_latitude_GID-45424"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="has_longitude_GID-45429"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="has_mood_GID-39957"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="has_route_ID_KGE24-0A-16"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="has_served_days_friday_KGE24-0A-32"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="has_served_days_monday_KGE24-0A-12"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="has_served_days_saturday_KGE24-0A-33"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="has_served_days_sunday_KGE24-0A-34"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="has_served_days_thursday_KGE24-0A-31"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="has_served_days_tuesday_KGE24-0A-29"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="has_served_days_wednesday_KGE24-0A-30"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="has_start_date_KGE24-0A-3"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="has_start_time_GID-73577"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="has_stop_ID_KGE24-0A-14"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="has_stop_name_KGE24-0A-10"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="has_student_ID_KGE24-0A-13"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="has_timestamp_GID-27373"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="has_timetable_GID-34211"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="has_trip_headsign_KGE24-0A-11"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <DataPropertyDomain>
+        <DataProperty IRI="has_Event_ID_KGE24-0A-18"/>
+        <Class IRI="event_GID-56"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="has_OSM_place_ID_KGE24-0A-19"/>
+        <Class IRI="bus_stop_GID-45118"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="has_OSM_place_ID_KGE24-0A-19"/>
+        <Class IRI="point_of_interest_KGE24-0A-20"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="has_PoI_ID_KGE24-0A-15"/>
+        <Class IRI="point_of_interest_KGE24-0A-20"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="has_PoI_name_KGE24-0A-8"/>
+        <Class IRI="point_of_interest_KGE24-0A-20"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="has_PoI_type_KGE24-0A-7"/>
+        <Class IRI="point_of_interest_KGE24-0A-20"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="has_activity_GID-2006"/>
+        <Class IRI="event_GID-56"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="has_boarding_time_KGE24-0A-2"/>
+        <Class IRI="trip_journey_GID-1474"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="has_bus_line_ID_KGE24-0A-17"/>
+        <Class IRI="bus_line_KGE24-0A-1"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="has_bus_line_name_KGE24-0A-9"/>
+        <Class IRI="bus_line_KGE24-0A-1"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="has_duration_GID-72859"/>
+        <Class IRI="event_GID-56"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="has_duration_GID-72859"/>
+        <Class IRI="mood_GID-39957"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="has_duration_GID-72859"/>
+        <Class IRI="stay_GID-5335"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="has_duration_GID-72859"/>
+        <Class IRI="trip_journey_GID-1474"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="has_end_date_KGE24-0A-4"/>
+        <Class IRI="bus_route_GID-45117"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="has_excluded_dates_KGE24-0A-6"/>
+        <Class IRI="bus_route_GID-45117"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="has_extra_dates_KGE24-0A-5"/>
+        <Class IRI="bus_route_GID-45117"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="has_latitude_GID-45424"/>
+        <Class IRI="bus_stop_GID-45118"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="has_latitude_GID-45424"/>
+        <Class IRI="location_GID-695"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="has_latitude_GID-45424"/>
+        <Class IRI="point_of_interest_KGE24-0A-20"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="has_longitude_GID-45429"/>
+        <Class IRI="bus_stop_GID-45118"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="has_longitude_GID-45429"/>
+        <Class IRI="location_GID-695"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="has_longitude_GID-45429"/>
+        <Class IRI="point_of_interest_KGE24-0A-20"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="has_mood_GID-39957"/>
+        <Class IRI="mood_GID-39957"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="has_route_ID_KGE24-0A-16"/>
+        <Class IRI="bus_route_GID-45117"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="has_served_days_friday_KGE24-0A-32"/>
+        <Class IRI="bus_route_GID-45117"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="has_served_days_monday_KGE24-0A-12"/>
+        <Class IRI="bus_route_GID-45117"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="has_served_days_saturday_KGE24-0A-33"/>
+        <Class IRI="bus_route_GID-45117"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="has_served_days_sunday_KGE24-0A-34"/>
+        <Class IRI="bus_route_GID-45117"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="has_served_days_thursday_KGE24-0A-31"/>
+        <Class IRI="bus_route_GID-45117"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="has_served_days_tuesday_KGE24-0A-29"/>
+        <Class IRI="bus_route_GID-45117"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="has_served_days_wednesday_KGE24-0A-30"/>
+        <Class IRI="bus_route_GID-45117"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="has_start_date_KGE24-0A-3"/>
+        <Class IRI="bus_route_GID-45117"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="has_start_time_GID-73577"/>
+        <Class IRI="bus_route_GID-45117"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="has_stop_ID_KGE24-0A-14"/>
+        <Class IRI="bus_stop_GID-45118"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="has_stop_name_KGE24-0A-10"/>
+        <Class IRI="bus_stop_GID-45118"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="has_stop_order_KGE24-0A-49"/>
+        <Class IRI="bus_route_GID-45117"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="has_student_ID_KGE24-0A-13"/>
+        <Class IRI="student_GID-53021"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="has_timestamp_GID-27373"/>
+        <Class IRI="event_GID-56"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="has_timestamp_GID-27373"/>
+        <Class IRI="location_GID-695"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="has_timestamp_GID-27373"/>
+        <Class IRI="mood_GID-39957"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="has_timestamp_GID-27373"/>
+        <Class IRI="stay_GID-5335"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="has_timestamp_GID-27373"/>
+        <Class IRI="trip_journey_GID-1474"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="has_timetable_GID-34211"/>
+        <Class IRI="bus_stop_GID-45118"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="has_trip_headsign_KGE24-0A-11"/>
+        <Class IRI="bus_route_GID-45117"/>
+    </DataPropertyDomain>
     <DataPropertyDomain>
         <DataProperty abbreviatedIRI="gtfs:block"/>
         <Class abbreviatedIRI="gtfs:Trip"/>
     </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="has_Event_ID_KGE24-0A-18"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="has_OSM_place_ID_KGE24-0A-19"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="has_PoI_ID_KGE24-0A-15"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="has_PoI_name_KGE24-0A-8"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="has_PoI_type_KGE24-0A-7"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="has_activity_GID-2006"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="has_boarding_time_KGE24-0A-2"/>
+        <Datatype abbreviatedIRI="xsd:dateTime"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="has_bus_line_ID_KGE24-0A-17"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="has_bus_line_name_KGE24-0A-9"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="has_duration_GID-72859"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="has_end_date_KGE24-0A-4"/>
+        <Datatype abbreviatedIRI="xsd:dateTime"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="has_latitude_GID-45424"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="has_longitude_GID-45429"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="has_mood_GID-39957"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="has_route_ID_KGE24-0A-16"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="has_served_days_friday_KGE24-0A-32"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="has_served_days_monday_KGE24-0A-12"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="has_served_days_saturday_KGE24-0A-33"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="has_served_days_sunday_KGE24-0A-34"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="has_served_days_thursday_KGE24-0A-31"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="has_served_days_tuesday_KGE24-0A-29"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="has_served_days_wednesday_KGE24-0A-30"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="has_start_date_KGE24-0A-3"/>
+        <Datatype abbreviatedIRI="xsd:dateTime"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="has_start_time_GID-73577"/>
+        <Datatype abbreviatedIRI="xsd:dateTime"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="has_stop_ID_KGE24-0A-14"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="has_stop_name_KGE24-0A-10"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="has_stop_order_KGE24-0A-49"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="has_student_ID_KGE24-0A-13"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="has_timestamp_GID-27373"/>
+        <Datatype abbreviatedIRI="xsd:dateTime"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="has_timetable_GID-34211"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="has_trip_headsign_KGE24-0A-11"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
     <DataPropertyRange>
         <DataProperty abbreviatedIRI="gtfs:arrivalTime"/>
         <Datatype abbreviatedIRI="xsd:duration"/>
@@ -7132,77 +7866,82 @@
         <Datatype abbreviatedIRI="xsd:int"/>
     </DataPropertyRange>
     <AnnotationAssertion>
-        <AnnotationProperty IRI="http://knowdive.disi.unitn.it/etype/#isEtype"/>
-        <IRI>http://knowdive.disi.unitn.it/etype/#bus_route_GID-45117</IRI>
+        <AnnotationProperty IRI="isEtype"/>
+        <IRI>Entity_GID-1</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty IRI="http://knowdive.disi.unitn.it/etype/#isEtype"/>
-        <IRI>http://knowdive.disi.unitn.it/etype/#bus_stop_GID-45118</IRI>
+        <AnnotationProperty IRI="isEtype"/>
+        <IRI>bus_route_GID-45117</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty IRI="http://knowdive.disi.unitn.it/etype/#isEtype"/>
-        <IRI>http://knowdive.disi.unitn.it/etype/#event_GID-56</IRI>
+        <AnnotationProperty IRI="isEtype"/>
+        <IRI>bus_stop_GID-45118</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty IRI="http://knowdive.disi.unitn.it/etype/#isEtype"/>
-        <IRI>http://knowdive.disi.unitn.it/etype/#location_GID-695</IRI>
+        <AnnotationProperty IRI="isEtype"/>
+        <IRI>event_GID-56</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty IRI="http://knowdive.disi.unitn.it/etype/#isEtype"/>
-        <IRI>http://knowdive.disi.unitn.it/etype/#mood_GID-39957</IRI>
+        <AnnotationProperty IRI="isEtype"/>
+        <IRI>location_GID-695</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty IRI="http://knowdive.disi.unitn.it/etype/#isEtype"/>
-        <IRI>http://knowdive.disi.unitn.it/etype/#point_of_interest_KGE24-0A-20</IRI>
+        <AnnotationProperty IRI="isEtype"/>
+        <IRI>mood_GID-39957</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty IRI="http://knowdive.disi.unitn.it/etype/#isEtype"/>
-        <IRI>http://knowdive.disi.unitn.it/etype/#stay_GID-5335</IRI>
+        <AnnotationProperty IRI="isEtype"/>
+        <IRI>point_of_interest_KGE24-0A-20</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty IRI="http://knowdive.disi.unitn.it/etype/#isEtype"/>
-        <IRI>http://knowdive.disi.unitn.it/etype/#student_GID-53021</IRI>
+        <AnnotationProperty IRI="isEtype"/>
+        <IRI>stay_GID-5335</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty IRI="http://knowdive.disi.unitn.it/etype/#isEtype"/>
-        <IRI>http://knowdive.disi.unitn.it/etype/#trip_journey_GID-1474</IRI>
+        <AnnotationProperty IRI="isEtype"/>
+        <IRI>student_GID-53021</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty IRI="http://creativecommons.org/ns#license"/>
+        <AnnotationProperty IRI="isEtype"/>
+        <IRI>trip_journey_GID-1474</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ns:license"/>
         <IRI>http://vocab.gtfs.org/terms</IRI>
         <IRI>http://creativecommons.org/licenses/by/3.0/</IRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.org/dc/terms/hasFormat"/>
+        <AnnotationProperty abbreviatedIRI="terms:hasFormat"/>
         <IRI>http://vocab.gtfs.org/terms</IRI>
         <IRI>https://raw.githubusercontent.com/OpenTransport/vocabulary/master/gtfs/gtfs.ttl</IRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.org/dc/terms/issued"/>
+        <AnnotationProperty abbreviatedIRI="terms:issued"/>
         <IRI>http://vocab.gtfs.org/terms</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">2014-10-23</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.org/dc/terms/modified"/>
+        <AnnotationProperty abbreviatedIRI="terms:modified"/>
         <IRI>http://vocab.gtfs.org/terms</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">2014-10-27</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.org/dc/terms/rights"/>
+        <AnnotationProperty abbreviatedIRI="terms:rights"/>
         <IRI>http://vocab.gtfs.org/terms</IRI>
         <Literal>Copyright 2014 - Open Transport contributors</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty IRI="http://xmlns.com/foaf/0.1/primaryTopic"/>
+        <AnnotationProperty abbreviatedIRI="foaf:primaryTopic"/>
         <IRI>http://vocab.gtfs.org/terms</IRI>
         <AbbreviatedIRI>gtfs:</AbbreviatedIRI>
     </AnnotationAssertion>
@@ -7227,12 +7966,12 @@
         <Literal xml:lang="en">Before Boarding</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.w3.org/2003/06/sw-vocab-status/ns#term_status"/>
+        <AnnotationProperty abbreviatedIRI="ns3:term_status"/>
         <AbbreviatedIRI>gtfs:BeforeBoarding</AbbreviatedIRI>
         <Literal xml:lang="es">inestable</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.w3.org/2003/06/sw-vocab-status/ns#term_status"/>
+        <AnnotationProperty abbreviatedIRI="ns3:term_status"/>
         <AbbreviatedIRI>gtfs:BeforeBoarding</AbbreviatedIRI>
         <Literal xml:lang="en">unstable</Literal>
     </AnnotationAssertion>
@@ -7257,12 +7996,12 @@
         <Literal xml:lang="en">Bus</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.w3.org/2003/06/sw-vocab-status/ns#term_status"/>
+        <AnnotationProperty abbreviatedIRI="ns3:term_status"/>
         <AbbreviatedIRI>gtfs:Bus</AbbreviatedIRI>
         <Literal xml:lang="es">inestable</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.w3.org/2003/06/sw-vocab-status/ns#term_status"/>
+        <AnnotationProperty abbreviatedIRI="ns3:term_status"/>
         <AbbreviatedIRI>gtfs:Bus</AbbreviatedIRI>
         <Literal xml:lang="en">unstable</Literal>
     </AnnotationAssertion>
@@ -7287,12 +8026,12 @@
         <Literal xml:lang="es">Funicular</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.w3.org/2003/06/sw-vocab-status/ns#term_status"/>
+        <AnnotationProperty abbreviatedIRI="ns3:term_status"/>
         <AbbreviatedIRI>gtfs:CableCar</AbbreviatedIRI>
         <Literal xml:lang="es">inestable</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.w3.org/2003/06/sw-vocab-status/ns#term_status"/>
+        <AnnotationProperty abbreviatedIRI="ns3:term_status"/>
         <AbbreviatedIRI>gtfs:CableCar</AbbreviatedIRI>
         <Literal xml:lang="en">unstable</Literal>
     </AnnotationAssertion>
@@ -7327,12 +8066,12 @@
         <Literal xml:lang="es">Compruebe la estaciÃ³n matriz</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.w3.org/2003/06/sw-vocab-status/ns#term_status"/>
+        <AnnotationProperty abbreviatedIRI="ns3:term_status"/>
         <AbbreviatedIRI>gtfs:CheckParentStation</AbbreviatedIRI>
         <Literal xml:lang="es">inestable</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.w3.org/2003/06/sw-vocab-status/ns#term_status"/>
+        <AnnotationProperty abbreviatedIRI="ns3:term_status"/>
         <AbbreviatedIRI>gtfs:CheckParentStation</AbbreviatedIRI>
         <Literal xml:lang="en">unstable</Literal>
     </AnnotationAssertion>
@@ -7357,12 +8096,12 @@
         <Literal xml:lang="es">Punto de transbordo sincronizado</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.w3.org/2003/06/sw-vocab-status/ns#term_status"/>
+        <AnnotationProperty abbreviatedIRI="ns3:term_status"/>
         <AbbreviatedIRI>gtfs:EnsuredTransfer</AbbreviatedIRI>
         <Literal xml:lang="es">inestable</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.w3.org/2003/06/sw-vocab-status/ns#term_status"/>
+        <AnnotationProperty abbreviatedIRI="ns3:term_status"/>
         <AbbreviatedIRI>gtfs:EnsuredTransfer</AbbreviatedIRI>
         <Literal xml:lang="en">unstable</Literal>
     </AnnotationAssertion>
@@ -7387,12 +8126,12 @@
         <Literal xml:lang="es">Ferry, transbordador</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.w3.org/2003/06/sw-vocab-status/ns#term_status"/>
+        <AnnotationProperty abbreviatedIRI="ns3:term_status"/>
         <AbbreviatedIRI>gtfs:Ferry</AbbreviatedIRI>
         <Literal xml:lang="es">inestable</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.w3.org/2003/06/sw-vocab-status/ns#term_status"/>
+        <AnnotationProperty abbreviatedIRI="ns3:term_status"/>
         <AbbreviatedIRI>gtfs:Ferry</AbbreviatedIRI>
         <Literal xml:lang="en">unstable</Literal>
     </AnnotationAssertion>
@@ -7417,12 +8156,12 @@
         <Literal xml:lang="es">Funicular</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.w3.org/2003/06/sw-vocab-status/ns#term_status"/>
+        <AnnotationProperty abbreviatedIRI="ns3:term_status"/>
         <AbbreviatedIRI>gtfs:Funicular</AbbreviatedIRI>
         <Literal xml:lang="es">inestable</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.w3.org/2003/06/sw-vocab-status/ns#term_status"/>
+        <AnnotationProperty abbreviatedIRI="ns3:term_status"/>
         <AbbreviatedIRI>gtfs:Funicular</AbbreviatedIRI>
         <Literal xml:lang="en">unstable</Literal>
     </AnnotationAssertion>
@@ -7447,12 +8186,12 @@
         <Literal xml:lang="es">TelefÃ©rico, telecabina</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.w3.org/2003/06/sw-vocab-status/ns#term_status"/>
+        <AnnotationProperty abbreviatedIRI="ns3:term_status"/>
         <AbbreviatedIRI>gtfs:Gondola</AbbreviatedIRI>
         <Literal xml:lang="es">inestable</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.w3.org/2003/06/sw-vocab-status/ns#term_status"/>
+        <AnnotationProperty abbreviatedIRI="ns3:term_status"/>
         <AbbreviatedIRI>gtfs:Gondola</AbbreviatedIRI>
         <Literal xml:lang="en">unstable</Literal>
     </AnnotationAssertion>
@@ -7477,12 +8216,12 @@
         <Literal xml:lang="es">TranvÃ­a, metro ligero</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.w3.org/2003/06/sw-vocab-status/ns#term_status"/>
+        <AnnotationProperty abbreviatedIRI="ns3:term_status"/>
         <AbbreviatedIRI>gtfs:LightRail</AbbreviatedIRI>
         <Literal xml:lang="es">inestable</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.w3.org/2003/06/sw-vocab-status/ns#term_status"/>
+        <AnnotationProperty abbreviatedIRI="ns3:term_status"/>
         <AbbreviatedIRI>gtfs:LightRail</AbbreviatedIRI>
         <Literal xml:lang="en">unstable</Literal>
     </AnnotationAssertion>
@@ -7507,12 +8246,12 @@
         <Literal xml:lang="es">MÃ­nimo tiempo de transbordo</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.w3.org/2003/06/sw-vocab-status/ns#term_status"/>
+        <AnnotationProperty abbreviatedIRI="ns3:term_status"/>
         <AbbreviatedIRI>gtfs:MinimumTimeTransfer</AbbreviatedIRI>
         <Literal xml:lang="es">inestable</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.w3.org/2003/06/sw-vocab-status/ns#term_status"/>
+        <AnnotationProperty abbreviatedIRI="ns3:term_status"/>
         <AbbreviatedIRI>gtfs:MinimumTimeTransfer</AbbreviatedIRI>
         <Literal xml:lang="en">unstable</Literal>
     </AnnotationAssertion>
@@ -7527,12 +8266,12 @@
         <Literal xml:lang="es">Se debe pedir al conductor que pare.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.w3.org/2003/06/sw-vocab-status/ns#term_status"/>
+        <AnnotationProperty abbreviatedIRI="ns3:term_status"/>
         <AbbreviatedIRI>gtfs:MustCoordinateWithDriver</AbbreviatedIRI>
         <Literal xml:lang="es">inestable</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.w3.org/2003/06/sw-vocab-status/ns#term_status"/>
+        <AnnotationProperty abbreviatedIRI="ns3:term_status"/>
         <AbbreviatedIRI>gtfs:MustCoordinateWithDriver</AbbreviatedIRI>
         <Literal xml:lang="en">unstable</Literal>
     </AnnotationAssertion>
@@ -7547,12 +8286,12 @@
         <Literal xml:lang="es">Se debe llamar a la empresa para organizar la parada.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.w3.org/2003/06/sw-vocab-status/ns#term_status"/>
+        <AnnotationProperty abbreviatedIRI="ns3:term_status"/>
         <AbbreviatedIRI>gtfs:MustPhone</AbbreviatedIRI>
         <Literal xml:lang="es">inestable</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.w3.org/2003/06/sw-vocab-status/ns#term_status"/>
+        <AnnotationProperty abbreviatedIRI="ns3:term_status"/>
         <AbbreviatedIRI>gtfs:MustPhone</AbbreviatedIRI>
         <Literal xml:lang="en">unstable</Literal>
     </AnnotationAssertion>
@@ -7577,12 +8316,12 @@
         <Literal xml:lang="es">Sin transbordo</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.w3.org/2003/06/sw-vocab-status/ns#term_status"/>
+        <AnnotationProperty abbreviatedIRI="ns3:term_status"/>
         <AbbreviatedIRI>gtfs:NoTransfer</AbbreviatedIRI>
         <Literal xml:lang="es">inestable</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.w3.org/2003/06/sw-vocab-status/ns#term_status"/>
+        <AnnotationProperty abbreviatedIRI="ns3:term_status"/>
         <AbbreviatedIRI>gtfs:NoTransfer</AbbreviatedIRI>
         <Literal xml:lang="en">unstable</Literal>
     </AnnotationAssertion>
@@ -7607,12 +8346,12 @@
         <Literal xml:lang="en">No transfers allowed</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.w3.org/2003/06/sw-vocab-status/ns#term_status"/>
+        <AnnotationProperty abbreviatedIRI="ns3:term_status"/>
         <AbbreviatedIRI>gtfs:NoTransfersAllowed</AbbreviatedIRI>
         <Literal xml:lang="es">inestable</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.w3.org/2003/06/sw-vocab-status/ns#term_status"/>
+        <AnnotationProperty abbreviatedIRI="ns3:term_status"/>
         <AbbreviatedIRI>gtfs:NoTransfersAllowed</AbbreviatedIRI>
         <Literal xml:lang="en">unstable</Literal>
     </AnnotationAssertion>
@@ -7627,12 +8366,12 @@
         <Literal xml:lang="es">Sin parada disponible</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.w3.org/2003/06/sw-vocab-status/ns#term_status"/>
+        <AnnotationProperty abbreviatedIRI="ns3:term_status"/>
         <AbbreviatedIRI>gtfs:NotAvailable</AbbreviatedIRI>
         <Literal xml:lang="es">inestable</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.w3.org/2003/06/sw-vocab-status/ns#term_status"/>
+        <AnnotationProperty abbreviatedIRI="ns3:term_status"/>
         <AbbreviatedIRI>gtfs:NotAvailable</AbbreviatedIRI>
         <Literal xml:lang="en">unstable</Literal>
     </AnnotationAssertion>
@@ -7667,12 +8406,12 @@
         <Literal xml:lang="en">Not wheelchair accessible</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.w3.org/2003/06/sw-vocab-status/ns#term_status"/>
+        <AnnotationProperty abbreviatedIRI="ns3:term_status"/>
         <AbbreviatedIRI>gtfs:NotWheelchairAccessible</AbbreviatedIRI>
         <Literal xml:lang="es">inestable</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.w3.org/2003/06/sw-vocab-status/ns#term_status"/>
+        <AnnotationProperty abbreviatedIRI="ns3:term_status"/>
         <AbbreviatedIRI>gtfs:NotWheelchairAccessible</AbbreviatedIRI>
         <Literal xml:lang="en">unstable</Literal>
     </AnnotationAssertion>
@@ -7697,12 +8436,12 @@
         <Literal xml:lang="en">On Board</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.w3.org/2003/06/sw-vocab-status/ns#term_status"/>
+        <AnnotationProperty abbreviatedIRI="ns3:term_status"/>
         <AbbreviatedIRI>gtfs:OnBoard</AbbreviatedIRI>
         <Literal xml:lang="es">inestable</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.w3.org/2003/06/sw-vocab-status/ns#term_status"/>
+        <AnnotationProperty abbreviatedIRI="ns3:term_status"/>
         <AbbreviatedIRI>gtfs:OnBoard</AbbreviatedIRI>
         <Literal xml:lang="en">unstable</Literal>
     </AnnotationAssertion>
@@ -7727,12 +8466,12 @@
         <Literal xml:lang="es">Un transbordo permitido</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.w3.org/2003/06/sw-vocab-status/ns#term_status"/>
+        <AnnotationProperty abbreviatedIRI="ns3:term_status"/>
         <AbbreviatedIRI>gtfs:OneTransfersAllowed</AbbreviatedIRI>
         <Literal xml:lang="es">inestable</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.w3.org/2003/06/sw-vocab-status/ns#term_status"/>
+        <AnnotationProperty abbreviatedIRI="ns3:term_status"/>
         <AbbreviatedIRI>gtfs:OneTransfersAllowed</AbbreviatedIRI>
         <Literal xml:lang="en">unstable</Literal>
     </AnnotationAssertion>
@@ -7757,12 +8496,12 @@
         <Literal xml:lang="es">Tren</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.w3.org/2003/06/sw-vocab-status/ns#term_status"/>
+        <AnnotationProperty abbreviatedIRI="ns3:term_status"/>
         <AbbreviatedIRI>gtfs:Rail</AbbreviatedIRI>
         <Literal xml:lang="es">inestable</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.w3.org/2003/06/sw-vocab-status/ns#term_status"/>
+        <AnnotationProperty abbreviatedIRI="ns3:term_status"/>
         <AbbreviatedIRI>gtfs:Rail</AbbreviatedIRI>
         <Literal xml:lang="en">unstable</Literal>
     </AnnotationAssertion>
@@ -7787,12 +8526,12 @@
         <Literal xml:lang="en">Recommended Transfer</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.w3.org/2003/06/sw-vocab-status/ns#term_status"/>
+        <AnnotationProperty abbreviatedIRI="ns3:term_status"/>
         <AbbreviatedIRI>gtfs:RecommendedTransfer</AbbreviatedIRI>
         <Literal xml:lang="es">inestable</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.w3.org/2003/06/sw-vocab-status/ns#term_status"/>
+        <AnnotationProperty abbreviatedIRI="ns3:term_status"/>
         <AbbreviatedIRI>gtfs:RecommendedTransfer</AbbreviatedIRI>
         <Literal xml:lang="en">unstable</Literal>
     </AnnotationAssertion>
@@ -7817,12 +8556,12 @@
         <Literal xml:lang="en">Regularly scheduled pickup or drop off</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.w3.org/2003/06/sw-vocab-status/ns#term_status"/>
+        <AnnotationProperty abbreviatedIRI="ns3:term_status"/>
         <AbbreviatedIRI>gtfs:Regular</AbbreviatedIRI>
         <Literal xml:lang="es">inestable</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.w3.org/2003/06/sw-vocab-status/ns#term_status"/>
+        <AnnotationProperty abbreviatedIRI="ns3:term_status"/>
         <AbbreviatedIRI>gtfs:Regular</AbbreviatedIRI>
         <Literal xml:lang="en">unstable</Literal>
     </AnnotationAssertion>
@@ -7852,12 +8591,12 @@
         <IRI>https://developers.google.com/transit/gtfs/reference#routes_fields</IRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.w3.org/2003/06/sw-vocab-status/ns#term_status"/>
+        <AnnotationProperty abbreviatedIRI="ns3:term_status"/>
         <AbbreviatedIRI>gtfs:Route</AbbreviatedIRI>
         <Literal xml:lang="es">inestable</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.w3.org/2003/06/sw-vocab-status/ns#term_status"/>
+        <AnnotationProperty abbreviatedIRI="ns3:term_status"/>
         <AbbreviatedIRI>gtfs:Route</AbbreviatedIRI>
         <Literal xml:lang="en">unstable</Literal>
     </AnnotationAssertion>
@@ -7887,12 +8626,12 @@
         <IRI>https://developers.google.com/transit/gtfs/reference#stops_fields</IRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.w3.org/2003/06/sw-vocab-status/ns#term_status"/>
+        <AnnotationProperty abbreviatedIRI="ns3:term_status"/>
         <AbbreviatedIRI>gtfs:Stop</AbbreviatedIRI>
         <Literal xml:lang="es">estable</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.w3.org/2003/06/sw-vocab-status/ns#term_status"/>
+        <AnnotationProperty abbreviatedIRI="ns3:term_status"/>
         <AbbreviatedIRI>gtfs:Stop</AbbreviatedIRI>
         <Literal xml:lang="en">stable</Literal>
     </AnnotationAssertion>
@@ -7917,12 +8656,12 @@
         <Literal xml:lang="en">Subway, Metro</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.w3.org/2003/06/sw-vocab-status/ns#term_status"/>
+        <AnnotationProperty abbreviatedIRI="ns3:term_status"/>
         <AbbreviatedIRI>gtfs:Subway</AbbreviatedIRI>
         <Literal xml:lang="es">inestable</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.w3.org/2003/06/sw-vocab-status/ns#term_status"/>
+        <AnnotationProperty abbreviatedIRI="ns3:term_status"/>
         <AbbreviatedIRI>gtfs:Subway</AbbreviatedIRI>
         <Literal xml:lang="en">unstable</Literal>
     </AnnotationAssertion>
@@ -7952,12 +8691,12 @@
         <IRI>https://developers.google.com/transit/gtfs/reference#trips_fields</IRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.w3.org/2003/06/sw-vocab-status/ns#term_status"/>
+        <AnnotationProperty abbreviatedIRI="ns3:term_status"/>
         <AbbreviatedIRI>gtfs:Trip</AbbreviatedIRI>
         <Literal xml:lang="es">inestable</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.w3.org/2003/06/sw-vocab-status/ns#term_status"/>
+        <AnnotationProperty abbreviatedIRI="ns3:term_status"/>
         <AbbreviatedIRI>gtfs:Trip</AbbreviatedIRI>
         <Literal xml:lang="en">unstable</Literal>
     </AnnotationAssertion>
@@ -7982,12 +8721,12 @@
         <Literal xml:lang="en">Two transfers allowed</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.w3.org/2003/06/sw-vocab-status/ns#term_status"/>
+        <AnnotationProperty abbreviatedIRI="ns3:term_status"/>
         <AbbreviatedIRI>gtfs:TwoTransfersAllowed</AbbreviatedIRI>
         <Literal xml:lang="es">inestable</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.w3.org/2003/06/sw-vocab-status/ns#term_status"/>
+        <AnnotationProperty abbreviatedIRI="ns3:term_status"/>
         <AbbreviatedIRI>gtfs:TwoTransfersAllowed</AbbreviatedIRI>
         <Literal xml:lang="en">unstable</Literal>
     </AnnotationAssertion>
@@ -8012,12 +8751,12 @@
         <Literal xml:lang="en">Unlimited transfers allowed</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.w3.org/2003/06/sw-vocab-status/ns#term_status"/>
+        <AnnotationProperty abbreviatedIRI="ns3:term_status"/>
         <AbbreviatedIRI>gtfs:UnlimitedTransfersAllowed</AbbreviatedIRI>
         <Literal xml:lang="es">inestable</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.w3.org/2003/06/sw-vocab-status/ns#term_status"/>
+        <AnnotationProperty abbreviatedIRI="ns3:term_status"/>
         <AbbreviatedIRI>gtfs:UnlimitedTransfersAllowed</AbbreviatedIRI>
         <Literal xml:lang="en">unstable</Literal>
     </AnnotationAssertion>
@@ -8052,12 +8791,12 @@
         <Literal xml:lang="en">Wheelchair accessible</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.w3.org/2003/06/sw-vocab-status/ns#term_status"/>
+        <AnnotationProperty abbreviatedIRI="ns3:term_status"/>
         <AbbreviatedIRI>gtfs:WheelchairAccessible</AbbreviatedIRI>
         <Literal xml:lang="es">inestable</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.w3.org/2003/06/sw-vocab-status/ns#term_status"/>
+        <AnnotationProperty abbreviatedIRI="ns3:term_status"/>
         <AbbreviatedIRI>gtfs:WheelchairAccessible</AbbreviatedIRI>
         <Literal xml:lang="en">unstable</Literal>
     </AnnotationAssertion>
@@ -8082,12 +8821,12 @@
         <Literal xml:lang="es">empresa</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.w3.org/2003/06/sw-vocab-status/ns#term_status"/>
+        <AnnotationProperty abbreviatedIRI="ns3:term_status"/>
         <AbbreviatedIRI>gtfs:agency</AbbreviatedIRI>
         <Literal xml:lang="es">inestable</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.w3.org/2003/06/sw-vocab-status/ns#term_status"/>
+        <AnnotationProperty abbreviatedIRI="ns3:term_status"/>
         <AbbreviatedIRI>gtfs:agency</AbbreviatedIRI>
         <Literal xml:lang="en">unstable</Literal>
     </AnnotationAssertion>
@@ -8117,12 +8856,12 @@
         <IRI>https://developers.google.com/transit/gtfs/reference#stop_times_fields</IRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.w3.org/2003/06/sw-vocab-status/ns#term_status"/>
+        <AnnotationProperty abbreviatedIRI="ns3:term_status"/>
         <AbbreviatedIRI>gtfs:arrivalTime</AbbreviatedIRI>
         <Literal xml:lang="es">inestable</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.w3.org/2003/06/sw-vocab-status/ns#term_status"/>
+        <AnnotationProperty abbreviatedIRI="ns3:term_status"/>
         <AbbreviatedIRI>gtfs:arrivalTime</AbbreviatedIRI>
         <Literal xml:lang="en">unstable</Literal>
     </AnnotationAssertion>
@@ -8137,12 +8876,12 @@
         <Literal xml:lang="es">bicicletas permitidas</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.w3.org/2003/06/sw-vocab-status/ns#term_status"/>
+        <AnnotationProperty abbreviatedIRI="ns3:term_status"/>
         <AbbreviatedIRI>gtfs:bikesAllowed</AbbreviatedIRI>
         <Literal xml:lang="es">inestable</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.w3.org/2003/06/sw-vocab-status/ns#term_status"/>
+        <AnnotationProperty abbreviatedIRI="ns3:term_status"/>
         <AbbreviatedIRI>gtfs:bikesAllowed</AbbreviatedIRI>
         <Literal xml:lang="en">unstable</Literal>
     </AnnotationAssertion>
@@ -8167,12 +8906,12 @@
         <Literal xml:lang="es">Bloque</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.w3.org/2003/06/sw-vocab-status/ns#term_status"/>
+        <AnnotationProperty abbreviatedIRI="ns3:term_status"/>
         <AbbreviatedIRI>gtfs:block</AbbreviatedIRI>
         <Literal xml:lang="es">inestable</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.w3.org/2003/06/sw-vocab-status/ns#term_status"/>
+        <AnnotationProperty abbreviatedIRI="ns3:term_status"/>
         <AbbreviatedIRI>gtfs:block</AbbreviatedIRI>
         <Literal xml:lang="en">unstable</Literal>
     </AnnotationAssertion>
@@ -8197,7 +8936,7 @@
         <IRI>https://developers.google.com/transit/gtfs/reference#stops_fields</IRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.w3.org/2003/06/sw-vocab-status/ns#term_status"/>
+        <AnnotationProperty abbreviatedIRI="ns3:term_status"/>
         <AbbreviatedIRI>gtfs:code</AbbreviatedIRI>
         <Literal xml:lang="en">unstable</Literal>
     </AnnotationAssertion>
@@ -8222,12 +8961,12 @@
         <Literal xml:lang="es">color</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.w3.org/2003/06/sw-vocab-status/ns#term_status"/>
+        <AnnotationProperty abbreviatedIRI="ns3:term_status"/>
         <AbbreviatedIRI>gtfs:color</AbbreviatedIRI>
         <Literal xml:lang="es">inestable</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.w3.org/2003/06/sw-vocab-status/ns#term_status"/>
+        <AnnotationProperty abbreviatedIRI="ns3:term_status"/>
         <AbbreviatedIRI>gtfs:color</AbbreviatedIRI>
         <Literal xml:lang="en">unstable</Literal>
     </AnnotationAssertion>
@@ -8252,12 +8991,12 @@
         <Literal xml:lang="en">Mapping comment</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.w3.org/2003/06/sw-vocab-status/ns#term_status"/>
+        <AnnotationProperty abbreviatedIRI="ns3:term_status"/>
         <AbbreviatedIRI>gtfs:comment</AbbreviatedIRI>
         <Literal xml:lang="es">inestable</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.w3.org/2003/06/sw-vocab-status/ns#term_status"/>
+        <AnnotationProperty abbreviatedIRI="ns3:term_status"/>
         <AbbreviatedIRI>gtfs:comment</AbbreviatedIRI>
         <Literal xml:lang="en">unstable</Literal>
     </AnnotationAssertion>
@@ -8292,12 +9031,12 @@
         <Literal xml:lang="es">incorporaciÃ³n de fecha</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.w3.org/2003/06/sw-vocab-status/ns#term_status"/>
+        <AnnotationProperty abbreviatedIRI="ns3:term_status"/>
         <AbbreviatedIRI>gtfs:dateAddition</AbbreviatedIRI>
         <Literal xml:lang="es">inestable</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.w3.org/2003/06/sw-vocab-status/ns#term_status"/>
+        <AnnotationProperty abbreviatedIRI="ns3:term_status"/>
         <AbbreviatedIRI>gtfs:dateAddition</AbbreviatedIRI>
         <Literal xml:lang="en">unstable</Literal>
     </AnnotationAssertion>
@@ -8327,12 +9066,12 @@
         <IRI>https://developers.google.com/transit/gtfs/reference#stop_times_fields</IRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.w3.org/2003/06/sw-vocab-status/ns#term_status"/>
+        <AnnotationProperty abbreviatedIRI="ns3:term_status"/>
         <AbbreviatedIRI>gtfs:departureTime</AbbreviatedIRI>
         <Literal xml:lang="es">inestable</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.w3.org/2003/06/sw-vocab-status/ns#term_status"/>
+        <AnnotationProperty abbreviatedIRI="ns3:term_status"/>
         <AbbreviatedIRI>gtfs:departureTime</AbbreviatedIRI>
         <Literal xml:lang="en">unstable</Literal>
     </AnnotationAssertion>
@@ -8367,12 +9106,12 @@
         <Literal xml:lang="es">parada de destino</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.w3.org/2003/06/sw-vocab-status/ns#term_status"/>
+        <AnnotationProperty abbreviatedIRI="ns3:term_status"/>
         <AbbreviatedIRI>gtfs:destinationStop</AbbreviatedIRI>
         <Literal xml:lang="es">inestable</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.w3.org/2003/06/sw-vocab-status/ns#term_status"/>
+        <AnnotationProperty abbreviatedIRI="ns3:term_status"/>
         <AbbreviatedIRI>gtfs:destinationStop</AbbreviatedIRI>
         <Literal xml:lang="en">unstable</Literal>
     </AnnotationAssertion>
@@ -8397,12 +9136,12 @@
         <Literal xml:lang="es">zona de destino</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.w3.org/2003/06/sw-vocab-status/ns#term_status"/>
+        <AnnotationProperty abbreviatedIRI="ns3:term_status"/>
         <AbbreviatedIRI>gtfs:destinationZone</AbbreviatedIRI>
         <Literal xml:lang="es">inestable</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.w3.org/2003/06/sw-vocab-status/ns#term_status"/>
+        <AnnotationProperty abbreviatedIRI="ns3:term_status"/>
         <AbbreviatedIRI>gtfs:destinationZone</AbbreviatedIRI>
         <Literal xml:lang="en">unstable</Literal>
     </AnnotationAssertion>
@@ -8427,12 +9166,12 @@
         <Literal xml:lang="es">direcciÃ³n</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.w3.org/2003/06/sw-vocab-status/ns#term_status"/>
+        <AnnotationProperty abbreviatedIRI="ns3:term_status"/>
         <AbbreviatedIRI>gtfs:direction</AbbreviatedIRI>
         <Literal xml:lang="es">inestable</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.w3.org/2003/06/sw-vocab-status/ns#term_status"/>
+        <AnnotationProperty abbreviatedIRI="ns3:term_status"/>
         <AbbreviatedIRI>gtfs:direction</AbbreviatedIRI>
         <Literal xml:lang="en">unstable</Literal>
     </AnnotationAssertion>
@@ -8457,12 +9196,12 @@
         <Literal xml:lang="es">distancia recorrida</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.w3.org/2003/06/sw-vocab-status/ns#term_status"/>
+        <AnnotationProperty abbreviatedIRI="ns3:term_status"/>
         <AbbreviatedIRI>gtfs:distanceTraveled</AbbreviatedIRI>
         <Literal xml:lang="es">inestable</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.w3.org/2003/06/sw-vocab-status/ns#term_status"/>
+        <AnnotationProperty abbreviatedIRI="ns3:term_status"/>
         <AbbreviatedIRI>gtfs:distanceTraveled</AbbreviatedIRI>
         <Literal xml:lang="en">unstable</Literal>
     </AnnotationAssertion>
@@ -8487,12 +9226,12 @@
         <Literal xml:lang="es">tipo de bajada</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.w3.org/2003/06/sw-vocab-status/ns#term_status"/>
+        <AnnotationProperty abbreviatedIRI="ns3:term_status"/>
         <AbbreviatedIRI>gtfs:dropOffType</AbbreviatedIRI>
         <Literal xml:lang="es">inestable</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.w3.org/2003/06/sw-vocab-status/ns#term_status"/>
+        <AnnotationProperty abbreviatedIRI="ns3:term_status"/>
         <AbbreviatedIRI>gtfs:dropOffType</AbbreviatedIRI>
         <Literal xml:lang="en">unstable</Literal>
     </AnnotationAssertion>
@@ -8517,12 +9256,12 @@
         <Literal xml:lang="es">hora final</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.w3.org/2003/06/sw-vocab-status/ns#term_status"/>
+        <AnnotationProperty abbreviatedIRI="ns3:term_status"/>
         <AbbreviatedIRI>gtfs:endTime</AbbreviatedIRI>
         <Literal xml:lang="es">inestable</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.w3.org/2003/06/sw-vocab-status/ns#term_status"/>
+        <AnnotationProperty abbreviatedIRI="ns3:term_status"/>
         <AbbreviatedIRI>gtfs:endTime</AbbreviatedIRI>
         <Literal xml:lang="en">unstable</Literal>
     </AnnotationAssertion>
@@ -8552,12 +9291,12 @@
         <IRI>https://developers.google.com/transit/gtfs/reference#agency_fields</IRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.w3.org/2003/06/sw-vocab-status/ns#term_status"/>
+        <AnnotationProperty abbreviatedIRI="ns3:term_status"/>
         <AbbreviatedIRI>gtfs:fareUrl</AbbreviatedIRI>
         <Literal xml:lang="es">inestable</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.w3.org/2003/06/sw-vocab-status/ns#term_status"/>
+        <AnnotationProperty abbreviatedIRI="ns3:term_status"/>
         <AbbreviatedIRI>gtfs:fareUrl</AbbreviatedIRI>
         <Literal xml:lang="en">unstable</Literal>
     </AnnotationAssertion>
@@ -8582,12 +9321,12 @@
         <Literal xml:lang="es">viernes</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.w3.org/2003/06/sw-vocab-status/ns#term_status"/>
+        <AnnotationProperty abbreviatedIRI="ns3:term_status"/>
         <AbbreviatedIRI>gtfs:friday</AbbreviatedIRI>
         <Literal xml:lang="es">inestable</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.w3.org/2003/06/sw-vocab-status/ns#term_status"/>
+        <AnnotationProperty abbreviatedIRI="ns3:term_status"/>
         <AbbreviatedIRI>gtfs:friday</AbbreviatedIRI>
         <Literal xml:lang="en">unstable</Literal>
     </AnnotationAssertion>
@@ -8617,12 +9356,12 @@
         <IRI>https://developers.google.com/transit/gtfs/examples/display-to-users#TripHeadsign</IRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.w3.org/2003/06/sw-vocab-status/ns#term_status"/>
+        <AnnotationProperty abbreviatedIRI="ns3:term_status"/>
         <AbbreviatedIRI>gtfs:headsign</AbbreviatedIRI>
         <Literal xml:lang="es">inestable</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.w3.org/2003/06/sw-vocab-status/ns#term_status"/>
+        <AnnotationProperty abbreviatedIRI="ns3:term_status"/>
         <AbbreviatedIRI>gtfs:headsign</AbbreviatedIRI>
         <Literal xml:lang="en">unstable</Literal>
     </AnnotationAssertion>
@@ -8647,12 +9386,12 @@
         <Literal xml:lang="es">tiempo entre viajes</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.w3.org/2003/06/sw-vocab-status/ns#term_status"/>
+        <AnnotationProperty abbreviatedIRI="ns3:term_status"/>
         <AbbreviatedIRI>gtfs:headwaySeconds</AbbreviatedIRI>
         <Literal xml:lang="es">inestable</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.w3.org/2003/06/sw-vocab-status/ns#term_status"/>
+        <AnnotationProperty abbreviatedIRI="ns3:term_status"/>
         <AbbreviatedIRI>gtfs:headwaySeconds</AbbreviatedIRI>
         <Literal xml:lang="en">unstable</Literal>
     </AnnotationAssertion>
@@ -8682,12 +9421,12 @@
         <IRI>https://developers.google.com/transit/gtfs/examples/display-to-users#RouteLongName</IRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.w3.org/2003/06/sw-vocab-status/ns#term_status"/>
+        <AnnotationProperty abbreviatedIRI="ns3:term_status"/>
         <AbbreviatedIRI>gtfs:longName</AbbreviatedIRI>
         <Literal xml:lang="es">inestable</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.w3.org/2003/06/sw-vocab-status/ns#term_status"/>
+        <AnnotationProperty abbreviatedIRI="ns3:term_status"/>
         <AbbreviatedIRI>gtfs:longName</AbbreviatedIRI>
         <Literal xml:lang="en">unstable</Literal>
     </AnnotationAssertion>
@@ -8712,12 +9451,12 @@
         <Literal xml:lang="es">Tiempo mÃ­nimo de transbordo</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.w3.org/2003/06/sw-vocab-status/ns#term_status"/>
+        <AnnotationProperty abbreviatedIRI="ns3:term_status"/>
         <AbbreviatedIRI>gtfs:minimumTransferTime</AbbreviatedIRI>
         <Literal xml:lang="es">inestable</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.w3.org/2003/06/sw-vocab-status/ns#term_status"/>
+        <AnnotationProperty abbreviatedIRI="ns3:term_status"/>
         <AbbreviatedIRI>gtfs:minimumTransferTime</AbbreviatedIRI>
         <Literal xml:lang="en">unstable</Literal>
     </AnnotationAssertion>
@@ -8742,12 +9481,12 @@
         <Literal xml:lang="es">lunes</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.w3.org/2003/06/sw-vocab-status/ns#term_status"/>
+        <AnnotationProperty abbreviatedIRI="ns3:term_status"/>
         <AbbreviatedIRI>gtfs:monday</AbbreviatedIRI>
         <Literal xml:lang="es">inestable</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.w3.org/2003/06/sw-vocab-status/ns#term_status"/>
+        <AnnotationProperty abbreviatedIRI="ns3:term_status"/>
         <AbbreviatedIRI>gtfs:monday</AbbreviatedIRI>
         <Literal xml:lang="en">unstable</Literal>
     </AnnotationAssertion>
@@ -8782,12 +9521,12 @@
         <Literal xml:lang="es">parada de origen</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.w3.org/2003/06/sw-vocab-status/ns#term_status"/>
+        <AnnotationProperty abbreviatedIRI="ns3:term_status"/>
         <AbbreviatedIRI>gtfs:originStop</AbbreviatedIRI>
         <Literal xml:lang="es">inestable</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.w3.org/2003/06/sw-vocab-status/ns#term_status"/>
+        <AnnotationProperty abbreviatedIRI="ns3:term_status"/>
         <AbbreviatedIRI>gtfs:originStop</AbbreviatedIRI>
         <Literal xml:lang="en">unstable</Literal>
     </AnnotationAssertion>
@@ -8812,12 +9551,12 @@
         <Literal xml:lang="es">zona de origen</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.w3.org/2003/06/sw-vocab-status/ns#term_status"/>
+        <AnnotationProperty abbreviatedIRI="ns3:term_status"/>
         <AbbreviatedIRI>gtfs:originZone</AbbreviatedIRI>
         <Literal xml:lang="es">inestable</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.w3.org/2003/06/sw-vocab-status/ns#term_status"/>
+        <AnnotationProperty abbreviatedIRI="ns3:term_status"/>
         <AbbreviatedIRI>gtfs:originZone</AbbreviatedIRI>
         <Literal xml:lang="en">unstable</Literal>
     </AnnotationAssertion>
@@ -8852,12 +9591,12 @@
         <Literal xml:lang="es">estaciÃ³n matriz</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.w3.org/2003/06/sw-vocab-status/ns#term_status"/>
+        <AnnotationProperty abbreviatedIRI="ns3:term_status"/>
         <AbbreviatedIRI>gtfs:parentStation</AbbreviatedIRI>
         <Literal xml:lang="es">inestable</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.w3.org/2003/06/sw-vocab-status/ns#term_status"/>
+        <AnnotationProperty abbreviatedIRI="ns3:term_status"/>
         <AbbreviatedIRI>gtfs:parentStation</AbbreviatedIRI>
         <Literal xml:lang="en">unstable</Literal>
     </AnnotationAssertion>
@@ -8892,12 +9631,12 @@
         <Literal xml:lang="en">Payment method</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.w3.org/2003/06/sw-vocab-status/ns#term_status"/>
+        <AnnotationProperty abbreviatedIRI="ns3:term_status"/>
         <AbbreviatedIRI>gtfs:paymentMethod</AbbreviatedIRI>
         <Literal xml:lang="es">inestable</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.w3.org/2003/06/sw-vocab-status/ns#term_status"/>
+        <AnnotationProperty abbreviatedIRI="ns3:term_status"/>
         <AbbreviatedIRI>gtfs:paymentMethod</AbbreviatedIRI>
         <Literal xml:lang="en">unstable</Literal>
     </AnnotationAssertion>
@@ -8922,12 +9661,12 @@
         <Literal xml:lang="es">tipo de recogida</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.w3.org/2003/06/sw-vocab-status/ns#term_status"/>
+        <AnnotationProperty abbreviatedIRI="ns3:term_status"/>
         <AbbreviatedIRI>gtfs:pickupType</AbbreviatedIRI>
         <Literal xml:lang="es">inestable</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.w3.org/2003/06/sw-vocab-status/ns#term_status"/>
+        <AnnotationProperty abbreviatedIRI="ns3:term_status"/>
         <AbbreviatedIRI>gtfs:pickupType</AbbreviatedIRI>
         <Literal xml:lang="en">unstable</Literal>
     </AnnotationAssertion>
@@ -8952,12 +9691,12 @@
         <Literal xml:lang="es">secuencia de puntos</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.w3.org/2003/06/sw-vocab-status/ns#term_status"/>
+        <AnnotationProperty abbreviatedIRI="ns3:term_status"/>
         <AbbreviatedIRI>gtfs:pointSequence</AbbreviatedIRI>
         <Literal xml:lang="es">inestable</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.w3.org/2003/06/sw-vocab-status/ns#term_status"/>
+        <AnnotationProperty abbreviatedIRI="ns3:term_status"/>
         <AbbreviatedIRI>gtfs:pointSequence</AbbreviatedIRI>
         <Literal xml:lang="en">unstable</Literal>
     </AnnotationAssertion>
@@ -8982,12 +9721,12 @@
         <Literal xml:lang="es">ruta</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.w3.org/2003/06/sw-vocab-status/ns#term_status"/>
+        <AnnotationProperty abbreviatedIRI="ns3:term_status"/>
         <AbbreviatedIRI>gtfs:route</AbbreviatedIRI>
         <Literal xml:lang="es">inestable</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.w3.org/2003/06/sw-vocab-status/ns#term_status"/>
+        <AnnotationProperty abbreviatedIRI="ns3:term_status"/>
         <AbbreviatedIRI>gtfs:route</AbbreviatedIRI>
         <Literal xml:lang="en">unstable</Literal>
     </AnnotationAssertion>
@@ -9017,12 +9756,12 @@
         <IRI>https://developers.google.com/transit/gtfs/examples/display-to-users#RouteType</IRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.w3.org/2003/06/sw-vocab-status/ns#term_status"/>
+        <AnnotationProperty abbreviatedIRI="ns3:term_status"/>
         <AbbreviatedIRI>gtfs:routeType</AbbreviatedIRI>
         <Literal xml:lang="es">inestable</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.w3.org/2003/06/sw-vocab-status/ns#term_status"/>
+        <AnnotationProperty abbreviatedIRI="ns3:term_status"/>
         <AbbreviatedIRI>gtfs:routeType</AbbreviatedIRI>
         <Literal xml:lang="en">unstable</Literal>
     </AnnotationAssertion>
@@ -9047,12 +9786,12 @@
         <Literal xml:lang="es">sÃ¡bado</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.w3.org/2003/06/sw-vocab-status/ns#term_status"/>
+        <AnnotationProperty abbreviatedIRI="ns3:term_status"/>
         <AbbreviatedIRI>gtfs:saturday</AbbreviatedIRI>
         <Literal xml:lang="es">inestable</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.w3.org/2003/06/sw-vocab-status/ns#term_status"/>
+        <AnnotationProperty abbreviatedIRI="ns3:term_status"/>
         <AbbreviatedIRI>gtfs:saturday</AbbreviatedIRI>
         <Literal xml:lang="en">unstable</Literal>
     </AnnotationAssertion>
@@ -9077,12 +9816,12 @@
         <Literal xml:lang="es">Servicio</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.w3.org/2003/06/sw-vocab-status/ns#term_status"/>
+        <AnnotationProperty abbreviatedIRI="ns3:term_status"/>
         <AbbreviatedIRI>gtfs:service</AbbreviatedIRI>
         <Literal xml:lang="es">inestable</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.w3.org/2003/06/sw-vocab-status/ns#term_status"/>
+        <AnnotationProperty abbreviatedIRI="ns3:term_status"/>
         <AbbreviatedIRI>gtfs:service</AbbreviatedIRI>
         <Literal xml:lang="en">unstable</Literal>
     </AnnotationAssertion>
@@ -9107,12 +9846,12 @@
         <Literal xml:lang="es">regla de servicio</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.w3.org/2003/06/sw-vocab-status/ns#term_status"/>
+        <AnnotationProperty abbreviatedIRI="ns3:term_status"/>
         <AbbreviatedIRI>gtfs:serviceRule</AbbreviatedIRI>
         <Literal xml:lang="es">inestable</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.w3.org/2003/06/sw-vocab-status/ns#term_status"/>
+        <AnnotationProperty abbreviatedIRI="ns3:term_status"/>
         <AbbreviatedIRI>gtfs:serviceRule</AbbreviatedIRI>
         <Literal xml:lang="en">unstable</Literal>
     </AnnotationAssertion>
@@ -9137,12 +9876,12 @@
         <Literal xml:lang="es">forma del recorrido, trayecto, itinerario</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.w3.org/2003/06/sw-vocab-status/ns#term_status"/>
+        <AnnotationProperty abbreviatedIRI="ns3:term_status"/>
         <AbbreviatedIRI>gtfs:shape</AbbreviatedIRI>
         <Literal xml:lang="es">inestable</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.w3.org/2003/06/sw-vocab-status/ns#term_status"/>
+        <AnnotationProperty abbreviatedIRI="ns3:term_status"/>
         <AbbreviatedIRI>gtfs:shape</AbbreviatedIRI>
         <Literal xml:lang="en">unstable</Literal>
     </AnnotationAssertion>
@@ -9167,12 +9906,12 @@
         <Literal xml:lang="es">punto de recorrido</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.w3.org/2003/06/sw-vocab-status/ns#term_status"/>
+        <AnnotationProperty abbreviatedIRI="ns3:term_status"/>
         <AbbreviatedIRI>gtfs:shapePoint</AbbreviatedIRI>
         <Literal xml:lang="es">inestable</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.w3.org/2003/06/sw-vocab-status/ns#term_status"/>
+        <AnnotationProperty abbreviatedIRI="ns3:term_status"/>
         <AbbreviatedIRI>gtfs:shapePoint</AbbreviatedIRI>
         <Literal xml:lang="en">unstable</Literal>
     </AnnotationAssertion>
@@ -9202,12 +9941,12 @@
         <IRI>https://developers.google.com/transit/gtfs/examples/display-to-users#RouteShortName</IRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.w3.org/2003/06/sw-vocab-status/ns#term_status"/>
+        <AnnotationProperty abbreviatedIRI="ns3:term_status"/>
         <AbbreviatedIRI>gtfs:shortName</AbbreviatedIRI>
         <Literal xml:lang="es">inestable</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.w3.org/2003/06/sw-vocab-status/ns#term_status"/>
+        <AnnotationProperty abbreviatedIRI="ns3:term_status"/>
         <AbbreviatedIRI>gtfs:shortName</AbbreviatedIRI>
         <Literal xml:lang="en">unstable</Literal>
     </AnnotationAssertion>
@@ -9232,12 +9971,12 @@
         <Literal xml:lang="es">hora de inicio</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.w3.org/2003/06/sw-vocab-status/ns#term_status"/>
+        <AnnotationProperty abbreviatedIRI="ns3:term_status"/>
         <AbbreviatedIRI>gtfs:startTime</AbbreviatedIRI>
         <Literal xml:lang="es">inestable</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.w3.org/2003/06/sw-vocab-status/ns#term_status"/>
+        <AnnotationProperty abbreviatedIRI="ns3:term_status"/>
         <AbbreviatedIRI>gtfs:startTime</AbbreviatedIRI>
         <Literal xml:lang="en">unstable</Literal>
     </AnnotationAssertion>
@@ -9262,12 +10001,12 @@
         <Literal xml:lang="es">parada</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.w3.org/2003/06/sw-vocab-status/ns#term_status"/>
+        <AnnotationProperty abbreviatedIRI="ns3:term_status"/>
         <AbbreviatedIRI>gtfs:stop</AbbreviatedIRI>
         <Literal xml:lang="es">inestable</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.w3.org/2003/06/sw-vocab-status/ns#term_status"/>
+        <AnnotationProperty abbreviatedIRI="ns3:term_status"/>
         <AbbreviatedIRI>gtfs:stop</AbbreviatedIRI>
         <Literal xml:lang="en">unstable</Literal>
     </AnnotationAssertion>
@@ -9292,12 +10031,12 @@
         <Literal xml:lang="es">secuencia de paradas</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.w3.org/2003/06/sw-vocab-status/ns#term_status"/>
+        <AnnotationProperty abbreviatedIRI="ns3:term_status"/>
         <AbbreviatedIRI>gtfs:stopSequence</AbbreviatedIRI>
         <Literal xml:lang="es">inestable</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.w3.org/2003/06/sw-vocab-status/ns#term_status"/>
+        <AnnotationProperty abbreviatedIRI="ns3:term_status"/>
         <AbbreviatedIRI>gtfs:stopSequence</AbbreviatedIRI>
         <Literal xml:lang="en">unstable</Literal>
     </AnnotationAssertion>
@@ -9322,12 +10061,12 @@
         <Literal xml:lang="es">domingos</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.w3.org/2003/06/sw-vocab-status/ns#term_status"/>
+        <AnnotationProperty abbreviatedIRI="ns3:term_status"/>
         <AbbreviatedIRI>gtfs:sunday</AbbreviatedIRI>
         <Literal xml:lang="es">inestable</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.w3.org/2003/06/sw-vocab-status/ns#term_status"/>
+        <AnnotationProperty abbreviatedIRI="ns3:term_status"/>
         <AbbreviatedIRI>gtfs:sunday</AbbreviatedIRI>
         <Literal xml:lang="en">unstable</Literal>
     </AnnotationAssertion>
@@ -9352,12 +10091,12 @@
         <Literal xml:lang="es">color de texto</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.w3.org/2003/06/sw-vocab-status/ns#term_status"/>
+        <AnnotationProperty abbreviatedIRI="ns3:term_status"/>
         <AbbreviatedIRI>gtfs:textColor</AbbreviatedIRI>
         <Literal xml:lang="es">inestable</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.w3.org/2003/06/sw-vocab-status/ns#term_status"/>
+        <AnnotationProperty abbreviatedIRI="ns3:term_status"/>
         <AbbreviatedIRI>gtfs:textColor</AbbreviatedIRI>
         <Literal xml:lang="en">unstable</Literal>
     </AnnotationAssertion>
@@ -9382,12 +10121,12 @@
         <Literal xml:lang="es">jueves</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.w3.org/2003/06/sw-vocab-status/ns#term_status"/>
+        <AnnotationProperty abbreviatedIRI="ns3:term_status"/>
         <AbbreviatedIRI>gtfs:thursday</AbbreviatedIRI>
         <Literal xml:lang="es">inestable</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.w3.org/2003/06/sw-vocab-status/ns#term_status"/>
+        <AnnotationProperty abbreviatedIRI="ns3:term_status"/>
         <AbbreviatedIRI>gtfs:thursday</AbbreviatedIRI>
         <Literal xml:lang="en">unstable</Literal>
     </AnnotationAssertion>
@@ -9417,12 +10156,12 @@
         <IRI>http://en.wikipedia.org/wiki/List_of_tz_database_time_zones</IRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.w3.org/2003/06/sw-vocab-status/ns#term_status"/>
+        <AnnotationProperty abbreviatedIRI="ns3:term_status"/>
         <AbbreviatedIRI>gtfs:timeZone</AbbreviatedIRI>
         <Literal xml:lang="es">prueba</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.w3.org/2003/06/sw-vocab-status/ns#term_status"/>
+        <AnnotationProperty abbreviatedIRI="ns3:term_status"/>
         <AbbreviatedIRI>gtfs:timeZone</AbbreviatedIRI>
         <Literal xml:lang="en">testing</Literal>
     </AnnotationAssertion>
@@ -9447,12 +10186,12 @@
         <Literal xml:lang="en">Transfer Expiry Time</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.w3.org/2003/06/sw-vocab-status/ns#term_status"/>
+        <AnnotationProperty abbreviatedIRI="ns3:term_status"/>
         <AbbreviatedIRI>gtfs:transferExpiryTime</AbbreviatedIRI>
         <Literal xml:lang="es">inestable</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.w3.org/2003/06/sw-vocab-status/ns#term_status"/>
+        <AnnotationProperty abbreviatedIRI="ns3:term_status"/>
         <AbbreviatedIRI>gtfs:transferExpiryTime</AbbreviatedIRI>
         <Literal xml:lang="en">unstable</Literal>
     </AnnotationAssertion>
@@ -9467,12 +10206,12 @@
         <Literal xml:lang="es">tipo de transbordo</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.w3.org/2003/06/sw-vocab-status/ns#term_status"/>
+        <AnnotationProperty abbreviatedIRI="ns3:term_status"/>
         <AbbreviatedIRI>gtfs:transferType</AbbreviatedIRI>
         <Literal xml:lang="es">inestable</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.w3.org/2003/06/sw-vocab-status/ns#term_status"/>
+        <AnnotationProperty abbreviatedIRI="ns3:term_status"/>
         <AbbreviatedIRI>gtfs:transferType</AbbreviatedIRI>
         <Literal xml:lang="en">unstable</Literal>
     </AnnotationAssertion>
@@ -9507,12 +10246,12 @@
         <Literal xml:lang="es">transbordos</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.w3.org/2003/06/sw-vocab-status/ns#term_status"/>
+        <AnnotationProperty abbreviatedIRI="ns3:term_status"/>
         <AbbreviatedIRI>gtfs:transfers</AbbreviatedIRI>
         <Literal xml:lang="es">inestable</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.w3.org/2003/06/sw-vocab-status/ns#term_status"/>
+        <AnnotationProperty abbreviatedIRI="ns3:term_status"/>
         <AbbreviatedIRI>gtfs:transfers</AbbreviatedIRI>
         <Literal xml:lang="en">unstable</Literal>
     </AnnotationAssertion>
@@ -9537,12 +10276,12 @@
         <Literal xml:lang="es">viaje</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.w3.org/2003/06/sw-vocab-status/ns#term_status"/>
+        <AnnotationProperty abbreviatedIRI="ns3:term_status"/>
         <AbbreviatedIRI>gtfs:trip</AbbreviatedIRI>
         <Literal xml:lang="es">inestable</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.w3.org/2003/06/sw-vocab-status/ns#term_status"/>
+        <AnnotationProperty abbreviatedIRI="ns3:term_status"/>
         <AbbreviatedIRI>gtfs:trip</AbbreviatedIRI>
         <Literal xml:lang="en">unstable</Literal>
     </AnnotationAssertion>
@@ -9567,12 +10306,12 @@
         <Literal xml:lang="es">martes</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.w3.org/2003/06/sw-vocab-status/ns#term_status"/>
+        <AnnotationProperty abbreviatedIRI="ns3:term_status"/>
         <AbbreviatedIRI>gtfs:tuesday</AbbreviatedIRI>
         <Literal xml:lang="es">inestable</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.w3.org/2003/06/sw-vocab-status/ns#term_status"/>
+        <AnnotationProperty abbreviatedIRI="ns3:term_status"/>
         <AbbreviatedIRI>gtfs:tuesday</AbbreviatedIRI>
         <Literal xml:lang="en">unstable</Literal>
     </AnnotationAssertion>
@@ -9597,12 +10336,12 @@
         <Literal xml:lang="es">Viajes basados en frecuencias programados de manera exacta</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.w3.org/2003/06/sw-vocab-status/ns#term_status"/>
+        <AnnotationProperty abbreviatedIRI="ns3:term_status"/>
         <AbbreviatedIRI>gtfs:usesExactTimes</AbbreviatedIRI>
         <Literal xml:lang="es">inestable</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.w3.org/2003/06/sw-vocab-status/ns#term_status"/>
+        <AnnotationProperty abbreviatedIRI="ns3:term_status"/>
         <AbbreviatedIRI>gtfs:usesExactTimes</AbbreviatedIRI>
         <Literal xml:lang="en">unstable</Literal>
     </AnnotationAssertion>
@@ -9627,12 +10366,12 @@
         <Literal xml:lang="es">miÃ©rcoles</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.w3.org/2003/06/sw-vocab-status/ns#term_status"/>
+        <AnnotationProperty abbreviatedIRI="ns3:term_status"/>
         <AbbreviatedIRI>gtfs:wednesday</AbbreviatedIRI>
         <Literal xml:lang="es">inestable</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.w3.org/2003/06/sw-vocab-status/ns#term_status"/>
+        <AnnotationProperty abbreviatedIRI="ns3:term_status"/>
         <AbbreviatedIRI>gtfs:wednesday</AbbreviatedIRI>
         <Literal xml:lang="en">unstable</Literal>
     </AnnotationAssertion>
@@ -9667,12 +10406,12 @@
         <Literal xml:lang="en">wheelchair boarding</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.w3.org/2003/06/sw-vocab-status/ns#term_status"/>
+        <AnnotationProperty abbreviatedIRI="ns3:term_status"/>
         <AbbreviatedIRI>gtfs:wheelchairAccessible</AbbreviatedIRI>
         <Literal xml:lang="es">inestable</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.w3.org/2003/06/sw-vocab-status/ns#term_status"/>
+        <AnnotationProperty abbreviatedIRI="ns3:term_status"/>
         <AbbreviatedIRI>gtfs:wheelchairAccessible</AbbreviatedIRI>
         <Literal xml:lang="en">unstable</Literal>
     </AnnotationAssertion>
@@ -9707,12 +10446,12 @@
         <Literal xml:lang="es">zona</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.w3.org/2003/06/sw-vocab-status/ns#term_status"/>
+        <AnnotationProperty abbreviatedIRI="ns3:term_status"/>
         <AbbreviatedIRI>gtfs:zone</AbbreviatedIRI>
         <Literal xml:lang="es">inestable</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.w3.org/2003/06/sw-vocab-status/ns#term_status"/>
+        <AnnotationProperty abbreviatedIRI="ns3:term_status"/>
         <AbbreviatedIRI>gtfs:zone</AbbreviatedIRI>
         <Literal xml:lang="en">unstable</Literal>
     </AnnotationAssertion>
@@ -32638,24 +33377,24 @@ Typical unit code(s): CMT for centimeters, MTR for meters, INH for inches, FOT f
         <Literal xml:lang="en">yield</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty IRI="http://xmlns.com/foaf/0.1/mbox"/>
-        <AnonymousIndividual nodeID="_:genid2147483648"/>
-        <Literal>abyrd@conveyal.com</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://xmlns.com/foaf/0.1/name"/>
-        <AnonymousIndividual nodeID="_:genid2147483648"/>
-        <Literal>Andrew Byrd</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://xmlns.com/foaf/0.1/mbox"/>
-        <AnonymousIndividual nodeID="_:genid2147483649"/>
+        <AnnotationProperty abbreviatedIRI="foaf:mbox"/>
+        <AnonymousIndividual nodeID="_:genid2147483670"/>
         <Literal>Pieter.Colpaert@UGent.be</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty IRI="http://xmlns.com/foaf/0.1/name"/>
-        <AnonymousIndividual nodeID="_:genid2147483649"/>
+        <AnnotationProperty abbreviatedIRI="foaf:name"/>
+        <AnonymousIndividual nodeID="_:genid2147483670"/>
         <Literal>Pieter Colpaert</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="foaf:mbox"/>
+        <AnonymousIndividual nodeID="_:genid2147483671"/>
+        <Literal>abyrd@conveyal.com</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="foaf:name"/>
+        <AnonymousIndividual nodeID="_:genid2147483671"/>
+        <Literal>Andrew Byrd</Literal>
     </AnnotationAssertion>
     <SubAnnotationPropertyOf>
         <AnnotationProperty abbreviatedIRI="gtfs:comment"/>
@@ -32663,15 +33402,15 @@ Typical unit code(s): CMT for centimeters, MTR for meters, INH for inches, FOT f
     </SubAnnotationPropertyOf>
     <SubAnnotationPropertyOf>
         <AnnotationProperty abbreviatedIRI="gtfs:fareUrl"/>
-        <AnnotationProperty IRI="http://xmlns.com/foaf/0.1/page"/>
+        <AnnotationProperty abbreviatedIRI="foaf:page"/>
     </SubAnnotationPropertyOf>
     <SubAnnotationPropertyOf>
         <AnnotationProperty abbreviatedIRI="gtfs:longName"/>
-        <AnnotationProperty IRI="http://purl.org/dc/terms/title"/>
+        <AnnotationProperty abbreviatedIRI="terms:title"/>
     </SubAnnotationPropertyOf>
     <SubAnnotationPropertyOf>
         <AnnotationProperty abbreviatedIRI="gtfs:shortName"/>
-        <AnnotationProperty IRI="http://purl.org/dc/terms/title"/>
+        <AnnotationProperty abbreviatedIRI="terms:title"/>
     </SubAnnotationPropertyOf>
     <SubAnnotationPropertyOf>
         <AnnotationProperty abbreviatedIRI="schema:name"/>
