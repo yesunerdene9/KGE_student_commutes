@@ -6,7 +6,7 @@
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      ontologyIRI="http://knowdive.disi.unitn.it/etype#">
-    <Prefix name="" IRI="http://knowdive.disi.unitn.it/etype#"/>
+    <Prefix name="" IRI="http://www.semanticweb.org/owl/owlapi/turtle#"/>
     <Prefix name="ns" IRI="http://creativecommons.org/ns#"/>
     <Prefix name="ns3" IRI="http://www.w3.org/2003/06/sw-vocab-status/ns#"/>
     <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
@@ -17,7 +17,7 @@
     <Prefix name="gtfs" IRI="http://vocab.gtfs.org/terms#"/>
     <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
     <Prefix name="vann" IRI="http://purl.org/vocab/vann/"/>
-    <Prefix name="KGE24" IRI="http://knowdive.disi.unitn.it/etype/#"/>
+    <Prefix name="KGE24" IRI="http://knowdive.disi.unitn.it/etype#"/>
     <Prefix name="terms" IRI="http://purl.org/dc/terms/"/>
     <Prefix name="OSM_LW" IRI="http://www.semanticweb.org/lixiaoyue/ontologies/2023/2/untitled-ontology-26#"/>
     <Prefix name="schema" IRI="https://schema.org/"/>
@@ -25,11 +25,11 @@
     <Prefix name="teleonthology" IRI="urn:absolute:teleonthology#"/>
     <Annotation>
         <AnnotationProperty abbreviatedIRI="terms:creator"/>
-        <AnonymousIndividual nodeID="_:genid2147483670"/>
+        <AnonymousIndividual nodeID="_:genid2147483694"/>
     </Annotation>
     <Annotation>
         <AnnotationProperty abbreviatedIRI="terms:creator"/>
-        <AnonymousIndividual nodeID="_:genid2147483671"/>
+        <AnonymousIndividual nodeID="_:genid2147483695"/>
     </Annotation>
     <Annotation>
         <AnnotationProperty abbreviatedIRI="terms:description"/>
@@ -5535,6 +5535,10 @@
         <Class abbreviatedIRI="gtfs:Stop"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="bus_stop_GID-45118"/>
+        <Class abbreviatedIRI="OSM_LW:OSM_place1"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="event_GID-56"/>
         <Class IRI="Entity_GID-1"/>
     </SubClassOf>
@@ -7868,6 +7872,11 @@
     <AnnotationAssertion>
         <AnnotationProperty IRI="isEtype"/>
         <IRI>Entity_GID-1</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="isEtype"/>
+        <IRI>bus_line_KGE24-0A-1</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
@@ -33378,22 +33387,22 @@ Typical unit code(s): CMT for centimeters, MTR for meters, INH for inches, FOT f
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="foaf:mbox"/>
-        <AnonymousIndividual nodeID="_:genid2147483670"/>
+        <AnonymousIndividual nodeID="_:genid2147483694"/>
         <Literal>Pieter.Colpaert@UGent.be</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="foaf:name"/>
-        <AnonymousIndividual nodeID="_:genid2147483670"/>
+        <AnonymousIndividual nodeID="_:genid2147483694"/>
         <Literal>Pieter Colpaert</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="foaf:mbox"/>
-        <AnonymousIndividual nodeID="_:genid2147483671"/>
+        <AnonymousIndividual nodeID="_:genid2147483695"/>
         <Literal>abyrd@conveyal.com</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="foaf:name"/>
-        <AnonymousIndividual nodeID="_:genid2147483671"/>
+        <AnonymousIndividual nodeID="_:genid2147483695"/>
         <Literal>Andrew Byrd</Literal>
     </AnnotationAssertion>
     <SubAnnotationPropertyOf>
